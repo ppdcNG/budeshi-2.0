@@ -4,7 +4,7 @@
 <head>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
-	<title>Budeshi 2.0</title>
+	<title>Project Title</title>
 	<link rel="stylesheet" href="../css/uikit.min.css" />
 	<link rel="stylesheet" href="../css/styles.css" />
 	<script src="../js/jquery.js"></script>
@@ -16,9 +16,9 @@
 <body>
 	<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 		<div class="uk-navbar-left uk-padding-small">
-				<a href="#" class="uk-link-reset">
-					<img src='../images/budeshi.png' width="15%"> Budeshi 2.0
-					</a>
+			<a href="#" class="uk-link-reset">
+				<img src='../images/budeshi.png' width="15%"> Budeshi 2.0
+			</a>
 		</div>
 		<div class='uk-navbar-right'>
 			<!-- This is a button toggling the modal -->
@@ -163,222 +163,61 @@
 
 
 	<hr>
-
 	<div class='uk-container'>
-		<div>
-			<div uk-grid>
-				<div class="uk-width-auto@m">
-					<ul class="uk-tab-left" uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
-						<li><a href="#">Overview</a></li>
-						<li><a href="#">Tables</a></li>
-						<li><a href="#">Charts</a></li>
-						<li><a href="#">Maps</a></li>
-					</ul>
-				</div>
-				<div class="uk-width-expand@m">
-					<ul id="component-tab-left" class="uk-switcher back">
-						<li>
-							<div id='projects-cards'>
-								<div class='general-info'>
-									<ul uk-accordion="multiple: true">
-										<li class="uk-open">
-											<h3 class="uk-accordion-title">Number of Projects</h3>
-											<div class="uk-accordion-content">
-												<h1 class="uk-heading-hero">200</h1>
-											</div>
-										</li>
-										<li>
-											<h3 class="uk-accordion-title">Amounts</h3>
-											<div class="uk-accordion-content">
-												<div class="uk-column-1-3 uk-column-divider">
-													<div>
-														<h4 class="uk-heading-bullet">Lowest Amount</h4>
-														<p><strong>
-															&#8358;4,500,000
-														</strong>
-														</p>
-													</div>
 
-													<div>
-														<h4 class="uk-heading-bullet">Average Amount</h4>
-														<p>
-															<strong>
-																&#8358;31,890,140
-															</strong>
-														</p>
-													</div>
+		<div class='project-overview' id='project-overview'>
+			<div>
+				<h3>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h3>
+			</div>
+			<hr>
+			<div id='ubecproject'>
+				<ul class="uk-subnav uk-subnav-pill" uk-switcher>
+					<li><a href="#">Planning</a></li>
+					<li><a href="#">Initiation (Tender)</a></li>
+					<li><a href="#">Award</a></li>
+					<li><a href="#">Contract</a></li>
+					<li><a href="#">Implementation</a></li>
+				</ul>
 
-													<div>
-														<h4 class="uk-heading-bullet">Highest Amount</h4>
-														<p>
-															<strong>
-																&#8358;249,179,376
-															</strong>
-														</p>
-													</div>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<hr>
-								<div class='uk-grid-match uk-child-width-1-4@s' uk-grid>
-									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body" onclick="viewProject()">
-											<div class="uk-card-badge uk-label">2017</div>
-											<h3 class="uk-card-title">Benue</h3>
-											<p>UBEC</p>
-											<p>Construction of 2 block of classrooms</p>
-										</div>
-									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body">
-											<div class="uk-card-badge uk-label">2017</div>
-											<h3 class="uk-card-title">Anambra</h3>
-											<p>UBEC</p>
-											<p>Construction of 2 block of classrooms</p>
-										</div>
-									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body">
-											<div class="uk-card-badge uk-label">2017</div>
-											<h3 class="uk-card-title">Edo</h3>
-											<p>UBEC</p>
-											<p>Construction of 2 block of classrooms</p>
-										</div>
-									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body">
-											<div class="uk-card-badge uk-label">2017</div>
-											<h3 class="uk-card-title">Kano</h3>
-											<p>UBEC</p>
-											<p>Construction of 2 block of classrooms</p>
-										</div>
-									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body">
-											<div class="uk-card-badge uk-label">2017</div>
-											<h3 class="uk-card-title">Ogun</h3>
-											<p>UBEC</p>
-											<p>Construction of 2 block of classrooms</p>
-										</div>
-									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body">
-											<div class="uk-card-badge uk-label">2017</div>
-											<h3 class="uk-card-title">Delta</h3>
-											<p>UBEC</p>
-											<p>Construction of 2 block of classrooms</p>
-										</div>
-									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body">
-											<div class="uk-card-badge uk-label">2017</div>
-											<h3 class="uk-card-title">Lagos</h3>
-											<p>UBEC</p>
-											<p>Construction of 2 block of classrooms</p>
-										</div>
-									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body">
-											<div class="uk-card-badge uk-label">2017</div>
-											<h3 class="uk-card-title">Nassarawa</h3>
-											<p>UBEC</p>
-											<p>Construction of 2 block of classrooms</p>
-										</div>
-									</div>
-								</div>
-								<ul class="uk-pagination uk-flex-center uk-margin" uk-margin>
-									<li><a href="#"><span uk-pagination-previous></span></a></li>
-									<li><a href="#">1</a></li>
-									<li class="uk-disabled"><span>...</span></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">5</a></li>
-									<li><a href="#">6</a></li>
-									<li class="uk-active"><span>7</span></li>
-									<li><a href="#">8</a></li>
-									<li><a href="#">9</a></li>
-									<li><a href="#">10</a></li>
-									<li class="uk-disabled"><span>...</span></li>
-									<li><a href="#">20</a></li>
-									<li><a href="#"><span uk-pagination-next></span></a></li>
-								</ul>
-							</div>
-						</li>
-						<li>
-							<div id='ov-table'>
-								<div class="uk-overflow-auto">
-									<table class="uk-table uk-table-small uk-table-divider">
-										<thead>
-											<tr>
-												<th>OCID</th>
-												<th>Title</th>
-												<th>Description</th>
-												<th>Location</th>
-												<th>Contractor</th>
-												<th>Contract Amount</th>
-												<th>Year</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>ocds-azam7x-uf2i1zng-ube</td>
-												<td>Renovation/Rehabilitation of LEA Primary School</td>
-												<td>Renovation/Rehabilitation of LEA Primary School, Chika, Amac</td>
-												<td>Abuja</td>
-												<td>Balsa A.B.S Nig Ltd</td>
-												<td>₦6,043,000.00</td>
-												<td>2016</td>
-											</tr>
-											<tr>
-												<td>ocds-azam7x-43cvi9ng-ubec</td>
-												<td>Renovation/Rehabilitation of LEA Primary School</td>
-												<td>Renovation/Rehabilitation of LEA Primary School, Rafin Sanyi, Abaji Area Council</td>
-												<td>Abuja</td>
-												<td>SEM-LUK VENTURES LTD</td>
-												<td>₦24,500,320.25</td>
-												<td>2016</td>
-											</tr>
-											<tr>
-												<td>ocds-azam7x-umzi0dng-ube</td>
-												<td>Classrooms at Islamiyya Tashar Mudi Primary School</td>
-												<td>Construction of 1 blocks of 2 Classrooms at Islamiyya Tashar Mudi Primary School Kamba Dandi LGA</td>
-												<td>Abuja</td>
-												<td>I.A.C ALLIED TECH & CONST. CO LTD</td>
-												<td>₦24,250,200.50</td>
-												<td>2017</td>
-											</tr>
-										</tbody>
-									</table>
+				<ul class="uk-switcher uk-margin">
+					<li>Planing!</li>
+					<li>Tender</li>
+					<li>Award!</li>
+					<li>Contract!</li>
+					<li>
+						<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center uk-grid-match" uk-grid>
+							<div>
+								<div class="uk-card uk-card-default uk-card-body">
+									<img src="../images/slide1.jpg">
 								</div>
 							</div>
+							<div>
+								<div class="uk-card uk-card-default uk-card-body"><img src="../images/slide2.jpg"></div>
+							</div>
+							<div>
+								<div class="uk-card uk-card-default uk-card-body"><img src="../images/slide3.jpg"></div>
+							</div>
+						</div>
+						<br>
 
-						</li>
-						<li>
-							<div class='charts'>
-								<div class="uk-margin">
-									<div class="uk-form-controls">
-										<select class="uk-select" id="form-stacked-select">
-											<option>Area</option>
-											<option>Line</option>
-											<option>Bar</option>
-											<option>Column</option>
-										</select>
-									</div>
-								</div>
-								<img src="../images/chart.png" width='90%' />
+						<div>
+							<div class="uk-grid-divider uk-child-width-1-2" uk-grid>
+								<div>Budgeted Amount</div>
+								<div>&#8358;4,500,000</div>
+								<div>Contracted Amount</div>
+								<div>&#8358;6,500,000</div>
+								<div>Monitors Report</div>
+								<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+									aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+									magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+									et dolore magna aliqua.</div>
 							</div>
-						</li>
-						<li>
-							<div style="height:100%; width:100%; position: absolute">
-								<div id="map" style="width: 100%; height: 100%; position: absolute;">
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
+						</div>!</li>
+				</ul>
 			</div>
 		</div>
+	</div>
+
 	</div> <script src='../js/map.js'>
     </script>
 	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
