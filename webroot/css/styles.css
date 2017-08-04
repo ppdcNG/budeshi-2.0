@@ -16,3 +16,10 @@
 #project-overview {
   display: block;
 }
+#center-log {
+  display: block;
+  margin-left: 10%;
+}
+body.login-page {
+  background-color: #CBBEA8;
+}
