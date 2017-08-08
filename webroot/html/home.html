@@ -14,66 +14,190 @@
 </head>
 
 <body class='home-page'>
-  <nav class="uk-navbar-container uk-margin" uk-navbar>
-      <div class="uk-navbar-left">
+    <!-- nav bar -->
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-left">
 
-          <a class="uk-navbar-item uk-logo" href="#">
+            <a class="uk-navbar-item uk-logo" href="#">
             <img src='../images/budeshi.png'/ width='50'>
           </a>
 
-      </div>
-      <div class="uk-navbar-center">
-       <div class="uk-navbar-item">Ministiries, Agencies, Departments</div>
-   </div>
-      <div class="uk-navbar-right">
+        </div>
+        <div class="uk-navbar-center">
+            <div class="uk-navbar-item">Ministiries, Agencies, Departments</div>
+        </div>
+        <div class="uk-navbar-right">
 
-               <ul class="uk-navbar-nav">
-                   <li class="uk-active">
-                     <a href="#modal-sections" title="Add New MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: plus"></span></a>
-                     <div id="modal-sections" uk-modal>
-    <div class="uk-modal-dialog">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">Add New Institution </h2>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#add-institution" title="Add New MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: plus"></span></a>
+                    <!-- Add Intitution Modal -->
+                    <div id="add-institution" uk-modal>
+                        <div class="uk-modal-dialog">
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <div class="uk-modal-header">
+                                <h2 class="uk-modal-title">Add New Institution </h2>
+                            </div>
+                            <div class="uk-modal-body">
+                                <form>
+                                    <fieldset class="uk-fieldset">
+                                        <legend class="uk-legend">Name</legend>
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="text" placeholder="Common Name" name='commonName' required>
+                                        </div>
+                                    </fieldset>
+                                    <ul uk-accordion="multiple: true">
+                                        <li>
+                                            <h3 class="uk-accordion-title">Address</h3>
+                                            <div class="uk-accordion-content">
+                                                <div class='uk-grid-small' uk-grid>
+                                                  <fieldset>
+                                                    <div class="uk-width-1-1 uk-margin">
+                                                        <label class="uk-form-label" for="streetName">Street</label>
+                                                        <input class="uk-input" type="text" placeholder="E.g 4, North London Business Park, Oakleigh Rd S" id='streetName' name='streeName' reqiured>
+                                                    </div>
+                                                    <div class="uk-width-1-2@s uk-margin">
+                                                        <label class="uk-form-label" for="locality">Town</label>
+                                                        <input class="uk-input" type="text" placeholder="E.g Abuja" name='' id='locality' name='locality' reqiured>
+                                                    </div>
+                                                    <div class="uk-width-1-2@s uk-margin">
+                                                        <label class="uk-form-label" for="region">State</label>
+                                                        <input class="uk-input" type="text" placeholder="E.g FCT" id='region' name='region' reqiured>
+                                                    </div>
+                                                    <div class="uk-width-1-2@s uk-margin">
+                                                        <label class="uk-form-label" for="countryName">Country</label>
+                                                        <input class="uk-input" type="text" placeholder="E.g Nigeria" id='countryName' name='countryName' reqiured>
+                                                    </div>
+                                                    <div class="uk-width-1-2@s uk-margin">
+                                                        <label class="uk-form-label" for="postalCode">Postal Code</label>
+                                                        <input class="uk-input" type="number" placeholder="E.g 100" id='postalCode' name='postalCode' reqiured>
+                                                    </div>
+                                                  </fieldset>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h3 class="uk-accordion-title">Contact Point</h3>
+                                            <div class="uk-accordion-content">
+                                              <div class="uk-accordion-content">
+                                                <div class='uk-grid-small' uk-grid>
+                                                  <fieldset>
+                                                    <div class="uk-width-1-1 uk-margin">
+                                                        <label class="uk-form-label" for="url">url</label>
+                                                        <input class="uk-input" type="url" placeholder="E.g www.mda.ng.gov" id='url' name='name' reqiured>
+                                                    </div>
+                                                    <div class="uk-width-1-2@s uk-margin">
+                                                        <label class="uk-form-label" for="name">Name</label>
+                                                        <input class="uk-input" type="text" placeholder="E.g Emeka HAauna" id='name' name='name' reqiured>
+                                                    </div>
+                                                    <div class="uk-width-1-2@s uk-margin">
+                                                        <label class="uk-form-label" for="email">Email</label>
+                                                        <input class="uk-input" type="email" placeholder="E.g e.haruna@mda.ng.gov" id='email' name='email' reqiured>
+                                                    </div>
+                                                    <div class="uk-width-1-2@s uk-margin">
+                                                        <label class="uk-form-label" for="phone">Phone</label>
+                                                        <input class="uk-input" type="tel" placeholder="E.g 08033344455" id='phone' name='phone' reqiured>
+                                                    </div>
+                                                    <div class="uk-width-1-2@s uk-margin">
+                                                        <label class="uk-form-label" for="faxNumber">Fax Number</label>
+                                                        <input class="uk-input" type="number" placeholder="E.g 100" id='faxNumber' name='faxNumber' reqiured>
+                                                    </div>
+                                                  </fieldset>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div class="uk-modal-footer uk-text-right">
+                                <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                                <button class="uk-button uk-button-primary uk-modal-close" type="button" id='add-mda-not' data-message="<span uk-icon='icon: check'></span> MDA Successfully Added"
+                                    data-status="success">Save</button>
+                                    <script>
+                                        jQuery('#add-mda-not').on('click', function () {
+                                            UIkit.notification($(this).data());
+                                        });
+                                    </script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- xxx -->
+                </li>
+            </ul>
+            <div>
+                <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+                <div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <form class="uk-search uk-search-navbar uk-width-1-1">
+                                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                            </form>
+                        </div>
+                        <div class="uk-width-auto">
+                            <a class="uk-navbar-dropdown-close" href="#" uk-close></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#"><span class="uk-margin-small-right" uk-icon="icon: user"></span></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="uk-modal-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </nav>
+    <!-- List of Institutions table -->
+    <div class='uk-padding-large'>
+        <table class="uk-table uk-table-hover uk-table-divider">
+            <tbody>
+                <tr>
+                    <td><a href="#add-institution" title="Edit MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: file-edit"></span></a></td>
+                    <td>Federal Ministry of Health</td>
+                    <td><a href="#delete-institution" title="Delete MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#add-institution" title="Edit MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: file-edit"></span></a></td>
+                    <td>Universal Basic Education Commission</td>
+                    <td><a href="#delete-institution" title="Delete MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#add-institution" title="Edit MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: file-edit"></span></a></td>
+                    <td>National Primary Healthcare Commission</td>
+                    <td><a href="#delete-institution" title="Delete MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#add-institution" title="Edit MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: file-edit"></span></a></td>
+                    <td>Nigerian National Petroleum Coorporation</td>
+                    <td><a href="#delete-institution" title="Delete MDA" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <!--- Delete MDA Modal -->
+        <div id="delete-institution" class="uk-flex-top" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <p>Are you sure you want to delete??</p>
+                <div class="uk-modal-footer uk-text-right">
+                    <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                    <button class="uk-button uk-button-primary uk-modal-close" type="button" id='delete-institution-not' data-message="<span uk-icon='icon: check'></span> MDA Successfully Deleted"
+                        data-status="success">Yes</button>
+                    <!-- Notification for deleting Institution -->
+                    <script>
+                        jQuery('#delete-institution-not').on('click', function () {
+                            UIkit.notification($(this).data());
+                        });
+                    </script>
+                </div>
+            </div>
         </div>
-        <div class="uk-modal-footer uk-text-right">
-            <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
-            <button class="uk-button uk-button-primary" type="button">Save</button>
-        </div>
+        <!-- xxx -->
     </div>
-</div>
-                   </li>
-               </ul>
-          <div>
-              <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
-              <div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
-                  <div class="uk-grid-small uk-flex-middle" uk-grid>
-                      <div class="uk-width-expand">
-                          <form class="uk-search uk-search-navbar uk-width-1-1">
-                              <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
-                          </form>
-                      </div>
-                      <div class="uk-width-auto">
-                          <a class="uk-navbar-dropdown-close" href="#" uk-close></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-                 <ul class="uk-navbar-nav">
-                     <li class="uk-active">
-                       <a href="#"><span class="uk-margin-small-right" uk-icon="icon: user"></span></a>
-                       <div class="uk-navbar-dropdown">
-                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                      <li class="uk-active"><a href="#">Logout</a></li>
-                  </ul>
-              </div>
-                     </li>
-                 </ul>
-      </div>
-  </nav>
 </body>
 
 </html>
