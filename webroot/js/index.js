@@ -17,3 +17,17 @@ function viewProject () {
        ovTab.style.display = 'none';
    }
 }
+function addParty () {
+var party = document.getElementById('party-card');
+if (party.style.display === 'none')
+{
+  party.style.display = 'block';
+}
+}
+function removeParty () {
+  var party = document.getElementById('party-card');
+  if (party.style.display === 'block')
+  {
+    party.style.display = 'none';
+  }
+}
