@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Planning Release</title>
+    <title>Tender Release</title>
     <link rel="stylesheet" href="../css/uikit.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
@@ -26,7 +26,7 @@
 
         </div>
         <div class="uk-navbar-center">
-            <div class="uk-navbar-item">Planning Release</div>
+            <div class="uk-navbar-item">Tender Release</div>
         </div>
         <div class="uk-navbar-right">
             <div>
@@ -55,44 +55,11 @@
             </ul>
         </div>
     </nav>
+    <!-- xxx -->
     <div class="uk-container">
         <div class="uk-section uk-section-default">
             <form class="uk-form-horizontal uk-margin-large">
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-horizontal-text">OCID</label>
-                    <div class="uk-form-controls">
-                        <input class="uk-input" id="form-horizontal-text" type="text" placeholder="OCID-UBEC-2017-planning" value='' name='ocid'
-                            disabled>
-                    </div>
-                </div>
-                <div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
-                    <div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="form-horizontal-text">Date</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="form-horizontal-text" type="date" placeholder="" value='' name='id'>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="form-horizontal-text">ID</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="form-horizontal-text" type="text" placeholder="" value='' name='id'>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="initiationType">Initiation Type</label>
-                            <div class="uk-form-controls">
-                                <select class="uk-select" id="initiationType" name='initiationType'>
-            <option value=''>Tender</option>
-        </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <!-- Parties -->
                 <div class="uk-section uk-section-muted uk-padding parties">
                     <h3 class="uk-heading-bullet">Parties <a href="#add-party" title="Add Party" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: plus"></span></a></h3>
@@ -296,84 +263,22 @@
                     </div>
                 </div>
                 <!-- xx End of Parties xx -->
-                <!-- Rationale -->
-                <div class='uk-form-horizontal'>
-                    <div class="uk-margin">
-                        <label class="uk-form-label" for="rationale">Rationale</label>
-                        <div class="uk-form-controls">
-                            <textarea class="uk-textarea" id="rationale" rows='3' type="text" placeholder="" value='' name='rationale'></textarea>
-                        </div>
-                    </div>
-                </div>
-                <!-- xxx -->
-                <!-- Budget -->
-                <div class="uk-section uk-section-muted uk-padding">
-                    <h3 class="uk-heading-bullet">Bugdget</h3>
-                    <hr>
-                    <div class='uk-form-horizontal'>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="id">ID</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="bud-id" type="text" value="" name='id'>
-                            </div>
-                        </div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="description">Description</label>
-                            <div class="uk-form-controls">
-                                <textarea class="uk-textarea" id="bud-desc" rows='3' type="text" placeholder="" value='' name='description'></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Budget -->
-                    <div class="uk-section uk-section-primary uk-padding uk-margin">
-                        <h4 class="uk-heading-bullet">Amount</h4>
-                        <hr>
-                        <div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
-                            <div>
-                                <div class='uk-form-horizontal'>
-                                    <div class="uk-margin">
-                                        <label class="uk-form-label" for="amount">Amount</label>
-                                        <div class="uk-form-controls">
-                                            <input class="uk-input" id="amount" type="number" value="" name='amount'>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div>
-                                <div class='uk-form-horizontal'>
-                                    <div class="uk-margin">
-                                        <label class="uk-form-label" for="currency">Currency</label>
-                                        <div class="uk-form-controls">
-                                            <input class="uk-input" id="currency" type="text" value="" name='currency'>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- xxx -->
-                    <div class='uk-form-horizontal'>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="project">Project Title</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="project" type="text" value="" name='project'>
-                            </div>
-                        </div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="projectID">Project Identifier</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="projectID" type="text" value="" name='projectID'>
-                            </div>
-                        </div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="uri">Linked Budget Information</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="bud-uri" type="text" value="" name='uri'>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class='uk-form-horizontal'>
+      <div class="uk-margin">
+    <label class="uk-form-label" for="id">Tender ID</label>
+    <div class="uk-form-controls">
+        <input class="uk-input" id="tender-id" type="text" value='' name='id'>
+    </div>
+</div>
+        <div class="uk-margin">
+      <label class="uk-form-label" for="tetle">Tender Title</label>
+      <div class="uk-form-controls">
+          <input class="uk-input" id="tender-title" type="text" value='' name='title'>
+      </div>
+  </div>
+</div>
+
                 <!-- xxx -->
                 <div class="uk-section uk-section-muted uk-padding uk-margin">
                     <h4 class="uk-heading-bullet">Milestone</h4>
