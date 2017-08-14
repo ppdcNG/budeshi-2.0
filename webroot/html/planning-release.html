@@ -470,6 +470,16 @@
                         </div>
                     </div>
                 </div>
+                <div>
+                  <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                  <button class="uk-button uk-button-primary uk-modal-close uk-float-right" type="button" id='save-release' data-message="<span uk-icon='icon: check'></span> Saved Release"
+                      data-status="success">Save</button>
+                  <script>
+                      jQuery('#save-release').on('click', function () {
+                          UIkit.notification($(this).data());
+                      });
+                  </script>
+                </div>
             </form>
         </div>
     </div>
