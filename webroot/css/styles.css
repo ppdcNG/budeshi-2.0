@@ -16,3 +16,6 @@
 #project-overview {
   display: block;
 }
+td {
+  cursor: pointer;
+}

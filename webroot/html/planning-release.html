@@ -59,26 +59,51 @@
         <div class="uk-section uk-section-default">
             <form class="uk-form-horizontal uk-margin-large">
                 <div class="uk-margin">
-                    <label class="uk-form-label" for="form-horizontal-text">OCID</label>
+                    <label class="uk-form-label" for="ocid">OCID</label>
                     <div class="uk-form-controls">
-                        <input class="uk-input" id="form-horizontal-text" type="text" placeholder="OCID-UBEC-2017-planning" value='' name='ocid'
-                            disabled>
+                        <input class="uk-input" id="ocid" type="text" placeholder="OCID-UBEC-2017-planning" value='' name='ocid' disabled>
                     </div>
                 </div>
-                <div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
+                <div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
                     <div>
                         <div class="uk-margin">
-                            <label class="uk-form-label" for="form-horizontal-text">Date</label>
+                            <label class="uk-form-label" for="date">Release Date</label>
                             <div class="uk-form-controls">
-                                <input class="uk-input" id="form-horizontal-text" type="date" placeholder="" value='' name='id'>
+                                <input class="uk-input" id="date" type="date" placeholder="" value='' name='id'>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div class="uk-margin">
-                            <label class="uk-form-label" for="form-horizontal-text">ID</label>
+                            <label class="uk-form-label" for="id">Release ID</label>
                             <div class="uk-form-controls">
-                                <input class="uk-input" id="form-horizontal-text" type="text" placeholder="" value='' name='id'>
+                                <input class="uk-input" id="id" type="text" placeholder="" value='' name='id'>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="tag">Release Tag</label>
+                            <div class="uk-form-controls">
+                                <select class="uk-select" id="tag" name='tag'>
+                                  <option value='tender'disabled selected>Select a release tag</option>
+                                  <option value='planning'>Planning</option>
+                                  <option value='planningUpdate'>Planning Update</option>
+            <option value='tender'>Tender</option>
+            <option value='tenderAmendment'>Tender Amendment</option>
+            <option value='tenderUpdate'>Tender Update</option>
+            <option value='tenderCancellation'>Tender Cancellation</option>
+            <option value='award'>Award</option>
+            <option value='awardCancellation'>Award Cancellation</option>
+            <option value='awardUpdate'>Tender Update</option>
+            <option value='contract'>Contract</option>
+            <option value='contractUpdate'>Contract Update</option>
+            <option value='contractAmendment'>Contract Amendment</option>
+            <option value='implementation'>Implementation</option>
+            <option value='implementationUpdate'>Implementation Update</option>
+            <option value='contractTermination'>Contract Termination</option>
+            <option value='compiled'>Compiled Record</option>
+        </select>
                             </div>
                         </div>
                     </div>
@@ -87,6 +112,7 @@
                             <label class="uk-form-label" for="initiationType">Initiation Type</label>
                             <div class="uk-form-controls">
                                 <select class="uk-select" id="initiationType" name='initiationType'>
+                                  <option value=''disabled selected>Select initiation type</option>
             <option value=''>Tender</option>
         </select>
                             </div>
@@ -108,8 +134,9 @@
                                     <div class='uk-grid-small uk-child-width-1-2' uk-grid>
                                         <div>
                                             <div class="uk-margin">
-                                                <label class="uk-form-label" for='select-org'>Text</label>
+                                                <label class="uk-form-label" for='select-org'>Organization</label>
                                                 <select id='select-org' class="uk-select" name='organization' style='width: 100%'>
+                                                  <option value="" selected disabled>Select Organization</option>
                 <option value="dc">Dangote Cement</option>
                 <option value="le">Levi</option>
                 <option value="mj">Marc Jacobs</option>
@@ -124,9 +151,9 @@
                                         </div>
                                         <div>
                                             <div class="uk-margin">
-                                                <label class="uk-form-label" for="role">Role</label>
+                                                <label class="uk-form-label" for="party-role">Roles</label>
                                                 <div class="uk-form-controls">
-                                                    <select id="role" name='role' style='width: 100%'>
+                                                    <select id="party-role" name='role' style='width: 100%' multiple='multiple'>
               <option value='buyer'>Buyer</option>
               <option value='procuringEntity'>Procuring Entity</option>
               <option value='supplier'>Supplier</option>
@@ -282,6 +309,17 @@
                                                                 </div>
                                                             </div>
                                                         </li>
+                                                        <li>
+                                                            <h3 class="uk-accordion-title">Party Roles</h3>
+                                                            <div class="uk-accordion-content">
+                                                                <div class="uk-accordion-content">
+                                                                  <ul class="uk-list uk-list-bullet">
+                                                                    <li>Buyer</li>
+                                                                    <li>Payee</li>
+                                                                </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
                                                     </ul>
                                                 </form>
 
@@ -312,19 +350,19 @@
                     <hr>
                     <div class='uk-form-horizontal'>
                         <div class="uk-margin">
-                            <label class="uk-form-label" for="id">ID</label>
+                            <label class="uk-form-label" for="bud-id">ID</label>
                             <div class="uk-form-controls">
                                 <input class="uk-input" id="bud-id" type="text" value="" name='id'>
                             </div>
                         </div>
                         <div class="uk-margin">
-                            <label class="uk-form-label" for="description">Description</label>
+                            <label class="uk-form-label" for="bud-desc">Description</label>
                             <div class="uk-form-controls">
                                 <textarea class="uk-textarea" id="bud-desc" rows='3' type="text" placeholder="" value='' name='description'></textarea>
                             </div>
                         </div>
                     </div>
-                    <!-- Budget -->
+                    <!-- Budget-amount -->
                     <div class="uk-section uk-section-primary uk-padding uk-margin">
                         <h4 class="uk-heading-bullet">Amount</h4>
                         <hr>
@@ -471,14 +509,14 @@
                     </div>
                 </div>
                 <div>
-                  <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
-                  <button class="uk-button uk-button-primary uk-modal-close uk-float-right" type="button" id='save-release' data-message="<span uk-icon='icon: check'></span> Saved Release"
-                      data-status="success">Save</button>
-                  <script>
-                      jQuery('#save-release').on('click', function () {
-                          UIkit.notification($(this).data());
-                      });
-                  </script>
+                    <a class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</a>
+                    <a class="uk-button uk-button-primary uk-modal-close uk-float-right" type="button" id='save-release' data-message="<span uk-icon='icon: check'></span> Saved Release"
+                        data-status="success">Save</a>
+                    <script>
+                                        jQuery('#save-release').on('click', function () {
+                                            UIkit.notification($(this).data());
+                                        });
+                    </script>
                 </div>
             </form>
         </div>

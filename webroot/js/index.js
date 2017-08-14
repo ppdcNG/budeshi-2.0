@@ -62,3 +62,17 @@ if (document1.style.display === 'none')
   document1.style.display = 'block';
 }
 }
+function addAmendment () {
+  var amendment = document.getElementById('amendment-card');
+  if (amendment.style.display === 'none')
+  {
+    amendment.style.display = 'block';
+  }
+}
+function removeAmentment () {
+  var amendment = document.getElementById('amendment-card');
+  if (amendment.style.display === 'block')
+  {
+    amendment.style.display = 'none';
+  }
+}
