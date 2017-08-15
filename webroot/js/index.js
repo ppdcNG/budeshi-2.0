@@ -62,6 +62,13 @@ if (document1.style.display === 'none')
   document1.style.display = 'block';
 }
 }
+function removeDocument () {
+  var document1 = document.getElementById('document-card');
+  if (document1.style.display === 'block')
+  {
+    document1.style.display = 'none';
+  }
+}
 function addAmendment () {
   var amendment = document.getElementById('amendment-card');
   if (amendment.style.display === 'none')
