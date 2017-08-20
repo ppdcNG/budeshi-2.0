@@ -43,26 +43,24 @@
                                     <fieldset class="uk-fieldset">
                                         <div class="uk-width-1-1 uk-margin">
                                             <label class="uk-form-label" for="title">Title</label>
-                                            <input class="uk-input" type="text" placeholder="E.g " id='title' name='title' reqiured>
+                                            <input class="uk-input" type="text" placeholder="E.g " id='title' name='title' title="The name of the project that through which this contracting process is funded (if applicable)" uk-tooltip="pos: bottom" reqiured>
                                         </div>
                                         <div class="uk-width-1-1 uk-margin">
                                             <label class="uk-form-label" for="description">Description</label>
-                                            <textarea class="uk-textarea" rows="3" placeholder="" reqiured></textarea>
+                                            <textarea class="uk-textarea" rows="3" placeholder="" title="A summary description of the project." uk-tooltip="pos: bottom" reqiured></textarea>
                                         </div>
                                         <div class='uk-grid-small uk-child-width-1-2' uk-grid>
                                             <div>
-                                                <div class="uk-margin">
-                                                    <label class="uk-form-label" for="status">Status</label>
-                                                    <select class="uk-select" id='status' name='status'>
-                                            <option value='yes'>Yes</option>
-                                            <option value='no'>No</option>
-                                          </select>
-                                                </div>
+                                              <div class="uk-margin">
+                                                  <label class="uk-form-label" for="location">Location</label>
+                                                  <input class="uk-input" type="text" placeholder="E.g " id='location' name='location' title="Location the projected will be carried out" uk-tooltip="pos: bottom" reqiured>
+                                              </div>
                                             </div>
                                             <div>
                                                 <div class="uk-margin">
                                                     <label class="uk-form-label" for="title">Year</label>
-                                                    <select class="uk-select" name='year'>
+                                                    <select class="uk-select" name='year' title="The year this project was initiated" uk-tooltip="pos: bottom">
+                                                      <option value=''selected disabled>Select year</option>
                                                       <option value='2014'>2014</option>
                                                       <option value='2015'>2015</option>
                                                       <option value='2016'>2016</option>
@@ -72,10 +70,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="uk-width-1-1 uk-margin">
-                                            <label class="uk-form-label" for="location">Location</label>
-                                            <input class="uk-input" type="text" placeholder="E.g " id='location' name='location' reqiured>
-                                        </div>
+
                                     </fieldset>
                                 </form>
                             </div>
@@ -243,9 +238,29 @@
         <div class="uk-modal-body">
           <div class='uk-width-auto'>
             <ul class="uk-list uk-list-large uk-list-divider">
-                <li>Planning</li>
-                <li>Tender</li>
-                <li>Award</li>
+                <li><a href="#edit-release" title="Edit Release" uk-tooltip="pos: bottom"><span class="uk-margin-small-right uk-float-left" uk-icon="icon: file-edit"></span></a>Planning <a class="uk-float-right" href='#delete-release' uk-toggle id='delete-release-butt' title="Delete Release" uk-tooltip="pos: bottom" uk-icon="icon: trash"></a>
+                                    <!--- Delete relese -->
+                                    <div id="delete-release" class="uk-flex-top" uk-modal>
+                                        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                                            <p>Are you sure you want to delete release??</p>
+                                            <div class="uk-modal-footer uk-text-right">
+                                                <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                                                <button class="uk-button uk-button-primary uk-modal-close" type="button" id='delete-release-not' data-message="<span uk-icon='icon: check'></span>Release Successfully Deleted"
+                                                    data-status="success">Yes</button>
+                                                <!-- Notification for deleting release -->
+                                                <script>
+                                                    jQuery('#delete-release-not').on('click', function () {
+                                                        UIkit.notification($(this).data());
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- xxx -->
+                                  </li>
+                <li><a href="#edit-release" title="Edit Release" uk-tooltip="pos: bottom"><span class="uk-margin-small-right uk-float-left" uk-icon="icon: file-edit"></span></a>Tender <a class="uk-float-right" href='#delete-release' uk-toggle id='delete-release-butt' title="Delete Release" uk-tooltip="pos: bottom" uk-icon="icon: trash"></a></li>
+                <li><a href="#edit-release" title="Edit Release" uk-tooltip="pos: bottom"><span class="uk-margin-small-right uk-float-left" uk-icon="icon: file-edit"></span></a>Award <a class="uk-float-right" href='#delete-release' uk-toggle id='delete-release-butt' title="Delete Release" uk-tooltip="pos: bottom" uk-icon="icon: trash"></a></li>
             </ul>
             </div
         </div>

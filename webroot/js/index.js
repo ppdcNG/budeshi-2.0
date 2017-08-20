@@ -83,3 +83,17 @@ function removeAmentment () {
     amendment.style.display = 'none';
   }
 }
+function addTransaction () {
+  var transaction = document.getElementById('transaction-card');
+  if (transaction.style.display === 'none')
+  {
+    transaction.style.display = 'block';
+  }
+}
+function removeTransaction () {
+  var transaction = document.getElementById('transaction-card');
+  if (transaction.style.display === 'block')
+  {
+    transaction.style.display = 'none';
+  }
+}

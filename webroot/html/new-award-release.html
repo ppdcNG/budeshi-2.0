@@ -62,7 +62,7 @@
               <div class="uk-margin">
                   <label class="uk-form-label" for="ocid">OCID</label>
                   <div class="uk-form-controls">
-                      <input class="uk-input" id="ocid" type="text" placeholder="OCID-UBEC-2017-award" value='' name='ocid' disabled>
+                      <input class="uk-input" id="ocid" type="text" placeholder="OCID-UBEC-2017-award" title="A globally unique identifier for this Open Contracting Process. Composed of a publisher prefix and an identifier for the contracting process. " uk-tooltip="pos: bottom" value='' name='ocid' disabled>
                   </div>
               </div>
               <div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
@@ -70,7 +70,8 @@
                       <div class="uk-margin">
                           <label class="uk-form-label" for="date">Release Date</label>
                           <div class="uk-form-controls">
-                              <input class="uk-input" id="date" type="date" placeholder="" value='' name='id'>
+                              <input class="uk-input" id="date" type="date" placeholder="" value='' name='id' title="The date this information was first released, or published.
+" uk-tooltip="pos: bottom">
                           </div>
                       </div>
                   </div>
@@ -78,7 +79,7 @@
                       <div class="uk-margin">
                           <label class="uk-form-label" for="id">Release ID</label>
                           <div class="uk-form-controls">
-                              <input class="uk-input" id="id" type="text" placeholder="" value='' name='id'>
+                              <input class="uk-input" id="id" type="text" placeholder="" value='' name='id' title="An identifier for this particular release of information. " uk-tooltip="pos: bottom">
                           </div>
                       </div>
                   </div>
@@ -86,7 +87,7 @@
                       <div class="uk-margin">
                           <label class="uk-form-label" for="tag">Release Tag</label>
                           <div class="uk-form-controls">
-                              <select class="uk-select" id="tag" name='tag'>
+                              <select class="uk-select" id="tag" name='tag' title="Tags may be used to filter release and to understand the kind of information that a release might contain." uk-tooltip="pos: bottom">
                                 <option value='tender'disabled selected>Select a release tag</option>
                                 <option value='planning'>Planning</option>
                                 <option value='planningUpdate'>Planning Update</option>
@@ -112,7 +113,7 @@
                       <div class="uk-margin">
                           <label class="uk-form-label" for="initiationType">Initiation Type</label>
                           <div class="uk-form-controls">
-                              <select class="uk-select" id="initiationType" name='initiationType'>
+                              <select class="uk-select" id="initiationType" name='initiationType' title="String specifying the type of initiation process used for this contract, taken from the initiationType codelist. " uk-tooltip="pos: bottom">
                                 <option value=''disabled selected>Select initiation type</option>
           <option value=''>Tender</option>
       </select>
