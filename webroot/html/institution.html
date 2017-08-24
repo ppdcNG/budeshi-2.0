@@ -70,7 +70,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                     </fieldset>
                                 </form>
                             </div>
@@ -174,45 +173,39 @@
                     <h2 class="uk-modal-title">Edit Project </h2>
                 </div>
                 <div class="uk-modal-body">
-                    <form>
-                        <fieldset class="uk-fieldset">
-                            <div class="uk-width-1-1 uk-margin">
-                                <label class="uk-form-label" for="title">Title</label>
-                                <input class="uk-input" type="text" placeholder="E.g " id='title' name='title' reqiured>
-                            </div>
-                            <div class="uk-width-1-1 uk-margin">
-                                <label class="uk-form-label" for="description">Description</label>
-                                <textarea class="uk-textarea" rows="3" placeholder="" reqiured></textarea>
-                            </div>
-                            <div class='uk-grid-small uk-child-width-1-2' uk-grid>
-                                <div>
-                                    <div class="uk-margin">
-                                        <label class="uk-form-label" for="status">Status</label>
-                                        <select class="uk-select" id='status' name='status'>
-                                <option value='yes'>Yes</option>
-                                <option value='no'>No</option>
-                              </select>
-                                    </div>
+                  <form>
+                      <fieldset class="uk-fieldset">
+                          <div class="uk-width-1-1 uk-margin">
+                              <label class="uk-form-label" for="title">Title</label>
+                              <input class="uk-input" type="text" placeholder="E.g " id='title' name='title' title="The name of the project that through which this contracting process is funded (if applicable)" uk-tooltip="pos: bottom" reqiured>
+                          </div>
+                          <div class="uk-width-1-1 uk-margin">
+                              <label class="uk-form-label" for="description">Description</label>
+                              <textarea class="uk-textarea" rows="3" placeholder="" title="A summary description of the project." uk-tooltip="pos: bottom" reqiured></textarea>
+                          </div>
+                          <div class='uk-grid-small uk-child-width-1-2' uk-grid>
+                              <div>
+                                <div class="uk-margin">
+                                    <label class="uk-form-label" for="location">Location</label>
+                                    <input class="uk-input" type="text" placeholder="E.g " id='location' name='location' title="Location the projected will be carried out" uk-tooltip="pos: bottom" reqiured>
                                 </div>
-                                <div>
-                                    <div class="uk-margin">
-                                        <label class="uk-form-label" for="title">Year</label>
-                                        <select class="uk-select" name='year'>
-                                          <option value='2014'>2014</option>
-                                          <option value='2015'>2015</option>
-                                          <option value='2016'>2016</option>
-                                          <option value='2017'>2017</option>
-                                          <option value='2018'>2018</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-width-1-1 uk-margin">
-                                <label class="uk-form-label" for="location">Location</label>
-                                <input class="uk-input" type="text" placeholder="E.g " id='location' name='location' reqiured>
-                            </div>
-                        </fieldset>
-                    </form>
+                              </div>
+                              <div>
+                                  <div class="uk-margin">
+                                      <label class="uk-form-label" for="title">Year</label>
+                                      <select class="uk-select" name='year' title="The year this project was initiated" uk-tooltip="pos: bottom">
+                                        <option value=''selected disabled>Select year</option>
+                                        <option value='2014'>2014</option>
+                                        <option value='2015'>2015</option>
+                                        <option value='2016'>2016</option>
+                                        <option value='2017'>2017</option>
+                                        <option value='2018'>2018</option>
+                                      </select>
+                                  </div>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
                 </div>
                 <div class="uk-modal-footer uk-text-right">
                     <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
