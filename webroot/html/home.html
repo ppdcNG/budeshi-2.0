@@ -43,7 +43,7 @@
                                     <fieldset class="uk-fieldset">
                                         <legend class="uk-legend">Name</legend>
                                         <div class="uk-margin">
-                                            <input class="uk-input" type="text" placeholder="Common Name" name='commonName' required>
+                                            <input class="uk-input" type="text" placeholder="Common Name" name='commonName' title="A common name for this organization or other participant in the contracting process. " uk-tooltip="pos: bottom" required>
                                         </div>
                                     </fieldset>
                                     <ul uk-accordion="multiple: true">
@@ -51,36 +51,29 @@
                                             <h3 class="uk-accordion-title">Address</h3>
                                             <div class="uk-accordion-content">
                                                 <div class='uk-grid-small' uk-grid>
-<<<<<<< HEAD
-
-=======
                                                   <fieldset>
->>>>>>> origin/master
                                                     <div class="uk-width-1-1 uk-margin">
                                                         <label class="uk-form-label" for="streetName">Street</label>
-                                                        <input class="uk-input" type="text" placeholder="E.g 4, North London Business Park, Oakleigh Rd S" id='streetName' name='streeName' reqiured>
+                                                        <input class="uk-input" type="text" value="" id='streetName' name='streeName' title="The street address. For example, 1600 Amphitheatre Pkwy.
+" uk-tooltip="pos: bottom" reqiured>
                                                     </div>
                                                     <div class="uk-width-1-2@s uk-margin">
                                                         <label class="uk-form-label" for="locality">Town</label>
-                                                        <input class="uk-input" type="text" placeholder="E.g Abuja" name='' id='locality' name='locality' reqiured>
+                                                        <input class="uk-input" type="text" value="" name='' id='locality' name='locality' title="	The locality. For example, Mountain View." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
                                                     <div class="uk-width-1-2@s uk-margin">
                                                         <label class="uk-form-label" for="region">State</label>
-                                                        <input class="uk-input" type="text" placeholder="E.g FCT" id='region' name='region' reqiured>
+                                                        <input class="uk-input" type="text" value="" id='region' name='region' title="The region. For example, CA." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
                                                     <div class="uk-width-1-2@s uk-margin">
                                                         <label class="uk-form-label" for="countryName">Country</label>
-                                                        <input class="uk-input" type="text" placeholder="E.g Nigeria" id='countryName' name='countryName' reqiured>
+                                                        <input class="uk-input" type="text" value="" id='countryName' name='countryName' title="The country name. For example, United States." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
                                                     <div class="uk-width-1-2@s uk-margin">
                                                         <label class="uk-form-label" for="postalCode">Postal Code</label>
-                                                        <input class="uk-input" type="number" placeholder="E.g 100" id='postalCode' name='postalCode' reqiured>
+                                                        <input class="uk-input" type="number" value="" id='postalCode' name='postalCode' title="The postal code. For example, 94043." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
-<<<<<<< HEAD
-
-=======
                                                   </fieldset>
->>>>>>> origin/master
                                                 </div>
                                             </div>
                                         </li>
@@ -89,36 +82,26 @@
                                             <div class="uk-accordion-content">
                                               <div class="uk-accordion-content">
                                                 <div class='uk-grid-small' uk-grid>
-<<<<<<< HEAD
-                                                  
-=======
-                                                  <fieldset>
->>>>>>> origin/master
                                                     <div class="uk-width-1-1 uk-margin">
                                                         <label class="uk-form-label" for="url">url</label>
-                                                        <input class="uk-input" type="url" placeholder="E.g www.mda.ng.gov" id='url' name='name' reqiured>
+                                                        <input class="uk-input" type="url" value="" id='url' name='name' title="A web address for the contact point/person." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
                                                     <div class="uk-width-1-2@s uk-margin">
                                                         <label class="uk-form-label" for="name">Name</label>
-                                                        <input class="uk-input" type="text" placeholder="E.g Emeka HAauna" id='name' name='name' reqiured>
+                                                        <input class="uk-input" type="text" value="" id='name' name='name' title="The name of the contact person, department, or contact point, for correspondence relating to this contracting process." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
                                                     <div class="uk-width-1-2@s uk-margin">
                                                         <label class="uk-form-label" for="email">Email</label>
-                                                        <input class="uk-input" type="email" placeholder="E.g e.haruna@mda.ng.gov" id='email' name='email' reqiured>
+                                                        <input class="uk-input" type="email" value="" id='email' name='email' title="The e-mail address of the contact point/person." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
                                                     <div class="uk-width-1-2@s uk-margin">
                                                         <label class="uk-form-label" for="phone">Phone</label>
-                                                        <input class="uk-input" type="tel" placeholder="E.g 08033344455" id='phone' name='phone' reqiured>
+                                                        <input class="uk-input" type="tel" value="" id='phone' name='phone' title="The telephone number of the contact point/person. This should include the international dialing code." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
                                                     <div class="uk-width-1-2@s uk-margin">
                                                         <label class="uk-form-label" for="faxNumber">Fax Number</label>
-                                                        <input class="uk-input" type="number" placeholder="E.g 100" id='faxNumber' name='faxNumber' reqiured>
+                                                        <input class="uk-input" type="number" value="" id='faxNumber' name='faxNumber' title="The fax number of the contact point/person. This should include the international dialing code." uk-tooltip="pos: bottom" reqiured>
                                                     </div>
-<<<<<<< HEAD
-
-=======
-                                                  </fieldset>
->>>>>>> origin/master
                                                 </div>
                                               </div>
                                             </div>
@@ -139,6 +122,9 @@
                         </div>
                     </div>
                     <!-- xxx -->
+                </li>
+                <li>
+                  <a href="#" title="Go to Organizations DB" uk-tooltip="pos: bottom"><span class="uk-margin-small-right" uk-icon="icon: database"></span></a>
                 </li>
             </ul>
             <div>
@@ -214,6 +200,11 @@
         </div>
         <!-- xxx -->
     </div>
+    <!-- Pagination -->
+    <ul class="uk-pagination">
+    <li><a href=""><span uk-pagination-previous></span></a></li>
+    <li><a href=""><span uk-pagination-next></span></a></li>
+</ul>
 </body>
 
 </html>

@@ -31,3 +31,69 @@ function removeParty () {
     party.style.display = 'none';
   }
 }
+function showProcEntDet () {
+  var id = document.getElementById('procEntID');
+  var name = document.getElementById('procEntName');
+  if (id.style.display === 'none' && name.style.display === 'none')
+  {
+    id.style.display = 'block';
+    name.style.display = 'block';
+  }
+}
+function addItem () {
+  var item = document.getElementById('item-card');
+  if (item.style.display === 'none')
+  {
+    item.style.display = 'block';
+  }
+}
+function removeItem () {
+  var item = document.getElementById('item-card');
+  if (item.style.display === 'block')
+  {
+    item.style.display = 'none';
+  }
+}
+
+function addDocument () {
+var document1 = document.getElementById('document-card');
+if (document1.style.display === 'none')
+{
+  document1.style.display = 'block';
+}
+}
+function removeDocument () {
+  var document1 = document.getElementById('document-card');
+  if (document1.style.display === 'block')
+  {
+    document1.style.display = 'none';
+  }
+}
+function addAmendment () {
+  var amendment = document.getElementById('amendment-card');
+  if (amendment.style.display === 'none')
+  {
+    amendment.style.display = 'block';
+  }
+}
+function removeAmentment () {
+  var amendment = document.getElementById('amendment-card');
+  if (amendment.style.display === 'block')
+  {
+    amendment.style.display = 'none';
+  }
+}
+function addTransaction () {
+  var transaction = document.getElementById('transaction-card');
+  if (transaction.style.display === 'none')
+  {
+    transaction.style.display = 'block';
+  }
+}
+function removeTransaction () {
+  var transaction = document.getElementById('transaction-card');
+  if (transaction.style.display === 'block')
+  {
+    transaction.style.display = 'none';
+  }
+}
