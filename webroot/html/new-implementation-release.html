@@ -194,13 +194,12 @@
                     </div>
                     <!-- xxx -->
                     <hr>
-                    <div class="uk-grid-small uk-child-width-1-3" uk-grid>
+                    <div class="uk-grid-small uk-child-width-1-4" uk-grid>
                         <!-- Party card -->
-                        <div id='party-card' class='uk-section-mute uk-hover' style='display:none'>
+                        <div id='party-card' class='uk-section-mute uk-hover' style='display:block'>
                             <table class="uk-table uk-table-divider">
                                 <tbody>
                                     <tr>
-                                        <td><a href="#view-party" title="View Party" uk-tooltip="pos: bottom" uk-toggle class='uk-float-left'><span class="uk-margin-small-right" uk-icon="icon: expand"></span></a></td>
                                         <td>Dangote Cement</td>
                                         <td><a href="#" id='remove-party' title="Delete Party" uk-tooltip="pos: bottom" class='uk-float-right'
                                                 onclick="removeParty()" data-message="<span uk-icon='icon: check'></span> Removed Party"
@@ -214,153 +213,96 @@
                                     </tr>
                                 </tbody>
                             </table>
-
-                            <!-- View Party Modal -->
-                            <div id="view-party" uk-modal>
-                                <div class="uk-modal-dialog">
-                                    <button class="uk-modal-close-default" type="button" uk-close></button>
-                                    <div class="uk-modal-header">
-                                        <h2 class="uk-modal-title">Dangote Cement</h2>
-                                    </div>
-                                    <div class="uk-modal-body">
-                                        <form class="uk-form-stacked">
-                                            <fieldset class="uk-fieldset">
-                                                <div class="uk-margin">
-                                                    <label class="uk-form-label" for="view-name">Common Name</label>
-                                                    <div class="uk-form-controls">
-                                                        <input class="uk-input" id="view-name" type="text" value="Dangote Cement" name='' title="The legally registered name of the organization."
-                                                            uk-tooltip="pos: bottom" disabled>
-                                                    </div>
-                                                </div>
-                                                <div class="uk-margin">
-                                                    <label class="uk-form-label" for="view-id">Entity ID</label>
-                                                    <div class="uk-form-controls">
-                                                        <input class="uk-input" id="view-id" type="text" value="Bud-2017" name='id' title="The ID used for cross-referencing to this party from other sections of the release. "
-                                                            uk-tooltip="pos: bottom" disabled>
-                                                    </div>
-                                                </div>
-                                            </fieldset>
-                                            <ul uk-accordion="multiple: true">
-                                                <li>
-                                                    <h3 class="uk-accordion-title">Primary Identifier</h3>
-                                                    <div class="uk-accordion-content">
-                                                        <div class='uk-grid-small uk-child-width-1-2' uk-grid>
-                                                            <div>
-                                                                <div class="uk-margin">
-                                                                    <label class="uk-form-label" for="scheme">Scheme</label>
-                                                                    <div class="uk-form-controls">
-                                                                        <input class="uk-input" id="view-scheme" type="text" value="NG-CAC" name='scheme' title="" uk-tooltip="pos: bottom" disabled>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div>
-                                                                <div class="uk-margin">
-                                                                    <label class="uk-form-label" for="id">RC Number</label>
-                                                                    <div class="uk-form-controls">
-                                                                        <input class="uk-input" id="view-id" type="text" value="CAC-123" title="CAC Registered Company number" uk-tooltip="pos: bottom"
-                                                                            disabled>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div>
-                                                            <div class="uk-margin">
-                                                                <label class="uk-form-label" for="view-uri">URI</label>
-                                                                <div class="uk-form-controls">
-                                                                    <input class="uk-input" id="view-uri" type="text" value="https://opencorporates.com/companies/in/U26943TG2012FTC081382" name='uri'
-                                                                        title="A Uniform Resource Identifier (URI) to identify the organization,"
-                                                                        uk-tooltip="pos: bottom" disabled>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <h3 class="uk-accordion-title">Address</h3>
-                                                    <div class="uk-accordion-content">
-                                                        <div class='uk-grid-small' uk-grid>
-                                                            <div class="uk-width-1-1 uk-margin">
-                                                                <label class="uk-form-label" for="view-streetName">Street</label>
-                                                                <input class="uk-input" type="text" value="4, North London Business Park, Oakleigh Rd S" id='view-streetName' name='streeName'
-                                                                    title="" uk-tooltip="pos: bottom" disabled>
-                                                            </div>
-                                                            <div class="uk-width-1-2@s uk-margin">
-                                                                <label class="uk-form-label" for="view-locality">Town</label>
-                                                                <input class="uk-input" type="text" value="Abuja" name='' id='view-locality' name='locality' title="The street address. For example, 1600 Amphitheatre Pkwy."
-                                                                    uk-tooltip="pos: bottom" disabled>
-                                                            </div>
-                                                            <div class="uk-width-1-2@s uk-margin">
-                                                                <label class="uk-form-label" for="view-region">State</label>
-                                                                <input class="uk-input" type="text" value="E.g FCT" id='view-region' name='region' title="The State. For example, Zamfara."
-                                                                    uk-tooltip="pos: bottom" disabled>
-                                                            </div>
-                                                            <div class="uk-width-1-2@s uk-margin">
-                                                                <label class="uk-form-label" for="view-countryName">Country</label>
-                                                                <input class="uk-input" type="text" value="Nigeria" id='view-countryName' name='countryName' title="The name of the Contry"
-                                                                    uk-tooltip="pos: bottom" disabled>
-                                                            </div>
-                                                            <div class="uk-width-1-2@s uk-margin">
-                                                                <label class="uk-form-label" for="view-postalCode">Postal Code</label>
-                                                                <input class="uk-input" type="number" value="100" id='view-postalCode' name='postalCode' title="The postal code. For example, 94043."
-                                                                    uk-tooltip="pos: bottom" disabled>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <h3 class="uk-accordion-title">Contact Point</h3>
-                                                    <div class="uk-accordion-content">
-                                                        <div class="uk-accordion-content">
-                                                            <div class='uk-grid-small' uk-grid>
-
-                                                                <div class="uk-width-1-1 uk-margin">
-                                                                    <label class="uk-form-label" for="view-url">url</label>
-                                                                    <input class="uk-input" type="url" value="www.mda.ng.gov" id='view-url' name='name' title="The name of the contact person, department, or contact point, for correspondence relating to this contracting process."
-                                                                        uk-tooltip="pos: bottom" disabled>
-                                                                </div>
-                                                                <div class="uk-width-1-2@s uk-margin">
-                                                                    <label class="uk-form-label" for="view-name">Name</label>
-                                                                    <input class="uk-input" type="text" value="Emeka Haruna" id='view-name' name='name' title="The name of the contact person, department, or contact point, for correspondence relating to this contracting process."
-                                                                        uk-tooltip="pos: bottom" disabled>
-                                                                </div>
-                                                                <div class="uk-width-1-2@s uk-margin">
-                                                                    <label class="uk-form-label" for="view-email">Email</label>
-                                                                    <input class="uk-input" type="email" value="e.haruna@mda.ng.gov" id='view-email' name='email' title="The e-mail address of the contact point/person."
-                                                                        uk-tooltip="pos: bottom" disabled>
-                                                                </div>
-                                                                <div class="uk-width-1-2@s uk-margin">
-                                                                    <label class="uk-form-label" for="view-phone">Phone</label>
-                                                                    <input class="uk-input" type="tel" value="08033344455" id='view-phone' name='phone' title="The telephone number of the contact point/person. This should include the international dialing code."
-                                                                        uk-tooltip="pos: bottom" disabled>
-                                                                </div>
-                                                                <div class="uk-width-1-2@s uk-margin">
-                                                                    <label class="uk-form-label" for="view-faxNumber">Fax Number</label>
-                                                                    <input class="uk-input" type="number" value="100" id='view-faxNumber' name='faxNumber' title="The fax number of the contact point/person. This should include the international dialing code."
-                                                                        uk-tooltip="pos: bottom" disabled>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <h3 class="uk-accordion-title">Party Roles</h3>
-                                                    <div class="uk-accordion-content">
-                                                        <div class="uk-accordion-content">
-                                                            <ul class="uk-list uk-list-bullet">
-                                                                <li>Buyer</li>
-                                                                <li>Payee</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- xxx -->
+                        </div>
+                        <div id='party-card' class='uk-section-mute uk-hover' style='display:block'>
+                            <table class="uk-table uk-table-divider">
+                                <tbody>
+                                    <tr>
+                                        <td>Dangote Cement</td>
+                                        <td><a href="#" id='remove-party' title="Delete Party" uk-tooltip="pos: bottom" class='uk-float-right'
+                                                onclick="removeParty()" data-message="<span uk-icon='icon: check'></span> Removed Party"
+                                                data-status="success"><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a>
+                                            <script>
+                                                jQuery('#remove-party').on('click', function () {
+                                                    UIkit.notification($(this).data());
+                                                });
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id='party-card' class='uk-section-mute uk-hover' style='display:block'>
+                            <table class="uk-table uk-table-divider">
+                                <tbody>
+                                    <tr>
+                                        <td>Dangote Cement</td>
+                                        <td><a href="#" id='remove-party' title="Delete Party" uk-tooltip="pos: bottom" class='uk-float-right'
+                                                onclick="removeParty()" data-message="<span uk-icon='icon: check'></span> Removed Party"
+                                                data-status="success"><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a>
+                                            <script>
+                                                jQuery('#remove-party').on('click', function () {
+                                                    UIkit.notification($(this).data());
+                                                });
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id='party-card' class='uk-section-mute uk-hover' style='display:block'>
+                            <table class="uk-table uk-table-divider">
+                                <tbody>
+                                    <tr>
+                                        <td>Dangote Cement</td>
+                                        <td><a href="#" id='remove-party' title="Delete Party" uk-tooltip="pos: bottom" class='uk-float-right'
+                                                onclick="removeParty()" data-message="<span uk-icon='icon: check'></span> Removed Party"
+                                                data-status="success"><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a>
+                                            <script>
+                                                jQuery('#remove-party').on('click', function () {
+                                                    UIkit.notification($(this).data());
+                                                });
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id='party-card' class='uk-section-mute uk-hover' style='display:block'>
+                            <table class="uk-table uk-table-divider">
+                                <tbody>
+                                    <tr>
+                                        <td>Dangote Cement</td>
+                                        <td><a href="#" id='remove-party' title="Delete Party" uk-tooltip="pos: bottom" class='uk-float-right'
+                                                onclick="removeParty()" data-message="<span uk-icon='icon: check'></span> Removed Party"
+                                                data-status="success"><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a>
+                                            <script>
+                                                jQuery('#remove-party').on('click', function () {
+                                                    UIkit.notification($(this).data());
+                                                });
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id='party-card' class='uk-section-mute uk-hover' style='display:block'>
+                            <table class="uk-table uk-table-divider">
+                                <tbody>
+                                    <tr>
+                                        <td>Dangote Cement</td>
+                                        <td><a href="#" id='remove-party' title="Delete Party" uk-tooltip="pos: bottom" class='uk-float-right'
+                                                onclick="removeParty()" data-message="<span uk-icon='icon: check'></span> Removed Party"
+                                                data-status="success"><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a>
+                                            <script>
+                                                jQuery('#remove-party').on('click', function () {
+                                                    UIkit.notification($(this).data());
+                                                });
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <!-- xxx -->
                     </div>
@@ -386,7 +328,8 @@
                                             <div class="uk-margin">
                                                 <label class="uk-form-label" for="transaction-id">Transaction ID</label>
                                                 <div class="uk-form-controls">
-                                                    <input class="uk-input" id="transaction-id" type="text" value="" name='id' title="" uk-tooltip="pos: bottom">
+                                                    <input class="uk-input" id="transaction-id" type="text" value="" name='id' title="A unique identifier for this transaction. This identifier should be possible to cross-reference against the provided data source. For IATI this is the transaction reference.
+" uk-tooltip="pos: bottom">
                                                 </div>
                                             </div>
                                         </div>
@@ -394,7 +337,8 @@
                                             <div class="uk-margin">
                                                 <label class="uk-form-label" for="transaction-date">Transaction Date</label>
                                                 <div class="uk-form-controls">
-                                                    <input class="uk-input" id="transaction-date" type="date" value="" name='date' title="" uk-tooltip="pos: bottom">
+                                                    <input class="uk-input" id="transaction-date" type="date" value="" name='date' title="The date of the transaction
+" uk-tooltip="pos: bottom">
                                                 </div>
                                             </div>
                                         </div>
@@ -402,7 +346,8 @@
                                     <div class="uk-margin">
                                         <label class="uk-form-label" for="data-source">Data Source</label>
                                         <div class="uk-form-controls">
-                                            <input class="uk-input" id="data-source" type="text" value="" name='source'>
+                                            <input class="uk-input" id="data-source" type="text" value="" name='source' title="Used to point either to a corresponding Fiscal Data Package, IATI file, or machine or human-readable source where users can find further information on the budget line item identifiers, or project identifiers, provided here.
+" uk-tooltip="pos: bottom">
                                         </div>
                                     </div>
 
@@ -415,7 +360,8 @@
                                                 <div class="uk-margin">
                                                     <label class="uk-form-label" for="value-amount">Amount</label>
                                                     <div class="uk-form-controls">
-                                                        <input class="uk-input" id="value-amount" type="number" value="" name='amount'>
+                                                        <input class="uk-input" id="value-amount" type="number" value="" name='amount' title="Amount as a number.
+" uk-tooltip="pos: bottom">
                                                     </div>
                                                 </div>
                                             </div>
@@ -423,7 +369,8 @@
                                                 <div class="uk-margin">
                                                     <label class="uk-form-label" for="value-currency">Currency</label>
                                                     <div class="uk-form-controls">
-                                                        <input class="uk-input" id="value-currency" type="text" value="" name='currency'>
+                                                        <input class="uk-input" id="value-currency" type="text" value="" name='currency' title="The currency for each amount should always be specified using the uppercase 3-letter currency code from ISO4217.
+" uk-tooltip="pos: bottom">
                                                     </div>
                                                 </div>
                                             </div>
@@ -434,7 +381,8 @@
                                         <div>
                                             <div class="uk-margin">
                                                 <label class="uk-form-label" for='payer'>Payer</label>
-                                                <select id='payer' class="uk-select" name='payer' style='width: 100%'>
+                                                <select id='payer' class="uk-select" name='payer' style='width: 100%' title="An organization reference for the organization from which the funds in this transaction originate."
+                                                    uk-tooltip="pos: bottom">
                                   <option value="" selected disabled>Select payer</option>
 <option value="dc">Dangote Cement</option>
 <option value="le">Levi</option>
@@ -451,7 +399,8 @@
                                         <div>
                                             <div class="uk-margin">
                                                 <label class="uk-form-label" for="payee">Payee</label>
-                                                <select id='payee' class="uk-select" name='payee' style='width: 100%'>
+                                                <select id='payee' class="uk-select" name='payee' style='width: 100%' title="An organization reference for the organization which receives the funds in this transaction."
+                                                    uk-tooltip="pos: bottom">
                                   <option value="" selected disabled>Select payee</option>
 <option value="dc">Dangote Cement</option>
 <option value="le">Levi</option>
@@ -470,7 +419,8 @@
                                         <div class="uk-margin">
                                             <label class="uk-form-label" for="transaction-uri">Linked Spending Infromation</label>
                                             <div class="uk-form-controls">
-                                                <input class="uk-input" id="transaction-uri" type="text" value="" name='uri'>
+                                                <input class="uk-input" id="transaction-uri" type="text" value="" name='uri' title="A URI pointing directly to a machine-readable record about this spending transaction."
+                                                    uk-tooltip="pos: bottom">
                                             </div>
                                         </div>
                                     </div>
@@ -615,8 +565,7 @@
                         <div class="uk-margin">
                             <label class="uk-form-label" for="mil-title">Title</label>
                             <div class="uk-form-controls">
-                                <input class="uk-input" id="mil-title" type="text" value="" name='title' title="Milestone title
-" uk-tooltip="pos: bottom">
+                                <input class="uk-input" id="mil-title" type="text" value="" name='title' title="Milestone title" uk-tooltip="pos: bottom">
                             </div>
                         </div>
                     </div>
@@ -626,8 +575,8 @@
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="mil-id">ID</label>
                                     <div class="uk-form-controls">
-                                        <input class="uk-input" id="mil-id" type="text" value="" name='id' title="A local identifier for this milestone, unique within this block. This field is used to keep track of multiple revisions of a milestone through the compilation from release to record mechanism.
-" uk-tooltip="pos: bottom">
+                                        <input class="uk-input" id="mil-id" type="text" value="" name='id' title="A local identifier for this milestone, unique within this block. This field is used to keep track of multiple revisions of a milestone through the compilation from release to record mechanism."
+                                            uk-tooltip="pos: bottom">
                                     </div>
                                 </div>
                             </div>
@@ -635,16 +584,16 @@
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="mil-type">Milestone Type</label>
                                     <div class="uk-form-controls">
-                                        <select class="uk-select" id="mil-type" name='type' title="The type of milestone, drawn from an extended milestoneType codelist.
-" uk-tooltip="pos: bottom">
-                            <option value='preProcurement'>Pre-procurement Milestone</option>
-                            <option value='approval'>Approval </option>
-                            <option value='engagement'>Engagement </option>
-                            <option value='assessment'>Assessment </option>
-                            <option value='delivery'>Delivery </option>
-                            <option value='reporting'>Reporting </option>
-                            <option value='financing'>Financing</option>
-                        </select>
+                                        <select class="uk-select" id="mil-type" name='type' title="The type of milestone." uk-tooltip="pos: bottom">
+            <option value='' selected disabled>Select milestone type </option>
+            <option value='preProcurement'>Pre-procurement Milestone</option>
+            <option value='approval'>Approval </option>
+            <option value='engagement'>Engagement </option>
+            <option value='assessment'>Assessment </option>
+            <option value='delivery'>Delivery </option>
+            <option value='reporting'>Reporting </option>
+            <option value='financing'>Financing</option>
+        </select>
                                     </div>
                                 </div>
                             </div>
@@ -652,8 +601,8 @@
                         <div class="uk-margin">
                             <label class="uk-form-label" for="mil-desc">Description</label>
                             <div class="uk-form-controls">
-                                <textarea class="uk-textarea" id="mil-desc" rows='3' type="text" placeholder="" value='' name='description' title="A description of the milestone."
-                                    uk-tooltip="pos: bottom"></textarea>
+                                <textarea class="uk-textarea" id="mil-desc" rows='3' type="text" placeholder="" value='' name='description' title="A description of the milestone.
+" uk-tooltip="pos: bottom"></textarea>
                             </div>
                         </div>
                         <div class='uk-grid-small uk-child-width-1-3' uk-grid>
@@ -661,7 +610,7 @@
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="mil-code">Milestone code</label>
                                     <div class="uk-form-controls">
-                                        <input class="uk-input" id="mil-code" type="text" value="" name='code' title="Milestone codes can be used to track specific events that take place for a particular kind of contracting process. "
+                                        <input class="uk-input" id="mil-code" type="text" value="" name='code' title="Milestone codes can be used to track specific events that take place for a particular kind of contracting process"
                                             uk-tooltip="pos: bottom">
                                     </div>
                                 </div>
@@ -670,7 +619,8 @@
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="mil-dueDate">Due date</label>
                                     <div class="uk-form-controls">
-                                        <input class="uk-input" id="mil-dueDate" type="date" value="" name='dueDate' title="The date the milestone is due." uk-tooltip="pos: bottom">
+                                        <input class="uk-input" id="mil-dueDate" type="date" value="" name='dueDate' title="The date the milestone is due.
+" uk-tooltip="pos: bottom">
                                     </div>
                                 </div>
                             </div>
@@ -678,19 +628,19 @@
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="mil-dateMet">Date met</label>
                                     <div class="uk-form-controls">
-                                        <input class="uk-input" id="mil-dateMet" type="date" value="" name='dateMet' title="The date on which the milestone was met."
-                                            uk-tooltip="pos: bottom">
+                                        <input class="uk-input" id="mil-dateMet" type="date" value="" name='dateMet' title="The date on which the milestone was met.
+" uk-tooltip="pos: bottom">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class='uk-grid-small uk-child-width-1-2' uk-grid>
+                        <div class='uk-grid-small uk-child-width-1-3' uk-grid>
                             <div>
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="mil-dateModified">Date modiefied</label>
                                     <div class="uk-form-controls">
-                                        <input class="uk-input" id="mil-dateModified" type="date" value="" name='dateModified' title="The date the milestone was last reviewed or modified and the status was altered or confirmed to still be correct."
-                                            uk-tooltip="pos: bottom">
+                                        <input class="uk-input" id="mil-dateModified" type="date" value="" name='dateModified' title="The date the milestone was last reviewed or modified and the status was altered or confirmed to still be correct.
+" uk-tooltip="pos: bottom">
                                     </div>
                                 </div>
                             </div>
@@ -698,23 +648,49 @@
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="mil-status">Status</label>
                                     <div class="uk-form-controls">
-                                        <select class="uk-select" id="mil-status" name='status' title="The status that was realized on the date provided in dateModified, drawn from the milestoneStatus codelist."
+                                        <select class="uk-select" id="mil-status" name='status' title="The status that was realized on the date provided in dateModified."
                                             uk-tooltip="pos: bottom">
-                            <option value='scheduled'>Scheduled</option>
-                            <option value='met'>Met</option>
-                            <option value='notMet'>Not Met</option>
-                            <option value='partiallyMet'>Partially Met</option>
-                        </select>
+            <option value='' selected disabled>Select milestone status</option>
+            <option value='scheduled'>Scheduled</option>
+            <option value='met'>Met</option>
+            <option value='notMet'>Not Met</option>
+            <option value='partiallyMet'>Partially Met</option>
+        </select>
                                     </div>
                                 </div>
+                            </div>
+                            <div>
+                                <div class='uk-margin'>
+                                    <a class="uk-button uk-button-primary uk-modal-close uk-float-right" type="button" id='save-release' data-message="<span uk-icon='icon: check'></span> Saved Release"
+                                        data-status="success">add milestone</a>
+                                    <script>
+                                                jQuery('#save-release').on('click', function () {
+                                                    UIkit.notification($(this).data());
+                                                });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='uk-section-muted uk-margin'>
+                        <div class="uk-grid-small uk-child-width-1-4 uk-text-center" uk-grid>
+                            <div>
+                                <div class="uk-card uk-card-default uk-card-body">Milestone 1</div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default uk-card-body">Milestone 2</div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default uk-card-body">Milestone 3</div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default uk-card-body">Milestone 4</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- end of milestone -->
-
-
-
 
                 <!-- document -->
                 <div class="uk-section uk-section-muted uk-padding documents">
