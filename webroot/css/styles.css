@@ -16,15 +16,19 @@
 #project-overview {
   display: block;
 }
-<<<<<<< HEAD
 #center-log {
   display: block;
   margin-left: 10%;
 }
 body.login-page {
   background-color: #CBBEA8;
-=======
+}
 td {
   cursor: pointer;
->>>>>>> c71687648d12a0591b3ad29206d1133a1899dafe
+}
+.border-right {
+  border-right: 1px solid #ccc;
+}
+nav {
+  background-color: #43F2BE;
 }

@@ -27,7 +27,7 @@
 			<!-- This is the modal -->
 			<div id="modal-example" uk-modal>
 				<div class="uk-modal-dialog uk-modal-body">
-					<h2 class="uk-modal-title">Headline</h2>
+					<h2 class="uk-modal-title">Find projects</h2>
 					<div class="filter-param uk-panel uk-placeholder">
 						<div class='mda uk-margin'>
 							<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
@@ -153,8 +153,8 @@
 						</div>
 					</div>
 					<p class="uk-text-right">
-						<button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
-						<button class="uk-button uk-button-primary" type="button">Save</button>
+						<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+						<button class="uk-button uk-button-primary uk-modal-close" type="button">Save</button>
 					</p>
 				</div>
 			</div>
@@ -311,7 +311,6 @@
 									<table class="uk-table uk-table-small uk-table-divider">
 										<thead>
 											<tr>
-												<th>OCID</th>
 												<th>Title</th>
 												<th>Description</th>
 												<th>Location</th>
@@ -322,7 +321,6 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td>ocds-azam7x-uf2i1zng-ube</td>
 												<td>Renovation/Rehabilitation of LEA Primary School</td>
 												<td>Renovation/Rehabilitation of LEA Primary School, Chika, Amac</td>
 												<td>Abuja</td>
@@ -331,7 +329,6 @@
 												<td>2016</td>
 											</tr>
 											<tr>
-												<td>ocds-azam7x-43cvi9ng-ubec</td>
 												<td>Renovation/Rehabilitation of LEA Primary School</td>
 												<td>Renovation/Rehabilitation of LEA Primary School, Rafin Sanyi, Abaji Area Council</td>
 												<td>Abuja</td>
@@ -340,7 +337,6 @@
 												<td>2016</td>
 											</tr>
 											<tr>
-												<td>ocds-azam7x-umzi0dng-ube</td>
 												<td>Classrooms at Islamiyya Tashar Mudi Primary School</td>
 												<td>Construction of 1 blocks of 2 Classrooms at Islamiyya Tashar Mudi Primary School Kamba Dandi LGA</td>
 												<td>Abuja</td>
@@ -359,6 +355,7 @@
 								<div class="uk-margin">
 									<div class="uk-form-controls">
 										<select class="uk-select" id="form-stacked-select">
+											<option selected disabled>Select chart type</option>
 											<option>Area</option>
 											<option>Line</option>
 											<option>Bar</option>
