@@ -29,6 +29,6 @@ td {
 .border-right {
   border-right: 1px solid #ccc;
 }
-nav {
+nav.top {
   background-color: #43F2BE;
 }

@@ -14,20 +14,20 @@
 </head>
 
 <body>
-	<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+	<nav class="uk-navbar-container uk-navbar-transparent" uk-sticky uk-navbar>
 		<div class="uk-navbar-left uk-padding-small">
-				<a href="#" class="uk-link-reset">
-					<img src='../images/budeshi.png' width="15%"> Budeshi 2.0
-					</a>
+			<a href="#" class="uk-link-reset">
+				<img src='../images/budeshi.png' width="15%"> Budeshi 2.0
+			</a>
 		</div>
 		<div class='uk-navbar-right'>
 			<!-- This is a button toggling the modal -->
-			<button class="uk-button uk-button-default uk-margin-small-right" type="button" style='margin: 0 auto' uk-toggle="target: #modal-example">Find Projects <span uk-search-icon><span> </button>
+			<button class="uk-button uk-button-default uk-margin-small-right" type="button" style='margin: 0 auto' uk-toggle="target: #modal-example"><span class='uk-visible@m'>Find Projects</span> <span uk-search-icon><span> </button>
 
 			<!-- This is the modal -->
 			<div id="modal-example" uk-modal>
 				<div class="uk-modal-dialog uk-modal-body">
-					<h2 class="uk-modal-title">Find projects</h2>
+					<h2 class="uk-modal-title">Find Projects</h2>
 					<div class="filter-param uk-panel uk-placeholder">
 						<div class='mda uk-margin'>
 							<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
@@ -154,14 +154,12 @@
 					</div>
 					<p class="uk-text-right">
 						<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
-						<button class="uk-button uk-button-primary uk-modal-close" type="button">Save</button>
+						<button class="uk-button uk-button-primary uk-modal-close" type="button">Find</button>
 					</p>
 				</div>
 			</div>
 		</div>
 	</nav>
-
-
 	<hr>
 
 	<div class='uk-container'>
