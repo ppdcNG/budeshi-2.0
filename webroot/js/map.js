@@ -1,51 +1,133 @@
 
-      function initMap() {
+function initMap() {
 
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
-          center: {lat: -28.024, lng: 140.887}
-        });
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 3,
+    center: { lat: 8.8556838, lng: 7.179026000000022 }
+  });
 
-        // Create an array of alphabetical characters used to label the markers.
-        var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  // Create an array of alphabetical characters used to label the markers.
+  var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-        // Add some markers to the map.
-        // Note: The code uses the JavaScript Array.prototype.map() method to
-        // create an array of markers based on a given "locations" array.
-        // The map() method here has nothing to do with the Google Maps API.
-        var markers = locations.map(function(location, i) {
-          return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-          });
-        });
+  // Add some markers to the map.
+  // Note: The code uses the JavaScript Array.prototype.map() method to
+  // create an array of markers based on a given "locations" array.
+  // The map() method here has nothing to do with the Google Maps API.
+  var markers = locations.map(function (location, i) {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length]
+    });
+  });
 
-        // Add a marker clusterer to manage the markers.
-        var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-      }
-      var locations = [
-        {lat: -31.563910, lng: 147.154312},
-        {lat: -33.718234, lng: 150.363181},
-        {lat: -33.727111, lng: 150.371124},
-        {lat: -33.848588, lng: 151.209834},
-        {lat: -33.851702, lng: 151.216968},
-        {lat: -34.671264, lng: 150.863657},
-        {lat: -35.304724, lng: 148.662905},
-        {lat: -36.817685, lng: 175.699196},
-        {lat: -36.828611, lng: 175.790222},
-        {lat: -37.750000, lng: 145.116667},
-        {lat: -37.759859, lng: 145.128708},
-        {lat: -37.765015, lng: 145.133858},
-        {lat: -37.770104, lng: 145.143299},
-        {lat: -37.773700, lng: 145.145187},
-        {lat: -37.774785, lng: 145.137978},
-        {lat: -37.819616, lng: 144.968119},
-        {lat: -38.330766, lng: 144.695692},
-        {lat: -39.927193, lng: 175.053218},
-        {lat: -41.330162, lng: 174.865694},
-        {lat: -42.734358, lng: 147.439506},
-        {lat: -42.734358, lng: 147.501315},
-        {lat: -42.735258, lng: 147.438000},
-        {lat: -43.999792, lng: 170.463352}
-      ]
+  // Add a marker clusterer to manage the markers.
+  var markerCluster = new MarkerClusterer(map, markers,
+    { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+}
+var locations = [
+  { lat: 5.430892099999999, lng: 7.524724300000003 },
+  { lat: 9.3250497, lng: 12.438058100000035 },
+  { lat: 6.2757656, lng: 7.006839300000024 },
+  { lat: 4.929986899999999, lng: 7.872160000000008 },
+  { lat: 10.3009641, lng: 9.823653299999933 },
+  { lat: 4.867776699999999, lng: 5.8987138999999615 },
+  { lat: 7.350825899999999, lng: 8.836275500000056 },
+  { lat: 12.1205201, lng: 13.174034799999959 },
+  { lat: 6.167031499999999, lng: 8.660058599999957 },
+  { lat: 5.5324624, lng: 5.8987138999999615 },
+  { lat: 6.177973, lng: 7.959286300000031 },
+  { lat: 6.4583661, lng: 7.546388500000035 },
+  { lat: 6.543810100000001, lng: 5.8987138999999615 },
+  { lat: 7.665581299999998, lng: 5.310250499999938 },
+  { lat: 10.2464087, lng: 11.161735599999929 },
+  { lat: 5.6038994, lng: 7.006839300000024 },
+  { lat: 12.4460001, lng: 9.723267299999975 },
+  { lat: 10.5104642, lng: 7.41650530000004 },
+  { lat: 12.0021794, lng: 8.591956100000061 },
+  { lat: 12.5139317, lng: 7.611421699999937 },
+  { lat: 11.6781241, lng: 4.069545400000038 },
+  { lat: 7.9075486, lng: 6.5783387000000175 },
+  { lat: 8.9847995, lng: 4.56244259999994 },
+  { lat: 6.5243793, lng: 3.379205700000057 },
+  { lat: 8.570515100000001, lng: 8.308844099999988 },
+  { lat: 10.2155388, lng: 5.393955099999971 },
+  { lat: 6.907529, lng: 3.5812691999999515 },
+  { lat: 6.8959293, lng: 4.893562699999961 },
+  { lat: 7.587584300000001, lng: 4.56244259999994 },
+  { lat: 8.119567, lng: 3.41955269999994 },
+  { lat: 9.244568, lng: 9.367308399999956 },
+  { lat: 4.8580767, lng: 6.920913499999983 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 10.5104642, lng: 7.41650530000004 },
+  { lat: 12.0021794, lng: 8.591956100000061 },
+  { lat: 12.5139317, lng: 7.611421699999937 },
+  { lat: 11.6781241, lng: 4.069545400000038 },
+  { lat: 7.9075486, lng: 6.5783387000000175 },
+  { lat: 8.9847995, lng: 4.56244259999994 },
+  { lat: 6.5243793, lng: 3.379205700000057 },
+  { lat: 8.570515100000001, lng: 8.308844099999988 },
+  { lat: 10.2155388, lng: 5.393955099999971 },
+  { lat: 6.907529, lng: 3.5812691999999515 },
+  { lat: 6.8959293, lng: 4.893562699999961 },
+  { lat: 7.587584300000001, lng: 4.56244259999994 },
+  { lat: 8.119567, lng: 3.41955269999994 },
+  { lat: 9.244568, lng: 9.367308399999956 },
+  { lat: 4.8580767, lng: 6.920913499999983 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 10.5104642, lng: 7.41650530000004 },
+  { lat: 12.0021794, lng: 8.591956100000061 },
+  { lat: 12.5139317, lng: 7.611421699999937 },
+  { lat: 11.6781241, lng: 4.069545400000038 },
+  { lat: 7.9075486, lng: 6.5783387000000175 },
+  { lat: 8.9847995, lng: 4.56244259999994 },
+  { lat: 6.5243793, lng: 3.379205700000057 },
+  { lat: 8.570515100000001, lng: 8.308844099999988 },
+  { lat: 10.2155388, lng: 5.393955099999971 },
+  { lat: 6.907529, lng: 3.5812691999999515 },
+  { lat: 6.8959293, lng: 4.893562699999961 },
+  { lat: 7.587584300000001, lng: 4.56244259999994 },
+  { lat: 8.119567, lng: 3.41955269999994 },
+  { lat: 9.244568, lng: 9.367308399999956 },
+  { lat: 4.8580767, lng: 6.920913499999983 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 10.5104642, lng: 7.41650530000004 },
+  { lat: 12.0021794, lng: 8.591956100000061 },
+  { lat: 12.5139317, lng: 7.611421699999937 },
+  { lat: 11.6781241, lng: 4.069545400000038 },
+  { lat: 7.9075486, lng: 6.5783387000000175 },
+  { lat: 8.9847995, lng: 4.56244259999994 },
+  { lat: 6.5243793, lng: 3.379205700000057 },
+  { lat: 8.570515100000001, lng: 8.308844099999988 },
+  { lat: 10.2155388, lng: 5.393955099999971 },
+  { lat: 6.907529, lng: 3.5812691999999515 },
+  { lat: 6.8959293, lng: 4.893562699999961 },
+  { lat: 7.587584300000001, lng: 4.56244259999994 },
+  { lat: 8.119567, lng: 3.41955269999994 },
+  { lat: 9.244568, lng: 9.367308399999956 },
+  { lat: 4.8580767, lng: 6.920913499999983 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 10.5104642, lng: 7.41650530000004 },
+  { lat: 12.0021794, lng: 8.591956100000061 },
+  { lat: 12.5139317, lng: 7.611421699999937 },
+  { lat: 11.6781241, lng: 4.069545400000038 },
+  { lat: 7.9075486, lng: 6.5783387000000175 },
+  { lat: 8.9847995, lng: 4.56244259999994 },
+  { lat: 6.5243793, lng: 3.379205700000057 },
+  { lat: 8.570515100000001, lng: 8.308844099999988 },
+  { lat: 10.2155388, lng: 5.393955099999971 },
+  { lat: 6.907529, lng: 3.5812691999999515 },
+  { lat: 6.8959293, lng: 4.893562699999961 },
+  { lat: 7.587584300000001, lng: 4.56244259999994 },
+  { lat: 8.119567, lng: 3.41955269999994 },
+  { lat: 9.244568, lng: 9.367308399999956 },
+  { lat: 4.8580767, lng: 6.920913499999983 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 13.0058731, lng: 5.2475517999999965 },
+  { lat: 12.1871412, lng: 11.70682940000006 },
+  { lat: 12.1844159, lng: 6.237594700000045 },
+  { lat: 8.8556838, lng: 7.179026000000022 }
+]
