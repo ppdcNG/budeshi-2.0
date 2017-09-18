@@ -11,6 +11,8 @@
 	<script src="../js/uikit.min.js"></script>
 	<script src="../js/uikit-icons.min.js"></script>
 	<script src="../js/index.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 </head>
 
 <body>
@@ -22,12 +24,13 @@
 		</div>
 		<div class='uk-navbar-right'>
 			<!-- This is a button toggling the modal -->
-			<button class="uk-button uk-button-default uk-margin-small-right" type="button" style='margin: 0 auto' uk-toggle="target: #modal-example"><span class='uk-visible@m'>Find Projects</span> <span uk-search-icon><span> </button>
+			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap" type="button" style='margin: 0 auto' uk-toggle="target: #modal-example"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
 
 			<!-- This is the modal -->
 			<div id="modal-example" uk-modal>
 				<div class="uk-modal-dialog uk-modal-body">
 					<h2 class="uk-modal-title">Find Projects</h2>
+					<form>
 					<div class="filter-param uk-panel uk-placeholder">
 						<div class='mda uk-margin'>
 							<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
@@ -36,98 +39,21 @@
 									<li class="uk-active"><a href="#">Choose MDA</a></li>
 									<li class="uk-nav-header"><label><input class="uk-checkbox" type="checkbox"> Select All</label></li>
 									<li class="uk-nav-divider"></li>
-									<li class="uk-active"><a href="#" disabled>Choose MDA</a></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Universal Basic Education Commission (UBEC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> National Primary Healthcare Development Centre (NHDC)</label></li>
-									<li><label><input class="uk-checkbox" type="checkbox"> Bureau of Public Procurement (BPP)</label></li>
+									<div class="uk-margin">
+											<select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+												<option value="dc">Universal Basic Education Commission</option>
+												<option value="le">National Primary Health Care Development Centre</option>
+												<option value="mj">Bureau of Public Procurement</option>
+												<option value="cos">Public and Private Development Centre</option>
+												<option value="ec">Bureau of Public Service Reforms</option>
+												<option value="jb">ustomer Protection Council</option>
+												</select>
+											<script type="text/javascript">
+													$('#select-mda').select2();
+											</script>
+									</div>
 								</ul>
+
 							</div>
 						</div>
 
@@ -222,11 +148,19 @@
 										<li class="uk-active"><a href="#">Choose Contractor</a></li>
 										<li class="uk-nav-header"><label><input class="uk-checkbox" type="checkbox"> Select All</label></li>
 										<li class="uk-nav-divider"></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Dangote Cement</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Obioma Clothings</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Tolani Amala</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Musa Security</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Terna Foods ltd</label></li>
+										<div class="uk-margin">
+												<select id='select-contr' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+<option value="dc">Dangote Cement</option>
+<option value="le">Levi</option>
+<option value="mj">Marc Jacobs</option>
+<option value="cos">Coscharis Motors</option>
+<option value="ec">Emeka Custructions</option>
+<option value="jb">Julius Berger</option>
+</select>
+												<script type="text/javascript">
+														$('#select-contr').select2();
+												</script>
+										</div>
 									</ul>
 								</div>
 							</div>
@@ -243,6 +177,7 @@
 						<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
 						<button class="uk-button uk-button-primary uk-modal-close" type="button">Find</button>
 					</p>
+				</form>
 				</div>
 			</div>
 		</div>
