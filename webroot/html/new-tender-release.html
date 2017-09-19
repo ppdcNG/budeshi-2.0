@@ -160,7 +160,7 @@
                                         <div>
                                             <div class="uk-margin">
                                                 <label class="uk-form-label" for="party-role">Roles</label>
-                                                <div class="uk-form-controls">
+                                                <div class="uk-form-controls" id='modal-issue'>
                                                     <select id="party-role" name='role' style='width: 100%' multiple='multiple'>
             <option value='buyer'>Buyer</option>
             <option value='procuringEntity'>Procuring Entity</option>
@@ -173,7 +173,10 @@
             <option value='reviewBody'>Review Body</option>
         </select>
                                                     <script type="text/javascript">
-                                                        $('#party-role').select2();
+                                                        $('#party-role').select2({
+                                                            placeholder: "00000",
+                                                            dropdownParent: $('#modal-issue')
+                                                          });
                                                     </script>
                                                 </div>
                                             </div>

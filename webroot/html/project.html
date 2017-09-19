@@ -5,13 +5,18 @@
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
 	<title>Project Title</title>
+	<!--<meta property="og:url"           content="http://www.your-domain.com/your-page.html" /> -->
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="Budeshi 2.0" />
+<meta property="og:description"   content="Using Open Contracting Data Standards(OCDS) to disclosure  public institution's procurement information in Nigeria" />
+<meta property="og:image"         content="file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/images/budeshi.png" />
 	<link rel="stylesheet" href="../css/uikit.min.css" />
 	<link rel="stylesheet" href="../css/styles.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 	<script src="../js/jquery.js"></script>
 	<script src="../js/uikit.min.js"></script>
 	<script src="../js/uikit-icons.min.js"></script>
 	<script src="../js/index.js"></script>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 </head>
 
@@ -24,10 +29,10 @@
 		</div>
 		<div class='uk-navbar-right'>
 			<!-- This is a button toggling the modal -->
-			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap" type="button" style='margin: 0 auto' uk-toggle="target: #modal-example"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
+			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
 
 			<!-- This is the modal -->
-			<div id="modal-example" uk-modal>
+			<div id="find-project" uk-modal>
 				<div class="uk-modal-dialog uk-modal-body">
 					<h2 class="uk-modal-title">Find Projects</h2>
 					<form>
@@ -35,9 +40,8 @@
 						<div class='mda uk-margin'>
 							<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
 							<div uk-dropdown="pos: bottom-justify; boundary: .mda; boundary-align: true; mode: click">
-								<ul class="uk-nav uk-dropdown-nav uk-panel uk-panel-scrollable">
+								<ul class="uk-nav uk-dropdown-nav">
 									<li class="uk-active"><a href="#">Choose MDA</a></li>
-									<li class="uk-nav-header"><label><input class="uk-checkbox" type="checkbox"> Select All</label></li>
 									<li class="uk-nav-divider"></li>
 									<div class="uk-margin">
 											<select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
@@ -49,7 +53,10 @@
 												<option value="jb">ustomer Protection Council</option>
 												</select>
 											<script type="text/javascript">
-													$('#select-mda').select2();
+													$('#select-mda').select2({
+															placeholder: "Search for MDA",
+															dropdownParent: $('#find-project')
+														});
 											</script>
 									</div>
 								</ul>
@@ -61,50 +68,55 @@
 							<div class='states'>
 								<button class="uk-button uk-button-default uk-float-left" type="button">State</button>
 								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose States</a></li>
-										<li class="uk-nav-header"><label><input class="uk-checkbox" type="checkbox"> Select All</label></li>
-										<li class="uk-nav-divider"></li>
-									</ul>
-									<div class="uk-column-1-2">
-										<ul class="uk-nav uk-dropdown-nav">
-											<li><label><input class="uk-checkbox" type="checkbox"> Abia</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Adamawa</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Akwa Ibom</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Bauchi</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Bayelsa</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Benue</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Borno</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Cross River</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Delta</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Ebonyi</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Edo</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Ekiti</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Federal Capital Territory (FCT)</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Gombe</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Imo</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Jigawa</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Kaduna</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Kano</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Katsina</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Kebbi</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Kogi</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Kwara</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Lagos</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Nasarawa</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Niger</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Ogun</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Ondo</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Osun</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Oyo</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Plateau</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Rivers</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Sokoto</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Taraba</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Yobe</label></li>
-											<li><label><input class="uk-checkbox" type="checkbox"> Zamfara</label></li>
-										</ul>
-									</div>
+									Choose State
+									<hr>
+									<div class="uk-margin">
+								<select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
+								<option value='abia'>Abia</option>
+								<option value='adamawa'>Adamawa</option>
+								<option value='anambra'>Anambra</option>
+								<option value='akwaibom'>Akwa Ibom</option>
+								<option value='bauchi'>Bauchi</option>
+								<option value='bayelsa'>Bayelsa</option>
+								<option value='benue'>Benue</option>
+								<option value='Borno'>Borno</option>
+								<option value='crossriver'>Cross River</option>
+								<option value='delta'>Delta</option>
+								<option value='ebonyi'>Ebonyi</option>
+								<option value='enugu'>Enugu</option>
+								<option value='edo'>Edo</option>
+								<option value='ekiti'>Ekiti</option>
+								<option value='gombe'>Gombe</option>
+								<option value='imo'>Imo</option>
+								<option value='jigawa'>Jigawa</option>
+								<option value='kaduna'>Kaduna</option>
+								<option value='kano'>Kano</option>
+								<option value='katsina'>Katsina</option>
+								<option value='kebbi'>Kebbi</option>
+								<option value='kogi'>Kogi</option>
+								<option value='kwara'>Kwara</option>
+								<option value='lagos'>Lagos</option>
+								<option value='nasarawa'>Nasarawa</option>
+								<option value='niger'>Niger</option>
+								<option value='ogun'>Ogun</option>
+								<option value='ondo'>Ondo</option>
+								<option value='osun'>Osun</option>
+								<option value='oyo'>Oyo</option>
+								<option value='plateau'>Plateau</option>
+								<option value='rivers'>Rivers</option>
+								<option value='sokoto'>Sokoto</option>
+								<option value='taraba'>Taraba</option>
+								<option value='yobe'>Yobe</option>
+								<option value='zamfara'>Zamfara</option>
+								<option value='fct'>Federal Capital Territory (FCT)</option>
+								</select>
+								<script type="text/javascript">
+								$('#state').select2({
+										placeholder: "Search for state",
+										dropdownParent: $('#find-project')
+									});
+								</script>
+							</div>
 								</div>
 							</div>
 
@@ -113,13 +125,23 @@
 								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
 									<ul class="uk-nav uk-dropdown-nav">
 										<li class="uk-active"><a href="#">Choose Year</a></li>
-										<li class="uk-nav-header"><label><input class="uk-checkbox" type="checkbox"> Select All</label></li>
 										<li class="uk-nav-divider"></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> 2014</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> 2015</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> 2016</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> 2017</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> 2018</label></li>
+										<select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+											<option value="2014">20154</option>
+											<option value="2015">2015</option>
+											<option value="2016">2016</option>
+											<option value="2017">2017</option>
+											<option value="2018">2018</option>
+											<option value="2019">2019</option>
+											<option value="2020">2020</option>
+											<option value="2021">2021</option>
+											</select>
+										<script type="text/javascript">
+												$('#select-year').select2({
+														placeholder: "Search for Year",
+														dropdownParent: $('#find-project')
+													});
+										</script>
 									</ul>
 								</div>
 							</div>
@@ -128,16 +150,24 @@
 								<button class="uk-button uk-button-default uk-float-left" type="button"><span class='uk-visible@l'>Procurement Stage</span><span class='uk-hidden@l'>Stage</span>
 								</button>
 								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose Stage</a></li>
-										<li class="uk-nav-header"><label><input class="uk-checkbox" type="checkbox"> Select All</label></li>
-										<li class="uk-nav-divider"></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Planning</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Initiation (Tender)</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Award</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Contract</label></li>
-										<li><label><input class="uk-checkbox" type="checkbox"> Implementation</label></li>
-									</ul>
+										Choose Stage
+										<hr>
+										<div class="uk-margin">
+				 <select class="uk-select" id='proc-stage' multiple='multiple' style='width: 100%'>
+						 <option value='planning'>Planning</option>
+						 <option value='tender'>Tender (Initiation)</option>
+						 <option value='award'>Award</option>
+						 <option value='contract'>Contract</option>
+						 <option value='implementation'></option>
+				 </select>
+				 <script type="text/javascript">
+						 $('#proc-stage').select2({
+								 placeholder: "Search for stage",
+								 dropdownParent: $('#find-project')
+							 });
+				 </script>
+		 </div>
+
 								</div>
 							</div>
 
@@ -146,10 +176,9 @@
 								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
 									<ul class="uk-nav uk-dropdown-nav">
 										<li class="uk-active"><a href="#">Choose Contractor</a></li>
-										<li class="uk-nav-header"><label><input class="uk-checkbox" type="checkbox"> Select All</label></li>
 										<li class="uk-nav-divider"></li>
 										<div class="uk-margin">
-												<select id='select-contr' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+												<select id='select-contr' name='organization' style='width: 100%' multiple='multiple'>
 <option value="dc">Dangote Cement</option>
 <option value="le">Levi</option>
 <option value="mj">Marc Jacobs</option>
@@ -158,7 +187,10 @@
 <option value="jb">Julius Berger</option>
 </select>
 												<script type="text/javascript">
-														$('#select-contr').select2();
+														$('#select-contr').select2({
+																placeholder: "Search for contractor",
+																dropdownParent: $('#find-project')
+															});
 												</script>
 										</div>
 									</ul>
@@ -167,10 +199,10 @@
 						</div>
 
 						<div class="uk-margin uk-child-width-1-1">
-							<form class="uk-search uk-search-default">
+							<div class="uk-search uk-search-default">
 								<a href="" class="uk-search-icon-flip" uk-search-icon></a>
 								<input class="uk-search-input" type="search" placeholder="Search...">
-							</form>
+							</div>
 						</div>
 					</div>
 					<p class="uk-text-right">
@@ -197,12 +229,11 @@
 								<li class="uk-nav-header">Tell people what you've seen here</li>
 								<li class="uk-nav-divider"></li>
 								<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: instagram"></span>Instagram</a></li>
-								<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: twitter"></span>Twitter</a></li>
+								<li><a href="https://twitter.com/share"  data-hashtags="budeshi" data-related="ppmonitorNG" data-show-count="false"><span class="uk-margin-small-right" uk-icon="icon: twitter"></span>Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
 								<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span>Facebook</a></li>
 								<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: linkedin"></span>Linkedin</a></li>
 								<li class="uk-nav-divider"></li>
 							</ul>
-
 						</div>
 					</div>
 				</div>
@@ -225,7 +256,7 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="The name of the project that through which this contracting process is funded (if applicable)" uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: tag; ratio: 1"></span>Project Title</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<p class='uk-text-right'>Building of six classroom blocks</p>
 									</div>
 								</div>
@@ -241,7 +272,7 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="May be used to provide the title of the budget line, or the programme used to fund this project." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: link; ratio: 1"></span>Budget Source</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<p class='uk-text-right'>The Federal Government of Nigeria</p>
 									</div>
 								</div>
@@ -259,7 +290,7 @@
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="The entity managing the procurement. This may be different from the buyer who pays for, or uses, the items being procured."
 										 uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: home; ratio: 1"></span>Procuring Entity</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<p class='uk-text-right'>Universal basic education comission</p>
 									</div>
 								</div>
@@ -277,7 +308,7 @@
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="A tender amendment is a formal change to the tender, and generally involves the publication of a new tender notice/release."
 										 uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: file-edit; ratio: 1"></span>Amendments</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<table class="uk-table uk-transition-toggle">
 											<thead class='uk-transition-slide-top-small'>
 												<tr>
@@ -310,7 +341,7 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="All parties who submited a bid on a tender." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: users; ratio: 1"></span>Tenderers</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<ul class="uk-list uk-column-1-2 uk-column-divider">
 											<li>Lipton Construction</li>
 											<li>Dogara Helicopters</li>
@@ -353,7 +384,7 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="The goods and services to be purchased, broken into line items wherever possible." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: list; ratio: 1"></span>Items</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<table class="uk-table uk-transition-toggle">
 											<thead class="uk-transition-slide-top-small">
 												<tr>
@@ -384,7 +415,7 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="Award title." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: tag; ratio: 1"></span>Award Title</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<p class='uk-text-right'>Universal basic education comission</p>
 									</div>
 								</div>
@@ -402,7 +433,7 @@
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="An award amendment is a formal change to the details of the award, and generally involves the publication of a new award notice/release."
 										 uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: file-edit; ratio: 1"></span>Amendments</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<table class="uk-table uk-transition-toggle">
 											<thead class='uk-transition-slide-top-small'>
 												<tr>
@@ -450,7 +481,7 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="The suppliers awarded this award." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: users; ratio: 1"></span>Suppliers</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<ul class="uk-list uk-column-1-2 uk-column-divider">
 											<li>Lipton Construction</li>
 											<li>Dogara Helicopters</li>
@@ -500,7 +531,7 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="Contract title." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: tag; ratio: 1"></span>Contract Title</em></h4>
-									<div class='uk-text-right border-right uk-padding-large'>
+									<div class='uk-text-right border-right uk-padding-small'>
 										Contruction of five blocks of classrooms
 									</div>
 								</div>
@@ -508,15 +539,15 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="Contract description." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: table; ratio: 1"></span>Description</em></h4>
-									<div uk-countdown="date: 2017-09-15T12:28:49+00:00">
-										<span class="uk-countdown-number uk-countdown-seconds"></span>
+									<div>
+										
 									</div>
 								</div>
 							</div>
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="The current status of the contract." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: folder; ratio: 1"></span>Contract Status</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<p class='uk-text-right'>Active</p>
 									</div>
 								</div>
@@ -533,7 +564,7 @@
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="The total value of this contract. A negative value indicates that the contract will involve payments from the supplier to the buyer (commonly used in concession contracts)."
 										 uk-tooltip="pos: left">&#8358; Contract Amount</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<p class='uk-text-right'><span class='uk-text-uppercase uk-text-success'>NGN </span>5,000,000</p>
 									</div>
 								</div>
@@ -569,7 +600,7 @@
 							<div>
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="The goods, services, and any intangible outcomes in this contract." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: list; ratio: 1"></span>Items</em></h4>
-									<div class='border-right uk-padding-large'>
+									<div class='border-right uk-padding-small'>
 										<table class="uk-table uk-transition-toggle">
 											<thead class="uk-transition-slide-top-small">
 												<tr>
