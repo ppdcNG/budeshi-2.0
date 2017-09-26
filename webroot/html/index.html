@@ -26,7 +26,7 @@
 			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
 
 			<!-- This is the modal -->
-			<div id="find-project" uk-modal>
+			<div id="find-project" uk-modal='bg-close: false'>
 				<div class="uk-modal-dialog uk-modal-body">
 					<h2 class="uk-modal-title">Find Projects</h2>
 					<form>
@@ -60,7 +60,7 @@
 
 						<div class='uk-child-width-1-2' uk-grid>
 							<div class='states'>
-								<button class="uk-button uk-button-default uk-float-left" type="button">State</button>
+								<button class="uk-button uk-button-default" type="button" style='width: 100%'>State</button>
 								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
 									Choose State
 									<hr>
@@ -115,7 +115,7 @@
 							</div>
 
 							<div class='years'>
-								<button class="uk-button uk-button-default uk-float-right" type="button">Year</button>
+								<button class="uk-button uk-button-default" type="button" style='width: 100%'>Year</button>
 								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
 									<ul class="uk-nav uk-dropdown-nav">
 										<li class="uk-active"><a href="#">Choose Year</a></li>
@@ -140,33 +140,53 @@
 								</div>
 							</div>
 
-							<div class='procurement-stage uk-margin-top'>
-								<button class="uk-button uk-button-default uk-float-left" type="button"><span class='uk-visible@l'>Procurement Stage</span><span class='uk-hidden@l'>Stage</span>
-								</button>
+							<div class='status'>
+								<button class="uk-button uk-button-default" type="button"  style='width: 100%'>Status</button>
 								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-										Choose Stage
-										<hr>
+									<ul class="uk-nav uk-dropdown-nav">
+										<li class="uk-active"><a href="#">Choose status of the project</a></li>
+										<li class="uk-nav-divider"></li>
 										<div class="uk-margin">
-				 <select class="uk-select" id='proc-stage' multiple='multiple' style='width: 100%'>
-						 <option value='planning'>Planning</option>
-						 <option value='tender'>Tender (Initiation)</option>
-						 <option value='award'>Award</option>
-						 <option value='contract'>Contract</option>
-						 <option value='implementation'></option>
-				 </select>
-				 <script type="text/javascript">
-						 $('#proc-stage').select2({
-								 placeholder: "Search for stage",
-								 dropdownParent: $('#find-project')
-							 });
-				 </script>
-		 </div>
-
+												<select id='select-status' name='status' style='width: 100%' multiple='multiple'>
+<option value="le">Uncompleted & Active</option>
+<option value="mj">Completed & Inactive</option>
+<option value="ca">Completed & Active</option>
+<option value="cos">Uncompleted & Inactive</option>
+<option value="na">Not Available</option>
+</select>
+												<script type="text/javascript">
+														$('#select-status').select2({
+																placeholder: "Select status",
+																dropdownParent: $('#find-project')
+															});
+												</script>
+												<p class='uk-text-meta uk-text-break'>
+													please note that projects that have Status "Not Available" have not been <br>verified by us or have not reach the implementation stage
+													<p>
+										</div>
+									</ul>
 								</div>
 							</div>
 
-							<div class='contractors uk-margin-top'>
-								<button class="uk-button uk-button-default uk-float-right" type="button"><span class='uk-visible@l'>Contractor</span><span class='uk-hidden@l'>Contr..</span></button>
+														<div class='Visited'>
+															<button class="uk-button uk-button-default" type="button"  style='width: 100%'><span class='uk-visible@l'>Visited by Us</span><span class='uk-hidden@l'>Visited</span></button>
+															<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+																<ul class="uk-nav uk-dropdown-nav">
+																	<li class="uk-active"><a href="#"></a></li>
+																	<li class="uk-nav-divider"></li>
+																	<div class="uk-margin">
+																		<div class="uk-margin">
+														            <select class="visit"  id='visit' name='visit' style='width: 100%'>
+														                <option value='no'>No</option>
+														                <option value='yes'>Yes</option>
+														            </select>
+														        </div>
+																	</div>
+																</ul>
+															</div>
+														</div>
+							<div class='contractors  uk-width-1-1'>
+								<button class="uk-button uk-button-default" type="button"  style='width: 100%'>Contractor</span></button>
 								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
 									<ul class="uk-nav uk-dropdown-nav">
 										<li class="uk-active"><a href="#">Choose Contractor</a></li>
@@ -208,6 +228,7 @@
 			</div>
 		</div>
 	</nav>
+	
 	<br>
 	<div class='uk-margin uk-padding container'>
 		<div>
@@ -409,7 +430,7 @@
 										</select>
 									</div>
 								</div>
-								
+
 							</div>
 						</li>
 						<li>

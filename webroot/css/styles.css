@@ -49,7 +49,7 @@ html, body, .container {
   height: 100%;
 }
 .what {
-  background-image: url('../images/landing/what.jpg');
+  background-image: url('../images/landing/what1.jpg');
 
 /* Full height */
 height: 100%;
@@ -61,7 +61,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .why{
-    background-image: url('../images/landing/why.jpg');
+    background-image: url('../images/landing/why1.jpg');
 
   /* Full height */
   height: 100%;
@@ -74,7 +74,7 @@ background-size: cover;
 }
 .how {
 
-      background-image: url('../images/landing/how.jpg');
+      background-image: url('../images/landing/how12.jpg');
 
     /* Full height */
     height: 100%;
@@ -87,7 +87,7 @@ background-size: cover;
 }
 .how2 {
 
-      background-image: url('../images/landing/how2.jpg');
+      background-image: url('../images/landing/how12.gif');
 
     /* Full height */
     height: 100%;
@@ -121,3 +121,29 @@ background-size: cover;
     width: 100%;
     height: 100%;
 }
+/* styling for the bouncing button on the landing page*/
+.dir-button {
+  position: absolute;
+  bottom: 10%;
+  -webkit-animation-name: bounce; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+-webkit-animation-timing-function: ease-in-out;
+animation-name: bounce;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {bottom:10%;}
+    100%  {bottom:1%;}
+  }
+
+/* Standard syntax */
+@keyframes bounce {
+    0%   {bottom: 10%;}
+    100%  {bottom:100px;}
+  }
