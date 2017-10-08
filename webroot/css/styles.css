@@ -59,48 +59,16 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+
 }
-.why{
-    background-image: url('../images/landing/why1.jpg');
 
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect*/
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.how {
-
-      background-image: url('../images/landing/how12.jpg');
-
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect*/
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.how2 {
-
-      background-image: url('../images/landing/how12.gif');
-
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect*/
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .who {
 
-        background-color: #FFD899;
+        /*background-color: #FFD899;*/
+        background: #141E30;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
       /* Full height */
       height: 100%;
@@ -117,10 +85,7 @@ background-size: cover;
 .border {
   border: 1px solid white
 }
-.full-page {
-    width: 100%;
-    height: 100%;
-}
+
 /* styling for the bouncing button on the landing page*/
 .dir-button {
   position: absolute;

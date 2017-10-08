@@ -5,18 +5,26 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta charset="utf-8">
   <title>Landing</title>
-  <meta property="og:url"           content="http://www.budeshi.ng" />
-<meta property="og:type"          content="website" />
-<meta property="og:title"         content="Budeshi 2.0" />
-<meta property="og:description"   content="Using Open Contracting Data Standards(OCDS) to disclosure  public institution's procurement information in Nigeria" />
-<meta property="og:image"         content="file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/images/budeshi.png" />
+  <meta property="og:url" content="http://www.budeshi.ng" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Budeshi 2.0" />
+  <meta property="og:description" content="Using Open Contracting Data Standards(OCDS) to disclosure  public institution's procurement information in Nigeria"
+  />
+  <meta property="og:image" content="file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/images/budeshi.png" />
   <link rel="stylesheet" href="../css/uikit.min.css" />
   <link rel="stylesheet" href="../css/styles.css" />
+<link href="../css/Icomoon/style.css" rel="stylesheet" type="text/css" />
+<link href="../css/main.css" rel="stylesheet" type="text/css"/>
   <script src="../js/jquery.js"></script>
   <script src="../js/uikit.min.js"></script>
   <script src="../js/uikit-icons.min.js"></script>
   <script src="../js/index.js"></script>
   </script>
+  <style>
+  p {
+    color:  #8E44AD;
+  }
+  </style>
 </head>
 
 <body>
@@ -24,12 +32,12 @@
     <nav class="uk-navbar-container uk-navbar-transparent" uk-sticky uk-navbar>
       <div class="uk-navbar-left uk-padding-small">
         <a href="#" class="uk-link-reset">
-				<img src='../images/budeshi.png' width="15%"> Budeshi 2.0
+				<img src='../images/budeshin.png' width="25%"> <span class='uk-light'>Budeshi 2.0</span>
 			</a>
       </div>
       <div class='uk-navbar-right'>
         <!-- This is a button toggling the modal -->
-        <button class="uk-button uk-button-default uk-margin-small-right" type="button"><span class='uk-text-danger uk-text-nowrap'>Jump to sample data</span> </button>
+        <button class="uk-button uk-button-default uk-margin-small-right" type="button"><span class='uk-text-danger uk-text-nowrap'>Explore data</span> </button>
       </div>
     </nav>
     <br>
@@ -39,41 +47,39 @@
       </div>
       <hr>
       <div class='uk-flex uk-flex-center uk-margin-top-large uk-scrollspy="cls: uk-animation-slide-right; repeat: true"'>
-        <h4>THE OPEN CONTRACTING FOR NIGERIA
+        <h4>OPEN CONTRACTING FOR NIGERIA
         </h4>
       </div>
     </div>
     <div class='uk-container uk-margin-large-top'>
       <div class='uk-flex uk-flex-center'>
-      <div class='uk-child-width-1-3 uk-grid-large ' uk-grid>
-        <div>
-          <div class='uk-margin'>
-            <a href="https://twitter.com/ppmonitorNG" target='_blank' uk-icon="icon: twitter; ratio: 2"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class='uk-child-width-1-2 uk-grid-large ' uk-grid>
+          <div>
+            <div class='uk-margin'>
+              <a href="https://twitter.com/ppmonitorNG" target='_blank' uk-icon="icon: twitter; ratio: 2"></a>
+              <script async
+                src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+          <div>
+            <div class='uk-margin'>
+              <a href="" uk-icon="icon: facebook; ratio: 2"></a>
+            </div>
           </div>
         </div>
-        <div>
-          <div class='uk-margin'>
-            <a href="" uk-icon="icon: facebook; ratio: 2"></a>
-          </div>
-        </div>
-        <div>
-          <div class='uk-margin'>
-            <a href="" uk-icon="icon: instagram; ratio: 2"></a>
-          </div>
+        <div class='dir-button uk-display-block'>
+          <a href="#what" uk-icon="icon: chevron-down; ratio: 2"></a>
         </div>
       </div>
-      <div class='dir-button uk-display-block'>
-        <a href="#what" uk-icon="icon: chevron-down; ratio: 2"></a>
-      </div>
-    </div>
     </div>
 
   </div>
-  <div class='what'>
+  <div class='what uk-visible@l'>
   </div>
   <div class='what' id='what'>
     <div class=''>
-      <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding'  uk-scrollspy="cls: uk-animation-slide-left; repeat: true;" uk-grid>
+      <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;"
+        uk-grid>
         <div class='uk-text-left' />
         <h1 class="uk-heading-line uk-text-left uk-light">MAKING DATA MAKE SENSE</h1>
       </div>
@@ -83,15 +89,15 @@
       </div>
       <div>
         <br>
-        <div class='uk-text-large uk-light uk-text-left' /> Budeshi (which is Hausa for "Open it") is a dedicated site that links budget and procurement data to various public
-        services. It is accessible to the public to interact with and make their own comparisons.
+        <div class='uk-text-large uk-light uk-text-left'><p> Budeshi (which is Hausa for "Open it") is a dedicated site that links budget and procurement data to various public
+        services. It is accessible to the public to interact with and make their own comparisons.</p>
       </div>
     </div>
     <div>
     </div>
     <div>
     </div>
-    <div class='uk-text-large uk-light' />
+    <div class='uk-text-large uk-light uk-text-bold' />
     <p class=''>
       In a bid to make information around public contracts and the procurement process more coherent, Budeshi is an attempt to
       demonstrate the Open Contracting Data Standards (OCDS) across the public procurement value chain.
@@ -104,7 +110,8 @@
   </div>
   <div class='what'>
     <div class=''>
-      <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding'   uk-scrollspy="cls: uk-animation-slide-left; repeat: true;" uk-grid>
+      <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;"
+        uk-grid>
         <div>
         </div>
         <div>
@@ -118,9 +125,9 @@
       </div>
       <div>
         <br>
-        <div class='uk-text-large uk-light uk-text-right' /> Over the years, procurement monitors have been occupied with verifying the performance of contracts awarded for
+        <div class='uk-text-large uk-light uk-text-right' /> <p>Over the years, procurement monitors have been occupied with verifying the performance of contracts awarded for
         various projects across the country. But the challenge has been to link available budget and procurement data to
-        to the expected public service that contracts seeks to deliver.
+        to the expected public service that contracts seeks to deliver.</p>
       </div>
     </div>
   </div>
@@ -128,21 +135,22 @@
   </div>
   <div class='what uk-hidden@l'>
   </div>
-  <div class='why'>
-    <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding'   uk-scrollspy="cls: uk-animation-slide-left; repeat: true;" uk-grid>
-      <div>
-      </div>
-      <div>
-      </div>
-      <div class='uk-text-right' />
-      <h1 class="uk-heading-line uk-text-right uk-light">WHY IS THIS IMPORTANT?</h1>
+  <div class='what'>
+    <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;"
+      uk-grid>
+      <div class='uk-text-left' />
+      <h1 class="uk-heading-line uk-text-left uk-light">WHY IS THIS IMPORTANT?</h1>
+    </div>
+    <div>
+    </div>
+    <div>
     </div>
     <div>
       <br>
-      <div class='uk-text-large uk-light uk-text-left' /> The number of public contracts executed in each year is such that no one agency or unit can verify them all. It is
+      <div class='uk-text-large uk-light uk-text-left'><p> The number of public contracts executed in each year is such that no one agency or unit can verify them all. It is
       therefore, imperative that data standards are integrated into the current practise of keeping records around public
       resource utilization and that, at each stage, the records can be linked to other stages and ultimately, to the resulting
-      public infrastructure/service.
+      public infrastructure/service.</p>
     </div>
   </div>
   <div>
@@ -151,10 +159,10 @@
   </div>
   <div>
     <br>
-    <div class='uk-text-large uk-light uk-text-left' /> If such a system is deployed, then without having to physically visit every single location that a contract is being
+    <div class='uk-text-large uk-light uk-text-left'><p> If such a system is deployed, then without having to physically visit every single location that a contract is being
     executed in, the analyses can point to red flags which indicate projects whose performance needs to be verified because
     of a questionable record. However, this would require data standards that link each contracting process across various
-    stages.
+    stages.</p>
   </div>
   </div>
   <div>
@@ -163,18 +171,18 @@
   </div>
   <div>
     <br>
-    <div class='uk-text-large uk-light uk-text-left' /> The OCDS has mapped all stages in the contracting process from conception to project delivery and created uniform standards
-    that enable links to be drawn.
+    <div class='uk-text-large uk-light uk-text-left'> <p>The OCDS has mapped all stages in the contracting process from conception to project delivery and created uniform standards
+    that enable links to be drawn.</p>
   </div>
   </div>
   </div>
   </div>
-  <div class='why'>
+
+  <div class='what uk-hidden@l'>
   </div>
-  <div class='why uk-hidden@l'>
-  </div>
-  <div class='why'>
-    <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding uk-margin'  uk-scrollspy="cls: uk-animation-slide-left; repeat: true" uk-grid>
+  <div class='what'>
+    <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding uk-margin' uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
+      uk-grid>
       <div>
       </div>
       <div>
@@ -188,19 +196,17 @@
     </div>
     <div>
       <br>
-      <div class='uk-text-large uk-light uk-text-right' /> The number of public contracts executed in each year is such that no one agency or unit can verify them all. It is
+      <div class='uk-text-large uk-light uk-text-right'><p> The number of public contracts executed in each year is such that no one agency or unit can verify them all. It is
       therefore, imperative that data standards are integrated into the current practise of keeping records around public
       resource utilization and that, at each stage, the records can be linked to other stages and ultimately, to the resulting
-      public infrastructure/service.
+      public infrastructure/service.</p>
     </div>
   </div>
   </div>
   </div>
-  <div class='why uk-hidden@l'>
+  <div class='what uk-hidden@l'>
   </div>
-  <div class='how2'>
-  </div>
-  <div class='how2'>
+  <div class='what'>
     <div class='uk-margin'>
       <div class='uk-container'>
         <div class='uk-padding' id='stop'>
@@ -208,16 +214,19 @@
             <h1 class="uk-heading-line uk-text-center uk-light">How Does it works</h1>
             <hr>
           </div>
-          <div class='uk-text-center uk-text-large uk-light'>
+          <div class='uk-text-center uk-text-large uk-light'><p>
             1. Each contract from conception, to budget, to contract award and execution is given a unique identifier.
+          </p>
           </div>
           <div class='uk-margin-clear uk-margin uk-flex uk-flex-center'>
             <img src='../images/howdemo1.png' />
           </div>
           <div class='uk-text-center uk-text-large uk-light'>
+            <p>
             2. Based on the unique identifier and visualization tools, comparison can be made between budgets and eventual contract sums,
             contracts without prior budget allocations can be easily identified, the completion rates of various contractors
             can be seen etc.
+          </p>
           </div>
           <div class='uk-margin-clear uk-margin uk-flex uk-flex-center'>
             <img src='../images/howdemo2.png' />
@@ -227,9 +236,9 @@
       </div>
     </div>
   </div>
-  <div class='how2 uk-hidden@l'>
+  <div class='what uk-hidden@l'>
   </div>
-  <div class='how2'>
+  <div class='what'>
     <div class='uk-container'>
       <div class='uk-padding' id='stop'>
         <div style="z-index: 980;">
@@ -237,71 +246,92 @@
 
         </div>
         <div class='uk-text-center uk-text-large uk-light'>
+          <p>
           The OCDS is premised on the fact that we can prevent some of the expensive corruption investigations and prosecutions as
           well as inefficiencies across the procurement value chain by deploying data standards that enable us link various
           data from the budget, to procurement and ultimately to public services in a timely way.
+        </p>
         </div>
 
         <div class='uk-text-center uk-text-large uk-light'>
+          <p>
           At the moment, Budeshi has used datasets received from the Universal Basic Education Commission and the National Primary
           Health Care Development Agency to demonstrate the benefits of deploying the OCDS across the public services.
+        </p>
         </div>
         <div class='uk-text-center uk-text-large uk-light'>
+          <p>
           Additionally, the Budeshi platform is being used to carry out advocacy to public institutions seeking to have Open contracting
           adopted across the public service in Nigeria and beyond.
+        </p>
         </div>
         <div class='uk-text-center uk-text-large uk-light'>
+          <p>
           We welcome your support in making this a reality
+        </p>
         </div>
       </div>
     </div>
   </div>
-  <div class='how2 uk-hidden@l'>
+  <div class='what uk-hidden@l'>
   </div>
   <div class='who'>
     <div class='uk-container'>
-      <div class='uk-padding uk-margin-large-top uk-text-large uk-text-center uk-flex uk-flex-center'>
+      <div class='uk-padding uk-margin-large-top uk-text-large uk-text-center uk-flex uk-flex-center uk-light'>
         Budeshi is an initiative of the Public and Private Development Centre in partnership with the School of Media and Communication,
         Pan-Atlantic University and Premium Times Centre for Investigative Journalism.
       </div>
-      <div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
-        <div>
-          <div class='uk-margin'>
-            <img src='../images/ppdc-logo2.png' />
+      <div class='uk-container'>
+        <div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
+          <div>
+            <div class='uk-margin'>
+              <a href='http://procurementmonitor.org/ppdc/'>
+            <img src='../images/ppdc-logo2.png' width="50%"/>
+          </a>
+            </div>
           </div>
-        </div>
-        <div>
-          <div class='uk-margin'>
-            <img src='../images/smc.png' />
+          <div>
+            <div class='uk-margin'>
+              <a href='http://smc.edu.ng/'>
+            <img src='../images/smc.png' width="50%" />
+          </a>
+            </div>
           </div>
-        </div>
-        <div>
-          <div class='uk-margin'>
-            <img src='../images/ptcij.png' />
+          <div>
+            <div class='uk-margin'>
+              <a href='http://ptcij.org/'>
+            <img src='../images/ptcij.png' width="50%" />
+          </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class='uk-container'>
-      <div class='uk-padding uk-margin-large-top uk-text-large uk-text-center uk-flex uk-flex-center'>
-        Other Partners
-      </div>
       <div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
         <div>
-          <div class='uk-margin'>
-            <img src='../images/omd.png' />
+          <div class='uk-margin uk-float-right'>
+            <a href='https://www.omidyar.com/'>
+            <img src='../images/omd.png' width="40%" />
+          </a>
           </div>
         </div>
         <div>
-          <div class='uk-margin'>
-            <img src='../images/macarthur-logo.png' />
+          <div class='uk-margin uk-float-left'>
+            <a href='https://www.macfound.org/'>
+            <img src='../images/macarthur-logo.png' width="50%" />
+          </a>
           </div>
         </div>
-
       </div>
+      <hr>
     </div>
-  </div>
-  <div class='who'>
+
+    <div class='uk-flex uk-flex-center uk-flex-middle uk-margin-bottom'>
+      <div class="sim-button button13"><span class='uk-text-danger uk-text-nowrap'>Explore Data</span></div>
+    </div>
+
+
   </div>
 </body>
 
