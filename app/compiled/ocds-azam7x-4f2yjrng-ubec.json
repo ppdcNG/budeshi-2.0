@@ -1,0 +1,250 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-05-02T14:04:58Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-4f2yjrng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-04-24T07:22", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "13", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-04-25T20:19", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Chris Nwoke", 
+                            "telephone": "08166815882"
+                        }, 
+                        "identifier": {
+                            "legalName": "Odacon Nig Ltd"
+                        }, 
+                        "name": "Odacon Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Endy Nwogu", 
+                            "telephone": "08136688822"
+                        }, 
+                        "identifier": {
+                            "legalName": "Platinum Projects Ltd"
+                        }, 
+                        "name": "Platinum Projects Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Joe Madn N", 
+                            "telephone": "08035439934"
+                        }, 
+                        "identifier": {
+                            "legalName": "Comzer Concept Int\u2019l Nig Ltd"
+                        }, 
+                        "name": "Comzer Concept Int\u2019l Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olayoke", 
+                            "telephone": "08063888175"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ancob Import & Export Ltd"
+                        }, 
+                        "name": "Ancob Import & Export Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ikechukwu J", 
+                            "telephone": "07030906766"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dts Transfromer"
+                        }, 
+                        "name": "Dts Transfromer"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank O", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Global Castle Nig Ltd"
+                        }, 
+                        "name": "Global Castle Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ozigi", 
+                            "telephone": "08033931785"
+                        }, 
+                        "identifier": {
+                            "legalName": "Conule Inte. Ltd"
+                        }, 
+                        "name": "Conule Inte. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Angor Peter ", 
+                            "telephone": "08105233355"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fritx Communication Ltd"
+                        }, 
+                        "name": "Fritx Communication Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mandeh D", 
+                            "telephone": "08057873444"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tila Path Ltd"
+                        }, 
+                        "name": "Tila Path Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Andrew Okoh", 
+                            "telephone": "08061573251"
+                        }, 
+                        "identifier": {
+                            "legalName": "Godonna Petroleum"
+                        }, 
+                        "name": "Godonna Petroleum"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Victor A.O", 
+                            "telephone": "08034519778"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jopar Digital Con"
+                        }, 
+                        "name": "Jopar Digital Con"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdullahi Fawat", 
+                            "telephone": "08069097166"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kamwaly Global Nig Ltd"
+                        }, 
+                        "name": "Kamwaly Global Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adeshina", 
+                            "telephone": "07052777380\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Clanetayo Inte Ltd"
+                        }, 
+                        "name": "Clanetayo Inte Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-4f2yjrng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-05-02T14:04:58Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-4f2yjrng-ubec"
+}

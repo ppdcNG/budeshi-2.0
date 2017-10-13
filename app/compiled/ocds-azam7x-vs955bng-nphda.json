@@ -1,0 +1,480 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2016-09-24T09:17:46Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "Completed", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": "Final Acceptance"
+                    }, 
+                    "documents": [
+                        {
+                            "description": "Constructon of PHC in Obomkpa, Aniocha North, DELTA", 
+                            "language": "", 
+                            "title": "Construction of Primary Health Care Centres", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "status": "", 
+                                "documents": [
+                                    {
+                                        "description": "", 
+                                        "language": "", 
+                                        "title": "", 
+                                        "url": "", 
+                                        "format": "", 
+                                        "datePublished": "", 
+                                        "documentType": "", 
+                                        "dateModified": "", 
+                                        "id": ""
+                                    }
+                                ], 
+                                "description": "", 
+                                "title": "", 
+                                "dueDate": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "transactions": [
+                            {
+                                "receiverOrganization": {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "http://www.nphcda.gov.ng/", 
+                                    "legalName": "National Primary Healthcare Development Agency"
+                                }, 
+                                "amount": {
+                                    "currency": "Naira", 
+                                    "amount": ""
+                                }, 
+                                "uri": "", 
+                                "source": "", 
+                                "providerOrganization": {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }, 
+                                "date": "", 
+                                "id": ""
+                            }
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": "", 
+                                    "id": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "Naira", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "period": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }, 
+                    "value": {
+                        "currency": "Naira", 
+                        "amount": 21986893
+                    }, 
+                    "dateSigned": 2014, 
+                    "awardID": 33, 
+                    "id": 33
+                }
+            ], 
+            "ocid": "ocds-azam7x-vs955bng-nphda", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer", 
+                "awards", 
+                "contracts"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "http://www.nphcda.gov.ng/", 
+                    "legalName": "National Primary Healthcare Development Agency"
+                }, 
+                "name": "", 
+                "address": {
+                    "postalCode": 0, 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "Plot 68/682 Port-Harcourt Crescent, Off Gimbiya Street", 
+                    "region": "AbujaFct", 
+                    "locality": "Area 11Garki"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Constructon of PHC in Abompa Aniocha North DELTA", 
+                        "language": "english", 
+                        "format": "application/pdf", 
+                        "url": "http://ow.ly/TNgMm", 
+                        "title": "Construction of Primary Health Care Centres", 
+                        "datePublished": "", 
+                        "documentType": "ProcurementPlan", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "Constructon of PHC in Abompa Aniocha North DELTA", 
+                    "projectID": 33, 
+                    "uri": "http://ow.ly/TNgMm", 
+                    "project": "Construction of Primary Health Care Centres", 
+                    "source": "Budget Office", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": 38000000
+                    }, 
+                    "id": 33
+                }, 
+                "rationale": "Construction of Primary Health Care Centres"
+            }, 
+            "awards": [
+                {
+                    "status": "", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": "Final Acceptance"
+                    }, 
+                    "documents": [
+                        {
+                            "description": "Constructon of PHC in Obomkpa, Aniocha North, DELTA", 
+                            "language": "", 
+                            "title": "Construction of Primary Health Care Centres", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": "", 
+                                    "id": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "Naira", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }
+                            ], 
+                            "contactPoint": {
+                                "url": "", 
+                                "faxNumber": "", 
+                                "email": "", 
+                                "name": "", 
+                                "telephone": ""
+                            }, 
+                            "identifier": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Samterry Nig Ltd"
+                            }, 
+                            "name": "", 
+                            "address": {
+                                "postalCode": "", 
+                                "countryName": "", 
+                                "streetAddress": "", 
+                                "region": "", 
+                                "locality": ""
+                            }
+                        }
+                    ], 
+                    "value": {
+                        "currency": "Naira", 
+                        "amount": 21986893
+                    }, 
+                    "date": 2014, 
+                    "id": 33, 
+                    "contractPeriod": {
+                        "startDate": 2014, 
+                        "endDate": 2014
+                    }
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [], 
+                    "rationale": "No Objection From BPP"
+                }, 
+                "awardPeriod": {
+                    "startDate": 2014, 
+                    "endDate": 2014
+                }, 
+                "awardCriteria": "Least Cost Responsive", 
+                "enquiryPeriod": {
+                    "startDate": 2014, 
+                    "endDate": 2014
+                }, 
+                "minValue": {
+                    "currency": "Naira", 
+                    "amount": ""
+                }, 
+                "numberOfTenderers": "", 
+                "value": {
+                    "currency": "Naira", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "Naira", 
+                            "amount": ""
+                        }, 
+                        "name": "", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "", 
+                            "telephone": ""
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "array", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": "", 
+                            "id": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "Naira", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "", 
+                        "faxNumber": "", 
+                        "email": "", 
+                        "name": "", 
+                        "telephone": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "http://www.nphcda.gov.ng/", 
+                        "legalName": "National Primary Healthcare Development Agency"
+                    }, 
+                    "name": "", 
+                    "address": {
+                        "postalCode": 0, 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "Plot 68/682 Port-Harcourt Crescent, Off Gimbiya Street", 
+                        "region": "AbujaFct", 
+                        "locality": "Area 11 Garki"
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-vs955bng-nphda-contracts-001"
+        }
+    ], 
+    "publishedDate": "2016-09-24T09:17:46Z", 
+    "uri": "http://app.budeshi.ng/raw/nphda/ocds-azam7x-vs955bng-nphda"
+}

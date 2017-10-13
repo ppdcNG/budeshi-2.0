@@ -1,0 +1,199 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-03-07T11:57:53Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-0ed8umng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com ", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "07/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "07/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "numberOfTenderers": "8", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Dakat Helen\t", 
+                            "telephone": "08172050242"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mainstream Contractors Nigeria Ltd"
+                        }, 
+                        "name": "Mainstream Contractors Nigeria Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr. David Mounboluwaji\t", 
+                            "telephone": "08189301060"
+                        }, 
+                        "identifier": {
+                            "legalName": "Omolara Aries Nig Limited"
+                        }, 
+                        "name": "Omolara Aries Nig Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Femi Oladele\t", 
+                            "telephone": "08034989090"
+                        }, 
+                        "identifier": {
+                            "legalName": "Glotograte Ltd"
+                        }, 
+                        "name": "Glotograte Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Muyiwa Awofeso\t", 
+                            "telephone": "07030174622"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abiola Feso Holdings"
+                        }, 
+                        "name": "Abiola Feso Holdings"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dominic V.\t", 
+                            "telephone": "08158424441"
+                        }, 
+                        "identifier": {
+                            "legalName": "New Moon Nig Ltd"
+                        }, 
+                        "name": "New Moon Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Biodun Olog.\t", 
+                            "telephone": "08066267831"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bizerve Nig. Ltd"
+                        }, 
+                        "name": "Bizerve Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tabudeen\t", 
+                            "telephone": "0705499266"
+                        }, 
+                        "identifier": {
+                            "legalName": "Lateef Global Services"
+                        }, 
+                        "name": "Lateef Global Services"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdullahi Fausat\t", 
+                            "telephone": "08069097166"
+                        }, 
+                        "identifier": {
+                            "legalName": "Carudos Nig. Ltd"
+                        }, 
+                        "name": "Carudos Nig. Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-0ed8umng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-03-07T11:57:53Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-0ed8umng-ubec"
+}

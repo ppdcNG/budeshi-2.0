@@ -1,0 +1,1063 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-01-30T09:36:05Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-3akdq4ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": "Universal Basic Education Commission"
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "", 
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone  Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission\n", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "url": "", 
+                        "format": " offline/print", 
+                        "datePublished": "30/01/2017", 
+                        "documentType": "Physical Progress Reports ", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "2016 Constituency Projects Appropriation", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "Constituency Project", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [
+                        ""
+                    ], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "awardCriteria": "leastCost", 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "numberOfTenderers": 24, 
+                "value": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Integral Contractors Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Integral Contractors Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Olagoke\t", 
+                            "telephone": 8063888175
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Integral Contractors Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Okeso Nig Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Okeso Nig Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "David Musa\t", 
+                            "telephone": 7053638385
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Okeso Nig Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Zanaghs Global Links Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Zanaghs Global Links Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Obiteye Stephen\t", 
+                            "telephone": 9098889898
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Zanaghs Global Links Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Enbridge Enginering"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Enbridge Enginering", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Saddiq\t", 
+                            "telephone": 80334880215
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Enbridge Enginering"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Epe Creation Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Epe Creation Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Abdulaziz\t", 
+                            "telephone": 8052110551
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Epe Creation Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Jb Singhai Nig Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Jb Singhai Nig Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Momoh Abdudun\t", 
+                            "telephone": 7064771478
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Jb Singhai Nig Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Wuuk Global Ser Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Wuuk Global Ser Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Bolaji O\t", 
+                            "telephone": 8033778625
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Wuuk Global Ser Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Americlean Global Services Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Americlean Global Services Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Exe Hyginus\t", 
+                            "telephone": 8069774877
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Americlean Global Services Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "One Complet Solution"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "One Complet Solution", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Femi\t", 
+                            "telephone": 8035684615
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "One Complet Solution"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Hamilton Corporate Business Limited"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Hamilton Corporate Business Limited", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Olalekun Hamilton", 
+                            "telephone": 7061267392
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Hamilton Corporate Business Limited"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Amorit Int\u2019l Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Amorit Int\u2019l Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Kayode Oyewole\t", 
+                            "telephone": 8023131350
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Amorit Int\u2019l Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Tropironics Global Services Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Tropironics Global Services Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Alhassan Yakubu\t", 
+                            "telephone": 8037051417
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Tropironics Global Services Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Dajuste Nig Limited"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Dajuste Nig Limited", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Samuel Otori\t", 
+                            "telephone": 8068992855
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Dajuste Nig Limited"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Hammdes Nig Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Hammdes Nig Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Salako Ibrahim\t", 
+                            "telephone": 8022555497
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Hammdes Nig Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Team Constractors Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Team Constractors Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "S O Isola\t", 
+                            "telephone": 8033174980
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Team Constractors Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Bazzcorp Limited"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Bazzcorp Limited", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Ahmed Kolki\t", 
+                            "telephone": 8023435203
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Bazzcorp Limited"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Gazelle Int Services Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Gazelle Int Services Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Abutu David\t", 
+                            "telephone": 8036733792
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Gazelle Int Services Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Archeban Concepts", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Odudake\t", 
+                            "telephone": 8037127553
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Archeban Concepts"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Blackseed Global Services Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Blackseed Global Services Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Emmanuel\t", 
+                            "telephone": 8039209989
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Blackseed Global Services Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Jozuwa Nig Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Jozuwa Nig Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Taiwo\t", 
+                            "telephone": 8060030310
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Jozuwa Nig Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Wetland Constr Nig Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Wetland Constr Nig Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Eng Adeglute\t", 
+                            "telephone": 8062400010
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Wetland Constr Nig Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Brent Investments Limited"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Brent Investments Limited", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "E Anyanwu\t", 
+                            "telephone": 8054482833
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Brent Investments Limited"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Segaba Int\u2019l Co Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Segaba Int\u2019l Co Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Prince Joseph\t", 
+                            "telephone": 8035909167
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Segaba Int\u2019l Co Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "De-Godf Allied Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "De-Godf Allied Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "E Bisong\t", 
+                            "telephone": 7037526592
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "De-Godf Allied Ltd"
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "active", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "inPerson", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": "", 
+                            "id": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Universal Basic Education Commission"
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com ", 
+                        "faxNumber": "", 
+                        "email": "", 
+                        "name": "Dr Hameed Bobboyi", 
+                        "telephone": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "postalCode": "", 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuaj"
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-3akdq4ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-01-30T09:36:05Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-3akdq4ng-ubec"
+}

@@ -1,0 +1,195 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-13T14:07:19Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-jml8gxng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Mr Ike Enyioha", 
+                            "telephone": "0803299931 08051577879"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kasteel Properties Ltd"
+                        }, 
+                        "name": "Kasteel Properties Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nelson Adzu", 
+                            "telephone": "09033047332"
+                        }, 
+                        "identifier": {
+                            "legalName": "Buhn Project Ltd"
+                        }, 
+                        "name": "Buhn Project Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Faruk Umar", 
+                            "telephone": "08030788459"
+                        }, 
+                        "identifier": {
+                            "legalName": "Quickfix Properties Ltd"
+                        }, 
+                        "name": "Quickfix Properties Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Diroh Y", 
+                            "telephone": "08036200470"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tristar Tech Edge Ltd"
+                        }, 
+                        "name": "Tristar Tech Edge Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Godwin I", 
+                            "telephone": "07068522390"
+                        }, 
+                        "identifier": {
+                            "legalName": "Benostrict Ltd"
+                        }, 
+                        "name": "Benostrict Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abubakar Negedu", 
+                            "telephone": "07035858200"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bakus Multi-Links Nig Ltd"
+                        }, 
+                        "name": "Bakus Multi-Links Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sule Ibrahim", 
+                            "telephone": "08033550344"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abs Turnkeys Ltd"
+                        }, 
+                        "name": "Abs Turnkeys Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Prince Joseph", 
+                            "telephone": "08035909167"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aardb Construction Ltd"
+                        }, 
+                        "name": "Aardb Construction Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-jml8gxng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-13T14:07:19Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-jml8gxng-ubec"
+}

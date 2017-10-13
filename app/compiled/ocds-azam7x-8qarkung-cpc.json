@@ -1,0 +1,482 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2016-11-07T15:01:19Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "title": "", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "status": "", 
+                                "documents": [
+                                    {
+                                        "description": "", 
+                                        "language": "", 
+                                        "title": "", 
+                                        "url": "", 
+                                        "format": "", 
+                                        "datePublished": "", 
+                                        "documentType": "", 
+                                        "dateModified": "", 
+                                        "id": ""
+                                    }
+                                ], 
+                                "description": "", 
+                                "title": "", 
+                                "dueDate": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "transactions": [
+                            {
+                                "receiverOrganization": {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }, 
+                                "amount": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }, 
+                                "uri": "", 
+                                "source": "", 
+                                "providerOrganization": {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }, 
+                                "date": "", 
+                                "id": ""
+                            }
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": "", 
+                                    "id": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "period": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }, 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": 24628127
+                    }, 
+                    "dateSigned": "27/11/2015", 
+                    "awardID": "lot 1", 
+                    "id": ""
+                }
+            ], 
+            "ocid": "ocds-azam7x-8qarkung-cpc", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer", 
+                "awards", 
+                "contracts"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "www.cpc.gov.ng", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "Dupe C Atoki", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "", 
+                    "legalName": "Consumer Protection Council"
+                }, 
+                "name": "Consumer Protection Council", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "Plot 1105 Dar-es-Salaam Street Off Aminu Kano Crescent Wuse II Abuja", 
+                    "region": "FCT", 
+                    "locality": "Wuse II"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement records of contracts awarded in 2015 as received from Consumer Protection Council ", 
+                        "language": "en", 
+                        "title": "List of Contracts Awarded in 2015", 
+                        "url": "https://docs.google.com/spreadsheets/d/1tLFfCkOz1spdhV6jKm5xPC1RSXHLS-T5wn8p0HasrJ4/edit#gid=399596910", 
+                        "format": "text/html", 
+                        "datePublished": "07/11/2016", 
+                        "documentType": "Physical Progress Report", 
+                        "dateModified": "", 
+                        "id": "gid=399596910"
+                    }
+                ], 
+                "budget": {
+                    "description": "Research and Development", 
+                    "projectID": 23050101, 
+                    "uri": "http://www.budgetoffice.gov.ng/pdfs/2015appropriation/17.%20Trade%20and%20Investment%20Revised.pdf", 
+                    "project": "", 
+                    "source": "http://www.budgetoffice.gov.ng/pdfs/2015appropriation/17.%20Trade%20and%20Investment%20Revised.pdf", 
+                    "amount": {
+                        "currency": "NGN", 
+                        "amount": 25000000
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "awards": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "title": "", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": "", 
+                                    "id": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }
+                            ], 
+                            "contactPoint": {
+                                "url": "", 
+                                "faxNumber": "", 
+                                "email": "", 
+                                "name": "", 
+                                "telephone": ""
+                            }, 
+                            "identifier": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Workforce mgt Center ltd"
+                            }, 
+                            "name": "Workforce mgt Center ltd", 
+                            "address": {
+                                "postalCode": "", 
+                                "countryName": "", 
+                                "streetAddress": "", 
+                                "region": "", 
+                                "locality": ""
+                            }
+                        }
+                    ], 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": 24628127
+                    }, 
+                    "date": "", 
+                    "id": "lot 1", 
+                    "contractPeriod": {
+                        "startDate": "27/11/2015", 
+                        "endDate": "27/11/2015"
+                    }
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [
+                        ""
+                    ], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "awardCriteria": "leastCost", 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "NGN", 
+                    "amount": 25000000
+                }, 
+                "numberOfTenderers": 7, 
+                "value": {
+                    "currency": "NGN", 
+                    "amount": 25000000
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "", 
+                            "telephone": ""
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "inPerson", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": "", 
+                            "id": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.cpc.gov.ng", 
+                        "faxNumber": "", 
+                        "email": "e-mail: contact@cpc.gov.ng", 
+                        "name": "Dupe C Atoki", 
+                        "telephone": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": "Consumer Protection Council"
+                    }, 
+                    "name": "Consumer Protection Council", 
+                    "address": {
+                        "postalCode": "", 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "Plot 1105 Dar-es-Salaam Street Off Aminu Kano Crescent Wuse II Abuja", 
+                        "region": "FCT", 
+                        "locality": "Wuse II "
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-8qarkung-cpc-contracts-001"
+        }
+    ], 
+    "publishedDate": "2016-11-07T15:01:19Z", 
+    "uri": "http://app.budeshi.ng/raw/cpc/ocds-azam7x-8qarkung-cpc"
+}

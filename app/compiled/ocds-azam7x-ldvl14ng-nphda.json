@@ -1,0 +1,480 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2016-02-29T12:00:48Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "Completed", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": "Final Acceptance"
+                    }, 
+                    "documents": [
+                        {
+                            "description": "Construction of PHC in Tsanyawa, Kano", 
+                            "language": "", 
+                            "format": "", 
+                            "url": "", 
+                            "title": "Construction of Primary Health Care Centres", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "id": "", 
+                            "dateModified": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "status": "", 
+                                "documents": [
+                                    {
+                                        "description": "", 
+                                        "language": "", 
+                                        "format": "", 
+                                        "url": "", 
+                                        "title": "", 
+                                        "datePublished": "", 
+                                        "documentType": "", 
+                                        "id": "", 
+                                        "dateModified": ""
+                                    }
+                                ], 
+                                "description": "", 
+                                "title": "", 
+                                "dueDate": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "format": "", 
+                                "url": "", 
+                                "title": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "transactions": [
+                            {
+                                "amount": {
+                                    "currency": "Naira", 
+                                    "amount": ""
+                                }, 
+                                "receiverOrganization": {
+                                    "scheme": "", 
+                                    "legalName": "National Primary Healthcare Development Agency", 
+                                    "id": "", 
+                                    "uri": "http://www.nphcda.gov.ng/"
+                                }, 
+                                "uri": "", 
+                                "source": "", 
+                                "providerOrganization": {
+                                    "scheme": "", 
+                                    "legalName": "", 
+                                    "id": "", 
+                                    "uri": ""
+                                }, 
+                                "date": "", 
+                                "id": ""
+                            }
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "id": "", 
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "id": "", 
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "Naira", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "period": {
+                        "startDate": 2014, 
+                        "endDate": 2014
+                    }, 
+                    "value": {
+                        "currency": "Naira", 
+                        "amount": 21986893
+                    }, 
+                    "dateSigned": 2014, 
+                    "awardID": 2, 
+                    "id": 2
+                }
+            ], 
+            "ocid": "ocds-azam7x-ldvl14ng-nphda", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer", 
+                "awards", 
+                "contracts"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "http://www.nphcda.gov.ng/", 
+                    "legalName": "National Primary Healthcare Development Agency"
+                }, 
+                "name": "", 
+                "address": {
+                    "postalCode": 0, 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "Plot 68/682 Port-Harcourt Crescent, Off Gimbiya Street", 
+                    "region": "Abuja Fct", 
+                    "locality": "Area 11 Garki"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Construction of PHC in Tsanyawa, Kano", 
+                        "language": "English", 
+                        "format": "application/pdf", 
+                        "url": "http://ow.ly/TNgMm", 
+                        "title": "Construction of PHC in Tsanyawa, Kano", 
+                        "datePublished": 2014, 
+                        "documentType": "Procurement Plan", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "Construction of PHC in Tsanyawa, Kano", 
+                    "projectID": 2, 
+                    "uri": "http://ow.ly/TNgMm", 
+                    "project": "Construction of PHC in Tsanyawa, Kano", 
+                    "source": "Budget Office", 
+                    "amount": {
+                        "currency": "Naira", 
+                        "amount": 28500000
+                    }, 
+                    "id": 2
+                }, 
+                "rationale": "Construction of Primary Health Care Centres"
+            }, 
+            "awards": [
+                {
+                    "status": "", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": "Final Acceptance "
+                    }, 
+                    "documents": [
+                        {
+                            "description": "Construction of PHC in Tsanyawa, Kano", 
+                            "language": "", 
+                            "title": "Construction of Primary Health Care Centres", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "description": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "description": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "Naira", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }
+                            ], 
+                            "contactPoint": {
+                                "url": "", 
+                                "faxNumber": "", 
+                                "telephone": "", 
+                                "name": "", 
+                                "email": ""
+                            }, 
+                            "identifier": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Babayo Audu & Sons Nig Ltd"
+                            }, 
+                            "name": "", 
+                            "address": {
+                                "postalCode": "", 
+                                "countryName": "", 
+                                "streetAddress": "", 
+                                "region": "", 
+                                "locality": ""
+                            }
+                        }
+                    ], 
+                    "value": {
+                        "currency": "Naira", 
+                        "amount": 21986893
+                    }, 
+                    "date": 2014, 
+                    "id": 2, 
+                    "contractPeriod": {
+                        "startDate": 2014, 
+                        "endDate": 2014
+                    }
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [], 
+                    "rationale": "No Objection from BPP"
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "enquiryPeriod": {
+                    "startDate": 2014, 
+                    "endDate": 2014
+                }, 
+                "minValue": {
+                    "currency": "Naira", 
+                    "amount": ""
+                }, 
+                "eligibilityCriteria": "", 
+                "value": {
+                    "currency": "Naira", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "legalName": "", 
+                                "id": "", 
+                                "uri": ""
+                            }
+                        ], 
+                        "identifier": {
+                            "scheme": "", 
+                            "legalName": "", 
+                            "id": "", 
+                            "uri": ""
+                        }, 
+                        "name": "", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "telephone": "", 
+                            "email": "", 
+                            "name": "", 
+                            "faxNumber": ""
+                        }, 
+                        "amountTendered": {
+                            "currency": "Naira", 
+                            "amount": ""
+                        }
+                    }
+                ], 
+                "id": "", 
+                "description": "", 
+                "documents": [
+                    {
+                        "description": "Construction of PHC in Tsanyawa, Kano", 
+                        "language": "", 
+                        "format": "", 
+                        "url": "", 
+                        "title": "Construction of PHC in Tsanyawa, Kano", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "title": "", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "legalName": "", 
+                            "id": "", 
+                            "uri": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "", 
+                        "telephone": "", 
+                        "email": "", 
+                        "name": "", 
+                        "faxNumber": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "legalName": "National Primary Healthcare Development Agency", 
+                        "id": "", 
+                        "uri": "http://www.nphcda.gov.ng/"
+                    }, 
+                    "name": "", 
+                    "address": {
+                        "postalCode": 0, 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "Plot 68/682 Port-Harcourt Crescent, Off Gimbiya Street", 
+                        "region": "Abuja Fct ", 
+                        "locality": "Area 11, Garki"
+                    }
+                }, 
+                "procurementMethodRationale": "", 
+                "status": "", 
+                "numberOfTenderers": "", 
+                "tenderPeriod": {
+                    "startDate": 2014, 
+                    "endDate": 2014
+                }, 
+                "submissionMethod": "array", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "format": "", 
+                                "url": "", 
+                                "title": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "id": "", 
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "id": "", 
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "Naira", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "awardCriteria": "Least Responsive Cost "
+            }, 
+            "id": "ocds-azam7x-ldvl14ng-nphda-contracts-001"
+        }
+    ], 
+    "publishedDate": "2016-02-29T12:00:48Z", 
+    "uri": "http://app.budeshi.ng/raw/nphda/ocds-azam7x-ldvl14ng-nphda"
+}

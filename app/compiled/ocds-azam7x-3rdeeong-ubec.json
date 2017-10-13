@@ -1,0 +1,161 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-06-29T14:40:24Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-3rdeeong-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-06-02T20:35", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "5", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "array", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Uwotl Francis", 
+                            "telephone": "08064346780"
+                        }, 
+                        "identifier": {
+                            "legalName": "Extension Publications Ltd"
+                        }, 
+                        "name": "Extension Publications Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Francis Akoji", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Toham Global Res. Ltd"
+                        }, 
+                        "name": "Toham Global Res. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fabgemi Wale", 
+                            "telephone": "08035021945"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rasmed Publications Ltd"
+                        }, 
+                        "name": "Rasmed Publications Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "telephone": "08175352577"
+                        }, 
+                        "identifier": {
+                            "legalName": "Habbey Kincoln Int. Ltd"
+                        }, 
+                        "name": "Habbey Kincoln Int. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman", 
+                            "telephone": "07035231624"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hayes Multisystem Ltd"
+                        }, 
+                        "name": "Hayes Multisystem Ltd"
+                    }
+                ], 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "hasEnquiries": "boolean"
+            }, 
+            "id": "ocds-azam7x-3rdeeong-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-06-29T14:40:24Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-3rdeeong-ubec"
+}

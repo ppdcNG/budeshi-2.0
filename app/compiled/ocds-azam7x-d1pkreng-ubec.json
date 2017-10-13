@@ -1,0 +1,289 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-03-07T09:28:15Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-d1pkreng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "06/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "17", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "16/02/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com ", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Dakat Helen\t", 
+                            "telephone": "08172050242"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rayal Value Intl Ltd"
+                        }, 
+                        "name": "Rayal Value Intl Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Herman\t", 
+                            "telephone": "08033068206"
+                        }, 
+                        "identifier": {
+                            "legalName": "Haruna Global Link Ltd"
+                        }, 
+                        "name": "Haruna Global Link Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdul Wasiu\t", 
+                            "telephone": "07054880682"
+                        }, 
+                        "identifier": {
+                            "legalName": "Diamond Serv. Ltd"
+                        }, 
+                        "name": "Diamond Serv. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "D. Olawale Ibrahim\t", 
+                            "telephone": "08034904803"
+                        }, 
+                        "identifier": {
+                            "legalName": "All Wealth Nig Ltd"
+                        }, 
+                        "name": "All Wealth Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Muyiwa A.\t", 
+                            "telephone": "07030174672"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abiola Feso Holdings Ltd"
+                        }, 
+                        "name": "Abiola Feso Holdings Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yusuf M. Yahaya\t", 
+                            "telephone": "08039361670"
+                        }, 
+                        "identifier": {
+                            "legalName": "Oyellas Global Res. Ltd"
+                        }, 
+                        "name": "Oyellas Global Res. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sanuel Ofori\t", 
+                            "telephone": "08068997855"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jame Engr. Serv. Limited"
+                        }, 
+                        "name": "Jame Engr. Serv. Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dayo Daramola", 
+                            "telephone": "08037193411"
+                        }, 
+                        "identifier": {
+                            "legalName": "Lego Consult Ltd"
+                        }, 
+                        "name": "Lego Consult Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abiodun O.\t ", 
+                            "telephone": "08033828307"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bolaj Ventures Nig. Ltd"
+                        }, 
+                        "name": "Bolaj Ventures Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fagbemi Wale\t", 
+                            "telephone": "08035021945"
+                        }, 
+                        "identifier": {
+                            "legalName": "Best Technologies Ltd"
+                        }, 
+                        "name": "Best Technologies Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Daniel B.\t", 
+                            "telephone": "08111188148"
+                        }, 
+                        "identifier": {
+                            "legalName": "Smart Card Ltd"
+                        }, 
+                        "name": "Smart Card Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Akoredena\t", 
+                            "telephone": "08065494610"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gbadesams Constructions Nig. Ltd"
+                        }, 
+                        "name": "Gbadesams Constructions Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogwunkwu Chisom\t", 
+                            "telephone": "07026146045"
+                        }, 
+                        "identifier": {
+                            "legalName": "Idinates Global Ventures Ltd"
+                        }, 
+                        "name": "Idinates Global Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Femi Akinwale\t", 
+                            "telephone": "07061573242"
+                        }, 
+                        "identifier": {
+                            "legalName": "Summa Cum Laude"
+                        }, 
+                        "name": "Summa Cum Laude"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kayode\t", 
+                            "telephone": "08062672778"
+                        }, 
+                        "identifier": {
+                            "legalName": "Geo-Kay Anv. Ser. Ltd"
+                        }, 
+                        "name": "Geo-Kay Anv. Ser. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogunsola Olufemi\t", 
+                            "telephone": "08037117020"
+                        }, 
+                        "identifier": {
+                            "legalName": "Famdam Indestment Nig. Ltd"
+                        }, 
+                        "name": "Famdam Indestment Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdullahi Fansat\t", 
+                            "telephone": "08069091166"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mosra Energy Ltd"
+                        }, 
+                        "name": "Mosra Energy Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-d1pkreng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-03-07T09:28:15Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-d1pkreng-ubec"
+}

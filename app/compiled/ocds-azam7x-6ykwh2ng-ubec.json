@@ -1,0 +1,503 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-02-07T13:00:35Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-6ykwh2ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com ", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "Dr Hamid Bobboyi", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "", 
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records ", 
+                        "url": "", 
+                        "format": " offline/print", 
+                        "datePublished": "07/02/2017", 
+                        "documentType": "Physical Progress Reports ", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "2016 Constituency Projects Appropriation", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "Constituency Project", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [
+                        ""
+                    ], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "awardCriteria": "leastCost", 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "numberOfTenderers": 8, 
+                "value": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Umar Sanusi Rafiu & Son Nig Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Umar Rafiu ", 
+                            "telephone": 8032171985
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Umar Sanusi Rafiu & Son Nig Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Impreclear Limited", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Nduezemoa Ebuka\t", 
+                            "telephone": 8143589934
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Impreclear Limited"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Crown Prince Eng Constr Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "S T Odufebo\t", 
+                            "telephone": 8033118609
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Crown Prince Eng Constr Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Musaby Nig Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Ahmed Eniola\t", 
+                            "telephone": 8037054031
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Musaby Nig Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Sammy Endeavour & Build Res Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Ogbara Samuel\t", 
+                            "telephone": 8034542422
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Sammy Endeavour & Build Res Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Saint Aims International ", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Oluchi Chime\t", 
+                            "telephone": 8038097835
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Saint Aims International "
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Alipl Technologies Limite", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Akinxia K\t", 
+                            "telephone": 8036123354
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Alipl Technologies Limite"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "North Stream Int\u2019l Inv Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Jibril Abubakar\t", 
+                            "telephone": 8067819242
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "North Stream Int\u2019l Inv Ltd"
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "active", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "inPerson", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": "", 
+                            "id": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com ", 
+                        "faxNumber": "", 
+                        "email": "", 
+                        "name": "Dr Hamid Bobboyi", 
+                        "telephone": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "postalCode": "", 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-6ykwh2ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-02-07T13:00:35Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-6ykwh2ng-ubec"
+}

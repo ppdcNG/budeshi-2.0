@@ -1,0 +1,363 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-02-07T11:40:23Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-a3y2eung-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com ", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "Dr Hamid Bobboyi", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "", 
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "url": "", 
+                        "format": "offline/print ", 
+                        "datePublished": "07/02/2017", 
+                        "documentType": "Physical Progress Reports ", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "2016 Constituency Projects Appropriation", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "Constituency Project", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [
+                        ""
+                    ], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "awardCriteria": "leastCost", 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "numberOfTenderers": 4, 
+                "value": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Hafadis Global Concept Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Ademola Oyejide\t", 
+                            "telephone": 8035505907
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Hafadis Global Concept Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Ceo-Chimex Global Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Oluchi Chime\t", 
+                            "telephone": 8038097835
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Ceo-Chimex Global Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Ashclimax Int\u2019l Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Danabla Tukur\t", 
+                            "telephone": 8060787939
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Ashclimax Int\u2019l Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Compliat Services Ltd", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Modestus\t", 
+                            "telephone": 8107113533
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Compliat Services Ltd"
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "active", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "inPerson", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": "", 
+                            "id": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com ", 
+                        "faxNumber": "", 
+                        "email": "", 
+                        "name": "Dr Hamid Bobboyi", 
+                        "telephone": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "postalCode": "", 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-a3y2eung-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-02-07T11:40:23Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-a3y2eung-ubec"
+}

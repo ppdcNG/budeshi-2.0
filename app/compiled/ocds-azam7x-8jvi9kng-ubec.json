@@ -1,0 +1,538 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-02-02T10:06:51Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-8jvi9kng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "legalName": "", 
+                        "id": "", 
+                        "uri": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "telephone": "", 
+                    "email": "", 
+                    "name": "Dr Hamid Bobboyi", 
+                    "faxNumber": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "legalName": "Universal Basic Education  Commission", 
+                    "id": "", 
+                    "uri": ""
+                }, 
+                "name": "Universal Basic Education  Commission", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "Fct", 
+                    "locality": " Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "url": "", 
+                        "format": "offline/print", 
+                        "datePublished": "30/01/2017", 
+                        "documentType": "Physical Progress Reports", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "2016 Constituency Projects Appropriation", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "", 
+                    "source": " Constituency Project", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [
+                        ""
+                    ], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "awardCriteria": "leastCost", 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "numberOfTenderers": "", 
+                "value": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Fridanuk & Company"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Elder Sam Akpan", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Elder Sam Akpan", 
+                            "telephone": 80371428125
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Fridanuk & Company"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Chigiors Int\u2019l Ltd\t"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Adebayo Ajibola", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "oc.george3@yahoo.com ", 
+                            "name": "Adebayo Ajibola", 
+                            "telephone": 8037076727
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Chigiors Int\u2019l Ltd\t"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Eyijay Constr. Com"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Eng. Eyibra \u2013 Jnr", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": 8060659314, 
+                            "telephone": 8060659314
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Eyijay Constr. Com"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "B. N. K Resources Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Lawrence Arhunmounde", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "Lawrence Arhunmounde", 
+                            "telephone": "08036987251 08023230167"
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "B. N. K Resources Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Tmctt Group Limited"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Yaba Aibe", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "johnnyaba78@yahoo.com", 
+                            "name": "Yaba Aibe", 
+                            "telephone": 8034507560
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Tmctt Group Limited"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Fiphs Investment Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Ugochi Ananti", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "ugochi@fiplis.com ", 
+                            "name": "Ugochi Ananti", 
+                            "telephone": 8066883445
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Fiphs Investment Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "F A Liberty Nig Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Atsu Adie", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "mradie2005@yahoo.com", 
+                            "name": "Atsu Adie", 
+                            "telephone": 8131974444
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "F. A. Liberty Nig. Ltd"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Terra Urban Nigeria Limited"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Itoro Okpokpo", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": 8104852770, 
+                            "name": "Itoro Okpokpo", 
+                            "telephone": ""
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Terra Urban Nigeria Limited"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Ryte Reasons Ltd"
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "Aja Bisong", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "Nigeria", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "ajabisong68@gmail.com ", 
+                            "name": "Aja Bisong", 
+                            "telephone": ""
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": "Ryte Reasons Ltd"
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "inPerson", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": "", 
+                            "id": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "", 
+                        "faxNumber": "", 
+                        "email": "", 
+                        "name": "", 
+                        "telephone": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Dr Hamid Bobboyi", 
+                    "address": {
+                        "postalCode": "", 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "NO 7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-8jvi9kng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-02-02T10:06:51Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-8jvi9kng-ubec"
+}

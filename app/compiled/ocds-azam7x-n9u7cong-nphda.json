@@ -1,0 +1,482 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2016-09-24T20:34:08Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "format": "", 
+                            "url": "", 
+                            "title": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "id": "", 
+                            "dateModified": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "status": "", 
+                                "documents": [
+                                    {
+                                        "description": "", 
+                                        "language": "", 
+                                        "format": "", 
+                                        "url": "", 
+                                        "title": "", 
+                                        "datePublished": "", 
+                                        "documentType": "", 
+                                        "id": "", 
+                                        "dateModified": ""
+                                    }
+                                ], 
+                                "description": "", 
+                                "title": "", 
+                                "dueDate": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "format": "", 
+                                "url": "", 
+                                "title": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "transactions": [
+                            {
+                                "amount": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }, 
+                                "receiverOrganization": {
+                                    "scheme": "", 
+                                    "legalName": "", 
+                                    "id": "", 
+                                    "uri": ""
+                                }, 
+                                "uri": "", 
+                                "source": "", 
+                                "providerOrganization": {
+                                    "scheme": "", 
+                                    "legalName": "", 
+                                    "id": "", 
+                                    "uri": ""
+                                }, 
+                                "date": "", 
+                                "id": ""
+                            }
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "id": "", 
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "id": "", 
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "period": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }, 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": 20011000
+                    }, 
+                    "dateSigned": "", 
+                    "awardID": "", 
+                    "id": ""
+                }
+            ], 
+            "ocid": "ocds-azam7x-n9u7cong-nphda", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer", 
+                "awards", 
+                "contracts"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "http://www.nphcda.gov.ng", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "Dr. Ado Jimada Gana Muhammad", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": 521003001, 
+                    "uri": "", 
+                    "legalName": "National Primary Health Care Development Agency"
+                }, 
+                "name": "National Primary Health Care Development Agency", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "Plot 68/682 Port-Harcourt Crescent Off Gimbiya Street Area 11 Garki Abuja", 
+                    "region": "FCT", 
+                    "locality": "Garki Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records of Primary Health Care Centres  constructed in 2014 as Received From National Primary Health Care Development Agency (NPHCDA)", 
+                        "language": "en", 
+                        "title": "List of Primary Health Care Centres constructed in 2014", 
+                        "url": "https://docs.google.com/spreadsheets/d/16TzRPMOos7kJbSwcAbY_mjI7JgS3LWBeezLVl0vqVkU/edit?ts=56c18abb#gid=1771976893", 
+                        "format": "text/html", 
+                        "datePublished": "26/07/2016", 
+                        "documentType": "Physical progress reports", 
+                        "dateModified": "", 
+                        "id": "gid=1771976893"
+                    }
+                ], 
+                "budget": {
+                    "description": "2014 Budgetary Appropriation for National Primary health Care Development Agency", 
+                    "projectID": "N/A", 
+                    "uri": "http://www.budgetoffice.gov.ng/pdfs/2014_appriation%20act/16.%20Summary_Health.pdf", 
+                    "project": "N/A", 
+                    "source": "http://www.budgetoffice.gov.ng/pdfs/2014_appriation%20act/16.%20Summary_Health.pdf", 
+                    "amount": {
+                        "currency": "NGN", 
+                        "amount": 30000000
+                    }, 
+                    "id": "N/A"
+                }, 
+                "rationale": "N/A"
+            }, 
+            "awards": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "format": "", 
+                            "url": "", 
+                            "title": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "id": "", 
+                            "dateModified": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "id": "", 
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "id": "", 
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {
+                                    "scheme": "", 
+                                    "legalName": "", 
+                                    "id": "", 
+                                    "uri": ""
+                                }
+                            ], 
+                            "contactPoint": {
+                                "url": "", 
+                                "telephone": "", 
+                                "email": "", 
+                                "name": "", 
+                                "faxNumber": ""
+                            }, 
+                            "identifier": {
+                                "scheme": "", 
+                                "legalName": "Federated Project Ltd", 
+                                "id": "", 
+                                "uri": ""
+                            }, 
+                            "name": "Federated Project Ltd", 
+                            "address": {
+                                "postalCode": "", 
+                                "countryName": "", 
+                                "streetAddress": "", 
+                                "region": "", 
+                                "locality": ""
+                            }
+                        }
+                    ], 
+                    "value": {
+                        "currency": "", 
+                        "amount": 20011000
+                    }, 
+                    "date": "01/01/2014", 
+                    "id": "", 
+                    "contractPeriod": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [
+                        ""
+                    ], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "awardCriteria": "leastCost", 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "numberOfTenderers": "", 
+                "value": {
+                    "currency": "NGN", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "", 
+                            "telephone": ""
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": "", 
+                            "id": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "http://www.nphcda.gov.ng", 
+                        "faxNumber": "", 
+                        "email": "", 
+                        "name": "Dr. Ado Jimada Gana Muhammad", 
+                        "telephone": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": 521003001, 
+                        "uri": "", 
+                        "legalName": "National Primary Health Care Development Agency"
+                    }, 
+                    "name": "National Primary Health Care Development Agency", 
+                    "address": {
+                        "postalCode": "", 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "Plot 68/682 Port-Harcourt Crescent Off Gimbiya Street Area 11 Garki Abuja", 
+                        "region": "FCT", 
+                        "locality": "Garki Abuja"
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-n9u7cong-nphda-contracts-001"
+        }
+    ], 
+    "publishedDate": "2016-09-24T20:34:08Z", 
+    "uri": "http://app.budeshi.ng/raw/nphda/ocds-azam7x-n9u7cong-nphda"
+}

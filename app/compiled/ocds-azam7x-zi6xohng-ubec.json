@@ -1,0 +1,158 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-02-14T10:27:50Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-zi6xohng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "14/02/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "amount": {
+                        "currency": "NGN", 
+                        "amount": "0"
+                    }, 
+                    "description": "2016 Constituency Projects Appropriation"
+                }, 
+                "rationale": "Not Specified"
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "4", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "14/02/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "name": "www.ubeconline.com"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Murtala Abbes\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "5-Project Concept Ltd"
+                        }, 
+                        "name": "5-Project Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogundeji Kamilu\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mamorak Venture Ltd"
+                        }, 
+                        "name": "Mamorak Venture Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Thomson\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Pergola Energy Ltd"
+                        }, 
+                        "name": "Pergola Energy Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogwunkwu Chisom\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Danites Global Ventures Ltd"
+                        }, 
+                        "name": "Danites Global Ventures Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-zi6xohng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-02-14T10:27:50Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-zi6xohng-ubec"
+}

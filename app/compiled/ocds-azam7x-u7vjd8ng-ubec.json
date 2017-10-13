@@ -1,0 +1,98 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-07T13:04:49Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-u7vjd8ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "documents": [
+                    {}
+                ], 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "array", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ]
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ]
+                    }
+                ], 
+                "hasEnquiries": "boolean"
+            }, 
+            "id": "ocds-azam7x-u7vjd8ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-07T13:04:49Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-u7vjd8ng-ubec"
+}

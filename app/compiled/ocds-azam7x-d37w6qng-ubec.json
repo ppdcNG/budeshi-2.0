@@ -1,0 +1,260 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-07T13:48:52Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-d37w6qng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-07-05T19:48", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "14", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-07-05T12:52", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Alh. Isa Badamasi", 
+                            "telephone": "08033499373"
+                        }, 
+                        "identifier": {
+                            "legalName": "Borno Engineering Supply Technical Co. Ltd"
+                        }, 
+                        "name": "Borno Engineering Supply Technical Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ahmed Yahaya ", 
+                            "telephone": "08037597047"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gioco Nigeria Ltd"
+                        }, 
+                        "name": "Gioco Nigeria Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Osundu M", 
+                            "telephone": "08162590491"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nesra Seyi Ltd"
+                        }, 
+                        "name": "Nesra Seyi Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "M. Atere", 
+                            "telephone": "08035887327"
+                        }, 
+                        "identifier": {
+                            "legalName": "Al-Kashimglobal Ventures"
+                        }, 
+                        "name": "Al-Kashimglobal Ventures"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Umar Tijjani", 
+                            "telephone": "08100468308"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alrij Int\u2019l Nig Ltd"
+                        }, 
+                        "name": "Alrij Int\u2019l Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tijjani Ahmed", 
+                            "telephone": "08187237095"
+                        }, 
+                        "identifier": {
+                            "legalName": "Atias Business Investment Ltd"
+                        }, 
+                        "name": "Atias Business Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Gloria Miller", 
+                            "telephone": "07038577422"
+                        }, 
+                        "identifier": {
+                            "legalName": "Blackseed Global Services Ltd"
+                        }, 
+                        "name": "Blackseed Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nelson Adzu", 
+                            "telephone": "09033047323"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wasit Const Ltd"
+                        }, 
+                        "name": "Wasit Const Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Isa Badamasi", 
+                            "telephone": "08165658021"
+                        }, 
+                        "identifier": {
+                            "legalName": "Borno Engineering Supply Technical Co Ltd"
+                        }, 
+                        "name": "Borno Engineering Supply Technical Co Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yunana Elsha G", 
+                            "telephone": "08051001090"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kwarpo Nig Ltd"
+                        }, 
+                        "name": "Kwarpo Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Suleman Sarki", 
+                            "telephone": "08033155285"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ollabin Global System"
+                        }, 
+                        "name": "Ollabin Global System"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ukeje Ujunwa", 
+                            "telephone": "08031392685"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nbinah Services Ltd"
+                        }, 
+                        "name": "Nbinah Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Favour Ekpenyong", 
+                            "telephone": "08138265499"
+                        }, 
+                        "identifier": {
+                            "legalName": "Crown Resources Development Company Limited"
+                        }, 
+                        "name": "Crown Resources Development Company Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdullahi Famsat", 
+                            "telephone": "08069097166"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mosra Enegi Ltd"
+                        }, 
+                        "name": "Mosra Enegi Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-d37w6qng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-07T13:48:52Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-d37w6qng-ubec"
+}

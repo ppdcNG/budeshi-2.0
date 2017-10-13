@@ -1,0 +1,269 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-03-27T09:06:59Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-bnfddung-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "07/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "open", 
+                "numberOfTenderers": "15", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "array", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "07/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Tochukwu Obi", 
+                            "telephone": "08033225774"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kenvic Mooge Biz Ventures Ltd"
+                        }, 
+                        "name": "Kenvic Mooge Biz Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ndubuisi Ezenna", 
+                            "telephone": "08035897736"
+                        }, 
+                        "identifier": {
+                            "legalName": "House Trader Int\u2019l Ltd"
+                        }, 
+                        "name": "House Trader Int\u2019l Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "07034845974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nationwide Drillers Nig. Ltd"
+                        }, 
+                        "name": "Nationwide Drillers Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Umar Bala", 
+                            "telephone": "08026824456"
+                        }, 
+                        "identifier": {
+                            "legalName": "Azama Construction Ltd"
+                        }, 
+                        "name": "Azama Construction Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Everest Miri", 
+                            "telephone": "08034519640"
+                        }, 
+                        "identifier": {
+                            "legalName": "Blossom Innovators Ltd"
+                        }, 
+                        "name": "Blossom Innovators Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Stephen Gyang", 
+                            "telephone": "08036278665"
+                        }, 
+                        "identifier": {
+                            "legalName": "Vicage Resources Ltd"
+                        }, 
+                        "name": "Vicage Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Okafor C.", 
+                            "telephone": "08036897767"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kelwal Nig. Ltd"
+                        }, 
+                        "name": "Kelwal Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Victor Mayomi", 
+                            "telephone": "07061070080"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sule Sagmakk Nig. Ltd"
+                        }, 
+                        "name": "Sule Sagmakk Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Paul Zumse", 
+                            "telephone": "08033676479"
+                        }, 
+                        "identifier": {
+                            "legalName": "Castlegate Inter Nig Ltd"
+                        }, 
+                        "name": "Castlegate Inter Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr. Femi", 
+                            "telephone": "08167414601"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yanruwa Invest Nig. Ltd"
+                        }, 
+                        "name": "Yanruwa Invest Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chuka O.\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Red & White Global Concept"
+                        }, 
+                        "name": "Red & White Global Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kpjm", 
+                            "telephone": "08033495444"
+                        }, 
+                        "identifier": {
+                            "legalName": "Setik Designs Nig. Ltd"
+                        }, 
+                        "name": "Setik Designs Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Suleiman Mohd", 
+                            "telephone": "08039560828"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ms Alh Ibrahim Nig. Ltd"
+                        }, 
+                        "name": "Ms Alh Ibrahim Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Albert B.", 
+                            "telephone": "08065989040"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wakdee Mines Lted"
+                        }, 
+                        "name": "Wakdee Mines Lted"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Albert B.", 
+                            "telephone": "08065989040"
+                        }, 
+                        "identifier": {
+                            "legalName": "J. Peter"
+                        }, 
+                        "name": "J. Peter"
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "hasEnquiries": "boolean"
+            }, 
+            "id": "ocds-azam7x-bnfddung-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-03-27T09:06:59Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-bnfddung-ubec"
+}

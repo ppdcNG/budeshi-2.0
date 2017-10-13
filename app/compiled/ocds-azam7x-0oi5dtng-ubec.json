@@ -1,0 +1,186 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-12T15:41:30Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-0oi5dtng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "7", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ibiteye Stephen ", 
+                            "telephone": "09098889898"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zanaghs Global Links Ltd"
+                        }, 
+                        "name": "Zanaghs Global Links Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dare", 
+                            "telephone": "08023264917"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dabojas Concept Services Ltd"
+                        }, 
+                        "name": "Dabojas Concept Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman", 
+                            "telephone": "08037290326"
+                        }, 
+                        "identifier": {
+                            "legalName": "Diamond Square Ltd"
+                        }, 
+                        "name": "Diamond Square Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "07034845974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Y.G.D & Sons Nig Ltd"
+                        }, 
+                        "name": "Y.G.D & Sons Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mbal Chidi", 
+                            "telephone": "08039518098"
+                        }, 
+                        "identifier": {
+                            "legalName": "Macdyne Nig Ltd"
+                        }, 
+                        "name": "Macdyne Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Edwards Anyanwu", 
+                            "telephone": "08054482833"
+                        }, 
+                        "identifier": {
+                            "legalName": "Brent Investments Ltd"
+                        }, 
+                        "name": "Brent Investments Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Edwards Anyanwu", 
+                            "telephone": "07055044903"
+                        }, 
+                        "identifier": {
+                            "legalName": "Righteous Construction Company Ltd"
+                        }, 
+                        "name": "Righteous Construction Company Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-0oi5dtng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-12T15:41:30Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-0oi5dtng-ubec"
+}

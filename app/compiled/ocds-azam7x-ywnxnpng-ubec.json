@@ -1,0 +1,189 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-08T13:23:22Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-ywnxnpng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "ubeconline.com", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "Dr Hamid Bobboyi", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "", 
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "Fct", 
+                    "locality": "Wuse Zone 4  Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records ", 
+                        "url": "", 
+                        "format": "offline/print", 
+                        "datePublished": "02/02/2017", 
+                        "documentType": "Physical Progress Reports", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "2016 Constituency Projects Appropriation", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": " Constituency Project", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "tender": {
+                "status": "active", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "3", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "legalName": "Universal Basic Education Commission"
+                        }, 
+                        {
+                            "legalName": "Universal Basuc Education Commission"
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4  Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Stera Maritiem Agency"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Terica Shepehn", 
+                            "telephone": "8033333563"
+                        }, 
+                        "name": "Terica Shepehn", 
+                        "address": {
+                            "countryName": "Nigeria"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Goldfinger Link Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Farhad", 
+                            "telephone": "8034862855"
+                        }, 
+                        "name": "Farhad", 
+                        "address": {
+                            "countryName": "Nigeria"
+                        }
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Regional Engineering"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "email": "nafiurshehu78@gmail.com ", 
+                            "telephone": "8034255318", 
+                            "name": "Nafiu Shehu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Regional Engineering"
+                        }, 
+                        "name": "Nafiu Shehu", 
+                        "address": {
+                            "countryName": "Nigeria"
+                        }
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-ywnxnpng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-08T13:23:22Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-ywnxnpng-ubec"
+}

@@ -1,0 +1,243 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-18T11:08:16Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-htag85ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "Wuse Zone 4 Abuja", 
+                    "locality": "FCT"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "12", 
+                "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "zauyusol@gmail.com ", 
+                            "telephone": "08065524749", 
+                            "name": "Zakaiya"
+                        }, 
+                        "identifier": {
+                            "legalName": "Investment Ltdusaka "
+                        }, 
+                        "name": "Investment Ltdusaka "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Amehcynthia27@yahoo.com ", 
+                            "telephone": "0803193178", 
+                            "name": "Cynthia Ameh"
+                        }, 
+                        "identifier": {
+                            "legalName": "Andodo Multi Concept Ltd"
+                        }, 
+                        "name": "Andodo Multi Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ola", 
+                            "telephone": "08033653059"
+                        }, 
+                        "identifier": {
+                            "legalName": "Vioplex Engr Ltd"
+                        }, 
+                        "name": "Vioplex Engr Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "infor@optionsgroupinternational.com ", 
+                            "telephone": "09099449660", 
+                            "name": "Mohammed Inuwa"
+                        }, 
+                        "identifier": {
+                            "legalName": "Options Invest & Property Development Co. Ltd"
+                        }, 
+                        "name": "Options Invest & Property Development Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Igdogo@yahoo.com ", 
+                            "telephone": "08034240731", 
+                            "name": "Muhammad Garba Dogo"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bifsam Company Ltd"
+                        }, 
+                        "name": "Bifsam Company Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tochukwu", 
+                            "telephone": "07067504101"
+                        }, 
+                        "identifier": {
+                            "legalName": "C & K Invest Ltd"
+                        }, 
+                        "name": "C & K Invest Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Victor Mayan", 
+                            "telephone": "07061070880"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sumfat Nig Ltd"
+                        }, 
+                        "name": "Sumfat Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Sunifat82@yahoo.com", 
+                            "telephone": "08069645809", 
+                            "name": "Baba Habu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nabson Technical Servics Nig Ltd"
+                        }, 
+                        "name": "Nabson Technical Servics Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "habunb@gmail.com ", 
+                            "telephone": "08037952614", 
+                            "name": "Engr Chika"
+                        }, 
+                        "identifier": {
+                            "legalName": "Balewa Consulting Engr. Ltd"
+                        }, 
+                        "name": "Balewa Consulting Engr. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "lightconstruction@gmail.com ", 
+                            "telephone": "08033145249", 
+                            "name": "Wunduh"
+                        }, 
+                        "identifier": {
+                            "legalName": "New Light Construction And Services Ltd"
+                        }, 
+                        "name": "New Light Construction And Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Thomas", 
+                            "telephone": "08189397274"
+                        }, 
+                        "identifier": {
+                            "legalName": "Shedrack"
+                        }, 
+                        "name": "Shedrack"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Baba", 
+                            "telephone": "08033501448"
+                        }, 
+                        "identifier": {
+                            "legalName": "Absolute Unic Nig Ltd"
+                        }, 
+                        "name": "Absolute Unic Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-htag85ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-18T11:08:16Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-htag85ng-ubec"
+}

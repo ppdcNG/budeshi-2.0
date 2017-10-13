@@ -1,0 +1,210 @@
+.border{
+  border: 1px solid red;
+}
+.back {
+/*  background-image: url(../images/budeshi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  */
+}
+.pageactive{
+  color : blue;
+}
+.filter-button {
+  display: block;
+}
+#ubecproject {
+  display: block;
+}
+#project-overview {
+  display: block;
+}
+#center-log {
+  display: block;
+  margin-left: 10%;
+}
+body.login-page {
+  background-color: #CBBEA8;
+}
+td {
+  cursor: pointer;
+}
+.border-right {
+  border-right: 1px solid #ccc;
+}
+nav.top {
+  /*background-color: #43F2BE;*/
+}
+#map {
+height: 300px;
+}
+.height {
+
+}
+html, body, .container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.pg1 {
+  background-color: #C0C2D1;
+  width: 100%;
+  height: 100%;
+}
+.what {
+  background-image: url('http://www.budeshi.ng/budeshi-2.0/images/landing/what1.jpg');
+
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.who {
+
+        /*background-color: #FFD899;*/
+        background: #141E30;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect*/
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.trans-back {
+  background-color: transparent;
+}
+.border {
+  border: 1px solid white
+}
+
+/* styling for the bouncing button on the landing page*/
+.dir-button {
+  position: absolute;
+  bottom: 10%;
+  -webkit-animation-name: bounce; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+-webkit-animation-timing-function: ease-in-out;
+animation-name: bounce;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {bottom:10%;}
+    100%  {bottom:1%;}
+  }
+
+/* Standard syntax */
+@keyframes bounce {
+    0%   {bottom: 10%;}
+    100%  {bottom:100px;}
+  }
+
+  /* --CSS for loader --*/
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {bottom:10%;}
+    100%  {bottom:1%;}
+  }
+
+/* Standard syntax */
+@keyframes bounce {
+    0%   {bottom: 10%;}
+    100%  {bottom:100px;}
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes pulse {
+    50% {
+      background: white;
+    }
+  }
+  @keyframes pulse {
+    50% {
+      background: white;
+    }
+  }
+
+  .loading {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 0.25rem solid rgba(255, 255, 255, 0.2);
+    border-top-color: white;
+    -webkit-animation: spin 1s infinite linear;
+            animation: spin 1s infinite linear;
+  }
+  .loading--double {
+    border-style: double;
+    border-width: .5rem;
+  }
+
+  .loading-pulse {
+    position: relative;
+    width: 6px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-animation: pulse 750ms infinite;
+            animation: pulse 750ms infinite;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
+  }
+  .loading-pulse:before, .loading-pulse:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 16px;
+    width: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-animation: pulse 750ms infinite;
+            animation: pulse 750ms infinite;
+  }
+  .loading-pulse:before {
+    left: -12px;
+  }
+  .loading-pulse:after {
+    left: 12px;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
+  }

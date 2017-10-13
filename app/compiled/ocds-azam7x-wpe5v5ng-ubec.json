@@ -1,0 +1,482 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2016-09-22T11:42:00Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "title": "", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "status": "", 
+                                "documents": [
+                                    {
+                                        "description": "", 
+                                        "language": "", 
+                                        "title": "", 
+                                        "url": "", 
+                                        "format": "", 
+                                        "datePublished": "", 
+                                        "documentType": "", 
+                                        "dateModified": "", 
+                                        "id": ""
+                                    }
+                                ], 
+                                "description": "", 
+                                "title": "", 
+                                "dueDate": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "transactions": [
+                            {
+                                "receiverOrganization": {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }, 
+                                "amount": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }, 
+                                "uri": "", 
+                                "source": "", 
+                                "providerOrganization": {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }, 
+                                "date": "", 
+                                "id": ""
+                            }
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": "", 
+                                    "id": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "period": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }, 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": 14900000.15
+                    }, 
+                    "dateSigned": "21/12/2015", 
+                    "awardID": "LOT 95OG", 
+                    "id": ""
+                }
+            ], 
+            "ocid": "ocds-azam7x-wpe5v5ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer", 
+                "awards", 
+                "contracts"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "Dr Hameed Bobboyi", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "", 
+                    "legalName": "Universal Basic Education Board"
+                }, 
+                "name": "Universal Basic Education Board", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Various Construction/Rehabilitation of Schools Supplies and Training in Selected Schools Under 2015 Constituency Projects as received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "2015 Appropriation Act (Zonal Intervention Projects)", 
+                        "url": "https://docs.google.com/spreadsheets/d/1vjwHHsirFLkn0IYfYriLX2hdiTYvH50mtFUMyal2Tbo/edit#gid=484136520", 
+                        "format": "text/html", 
+                        "datePublished": "22/09/2015", 
+                        "documentType": "Physical Progress Reports", 
+                        "dateModified": "", 
+                        "id": "gid=484136520"
+                    }
+                ], 
+                "budget": {
+                    "description": "2015 Appropriation Act (Zonal Intervention Projects)", 
+                    "projectID": "N/A", 
+                    "uri": "http://www.budgetoffice.gov.ng/pdfs/2015appropriation/2015%20ZIP%20FINAL.pdf", 
+                    "project": "Zonal Intervention Projects", 
+                    "source": "http://www.budgetoffice.gov.ng/pdfs/2015appropriation/2015%20ZIP%20FINAL.pdf", 
+                    "amount": {
+                        "currency": "NGN", 
+                        "amount": 17000000
+                    }, 
+                    "id": "N/A"
+                }, 
+                "rationale": ""
+            }, 
+            "awards": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "title": "", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": "", 
+                                    "id": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }
+                            ], 
+                            "contactPoint": {
+                                "url": "", 
+                                "faxNumber": "", 
+                                "email": "", 
+                                "name": "", 
+                                "telephone": ""
+                            }, 
+                            "identifier": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Masfas International Ltd"
+                            }, 
+                            "name": "Masfas International Ltd", 
+                            "address": {
+                                "postalCode": "", 
+                                "countryName": "", 
+                                "streetAddress": "", 
+                                "region": "", 
+                                "locality": ""
+                            }
+                        }
+                    ], 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": 14900000.15
+                    }, 
+                    "date": "23/11/2015", 
+                    "id": "LOT 95OG", 
+                    "contractPeriod": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [
+                        ""
+                    ], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "awardCriteria": "leastCost", 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "numberOfTenderers": "", 
+                "value": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "email": "", 
+                            "name": "", 
+                            "telephone": ""
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": "", 
+                            "id": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "faxNumber": "", 
+                        "email": "", 
+                        "name": "Dr Hameed Bobboyi", 
+                        "telephone": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": "Universal Basic Education Board"
+                    }, 
+                    "name": "Universal Basic Education Board", 
+                    "address": {
+                        "postalCode": "", 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Zone 4 Abuja"
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-wpe5v5ng-ubec-contracts-001"
+        }
+    ], 
+    "publishedDate": "2016-09-22T11:42:00Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-wpe5v5ng-ubec"
+}

@@ -1,0 +1,196 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-12T15:13:44Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-u58yzrng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Abubakar Abdulahi", 
+                            "telephone": "08065545555"
+                        }, 
+                        "identifier": {
+                            "legalName": "A & G Kurfi Engr. Nig Ltd"
+                        }, 
+                        "name": "A & G Kurfi Engr. Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abiodun E. Molehin", 
+                            "telephone": "08095545555"
+                        }, 
+                        "identifier": {
+                            "legalName": "Boe Inter-Global Ltd"
+                        }, 
+                        "name": "Boe Inter-Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibrahim", 
+                            "telephone": "08068030711"
+                        }, 
+                        "identifier": {
+                            "legalName": "Harwa Global Intd. Ltd"
+                        }, 
+                        "name": "Harwa Global Intd. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Richard Datong", 
+                            "telephone": "08033068206"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kenrods Oil Services Ltd"
+                        }, 
+                        "name": "Kenrods Oil Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Wilson Granville", 
+                            "telephone": "08033718148"
+                        }, 
+                        "identifier": {
+                            "legalName": "Shelter-Struct Nig Ltd"
+                        }, 
+                        "name": "Shelter-Struct Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dosunu O.S", 
+                            "telephone": "08187901420"
+                        }, 
+                        "identifier": {
+                            "legalName": "Eddy-Oluwasey Ventures Ltd"
+                        }, 
+                        "name": "Eddy-Oluwasey Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogbu Ode", 
+                            "telephone": "08065057581"
+                        }, 
+                        "identifier": {
+                            "legalName": "Afrina Engineering Services Ltd"
+                        }, 
+                        "name": "Afrina Engineering Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adegbitd", 
+                            "telephone": "08062400010"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wethand Crust Nig Ltd"
+                        }, 
+                        "name": "Wethand Crust Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-u58yzrng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-12T15:13:44Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-u58yzrng-ubec"
+}

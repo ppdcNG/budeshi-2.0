@@ -1,0 +1,176 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-17T12:53:59Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-s1gftnng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "6", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Imam Salaudean S. Belgore", 
+                            "telephone": "08034531636 07062589239"
+                        }, 
+                        "identifier": {
+                            "legalName": "Salmat Global Services Ltd"
+                        }, 
+                        "name": "Salmat Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Prince Nwankirere", 
+                            "telephone": "08098052741"
+                        }, 
+                        "identifier": {
+                            "legalName": "Heaver Let Resources Ltd"
+                        }, 
+                        "name": "Heaver Let Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Etim Francis", 
+                            "telephone": "07030229946"
+                        }, 
+                        "identifier": {
+                            "legalName": "Anamaks Integrated Concept"
+                        }, 
+                        "name": "Anamaks Integrated Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Koikaniru Alh", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Global Resources Ltd"
+                        }, 
+                        "name": "Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olubeko ", 
+                            "telephone": "08034606548"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fik Global Resources Ltd"
+                        }, 
+                        "name": "Fik Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ugbechie Mathew", 
+                            "telephone": "08033363819"
+                        }, 
+                        "identifier": {
+                            "legalName": "Henzovic & Zemdi Nig Ltd"
+                        }, 
+                        "name": "Henzovic & Zemdi Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-s1gftnng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-17T12:53:59Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-s1gftnng-ubec"
+}

@@ -1,0 +1,159 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-12T15:17:44Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-157mumng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "budget": {
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "4", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Richard Datong ", 
+                            "telephone": "08033718148"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fellbest West Africa Ltd"
+                        }, 
+                        "name": "Fellbest West Africa Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "David Oke", 
+                            "telephone": "07039557878"
+                        }, 
+                        "identifier": {
+                            "legalName": "Admoak Construction International Ltd"
+                        }, 
+                        "name": "Admoak Construction International Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr Adegbite", 
+                            "telephone": "08062400010"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wetland Const. Nig Ltd"
+                        }, 
+                        "name": "Wetland Const. Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Femi O", 
+                            "telephone": "08055044903"
+                        }, 
+                        "identifier": {
+                            "legalName": "Righteous Construction Company Nig Ltd"
+                        }, 
+                        "name": "Righteous Construction Company Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-157mumng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-12T15:17:44Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-157mumng-ubec"
+}

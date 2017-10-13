@@ -1,0 +1,240 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-04-06T14:05:51Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-81x7h3ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "Fct", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-04-05T14:17", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": " Constituency Projects ", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "20", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ]
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ibrahim A", 
+                            "telephone": "08033156970"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alumuconigeria Ltd"
+                        }, 
+                        "name": "Alumuconigeria Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Makka A Ton", 
+                            "telephone": "08023132277"
+                        }, 
+                        "identifier": {
+                            "legalName": "Forth Neptune Products Ltd"
+                        }, 
+                        "name": "Forth Neptune Products Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Philip Johnson", 
+                            "telephone": "08032376259"
+                        }, 
+                        "identifier": {
+                            "legalName": "Peter And Partners Interglobal Ltd"
+                        }, 
+                        "name": "Peter And Partners Interglobal Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Austine Amaham", 
+                            "telephone": "08067825988"
+                        }, 
+                        "identifier": {
+                            "legalName": "Intermarkts Nig Ltd"
+                        }, 
+                        "name": "Intermarkts Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Evans A", 
+                            "telephone": "08038795567"
+                        }, 
+                        "identifier": {
+                            "legalName": "Awush Nig Ltd"
+                        }, 
+                        "name": "Awush Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jaji A.O", 
+                            "telephone": "08033172718"
+                        }, 
+                        "identifier": {
+                            "legalName": "Multplan Company Ltd"
+                        }, 
+                        "name": "Multplan Company Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Waziri", 
+                            "telephone": "08038372001"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hmf Construction"
+                        }, 
+                        "name": "Hmf Construction"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kabiri", 
+                            "telephone": "07035959129"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sharpway Gen Loding"
+                        }, 
+                        "name": "Sharpway Gen Loding"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdulhamid Ali Garba", 
+                            "telephone": "08058081117"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nifkah Gen Entep"
+                        }, 
+                        "name": "Nifkah Gen Entep"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bashir Musa", 
+                            "telephone": "08035048435"
+                        }, 
+                        "identifier": {
+                            "legalName": "K.K.Kamba & Sons Nig Ltd"
+                        }, 
+                        "name": "K.K.Kamba & Sons Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Okehie Chris", 
+                            "telephone": "08036053691"
+                        }, 
+                        "identifier": {
+                            "legalName": "Luglod Consult Limited"
+                        }, 
+                        "name": "Luglod Consult Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alfred Abios", 
+                            "telephone": "08181814525"
+                        }, 
+                        "identifier": {
+                            "legalName": "Daptem Resource Ltd"
+                        }, 
+                        "name": "Daptem Resource Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Moses Ochima", 
+                            "telephone": "08035929457"
+                        }, 
+                        "identifier": {
+                            "legalName": "Iman Grand Royal Services Ltd"
+                        }, 
+                        "name": "Iman Grand Royal Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ezekiel ", 
+                            "telephone": "08037871965"
+                        }, 
+                        "identifier": {
+                            "legalName": "Socio Global Investment Ltd"
+                        }, 
+                        "name": "Socio Global Investment Ltd"
+                    }, 
+                    {}
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-81x7h3ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-04-06T14:05:51Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-81x7h3ng-ubec"
+}

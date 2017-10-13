@@ -1,0 +1,166 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-10T12:44:48Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-4grq5zng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "5", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Muhammas ", 
+                            "telephone": "08069695802"
+                        }, 
+                        "identifier": {
+                            "legalName": "Swift Bulldoses Nig Ltd"
+                        }, 
+                        "name": "Swift Bulldoses Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Amarachi Chino", 
+                            "telephone": "08033367000"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sunshine Group Ltd"
+                        }, 
+                        "name": "Sunshine Group Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Freed Egwuntu", 
+                            "telephone": "08028285726"
+                        }, 
+                        "identifier": {
+                            "legalName": " Lysun Global Investment"
+                        }, 
+                        "name": " Lysun Global Investment"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Goddy Ameh", 
+                            "telephone": "08163070893"
+                        }, 
+                        "identifier": {
+                            "legalName": "Obet Nig Ltd"
+                        }, 
+                        "name": "Obet Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nafiu Shehu", 
+                            "telephone": "08034755318"
+                        }, 
+                        "identifier": {
+                            "legalName": "Regional Engineerin "
+                        }, 
+                        "name": "Regional Engineerin "
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-4grq5zng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-10T12:44:48Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-4grq5zng-ubec"
+}

@@ -1,0 +1,206 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-21T11:27:43Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-exic59ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "9", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ogaba .O", 
+                            "telephone": "07038051527"
+                        }, 
+                        "identifier": {
+                            "legalName": "Watersping Nig. Ltd"
+                        }, 
+                        "name": "Watersping Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ochugboju Abu", 
+                            "telephone": "07031157589"
+                        }, 
+                        "identifier": {
+                            "legalName": "Okoh Investment Ltd"
+                        }, 
+                        "name": "Okoh Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mohammed Inuwa", 
+                            "telephone": "09099449660"
+                        }, 
+                        "identifier": {
+                            "legalName": "Options Invest & Property Development Co, Ltd"
+                        }, 
+                        "name": "Options Invest & Property Development Co, Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Edward Eme", 
+                            "telephone": "08035990239"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ado  Sunrise Nig Ltd"
+                        }, 
+                        "name": "Ado  Sunrise Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogbole Victor", 
+                            "telephone": "08067260834"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ekotic & Ekendu Const. Co. Ltd"
+                        }, 
+                        "name": "Ekotic & Ekendu Const. Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Sani", 
+                            "telephone": "08033344070"
+                        }, 
+                        "identifier": {
+                            "legalName": "Qs Trends Consult Ltd"
+                        }, 
+                        "name": "Qs Trends Consult Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chris Okehire", 
+                            "telephone": "08036053692"
+                        }, 
+                        "identifier": {
+                            "legalName": "Eabason Int\u201dL Ltd"
+                        }, 
+                        "name": "Eabason Int\u201dL Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ozigi", 
+                            "telephone": "08033931788"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sunbolitstic Ltd"
+                        }, 
+                        "name": "Sunbolitstic Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adeshina", 
+                            "telephone": "0705227788"
+                        }, 
+                        "identifier": {
+                            "legalName": "Clantayo Inte"
+                        }, 
+                        "name": "Clantayo Inte"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-exic59ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-21T11:27:43Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-exic59ng-ubec"
+}

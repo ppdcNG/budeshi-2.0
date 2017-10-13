@@ -1,0 +1,186 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-17T08:49:24Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-kic28eng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "7", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Murtala Abbas", 
+                            "telephone": "08033561311"
+                        }, 
+                        "identifier": {
+                            "legalName": "Arettunsual Solutions Ltd"
+                        }, 
+                        "name": "Arettunsual Solutions Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ososori", 
+                            "telephone": "08035882574"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yisa Jubril Mec Works"
+                        }, 
+                        "name": "Yisa Jubril Mec Works"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aminu", 
+                            "telephone": "08036051475"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bimlex Andy Nig Ltd"
+                        }, 
+                        "name": "Bimlex Andy Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adekoya A", 
+                            "telephone": "08184212550"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nenemic Consults Limited"
+                        }, 
+                        "name": "Nenemic Consults Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibiteye Stephens ", 
+                            "telephone": "08036622553"
+                        }, 
+                        "identifier": {
+                            "legalName": "Phiser Engineering & Solutions Ltd"
+                        }, 
+                        "name": "Phiser Engineering & Solutions Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Oluka B", 
+                            "telephone": "08033503917"
+                        }, 
+                        "identifier": {
+                            "legalName": "Softn-Fast Landing Ltd"
+                        }, 
+                        "name": "Softn-Fast Landing Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Samuel", 
+                            "telephone": "07082881212"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hummingbird Projects & Ser. Ltd"
+                        }, 
+                        "name": "Hummingbird Projects & Ser. Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-kic28eng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-17T08:49:24Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-kic28eng-ubec"
+}

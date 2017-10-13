@@ -24,12 +24,13 @@ class Model{
         else{
             $this->error = mysqli_error($this->conn);
             $this->errorNo = mysqli_errno($this->conn);
+            die($this->error);
             return false;
         }
 
     }
 
-    public function update($id, $fieldSet = [], $table = "institution"){
+    public function update($id, $fieldSet = [], $table = "institution", $where = "release_id"){
         $fieldString = "";
         if(!empty($fieldSet)){
             foreach($fieldSet as $name=> $value){
@@ -46,7 +47,7 @@ class Model{
             print_r($fieldSet);
             die();
         }
-        $query = "UPDATE ".$table." SET ".$fieldString." WHERE id = ".$id;
+        $query = "UPDATE ".$table." SET ".$fieldString." WHERE ".$where." = '".$id."'";
         $result = $this->query($query);
         if(!$result){
             echo $this->error;
@@ -101,4 +102,75 @@ class Model{
         return $result;
 
     }
+    public function queryToJson($query, $prefix= ""){
+        $output = array();
+        $result = $this->query($query);
+        if(!$result){
+            die($this->error);
+        }
+        if(mysqli_num_rows($result) <= 0){
+            return "empty";
+        }
+        else{
+            while($row = mysqli_fetch_assoc($result)){
+                foreach($row as $name=>$value){
+                    $output[$prefix.$name] = $value;
+                }
+            }
+        
+            $output["ajaxstatus"] = "success";
+            $output["message"] = "Fetched successfully";
+            $output = json_encode($output);
+            return $output; 
+        }
+    }
+    public function ajaxSuccess($data_obj, $type = "success"){
+        
+        
+    }
+    protected function trimText($text, $max = 100, $pgrh = 1)
+    {
+
+        $textToReturn = '';
+        $len = strlen($text);
+        if (strlen($text) > $max) {
+            for ($i = 0; $i < $pgrh; $i++)
+                {
+                if ($pos = strpos($text, '\n'))
+                    {
+                    $textToReturn .= substr($text, 0, $pos);
+                    $text = substr($text, $pos + 1, $len);
+                }
+                else {
+                    $pos = strrpos($text, ' ');
+                    $textToReturn .= substr($text, 0, $max) . "...";
+                }
+            }
+        }
+        else {
+            $textToReturn = $text;
+        }
+        return $textToReturn;
+    }
+    protected function generate_ocid($mda_id){
+        $query = "SELECT short_name FROM mdas WHERE id = ".$mda_id;
+        $result = $this->query($query);
+        if(!$result){
+            die($this->error);
+        }
+        $name = mysqli_fetch_array($result)[0];
+        $code = md5(time());
+        $code = substr($code,0,3).substr($code,-3)."ng";
+        $ocid = "ocds-".OC_PREFIX."-".$code."-".$name;
+        return $ocid;
+    }
+    public function renderRow($type, $value){
+        $type = strtolower($type);
+        $row = "";
+      
+            $row = "<".$type.">".$value."</".$type.">";
+        
+        return $row;
+    }
+    
 }

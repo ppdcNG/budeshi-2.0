@@ -1,0 +1,220 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-13T09:55:17Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-3v8s3gng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "11", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Chief Ojukwu", 
+                            "telephone": "07039355255"
+                        }, 
+                        "identifier": {
+                            "legalName": "Swift Talk Ltd"
+                        }, 
+                        "name": "Swift Talk Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ebuka", 
+                            "telephone": "08033002019"
+                        }, 
+                        "identifier": {
+                            "legalName": "New Gate Logistic Ltd"
+                        }, 
+                        "name": "New Gate Logistic Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tijani O.", 
+                            "telephone": "08035956880"
+                        }, 
+                        "identifier": {
+                            "legalName": "Conban Nig Ltd"
+                        }, 
+                        "name": "Conban Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yahaya Enage", 
+                            "telephone": "07069196017"
+                        }, 
+                        "identifier": {
+                            "legalName": "Qib Consulting Ltd"
+                        }, 
+                        "name": "Qib Consulting Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abubakar Negedu", 
+                            "telephone": "07035858200"
+                        }, 
+                        "identifier": {
+                            "legalName": "Joshuel Global Venture Ltd"
+                        }, 
+                        "name": "Joshuel Global Venture Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Timothy Olachene", 
+                            "telephone": "07037678858"
+                        }, 
+                        "identifier": {
+                            "legalName": "Glamour Vent. (Nig) Ltd"
+                        }, 
+                        "name": "Glamour Vent. (Nig) Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Infeanyi Isiguzo", 
+                            "telephone": "08069791480"
+                        }, 
+                        "identifier": {
+                            "legalName": "Netview Envirocom Ltd"
+                        }, 
+                        "name": "Netview Envirocom Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Daniel Ben", 
+                            "telephone": "08111188148"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sefi & Design Ltd"
+                        }, 
+                        "name": "Sefi & Design Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Victor", 
+                            "telephone": "08138566154"
+                        }, 
+                        "identifier": {
+                            "legalName": "Double Platinum Construction Serv. Ltd"
+                        }, 
+                        "name": "Double Platinum Construction Serv. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isah Suleiman", 
+                            "telephone": "08036088427"
+                        }, 
+                        "identifier": {
+                            "legalName": "Betterment Integrated Business Ltd"
+                        }, 
+                        "name": "Betterment Integrated Business Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Idoko Haruna", 
+                            "telephone": "08037787715"
+                        }, 
+                        "identifier": {
+                            "legalName": "Oomef Limited"
+                        }, 
+                        "name": "Oomef Limited"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-3v8s3gng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-13T09:55:17Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-3v8s3gng-ubec"
+}

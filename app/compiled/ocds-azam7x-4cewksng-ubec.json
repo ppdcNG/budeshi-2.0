@@ -1,0 +1,578 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-17T10:57:45Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-4cewksng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": " Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": " 7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records ", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "Offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "44", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records ", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records ", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "Offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": " Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": " 7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "danomozi@gmail.com", 
+                            "telephone": "08037864524", 
+                            "name": "Dan Mozie"
+                        }, 
+                        "identifier": {
+                            "legalName": "Solidmark Nig. Ltd"
+                        }, 
+                        "name": "Solidmark Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Blesing", 
+                            "telephone": "07014889941"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cristal Tech Ser Ltd"
+                        }, 
+                        "name": "Cristal Tech Ser Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "greenlampnigerialtd@gmail.com ", 
+                            "telephone": "08091752559 08034519591", 
+                            "name": "Andefikir Gadin"
+                        }, 
+                        "identifier": {
+                            "legalName": "Greenlamp & Sons Nig Ltd"
+                        }, 
+                        "name": "Greenlamp & Sons Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "zeidersng@yahoo.com ", 
+                            "telephone": "08065810257", 
+                            "name": "Ukandu Kingsley"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zeider Integrated Concept Ltd"
+                        }, 
+                        "name": "Zeider Integrated Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Ohnsonphilip62@ymail.com ", 
+                            "telephone": "08032376259", 
+                            "name": "Philip Johnson"
+                        }, 
+                        "identifier": {
+                            "legalName": "Peter And Partners Inter Global Ltd"
+                        }, 
+                        "name": "Peter And Partners Inter Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "noblestrides@yahoo.com ", 
+                            "telephone": "07037432309", 
+                            "name": "Mr. Chalky Pius"
+                        }, 
+                        "identifier": {
+                            "legalName": "Noble Strides Nig. Ltd"
+                        }, 
+                        "name": "Noble Strides Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ola", 
+                            "telephone": "08033653059"
+                        }, 
+                        "identifier": {
+                            "legalName": "Waterbase Engr."
+                        }, 
+                        "name": "Waterbase Engr."
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "ikegodjoseplat@yahoo.com ", 
+                            "telephone": "08038361817", 
+                            "name": "Ikechukwu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aggregate Superstructures Deve. Ltd"
+                        }, 
+                        "name": "Aggregate Superstructures Deve. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Muhammad Tahir Zubair", 
+                            "telephone": "08069695802"
+                        }, 
+                        "identifier": {
+                            "legalName": "Real Ideas Multi Concept"
+                        }, 
+                        "name": "Real Ideas Multi Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "tymanengineering@gmail.com ", 
+                            "telephone": "08035093113", 
+                            "name": "Omoloye Tunde"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mikky-Tai Engineering & Construction Ltd"
+                        }, 
+                        "name": "Mikky-Tai Engineering & Construction Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "constructionjewel@yahoo.com ", 
+                            "telephone": "08065784141", 
+                            "name": "Igbanna Gabriel"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jewel Construction And Engineering Services Ltd"
+                        }, 
+                        "name": "Jewel Construction And Engineering Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "solapelid@yahoo.com ", 
+                            "telephone": "08068683768", 
+                            "name": "Samuel Okojie"
+                        }, 
+                        "identifier": {
+                            "legalName": "Conda & 1 International Limited"
+                        }, 
+                        "name": "Conda & 1 International Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "omololazny@gmail.com ", 
+                            "telephone": "08032391579", 
+                            "name": "Chukwuma"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dologon Corp. Serv. Ltd"
+                        }, 
+                        "name": "Dologon Corp. Serv. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "femioluwaseyiton@gmail.com ", 
+                            "telephone": "08167414601", 
+                            "name": "Femi Oluwaseyi"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yanruwa Invest. Nig. Ltd."
+                        }, 
+                        "name": "Yanruwa Invest. Nig. Ltd."
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tafida ", 
+                            "telephone": "08095527514"
+                        }, 
+                        "identifier": {
+                            "legalName": "Roham Marine Ltd"
+                        }, 
+                        "name": "Roham Marine Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dele", 
+                            "telephone": "08037952614"
+                        }, 
+                        "identifier": {
+                            "legalName": "Belewa Consulting Eng.Ltd"
+                        }, 
+                        "name": "Belewa Consulting Eng.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "beejeomatics@gmail.com ", 
+                            "telephone": "08038328169", 
+                            "name": "Fabiyi Olabanji"
+                        }, 
+                        "identifier": {
+                            "legalName": "Beejeomatics Global Limited"
+                        }, 
+                        "name": "Beejeomatics Global Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "ikepeyolu@yahoo.com ", 
+                            "telephone": "08023306577", 
+                            "name": "Gabriel Inaku"
+                        }, 
+                        "identifier": {
+                            "legalName": "24 Hour Light Nig Ltd"
+                        }, 
+                        "name": "24 Hour Light Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "pinbadinterserviceltd@yahoo.com ", 
+                            "telephone": "08038374460", 
+                            "name": "Ugochukwu Nwakiyi"
+                        }, 
+                        "identifier": {
+                            "legalName": "Pinbad Int\u2019l Service Ltd"
+                        }, 
+                        "name": "Pinbad Int\u2019l Service Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "albusiness@yahoo.com ", 
+                            "telephone": "08033592651", 
+                            "name": "Mall Aliu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Al Business Ltd."
+                        }, 
+                        "name": "Al Business Ltd."
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Joe Onyekwua", 
+                            "telephone": "08032474847"
+                        }, 
+                        "identifier": {
+                            "legalName": "Joeleu Standard Ltd"
+                        }, 
+                        "name": "Joeleu Standard Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "altargate@yahoo.com ", 
+                            "telephone": "08062154096", 
+                            "name": "Obi Geoffrey Ebuka"
+                        }, 
+                        "identifier": {
+                            "legalName": "Altar Gate Associates Ltd"
+                        }, 
+                        "name": "Altar Gate Associates Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "bentlean@yahoo.com ", 
+                            "telephone": "08034281245", 
+                            "name": "Paul Obi"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abbey Court Energy Serv. Ltd"
+                        }, 
+                        "name": "Abbey Court Energy Serv. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Zeb Amah", 
+                            "telephone": "08038535289"
+                        }, 
+                        "identifier": {
+                            "legalName": "Priuevails Ltd"
+                        }, 
+                        "name": "Priuevails Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yusuf Didama", 
+                            "telephone": "08062546723"
+                        }, 
+                        "identifier": {
+                            "legalName": "Base Associates Ltd"
+                        }, 
+                        "name": "Base Associates Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Emeka Akabogu", 
+                            "telephone": "08063878415"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jude Engineering Nig. Ltd"
+                        }, 
+                        "name": "Jude Engineering Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Integralfactors@yahoo.co.uk", 
+                            "telephone": "07036846888", 
+                            "name": "Ohugbo Chinnamso"
+                        }, 
+                        "identifier": {
+                            "legalName": "Intergral Factors Int\u2019l Limited"
+                        }, 
+                        "name": "Intergral Factors Int\u2019l Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Sunfat82@yahoo.com ", 
+                            "telephone": "07061070080", 
+                            "name": "Victor Mayolu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sumfat Nic Ltd"
+                        }, 
+                        "name": "Sumfat Nic Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "barrysoul@gmail.com ", 
+                            "telephone": "08180885193", 
+                            "name": "Buhari W."
+                        }, 
+                        "identifier": {
+                            "legalName": "Sharpenann Limited"
+                        }, 
+                        "name": "Sharpenann Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aminu B. ", 
+                            "telephone": "08033144711"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jm & A\u2019s Ltd"
+                        }, 
+                        "name": "Jm & A\u2019s Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "adebonale.muyara@yahoo.com ", 
+                            "telephone": "07030480818", 
+                            "name": "Adebonale Muyina"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tunois Nig. Ltd"
+                        }, 
+                        "name": "Tunois Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "famdamsub@yahoo.com ", 
+                            "telephone": "08037117020", 
+                            "name": "Ogunsola Olufemi"
+                        }, 
+                        "identifier": {
+                            "legalName": "Famdam Investment Nig. Ltd"
+                        }, 
+                        "name": "Famdam Investment Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mo\u2019d Yunusa", 
+                            "telephone": "08036493666"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yobe Construction & Engineering Services Ltd"
+                        }, 
+                        "name": "Yobe Construction & Engineering Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibiteye Storen", 
+                            "telephone": "08036622553"
+                        }, 
+                        "identifier": {
+                            "legalName": "Femya Nig. Ltd."
+                        }, 
+                        "name": "Femya Nig. Ltd."
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Balaas72@gmail.com ", 
+                            "telephone": "08065556600"
+                        }, 
+                        "identifier": {
+                            "legalName": "Global Builders Limited"
+                        }, 
+                        "name": "Global Builders Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr. Amolue", 
+                            "telephone": "08066691646"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sharonaoife Nig Ltd"
+                        }, 
+                        "name": "Sharonaoife Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Murtakassas", 
+                            "telephone": "08033561311"
+                        }, 
+                        "identifier": {
+                            "legalName": "Scafe Design Associates"
+                        }, 
+                        "name": "Scafe Design Associates"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dom Obi", 
+                            "telephone": "08065682400"
+                        }, 
+                        "identifier": {
+                            "legalName": "Americlean Global Services Ltd"
+                        }, 
+                        "name": "Americlean Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tafida", 
+                            "telephone": "08095527514"
+                        }, 
+                        "identifier": {
+                            "legalName": "Okosam Global Nig Ltd"
+                        }, 
+                        "name": "Okosam Global Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Onyemah Monday", 
+                            "telephone": "08060329846"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jmt Plus Integrated Ltd"
+                        }, 
+                        "name": "Jmt Plus Integrated Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mohammed Ahmed", 
+                            "telephone": "08036186027"
+                        }, 
+                        "identifier": {
+                            "legalName": "Meteorite Logistic Ltd"
+                        }, 
+                        "name": "Meteorite Logistic Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogonna Okoli", 
+                            "telephone": "08033373857"
+                        }, 
+                        "identifier": {
+                            "legalName": "African Plus Ltd"
+                        }, 
+                        "name": "African Plus Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Afolabi Sdai", 
+                            "telephone": "08068683768"
+                        }, 
+                        "identifier": {
+                            "legalName": "Voxel Putan Ltd"
+                        }, 
+                        "name": "Voxel Putan Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bello Hammed", 
+                            "telephone": "08057411510"
+                        }, 
+                        "identifier": {
+                            "legalName": "Barewa Investment Ltd"
+                        }, 
+                        "name": "Barewa Investment Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-4cewksng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-17T10:57:45Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-4cewksng-ubec"
+}

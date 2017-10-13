@@ -1,0 +1,255 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-07T13:38:44Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-fqgwbrng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "14", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "array", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ibrahim Mohammed", 
+                            "telephone": "08073534885"
+                        }, 
+                        "identifier": {
+                            "legalName": "Irh Investment Limited"
+                        }, 
+                        "name": "Irh Investment Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Usman A. Samisi", 
+                            "telephone": "08037044946"
+                        }, 
+                        "identifier": {
+                            "legalName": "Satafa Global Com. Nig. Ltd"
+                        }, 
+                        "name": "Satafa Global Com. Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Anaege E. C.", 
+                            "telephone": "08032051223"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gold-Rock Business Ventures Ltd"
+                        }, 
+                        "name": "Gold-Rock Business Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Femi Oluwaseyitan", 
+                            "telephone": "08167414601"
+                        }, 
+                        "identifier": {
+                            "legalName": "Danjodan Nigeria Ltd"
+                        }, 
+                        "name": "Danjodan Nigeria Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Femi Oluwaseyitan", 
+                            "telephone": "08167414601"
+                        }, 
+                        "identifier": {
+                            "legalName": "Manblue Integrated Prop. Nig. Ltd"
+                        }, 
+                        "name": "Manblue Integrated Prop. Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Asah Ufioma", 
+                            "telephone": "08078888861"
+                        }, 
+                        "identifier": {
+                            "legalName": "Andi-Kan Resources Ltd"
+                        }, 
+                        "name": "Andi-Kan Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yemi", 
+                            "telephone": "08033146262"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ramussal Intl. Ltd"
+                        }, 
+                        "name": "Ramussal Intl. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Jamilu Gambo", 
+                            "telephone": "08036821221"
+                        }, 
+                        "identifier": {
+                            "legalName": "F&J Environmental Nig. Ltd"
+                        }, 
+                        "name": "F&J Environmental Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Muyiwa Awofes", 
+                            "telephone": "07030174622"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ahiola Feso Holdings Ltd"
+                        }, 
+                        "name": "Ahiola Feso Holdings Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Suleiman O.", 
+                            "telephone": "08033149460"
+                        }, 
+                        "identifier": {
+                            "legalName": "Biyaya Nig Ent. Ltd"
+                        }, 
+                        "name": "Biyaya Nig Ent. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fred G. Egwu", 
+                            "telephone": "08039549768"
+                        }, 
+                        "identifier": {
+                            "legalName": "L-Ssun Global Invt."
+                        }, 
+                        "name": "L-Ssun Global Invt."
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Godwin Ugah", 
+                            "telephone": "08066005352"
+                        }, 
+                        "identifier": {
+                            "legalName": "Famal Projacts Ltd"
+                        }, 
+                        "name": "Famal Projacts Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Modestus", 
+                            "telephone": "08107113533"
+                        }, 
+                        "identifier": {
+                            "legalName": "Baron The Great Ltd"
+                        }, 
+                        "name": "Baron The Great Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alex Okeyobasi", 
+                            "telephone": "08033830668"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fortizo Engineering Co. Ltd"
+                        }, 
+                        "name": "Fortizo Engineering Co. Ltd"
+                    }
+                ], 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "hasEnquiries": "boolean"
+            }, 
+            "id": "ocds-azam7x-fqgwbrng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-07T13:38:44Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-fqgwbrng-ubec"
+}

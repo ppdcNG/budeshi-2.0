@@ -1,0 +1,166 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-14T12:41:33Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-p3e0ccng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "5", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Alj Toyin", 
+                            "telephone": "08033310178"
+                        }, 
+                        "identifier": {
+                            "legalName": "Crystal World Standard Service"
+                        }, 
+                        "name": "Crystal World Standard Service"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Salako N", 
+                            "telephone": "08033022383"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cotikioplus Ltd"
+                        }, 
+                        "name": "Cotikioplus Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdul V.", 
+                            "telephone": "08057766622"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gabal Advanced Project"
+                        }, 
+                        "name": "Gabal Advanced Project"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Omotayo Sharon", 
+                            "telephone": "07056562115"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yonsu S. Global Vent Ltd"
+                        }, 
+                        "name": "Yonsu S. Global Vent Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isah S. Oba", 
+                            "telephone": "08034526531"
+                        }, 
+                        "identifier": {
+                            "legalName": "Geodote World Services Ltd"
+                        }, 
+                        "name": "Geodote World Services Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-p3e0ccng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-14T12:41:33Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-p3e0ccng-ubec"
+}

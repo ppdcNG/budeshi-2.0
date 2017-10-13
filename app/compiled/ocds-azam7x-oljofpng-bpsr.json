@@ -1,0 +1,482 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2016-08-25T12:06:50Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "title": "", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "status": "", 
+                                "documents": [
+                                    {
+                                        "description": "", 
+                                        "language": "", 
+                                        "title": "", 
+                                        "url": "", 
+                                        "format": "", 
+                                        "datePublished": "", 
+                                        "documentType": "", 
+                                        "dateModified": "", 
+                                        "id": ""
+                                    }
+                                ], 
+                                "description": "", 
+                                "title": "", 
+                                "dueDate": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "transactions": [
+                            {
+                                "receiverOrganization": {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }, 
+                                "amount": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }, 
+                                "uri": "", 
+                                "source": "", 
+                                "providerOrganization": {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }, 
+                                "date": "", 
+                                "id": ""
+                            }
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": "", 
+                                "id": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": "", 
+                                    "id": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "period": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }, 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": 246210
+                    }, 
+                    "dateSigned": "", 
+                    "awardID": "", 
+                    "id": ""
+                }
+            ], 
+            "ocid": "ocds-azam7x-oljofpng-bpsr", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer", 
+                "awards", 
+                "contracts"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "www.bpsr.gov.ng", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "Dr Joe Abah", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": 125008001, 
+                    "uri": "", 
+                    "legalName": "Bureau of Public Service Reforms"
+                }, 
+                "name": "Bureau of Public Service Reforms", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "Federal Secretariat Complex New Extension Plot 04 Phase 2 Block D 3rd Floor Shehu Shagari Way PMB 625", 
+                    "region": "FCT", 
+                    "locality": "Garki Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Supply of Drums for Xerox machine WC 7120", 
+                        "language": "en", 
+                        "format": "text/html", 
+                        "url": " http://www.bpsr.gov.ng/index.php/bpsr-reports", 
+                        "title": "Supply of Drums", 
+                        "datePublished": "18/08/2016", 
+                        "documentType": "Physical Progress Report", 
+                        "id": "Bpsr_prcmt_reprts_2015", 
+                        "dateModified": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "Supply of Drums for Xerox machine WC 7120", 
+                    "projectID": "N/A", 
+                    "uri": "", 
+                    "project": "N/A", 
+                    "source": "N/A", 
+                    "amount": {
+                        "currency": "NGN", 
+                        "amount": ""
+                    }, 
+                    "id": "N/A"
+                }, 
+                "rationale": "N/A"
+            }, 
+            "awards": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "25/08/2016", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "title": "", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "description": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "description": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }
+                            ], 
+                            "contactPoint": {
+                                "url": "", 
+                                "faxNumber": "", 
+                                "telephone": "", 
+                                "name": "", 
+                                "email": ""
+                            }, 
+                            "identifier": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Xerox H.S Nigeria Ltd"
+                            }, 
+                            "name": "Xerox H.S Nigeria Ltd", 
+                            "address": {
+                                "postalCode": "", 
+                                "countryName": "", 
+                                "streetAddress": "", 
+                                "region": "", 
+                                "locality": ""
+                            }
+                        }
+                    ], 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": 246210
+                    }, 
+                    "date": "", 
+                    "id": "", 
+                    "contractPeriod": {
+                        "startDate": "06/07/2015", 
+                        "endDate": "13/07/2015"
+                    }
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "", 
+                    "changes": [
+                        ""
+                    ], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "eligibilityCriteria": "", 
+                "value": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "legalName": "", 
+                                "id": "", 
+                                "uri": ""
+                            }
+                        ], 
+                        "identifier": {
+                            "scheme": "", 
+                            "legalName": "", 
+                            "id": "", 
+                            "uri": ""
+                        }, 
+                        "name": "", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "telephone": "", 
+                            "email": "", 
+                            "name": "", 
+                            "faxNumber": ""
+                        }, 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }
+                    }
+                ], 
+                "id": "", 
+                "description": "", 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "format": "", 
+                        "url": "", 
+                        "title": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "title": "", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "legalName": "", 
+                            "id": "", 
+                            "uri": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "", 
+                        "telephone": "", 
+                        "email": "", 
+                        "name": "", 
+                        "faxNumber": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "legalName": "Bureauof Public Service Reforms", 
+                        "id": 125008001, 
+                        "uri": ""
+                    }, 
+                    "name": "Bureauof Public Service Reforms", 
+                    "address": {
+                        "postalCode": "", 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "Federal Secretariat Complex New Extension Plot 04 Phase 2 Block D 3rd Floor Shehu Shagari Way PMB 625 ", 
+                        "region": "FCT", 
+                        "locality": "Garki Abuja"
+                    }
+                }, 
+                "procurementMethodRationale": "", 
+                "status": "active", 
+                "numberOfTenderers": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "submissionMethod": "", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "format": "", 
+                                "url": "", 
+                                "title": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "id": "", 
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "id": "", 
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-oljofpng-bpsr-contracts-001"
+        }
+    ], 
+    "publishedDate": "2016-08-25T12:06:50Z", 
+    "uri": "http://app.budeshi.ng/raw/bpsr/ocds-azam7x-oljofpng-bpsr"
+}

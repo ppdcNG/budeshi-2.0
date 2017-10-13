@@ -1,0 +1,480 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2016-08-24T12:17:23Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "Completed", 
+                    "amendment": {
+                        "date": "", 
+                        "changes": [], 
+                        "rationale": "Final Acceptance"
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "format": "", 
+                            "url": "", 
+                            "title": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "id": "", 
+                            "dateModified": ""
+                        }
+                    ], 
+                    "description": "Lot Bo Ml 1.1 Almajiri Model I Primary School,Borno", 
+                    "title": "Construction of Almajiri Schools", 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "status": "", 
+                                "documents": [
+                                    {
+                                        "description": "", 
+                                        "language": "", 
+                                        "format": "", 
+                                        "url": "", 
+                                        "title": "", 
+                                        "datePublished": "", 
+                                        "documentType": "", 
+                                        "id": "", 
+                                        "dateModified": ""
+                                    }
+                                ], 
+                                "description": "", 
+                                "title": "", 
+                                "dueDate": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "format": "", 
+                                "url": "", 
+                                "title": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "transactions": [
+                            {
+                                "amount": {
+                                    "currency": "Naira", 
+                                    "amount": "49,626,174"
+                                }, 
+                                "receiverOrganization": {
+                                    "scheme": "", 
+                                    "legalName": "Universal Basic Education", 
+                                    "id": "", 
+                                    "uri": "http://ubeconline.com/"
+                                }, 
+                                "uri": "", 
+                                "source": "http://bit.ly/1N3yhtB", 
+                                "providerOrganization": {
+                                    "scheme": "", 
+                                    "legalName": "Conceot Cast Construction Ltd", 
+                                    "id": "", 
+                                    "uri": ""
+                                }, 
+                                "date": 2014, 
+                                "id": 4
+                            }
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "id": "", 
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "id": "", 
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "Naira", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "period": {
+                        "startDate": "2014-06-09", 
+                        "endDate": "2014-09-15"
+                    }, 
+                    "value": {
+                        "currency": "Naira", 
+                        "amount": 49626174
+                    }, 
+                    "dateSigned": "2014-06-09", 
+                    "awardID": 4, 
+                    "id": 4
+                }
+            ], 
+            "ocid": "ocds-azam7x-2fo6ycng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer", 
+                "awards", 
+                "contracts"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "http://ubeconline.com/", 
+                    "faxNumber": 23495232506, 
+                    "email": "", 
+                    "name": "ALHAJI (DR) DIKKO SULEIMAN", 
+                    "telephone": 23495232506
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "http://ubeconline.com/", 
+                    "legalName": "Universal Basic Education"
+                }, 
+                "name": "Universal Basic Education", 
+                "address": {
+                    "postalCode": 900284, 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "UBEC Building, No 7 Gwani Street", 
+                    "region": "Abuja FCT", 
+                    "locality": " Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement records of Almajiri Schools constructed in 2014 as received from the Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Ubec Procurement Plan 2014 (Works)", 
+                        "url": "https://docs.google.com/spreadsheets/d/17E6U4UJjEOPjjvlSZUNEyrXP9G1KaN1HkGoI14epfCQ/edit#gid=1150581201", 
+                        "format": "text/html", 
+                        "datePublished": "", 
+                        "documentType": "Physical progress report", 
+                        "dateModified": "24/08/2016", 
+                        "id": "gid=1150581201"
+                    }
+                ], 
+                "budget": {
+                    "description": "2014 Budgetary Allocation for Universal Basic Education Commission", 
+                    "projectID": "UBEC 01007234", 
+                    "uri": "http://budgetoffice.gov.ng/pdfs/2014_appriation%20act/12.%20Summary_Education.pdf", 
+                    "project": "National Programme On Almajiri Education In Collaboration With Ube Fund", 
+                    "source": "Budget Office", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": 80000000
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": "The need for the Almajiri population to access state provided education "
+            }, 
+            "awards": [
+                {
+                    "status": "", 
+                    "amendment": {
+                        "date": "24/08/2016", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "format": "", 
+                            "url": "", 
+                            "title": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "id": "", 
+                            "dateModified": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "id": "", 
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "id": "", 
+                                    "scheme": "", 
+                                    "description": "", 
+                                    "uri": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {
+                                    "scheme": "", 
+                                    "legalName": "", 
+                                    "id": "", 
+                                    "uri": ""
+                                }
+                            ], 
+                            "contactPoint": {
+                                "url": "", 
+                                "telephone": "", 
+                                "email": "", 
+                                "name": "", 
+                                "faxNumber": ""
+                            }, 
+                            "identifier": {
+                                "scheme": "", 
+                                "legalName": "Concept Cast Construction Ltd", 
+                                "id": "", 
+                                "uri": ""
+                            }, 
+                            "name": "", 
+                            "address": {
+                                "postalCode": "", 
+                                "countryName": "", 
+                                "streetAddress": "", 
+                                "region": "", 
+                                "locality": ""
+                            }
+                        }
+                    ], 
+                    "value": {
+                        "currency": "", 
+                        "amount": 49626174
+                    }, 
+                    "date": "", 
+                    "id": "", 
+                    "contractPeriod": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "24/08/2016", 
+                    "changes": [], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "awardCriteria": "", 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "numberOfTenderers": "", 
+                "value": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": ""
+                            }
+                        ], 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }, 
+                        "name": "", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "faxNumber": "", 
+                            "telephone": "", 
+                            "name": "", 
+                            "email": ""
+                        }, 
+                        "identifier": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    }
+                ], 
+                "id": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "title": "", 
+                        "url": "", 
+                        "format": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "title": "", 
+                "procurementMethodRationale": "", 
+                "status": "", 
+                "eligibilityCriteria": "", 
+                "description": "", 
+                "submissionMethod": "", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "title": "", 
+                                "url": "", 
+                                "format": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "dateModified": "", 
+                                "id": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "id": "", 
+                        "dateModified": "", 
+                        "dueDate": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "description": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "description": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "id": "", 
+                            "uri": "", 
+                            "legalName": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "http://ubeconline.com/", 
+                        "faxNumber": 23495232506, 
+                        "telephone": 23495232506, 
+                        "name": "ALHAJI (DR) DIKKO SULEIMAN", 
+                        "email": ""
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "http://ubeconline.com/", 
+                        "legalName": "Universal Basic Education"
+                    }, 
+                    "name": "", 
+                    "address": {
+                        "postalCode": 900284, 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "UBEC BuildingNo 7 Gwani Street", 
+                        "region": "Abuja FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }
+            }, 
+            "id": "ocds-azam7x-2fo6ycng-ubec-contracts-001"
+        }
+    ], 
+    "publishedDate": "2016-08-24T12:17:23Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-2fo6ycng-ubec"
+}

@@ -1,0 +1,128 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-01T13:15:27Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-pf54nxng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": " Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "7 Gwani Street"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records ", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "1", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records ", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "title": "Procurement records ", 
+                        "format": "offline/print", 
+                        "datePublished": "27/07/17", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Board"
+                    }, 
+                    "name": "Universal Basic Education Board", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": " Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "7 Gwani Street"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "ciana.pomco@gmail.com ", 
+                            "telephone": "08060755197", 
+                            "name": "Alabi Moses"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yomfad Int. Serv Nig Ltd"
+                        }, 
+                        "name": "Yomfad Int. Serv Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-pf54nxng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-01T13:15:27Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-pf54nxng-ubec"
+}

@@ -1,0 +1,271 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-03-27T13:46:43Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-638qktng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "27/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "open", 
+                "numberOfTenderers": "15", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "27/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Kabir M. R. ", 
+                            "telephone": "07066605151"
+                        }, 
+                        "identifier": {
+                            "legalName": "Stallion Trading & Construction Services Ltd"
+                        }, 
+                        "name": "Stallion Trading & Construction Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jerry Zakau", 
+                            "telephone": "08036989441"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alphazeta Global Technical Service Ltd"
+                        }, 
+                        "name": "Alphazeta Global Technical Service Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dikko Dahiru", 
+                            "telephone": "08025403644"
+                        }, 
+                        "identifier": {
+                            "legalName": "D.H.M. Global Merchant"
+                        }, 
+                        "name": "D.H.M. Global Merchant"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Ibrahim Magagi", 
+                            "telephone": "08097712089"
+                        }, 
+                        "identifier": {
+                            "legalName": "Barwa Engr. Co. Ltd"
+                        }, 
+                        "name": "Barwa Engr. Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr. Yinka", 
+                            "telephone": "08138353985"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cristal Tech Services"
+                        }, 
+                        "name": "Cristal Tech Services"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Victor Magoni", 
+                            "telephone": "07061070080"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sumfat Nig Ltd"
+                        }, 
+                        "name": "Sumfat Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Salleli Jibrin", 
+                            "telephone": "08065384614"
+                        }, 
+                        "identifier": {
+                            "legalName": "Puma Engineering Ltd"
+                        }, 
+                        "name": "Puma Engineering Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tochukwu Obi", 
+                            "telephone": "08033225974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Diamond Leeds Ltd"
+                        }, 
+                        "name": "Diamond Leeds Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Simon O.", 
+                            "telephone": "08028404659"
+                        }, 
+                        "identifier": {
+                            "legalName": "Towere Ark Ltd"
+                        }, 
+                        "name": "Towere Ark Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isah Dogondaji", 
+                            "telephone": "07064057480"
+                        }, 
+                        "identifier": {
+                            "legalName": "Platoon Global Inv. Limited"
+                        }, 
+                        "name": "Platoon Global Inv. Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bashir S. Umar", 
+                            "telephone": "07033121424"
+                        }, 
+                        "identifier": {
+                            "legalName": "Versatile Transaction Empire Limited"
+                        }, 
+                        "name": "Versatile Transaction Empire Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "David Julius", 
+                            "telephone": "07037562705"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dc Engineering Limited"
+                        }, 
+                        "name": "Dc Engineering Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nasiru  Yusuf", 
+                            "telephone": "07030788176"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abbysi Investment Ltd"
+                        }, 
+                        "name": "Abbysi Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "David Kuraiyi", 
+                            "telephone": "08062389504"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fara\u2019ah Global Concept Ltd"
+                        }, 
+                        "name": "Fara\u2019ah Global Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Samuel", 
+                            "telephone": "08160115716"
+                        }, 
+                        "identifier": {
+                            "legalName": "Samtech Associates Consulting Engr. Ltd"
+                        }, 
+                        "name": "Samtech Associates Consulting Engr. Ltd"
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-638qktng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-03-27T13:46:43Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-638qktng-ubec"
+}

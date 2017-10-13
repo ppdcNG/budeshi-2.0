@@ -1,0 +1,216 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-18T15:51:52Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-97zk7bng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en ", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "10", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Nduezenros Ebuka ", 
+                            "telephone": "08143589934"
+                        }, 
+                        "identifier": {
+                            "legalName": "Prophetic Global Reso.Ltd"
+                        }, 
+                        "name": "Prophetic Global Reso.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aminu", 
+                            "telephone": "08036051475"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bimlex Andy Nig Ltd"
+                        }, 
+                        "name": "Bimlex Andy Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Muyina A", 
+                            "telephone": "07030174622"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abiolafeso Andings Ltd"
+                        }, 
+                        "name": "Abiolafeso Andings Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Koko D", 
+                            "telephone": "08037302026"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kokocassidy Res. Ltd"
+                        }, 
+                        "name": "Kokocassidy Res. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Otuka Barta", 
+                            "telephone": "08033303917"
+                        }, 
+                        "identifier": {
+                            "legalName": "Golden Cec Res Ltd"
+                        }, 
+                        "name": "Golden Cec Res Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isaiah Prosper", 
+                            "telephone": "08060330087"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sholoh Integrated Ser.Ltd"
+                        }, 
+                        "name": "Sholoh Integrated Ser.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Eme-Bus Nig Ltd", 
+                            "telephone": "08038724928"
+                        }, 
+                        "identifier": {
+                            "legalName": "Chiubuzor Micheal Ebunam"
+                        }, 
+                        "name": "Chiubuzor Micheal Ebunam"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Clemeni Aigbe", 
+                            "telephone": "08032893485"
+                        }, 
+                        "identifier": {
+                            "legalName": "Odiagtech Engr Services Ltd"
+                        }, 
+                        "name": "Odiagtech Engr Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr Samuel", 
+                            "telephone": "07082881212"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hone Yorsamoni Nig Ltd"
+                        }, 
+                        "name": "Hone Yorsamoni Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chinedu Ukairo", 
+                            "telephone": "08036287989"
+                        }, 
+                        "identifier": {
+                            "legalName": "Muquash Global Services Ltd"
+                        }, 
+                        "name": "Muquash Global Services Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-97zk7bng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-18T15:51:52Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-97zk7bng-ubec"
+}

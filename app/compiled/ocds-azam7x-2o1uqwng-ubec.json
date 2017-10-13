@@ -1,0 +1,180 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-03-29T12:50:21Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-2o1uqwng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "29/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "open", 
+                "numberOfTenderers": "8", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ]
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Gerald", 
+                            "telephone": "08069362661"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gerald Frank Nig Ltd"
+                        }, 
+                        "name": "Gerald Frank Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Obinna", 
+                            "telephone": "08138272623"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cyrus Power Services Ltd"
+                        }, 
+                        "name": "Cyrus Power Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ahmed E.", 
+                            "telephone": "08037054031"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ordtta Nig. Ltd"
+                        }, 
+                        "name": "Ordtta Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Najib", 
+                            "telephone": "08036916770"
+                        }, 
+                        "identifier": {
+                            "legalName": "Moh\u2019d Najib & Co. Ltd"
+                        }, 
+                        "name": "Moh\u2019d Najib & Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Uzaitu", 
+                            "telephone": "081429420"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ma-Bindiga & Sons Limited"
+                        }, 
+                        "name": "Ma-Bindiga & Sons Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lawal Tunde", 
+                            "telephone": "07062960770"
+                        }, 
+                        "identifier": {
+                            "legalName": "Oberenwa"
+                        }, 
+                        "name": "Oberenwa"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sale", 
+                            "telephone": "08036615591"
+                        }, 
+                        "identifier": {
+                            "legalName": "Futu Hati Invest Ltd"
+                        }, 
+                        "name": "Futu Hati Invest Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Koyis", 
+                            "telephone": "08057804831"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mohalkos Global Limited"
+                        }, 
+                        "name": "Mohalkos Global Limited"
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-2o1uqwng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-03-29T12:50:21Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-2o1uqwng-ubec"
+}

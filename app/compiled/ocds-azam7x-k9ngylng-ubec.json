@@ -1,0 +1,220 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-05-26T13:26:49Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-k9ngylng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-05-17T19:01", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "10", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-05-17T22:15", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Gabriel Obiegbu", 
+                            "telephone": "08023230773 08051092557"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dondestine Global Links Limited"
+                        }, 
+                        "name": "Dondestine Global Links Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jumbo Susana", 
+                            "telephone": "08053807869"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wet-Channel Nig Ltd"
+                        }, 
+                        "name": "Wet-Channel Nig Ltd "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mbaegbu Emmanuel", 
+                            "telephone": "08064240594"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ambassador Multipurpose Co. Ltd"
+                        }, 
+                        "name": "Ambassador Multipurpose Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdullahi", 
+                            "faxNumber": "08033951286"
+                        }, 
+                        "identifier": {
+                            "legalName": "Billale Global Dev Ltd"
+                        }, 
+                        "name": "Billale Global Dev Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Salisu Muklitar", 
+                            "telephone": "08036938912"
+                        }, 
+                        "identifier": {
+                            "legalName": "G.K Global Company Ltd"
+                        }, 
+                        "name": "G.K Global Company Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adekolajo Saheed", 
+                            "telephone": "08033334920"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hamilton Corporate Business Limited"
+                        }, 
+                        "name": "Hamilton Corporate Business Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank O.", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "For Apple Integrated"
+                        }, 
+                        "name": "For Apple Integrated"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Seyi Oyanle", 
+                            "telephone": "08022873819"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rt Brisioe Nig Plc"
+                        }, 
+                        "name": "Rt Brisioe Nig Plc"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chimezie", 
+                            "telephone": "08154300136"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bukay Global Serv. Ltd"
+                        }, 
+                        "name": "Bukay Global Serv. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ikeje Ujunwa", 
+                            "telephone": "07052883356"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tas World Wide Nig Ltd"
+                        }, 
+                        "name": "Tas World Wide Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-k9ngylng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-05-26T13:26:49Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-k9ngylng-ubec"
+}

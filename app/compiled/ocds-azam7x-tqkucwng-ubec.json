@@ -1,0 +1,481 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-09-26T20:54:20Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "24/08/2016", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "format": "", 
+                            "url": "", 
+                            "title": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "id": "", 
+                            "dateModified": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "status": "", 
+                                "documents": [
+                                    {
+                                        "description": "", 
+                                        "language": "", 
+                                        "format": "", 
+                                        "url": "", 
+                                        "title": "", 
+                                        "datePublished": "", 
+                                        "documentType": "", 
+                                        "id": "", 
+                                        "dateModified": ""
+                                    }
+                                ], 
+                                "description": "", 
+                                "title": "", 
+                                "id": "", 
+                                "dueDate": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "format": "", 
+                                "url": "", 
+                                "title": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "transactions": [
+                            {
+                                "amount": {
+                                    "currency": "", 
+                                    "amount": 184498334
+                                }, 
+                                "receiverOrganization": {
+                                    "scheme": "", 
+                                    "legalName": "Universal Basic Education", 
+                                    "id": "", 
+                                    "uri": "http://ubeconline.com/"
+                                }, 
+                                "uri": "http://bit.ly/1NSbsry", 
+                                "source": "", 
+                                "providerOrganization": {
+                                    "scheme": "", 
+                                    "legalName": "Ihsan Global", 
+                                    "id": "", 
+                                    "uri": ""
+                                }, 
+                                "date": "", 
+                                "id": 6
+                            }
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "description": "", 
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "description": "", 
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "period": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }, 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": 184498334
+                    }, 
+                    "dateSigned": "", 
+                    "awardID": "", 
+                    "id": ""
+                }
+            ], 
+            "ocid": "ocds-azam7x-tqkucwng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer", 
+                "contracts", 
+                "planning", 
+                "awards"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "http://ubeconline.com/", 
+                    "faxNumber": 23495232506, 
+                    "email": "", 
+                    "name": "Alhaji (Dr) Dikko Suleiman", 
+                    "telephone": 23495232506
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "http://ubeconline.com/", 
+                    "legalName": "UBEC Building,No 7 Gwani Street, Wuse Zone 4,"
+                }, 
+                "name": "Alhaji (Dr) Dikko Suleiman", 
+                "address": {
+                    "postalCode": 900284, 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "UBEC Building,No 7 Gwani Street", 
+                    "region": "Abuja FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "format": "", 
+                        "url": "", 
+                        "title": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "awards": [
+                {
+                    "status": "active", 
+                    "amendment": {
+                        "date": "24/08/2016", 
+                        "changes": [], 
+                        "rationale": ""
+                    }, 
+                    "documents": [
+                        {
+                            "description": "", 
+                            "language": "", 
+                            "title": "", 
+                            "url": "", 
+                            "format": "", 
+                            "datePublished": "", 
+                            "documentType": "", 
+                            "dateModified": "", 
+                            "id": ""
+                        }
+                    ], 
+                    "description": "", 
+                    "title": "", 
+                    "items": [
+                        {
+                            "description": "", 
+                            "classification": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "description": ""
+                            }, 
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "description": ""
+                                }
+                            ], 
+                            "id": "", 
+                            "unit": {
+                                "name": "", 
+                                "value": {
+                                    "currency": "", 
+                                    "amount": ""
+                                }
+                            }, 
+                            "quantity": ""
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {
+                                    "scheme": "", 
+                                    "id": "", 
+                                    "uri": "", 
+                                    "legalName": ""
+                                }
+                            ], 
+                            "contactPoint": {
+                                "url": "http://ubeconline.com/", 
+                                "faxNumber": 23495232506, 
+                                "telephone": 23495232506, 
+                                "name": "Alhaji (Dr) Dikko Suleiman", 
+                                "email": ""
+                            }, 
+                            "identifier": {
+                                "scheme": "", 
+                                "id": "", 
+                                "uri": "", 
+                                "legalName": "Ihsan Global"
+                            }, 
+                            "name": "", 
+                            "address": {
+                                "postalCode": 900284, 
+                                "countryName": "Nigeria", 
+                                "streetAddress": "UBEC BuildingNo 7 Gwani Street", 
+                                "region": "Abuja FCT", 
+                                "locality": "Wuse Zone 4"
+                            }
+                        }
+                    ], 
+                    "value": {
+                        "currency": "", 
+                        "amount": 184498334
+                    }, 
+                    "date": "", 
+                    "id": "", 
+                    "contractPeriod": {
+                        "startDate": "", 
+                        "endDate": ""
+                    }
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "openCompetitive", 
+                "amendment": {
+                    "date": "24/08/2016", 
+                    "changes": [], 
+                    "rationale": ""
+                }, 
+                "awardPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "enquiryPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "minValue": {
+                    "currency": "", 
+                    "amount": ""
+                }, 
+                "eligibilityCriteria": "Least Cost Responsive", 
+                "value": {
+                    "currency": "", 
+                    "amount": 195000000
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "scheme": "", 
+                                "legalName": "", 
+                                "id": "", 
+                                "uri": ""
+                            }
+                        ], 
+                        "identifier": {
+                            "scheme": "", 
+                            "legalName": "", 
+                            "id": "", 
+                            "uri": ""
+                        }, 
+                        "name": "", 
+                        "address": {
+                            "postalCode": "", 
+                            "countryName": "", 
+                            "streetAddress": "", 
+                            "region": "", 
+                            "locality": ""
+                        }, 
+                        "contactPoint": {
+                            "url": "", 
+                            "telephone": "", 
+                            "email": "", 
+                            "name": "", 
+                            "faxNumber": ""
+                        }, 
+                        "amountTendered": {
+                            "currency": "", 
+                            "amount": ""
+                        }
+                    }
+                ], 
+                "id": "", 
+                "description": "", 
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "format": "", 
+                        "url": "", 
+                        "title": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "title": "", 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "", 
+                            "legalName": "", 
+                            "id": "", 
+                            "uri": ""
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "http://ubeconline.com/", 
+                        "telephone": 23495232506, 
+                        "email": "", 
+                        "name": "Alhaji (Dr) Dikko Suleiman", 
+                        "faxNumber": 23495232506
+                    }, 
+                    "identifier": {
+                        "scheme": "", 
+                        "legalName": "Universal Basic Education", 
+                        "id": "", 
+                        "uri": "http://ubeconline.com/"
+                    }, 
+                    "name": "", 
+                    "address": {
+                        "postalCode": 900284, 
+                        "countryName": "Nigeria", 
+                        "streetAddress": "UBEC BuildingNo 7 Gwani Street", 
+                        "region": "Abuja", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "procurementMethodRationale": "", 
+                "status": "", 
+                "numberOfTenderers": "", 
+                "tenderPeriod": {
+                    "startDate": "", 
+                    "endDate": ""
+                }, 
+                "submissionMethod": "", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "", 
+                                "language": "", 
+                                "format": "", 
+                                "url": "", 
+                                "title": "", 
+                                "datePublished": "", 
+                                "documentType": "", 
+                                "id": "", 
+                                "dateModified": ""
+                            }
+                        ], 
+                        "description": "", 
+                        "title": "", 
+                        "dueDate": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "submissionMethodDetails": "", 
+                "items": [
+                    {
+                        "description": "", 
+                        "classification": {
+                            "id": "", 
+                            "scheme": "", 
+                            "description": "", 
+                            "uri": ""
+                        }, 
+                        "additionalClassifications": [
+                            {
+                                "id": "", 
+                                "scheme": "", 
+                                "description": "", 
+                                "uri": ""
+                            }
+                        ], 
+                        "id": "", 
+                        "unit": {
+                            "name": "", 
+                            "value": {
+                                "currency": "", 
+                                "amount": ""
+                            }
+                        }, 
+                        "quantity": ""
+                    }
+                ], 
+                "awardCriteriaDetails": "", 
+                "hasEnquiries": "boolean", 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-tqkucwng-ubec-awards-001"
+        }
+    ], 
+    "publishedDate": "2017-09-26T20:54:20Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-tqkucwng-ubec"
+}

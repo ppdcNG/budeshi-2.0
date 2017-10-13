@@ -1,0 +1,194 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-10T12:32:56Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-4tpyfing-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ehiem Cajeian", 
+                            "telephone": "08062975939"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aj. & C. Integrated Ltd "
+                        }, 
+                        "name": "Aj. & C. Integrated Ltd "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yekmi Yusuf", 
+                            "telephone": "08033311420"
+                        }, 
+                        "identifier": {
+                            "legalName": "Irh Investment Ltd"
+                        }, 
+                        "name": "Irh Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Peace Essien", 
+                            "telephone": "08036218777"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ceco Engr.& Const.Co.Nig. Ltd"
+                        }, 
+                        "name": "Ceco Engr.& Const.Co.Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chris Ovili", 
+                            "telephone": "08065179975"
+                        }, 
+                        "identifier": {
+                            "legalName": "Raretools Services Ltd"
+                        }, 
+                        "name": "Raretools Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adebayo", 
+                            "telephone": "08057609931"
+                        }, 
+                        "identifier": {
+                            "legalName": "Muby International Nig Ltd"
+                        }, 
+                        "name": "Muby International Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Odudare", 
+                            "telephone": "08037127553"
+                        }, 
+                        "identifier": {
+                            "legalName": "Arcleran Con Ltd"
+                        }, 
+                        "name": "Arcleran Con Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Francis", 
+                            "telephone": "08121180091"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ae&E Ltd"
+                        }, 
+                        "name": "Ae&E Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Yinka", 
+                            "telephone": "08138353985"
+                        }, 
+                        "identifier": {
+                            "legalName": "Daratech Globol Services Ltd"
+                        }, 
+                        "name": "Daratech Globol Services Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-4tpyfing-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-10T12:32:56Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-4tpyfing-ubec"
+}

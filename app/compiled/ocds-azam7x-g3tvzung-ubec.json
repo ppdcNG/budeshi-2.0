@@ -1,0 +1,297 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-02-16T10:46:20Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-g3tvzung-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "documentType": "Physical Progress Reports ", 
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "datePublished": "14/02/2017"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "20", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "16/02/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "name": " Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Bello Hammed\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gamji Marine Services Nigeria Limited"
+                        }, 
+                        "name": "Gamji Marine Services Nigeria Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Folosho\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Samsoj Engr Services"
+                        }, 
+                        "name": "Samsoj Engr Services"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Umar \t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Haruna Glafa Links"
+                        }, 
+                        "name": "Haruna Glafa Links"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tunde\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Embee Global Resources"
+                        }, 
+                        "name": "Embee Global Resources"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Foluke M A\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Henam Int Der Ltd "
+                        }, 
+                        "name": "Henam Int Der Ltd "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogbunkwu Daniel\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Danites Global Ventures Limited"
+                        }, 
+                        "name": "Danites Global Ventures Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Company Rep\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Latak Resources Nig Ltd"
+                        }, 
+                        "name": "Latak Resources Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kenneth\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "L\u2019espoir Int Ltd"
+                        }, 
+                        "name": "L\u2019espoir Int Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alhaji Toyin\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Raswas Nig Ltd"
+                        }, 
+                        "name": "Raswas Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Wale Ibrahim \t"
+                        }, 
+                        "identifier": {
+                            "legalName": "All Wealth Nig Ltd"
+                        }, 
+                        "name": "All Wealth Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "telephone": "08037310094"
+                        }, 
+                        "identifier": {
+                            "legalName": "Birthright Properties Ltd"
+                        }, 
+                        "name": "Birthright Properties Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tobi Yemi\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Graceland Global Resources Ltd"
+                        }, 
+                        "name": "Graceland Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibrahim\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Haruna Global Link Ltd"
+                        }, 
+                        "name": "Haruna Global Link Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Toju Ibrahim\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Raswas Nig Ltd"
+                        }, 
+                        "name": "Raswas Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "D Olawale Ibrahim\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "All Wealth Nig Ltd"
+                        }, 
+                        "name": "All Wealth Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Muyiwa\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abala Feso Holy"
+                        }, 
+                        "name": "Abala Feso Holy"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Success A E\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Stein Mastes Ltd"
+                        }, 
+                        "name": "Stein Mastes Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olarewaju A\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Radmol Nig Ind "
+                        }, 
+                        "name": "Radmol Nig Ind "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogwunkwu Chisom\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Danites Global Ventures Ltd"
+                        }, 
+                        "name": "Danites Global Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr A Felix\t"
+                        }, 
+                        "identifier": {
+                            "legalName": "Birthright Properties Ltd"
+                        }, 
+                        "name": "Birthright Properties Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-g3tvzung-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-02-16T10:46:20Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-g3tvzung-ubec"
+}

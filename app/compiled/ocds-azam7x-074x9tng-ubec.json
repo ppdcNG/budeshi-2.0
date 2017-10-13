@@ -1,0 +1,390 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-04-04T13:34:13Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-074x9tng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "name": "Dr Hamid Bobboyi", 
+                    "telephone": "www.ubeconline.com"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "04/04/2016", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "open", 
+                "numberOfTenderers": "29", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ]
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Saheed Adekolujo", 
+                            "telephone": "08033334920"
+                        }, 
+                        "identifier": {
+                            "legalName": "Eddy Oluwaseyi Ventures Lted"
+                        }, 
+                        "name": "Eddy Oluwaseyi Ventures Lted"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Umar Ya\u2019u", 
+                            "telephone": "08068326137"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ateeya Global Serv. Ltd"
+                        }, 
+                        "name": "Ateeya Global Serv. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sadiq Kadara", 
+                            "telephone": "08059699345"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rhr Resource Ltd"
+                        }, 
+                        "name": "Rhr Resource Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kabir M. R.", 
+                            "telephone": "07066605151"
+                        }, 
+                        "identifier": {
+                            "legalName": "Haramani Chemical Nig. Ltd"
+                        }, 
+                        "name": "Haramani Chemical Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alj Toyin", 
+                            "telephone": "08033310178"
+                        }, 
+                        "identifier": {
+                            "legalName": "Clean Deal Services Ltd"
+                        }, 
+                        "name": "Clean Deal Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ay Sadiq", 
+                            "telephone": "07037666108"
+                        }, 
+                        "identifier": {
+                            "legalName": "Skyview Integrated Multi Concepts Ltd"
+                        }, 
+                        "name": "Skyview Integrated Multi Concepts Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "David Musa", 
+                            "telephone": "07053638385"
+                        }, 
+                        "identifier": {
+                            "legalName": "Unbeatable Haven Ltd"
+                        }, 
+                        "name": "Unbeatable Haven Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fave Gajere", 
+                            "telephone": "08036091911"
+                        }, 
+                        "identifier": {
+                            "legalName": "Unipopular Nig. Ltd"
+                        }, 
+                        "name": "Unipopular Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Akin", 
+                            "telephone": "08023141515"
+                        }, 
+                        "identifier": {
+                            "legalName": "Amplified Nig. Ltd"
+                        }, 
+                        "name": "Amplified Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Micheal", 
+                            "telephone": "08037871655"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fulerum Integrated Concept"
+                        }, 
+                        "name": "Fulerum Integrated Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Iyk Onwuka", 
+                            "telephone": "08101699984"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rocksolid Nig. Ltd"
+                        }, 
+                        "name": "Rocksolid Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Peter Engr.", 
+                            "telephone": "08032866038"
+                        }, 
+                        "identifier": {
+                            "legalName": "Maybells Ltd"
+                        }, 
+                        "name": "Maybells Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ismail Owolabi", 
+                            "telephone": "08119935433"
+                        }, 
+                        "identifier": {
+                            "legalName": "Qs And Gs Limited"
+                        }, 
+                        "name": "Qs And Gs Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nmecha Joseph Eke", 
+                            "telephone": "08068360285"
+                        }, 
+                        "identifier": {
+                            "legalName": "Andikan Resources Ltd"
+                        }, 
+                        "name": "Andikan Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Ibrahim Isa", 
+                            "telephone": "08022270111"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tecebe Nig. Ltd"
+                        }, 
+                        "name": "Tecebe Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chigbo Patrick", 
+                            "telephone": "08034069132"
+                        }, 
+                        "identifier": {
+                            "legalName": "I.I.C. Construction Company Ltd"
+                        }, 
+                        "name": "I.I.C. Construction Company Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Uzordima Obinna", 
+                            "telephone": "0806080070"
+                        }, 
+                        "identifier": {
+                            "legalName": "Octurion Tecnoicah Services Limited"
+                        }, 
+                        "name": "Octurion Tecnoicah Services Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alaba A.", 
+                            "telephone": "07069657597"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mayuk Integrated Services"
+                        }, 
+                        "name": "Mayuk Integrated Services"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Simon Emma", 
+                            "telephone": "08038535289"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sand Track Nig. Ltd"
+                        }, 
+                        "name": "Sand Track Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Faruk Tukur", 
+                            "telephone": "08037864756"
+                        }, 
+                        "identifier": {
+                            "legalName": "Urab Engineering Limited"
+                        }, 
+                        "name": "Urab Engineering Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Baba Habu", 
+                            "telephone": "08069645809"
+                        }, 
+                        "identifier": {
+                            "legalName": "Munasal Nig. Ltd"
+                        }, 
+                        "name": "Munasal Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ukefe Ugunwa", 
+                            "telephone": "08031392685"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alhassad Nig. Ltd"
+                        }, 
+                        "name": "Alhassad Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aniobi Stephen", 
+                            "telephone": "08098053081"
+                        }, 
+                        "identifier": {
+                            "legalName": "Maraust Nigeria Limited"
+                        }, 
+                        "name": "Maraust Nigeria Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tasudeen Ibrahim", 
+                            "telephone": "07054909266"
+                        }, 
+                        "identifier": {
+                            "legalName": "Simitax Engineering Nig. Ltd"
+                        }, 
+                        "name": "Simitax Engineering Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sabo", 
+                            "telephone": "08065902451"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aim Civil Engr. Concept Ltd"
+                        }, 
+                        "name": "Aim Civil Engr. Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Moses O Chima", 
+                            "telephone": "08035929457"
+                        }, 
+                        "identifier": {
+                            "legalName": "Iman Grand Royal Services Ltd"
+                        }, 
+                        "name": "Iman Grand Royal Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Oddy Ameh", 
+                            "telephone": "08163010893"
+                        }, 
+                        "identifier": {
+                            "legalName": "Obet-Obet Nig. Ltd"
+                        }, 
+                        "name": "Obet-Obet Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mustapha Suleiman", 
+                            "telephone": "08055901266"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sahar Continental"
+                        }, 
+                        "name": "Sahar Continental"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Gbenga Bukoye", 
+                            "telephone": "08180003848"
+                        }, 
+                        "identifier": {
+                            "legalName": "Onwad Assets & Resources Lted"
+                        }, 
+                        "name": "Onwad Assets & Resources Lted"
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-074x9tng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-04-04T13:34:13Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-074x9tng-ubec"
+}

@@ -1,0 +1,260 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-21T13:59:12Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-scm1d0ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "14", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission"
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "ejykem2000@yahoo.com", 
+                            "telephone": "08064197261", 
+                            "name": "Ejem Ejikeme"
+                        }, 
+                        "identifier": {
+                            "legalName": "Spegs Investment Limited"
+                        }, 
+                        "name": "Spegs Investment Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "agribltd@gmail.com ", 
+                            "telephone": "08033846132", 
+                            "name": "Wole Afemi"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bolted Aifmy Sari Ltd"
+                        }, 
+                        "name": "Bolted Aifmy Sari Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "nelson_patrick500@yahoo.com", 
+                            "telephone": "09033047332", 
+                            "name": "Wilson Adzu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Arundi Aganyi Ltd"
+                        }, 
+                        "name": "Arundi Aganyi Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "obinoltan@gmail.com ", 
+                            "telephone": "08033153180", 
+                            "name": "Obono Eleng"
+                        }, 
+                        "identifier": {
+                            "legalName": "Asia Africa Company"
+                        }, 
+                        "name": "Asia Africa Company"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "kanomandmonak@yahoo.com ", 
+                            "telephone": "07035531276", 
+                            "name": "Joy Egbe"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kanomandmonak Ltd"
+                        }, 
+                        "name": "Kanomandmonak Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chima", 
+                            "telephone": "08105633663"
+                        }, 
+                        "identifier": {
+                            "legalName": "Moonlink Invest. Co Ltd"
+                        }, 
+                        "name": "Moonlink Invest. Co Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "tochex@yahoo.com ", 
+                            "telephone": "08098052747", 
+                            "name": "Prince"
+                        }, 
+                        "identifier": {
+                            "legalName": "Heavenled El-Dorado Ltd"
+                        }, 
+                        "name": "Heavenled El-Dorado Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "frank.fuzikuu@gmail.com ", 
+                            "telephone": "08035308266", 
+                            "name": "Engr. Frank"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fuzik Nig Ltd"
+                        }, 
+                        "name": "Fuzik Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tafida", 
+                            "telephone": "08095527514"
+                        }, 
+                        "identifier": {
+                            "legalName": "Powerdell Led"
+                        }, 
+                        "name": "Powerdell Led"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chuks", 
+                            "telephone": "08063668157"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ikare Frog Global Link Ltd"
+                        }, 
+                        "name": "Ikare Frog Global Link Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ofem", 
+                            "telephone": "08032824845"
+                        }, 
+                        "identifier": {
+                            "legalName": "Coast Bound Nig Ltd"
+                        }, 
+                        "name": "Coast Bound Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "itorookpokpo@gmail.com ", 
+                            "telephone": "08104852770", 
+                            "name": "Iton Okpokpo"
+                        }, 
+                        "identifier": {
+                            "legalName": "Terra Urban Nigeria Limited"
+                        }, 
+                        "name": "Terra Urban Nigeria Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "idedhabej@gmail.com ", 
+                            "telephone": "08163170893", 
+                            "name": "Oddy Ameh"
+                        }, 
+                        "identifier": {
+                            "legalName": "Obet-Obet Nig Ltd"
+                        }, 
+                        "name": "Obet-Obet Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Etiibi717@yahoo.com ", 
+                            "telephone": "08068257479", 
+                            "name": "Etubi Ukwundmun"
+                        }, 
+                        "identifier": {
+                            "legalName": "Guffcon Ltd"
+                        }, 
+                        "name": "Guffcon Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-scm1d0ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-21T13:59:12Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-scm1d0ng-ubec"
+}

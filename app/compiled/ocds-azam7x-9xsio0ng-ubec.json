@@ -1,0 +1,191 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-04-03T11:39:53Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-9xsio0ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "29/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "open", 
+                "numberOfTenderers": "7", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "29/03/2017", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Uche Igbonocho", 
+                            "telephone": "08037102875"
+                        }, 
+                        "identifier": {
+                            "legalName": "Optimum Synergy Int\u2019l Serv. Ltd"
+                        }, 
+                        "name": "Optimum Synergy Int\u2019l Serv. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chief G. Nwango", 
+                            "telephone": "07035817500"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mighty K. Ventures Ltd"
+                        }, 
+                        "name": "Mighty K. Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Joseph Odey A. ", 
+                            "telephone": "08033333004"
+                        }, 
+                        "identifier": {
+                            "legalName": "Davowsky Nig. Ltd"
+                        }, 
+                        "name": "Davowsky Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Emeka Akabu", 
+                            "telephone": "0806378415"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jude Engineering E. Nig"
+                        }, 
+                        "name": "Jude Engineering E. Nig"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nnamdi", 
+                            "telephone": "08099804500"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nnamdi Offiah"
+                        }, 
+                        "name": "Nnamdi Offiah"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sule Taiwo", 
+                            "telephone": "08135700720"
+                        }, 
+                        "identifier": {
+                            "legalName": "Annylinks Nig Ltd"
+                        }, 
+                        "name": "Annylinks Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Monday", 
+                            "telephone": "07067532017"
+                        }, 
+                        "identifier": {
+                            "legalName": "Clustergate Nig. Ltd"
+                        }, 
+                        "name": "Clustergate Nig. Ltd"
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-9xsio0ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-04-03T11:39:53Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-9xsio0ng-ubec"
+}

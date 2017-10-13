@@ -1,0 +1,196 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-05T11:38:11Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-429q12ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Innocent A", 
+                            "telephone": "08035885251"
+                        }, 
+                        "identifier": {
+                            "legalName": "Blue Matrix Nig Ltd"
+                        }, 
+                        "name": "Blue Matrix Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdulaziz", 
+                            "telephone": "08052110551"
+                        }, 
+                        "identifier": {
+                            "legalName": "Expo Creation Ltd"
+                        }, 
+                        "name": "Expo Creation Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "07034845974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ayyg & Sons Nig Ltd"
+                        }, 
+                        "name": "Ayyg & Sons Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dr Uusman", 
+                            "telephone": "08037043718"
+                        }, 
+                        "identifier": {
+                            "legalName": "Koeman Integrated Services Ltd"
+                        }, 
+                        "name": "Koeman Integrated Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "W.I Oyetakin", 
+                            "telephone": "08034034444"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wilmont Nig Ltd"
+                        }, 
+                        "name": "Wilmont Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Asekan H", 
+                            "telephone": "08063121253"
+                        }, 
+                        "identifier": {
+                            "legalName": "Olaco Nig Ltd"
+                        }, 
+                        "name": "Olaco Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Edwards Anyamwu", 
+                            "telephone": "08054482833"
+                        }, 
+                        "identifier": {
+                            "legalName": "Brent Investments Ltd"
+                        }, 
+                        "name": "Brent Investments Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Femi O", 
+                            "telephone": "08055044903"
+                        }, 
+                        "identifier": {
+                            "legalName": "Righteous Construction Company Ltd"
+                        }, 
+                        "name": "Righteous Construction Company Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-429q12ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-05T11:38:11Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-429q12ng-ubec"
+}

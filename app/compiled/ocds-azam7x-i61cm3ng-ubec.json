@@ -1,0 +1,236 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-14T13:03:21Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-i61cm3ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "12", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "H. S Malgwi", 
+                            "telephone": "08033154624"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abskol Nig Ltd"
+                        }, 
+                        "name": "Abskol Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Melson Adsu", 
+                            "telephone": "09033047332"
+                        }, 
+                        "identifier": {
+                            "legalName": "Solap Shelter Ltd"
+                        }, 
+                        "name": "Solap Shelter Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Femi Olewaseyitan", 
+                            "telephone": "08167214601"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ash & Elm Limited"
+                        }, 
+                        "name": "Ash & Elm Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Obinna", 
+                            "telephone": "08033002019"
+                        }, 
+                        "identifier": {
+                            "legalName": "Western Wall Resourcts Ltd"
+                        }, 
+                        "name": "Western Wall Resourcts Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aminu", 
+                            "telephone": "08036051475"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bimlex Andy Nig Ltd"
+                        }, 
+                        "name": "Bimlex Andy Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abiodun O", 
+                            "telephone": "08062815113"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kaywac Ventures Ltd"
+                        }, 
+                        "name": "Kaywac Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ayo Awopetu ", 
+                            "telephone": "08035639927"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hammdes Nig Ltd"
+                        }, 
+                        "name": "Hammdes Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Suleiman Musa", 
+                            "telephone": "08031852504"
+                        }, 
+                        "identifier": {
+                            "legalName": "Biyaya Nig Ent, Ltd"
+                        }, 
+                        "name": "Biyaya Nig Ent, Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isiteye Stephen", 
+                            "telephone": "08036622553"
+                        }, 
+                        "identifier": {
+                            "legalName": "Liberty Overseas Brothers Ltd"
+                        }, 
+                        "name": "Liberty Overseas Brothers Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bamidele D", 
+                            "telephone": "08181888823"
+                        }, 
+                        "identifier": {
+                            "legalName": "Trust Judako Limited"
+                        }, 
+                        "name": "Trust Judako Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adeyaro Ola", 
+                            "telephone": "07037877261"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fbag Associates Ltd"
+                        }, 
+                        "name": "Fbag Associates Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Malt Aliu", 
+                            "telephone": "08053349254 08033174374"
+                        }, 
+                        "identifier": {
+                            "legalName": "Skylight Property Ltd"
+                        }, 
+                        "name": "Skylight Property Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-i61cm3ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-14T13:03:21Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-i61cm3ng-ubec"
+}

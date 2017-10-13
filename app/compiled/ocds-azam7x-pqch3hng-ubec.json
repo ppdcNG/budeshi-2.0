@@ -1,0 +1,200 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-05-10T11:19:12Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-pqch3hng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-04-25T14:50", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-05-02T20:50", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Franklin", 
+                            "telephone": "08033083184"
+                        }, 
+                        "identifier": {
+                            "legalName": "Grand Point Global Services Ltd"
+                        }, 
+                        "name": "Grand Point Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Darlington", 
+                            "telephone": "08036080304"
+                        }, 
+                        "identifier": {
+                            "legalName": "Extra-Tech Global Resources Ltd"
+                        }, 
+                        "name": "Extra-Tech Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Steven", 
+                            "telephone": "08157573228"
+                        }, 
+                        "identifier": {
+                            "legalName": "Delawtech Computers Ltd"
+                        }, 
+                        "name": "Delawtech Computers Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Sunday", 
+                            "telephone": "08036309393"
+                        }, 
+                        "identifier": {
+                            "legalName": "S K Technologies Ltd"
+                        }, 
+                        "name": "S K Technologies Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Francies", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ziyan Global Concept"
+                        }, 
+                        "name": "Ziyan Global Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mal. Yahaya Ishaq", 
+                            "telephone": "08036123655"
+                        }, 
+                        "identifier": {
+                            "legalName": "Pointtakesplus Ltd"
+                        }, 
+                        "name": "Pointtakesplus Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hon Tom Agi", 
+                            "telephone": "08095524443"
+                        }, 
+                        "identifier": {
+                            "legalName": "1st Tran Nig Ltd"
+                        }, 
+                        "name": "1st Tran Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ritat Oteka", 
+                            "telephone": "08181978611"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ritnon Resources Concept Nit Ltd"
+                        }, 
+                        "name": "Ritnon Resources Concept Nit Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-pqch3hng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-05-10T11:19:12Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-pqch3hng-ubec"
+}

@@ -1,0 +1,240 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-04-21T12:18:29Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-dt5f4cng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-04-19T15:10", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "12", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-02-21T11:59", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Chimezie M", 
+                            "telephone": "07014889914"
+                        }, 
+                        "identifier": {
+                            "legalName": "Janitor Cleaning & Engineering Ltd"
+                        }, 
+                        "name": "Janitor Cleaning & Engineering Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Philip Johnson", 
+                            "telephone": "08032376259"
+                        }, 
+                        "identifier": {
+                            "legalName": "Peter And Partners Interglobal Ltd"
+                        }, 
+                        "name": "Peter And Partners Interglobal Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sunday Okon", 
+                            "telephone": "08062950670"
+                        }, 
+                        "identifier": {
+                            "legalName": "New Sumtech Ventus Ltd"
+                        }, 
+                        "name": "New Sumtech Ventus Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jaji A.O", 
+                            "telephone": "08035938480"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hails Matrix Limited"
+                        }, 
+                        "name": "Hails Matrix Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Waziri", 
+                            "telephone": "07035959129"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sharpway Gen Training"
+                        }, 
+                        "name": "Sharpway Gen Training"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Onfade A.S", 
+                            "telephone": "08036861006"
+                        }, 
+                        "identifier": {
+                            "legalName": "De-Bas Suites Ltd"
+                        }, 
+                        "name": "De-Bas Suites Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Eze S", 
+                            "telephone": "08035862567"
+                        }, 
+                        "identifier": {
+                            "legalName": "Solid Alternative Ltd"
+                        }, 
+                        "name": "Solid Alternative Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ukeje Ujunwa", 
+                            "telephone": "07052883356"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nightstone Global Trading Ltd"
+                        }, 
+                        "name": "Nightstone Global Trading Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Onwughara Chinedu Peter", 
+                            "telephone": "08069355648"
+                        }, 
+                        "identifier": {
+                            "legalName": "Qualityton Group Of Companies Nig Ltd"
+                        }, 
+                        "name": "Qualityton Group Of Companies Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Okehie Chris", 
+                            "telephone": "08036053692"
+                        }, 
+                        "identifier": {
+                            "legalName": "C-Trends Links Limited"
+                        }, 
+                        "name": "C-Trends Links Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Eze H", 
+                            "telephone": "08069774877"
+                        }, 
+                        "identifier": {
+                            "legalName": "Steath Dynamic Services Limited"
+                        }, 
+                        "name": "Steath Dynamic Services Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mohammed Ahmed", 
+                            "telephone": "Mohammed Ahmed"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sabru Nig Ltd"
+                        }, 
+                        "name": "Sabru Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-dt5f4cng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-04-21T12:18:29Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-dt5f4cng-ubec"
+}

@@ -1,0 +1,239 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-04-25T13:45:07Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-jng8k6ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-04-18T00:22", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "12", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-04-21T13:09", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Wada Ibrahim", 
+                            "telephone": "08032316054"
+                        }, 
+                        "identifier": {
+                            "legalName": "Archmest Nig Ltd"
+                        }, 
+                        "name": "Archmest Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Gombe State", 
+                            "telephone": "07038473770"
+                        }, 
+                        "identifier": {
+                            "legalName": "Shabewa Nig Ltd"
+                        }, 
+                        "name": "Shabewa Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yinka", 
+                            "telephone": "08138353985"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cristed Tech Services"
+                        }, 
+                        "name": "Cristed Tech Services"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Edward E", 
+                            "telephone": "08035990239"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ado Sunrise Nig Ltd"
+                        }, 
+                        "name": "Ado Sunrise Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Zeb Amah ", 
+                            "telephone": "08033081877"
+                        }, 
+                        "identifier": {
+                            "legalName": "Primevails Ltd"
+                        }, 
+                        "name": "Primevails Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sabo Muhammad", 
+                            "telephone": "08035053770"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sambu Synergy Concepts Ltd"
+                        }, 
+                        "name": "Sambu Synergy Concepts Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Henry Nc Ezemoa", 
+                            "telephone": "08033154766"
+                        }, 
+                        "identifier": {
+                            "legalName": "Midax Consort Ltd"
+                        }, 
+                        "name": "Midax Consort Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yakubu", 
+                            "telephone": "08065557727"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dademah Projects Ltd"
+                        }, 
+                        "name": "Dademah Projects Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Barmidele Daududu", 
+                            "telephone": "08181888828"
+                        }, 
+                        "identifier": {
+                            "legalName": "Trust Judako Ltd"
+                        }, 
+                        "name": "Trust Judako Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Afolabi Sokpe", 
+                            "telephone": "08068683768"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zitts & Lords Ltd"
+                        }, 
+                        "name": "Zitts & Lords Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank Nd", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Prnnacle Fountain"
+                        }, 
+                        "name": "Prnnacle Fountain"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank Nd"
+                        }, 
+                        "identifier": {
+                            "legalName": "Palpha O.T"
+                        }, 
+                        "name": "Palpha O.T"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-jng8k6ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-04-25T13:45:07Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-jng8k6ng-ubec"
+}

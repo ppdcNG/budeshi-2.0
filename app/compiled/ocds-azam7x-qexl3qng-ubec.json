@@ -1,0 +1,159 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-04-06T11:44:11Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-qexl3qng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-04-04T10:17", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "4", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports ", 
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "format": "offline/Print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Abubakar", 
+                            "telephone": "08034391441"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zantamma"
+                        }, 
+                        "name": "Zantamma"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yahaya M", 
+                            "telephone": "08036373377"
+                        }, 
+                        "identifier": {
+                            "legalName": "Madobi Automobiles Ltd"
+                        }, 
+                        "name": "Madobi Automobiles Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Mohd Fifa", 
+                            "telephone": "08036373377"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bogaro Frugal"
+                        }, 
+                        "name": "Bogaro Frugal"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Seyi O", 
+                            "telephone": "08038050587"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rtbkisine Nig Plc"
+                        }, 
+                        "name": "Rtbkisine Nig Plc"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-qexl3qng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-04-06T11:44:11Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-qexl3qng-ubec"
+}

@@ -1,0 +1,246 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-18T16:15:03Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-27b98hng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "13", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Chris Ezehi", 
+                            "telephone": "08035176698"
+                        }, 
+                        "identifier": {
+                            "legalName": "Krharrez Vent Nig Ltd"
+                        }, 
+                        "name": "Krharrez Vent Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "S.T Odufeko", 
+                            "telephone": "08033118609"
+                        }, 
+                        "identifier": {
+                            "legalName": "Crownprince Eng. Const"
+                        }, 
+                        "name": "Crownprince Eng. Const"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aminu", 
+                            "telephone": "08036051475"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bimlex Andy Nig Ltd"
+                        }, 
+                        "name": "Bimlex Andy Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Muyiqa A", 
+                            "telephone": "07030174622"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abiole Feso Ardins"
+                        }, 
+                        "name": "Abiole Feso Ardins"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Oluka Barth", 
+                            "telephone": "08033503917"
+                        }, 
+                        "identifier": {
+                            "legalName": "Island Expose Ltd"
+                        }, 
+                        "name": "Island Expose Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adeshuwa", 
+                            "telephone": "07052277388"
+                        }, 
+                        "identifier": {
+                            "legalName": "Multi Media Sdut Ltd"
+                        }, 
+                        "name": "Multi Media Sdut Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ayodeji", 
+                            "telephone": "08035564246"
+                        }, 
+                        "identifier": {
+                            "legalName": "Millenium Multi Ser. Ltd"
+                        }, 
+                        "name": "Millenium Multi Ser. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ozigi", 
+                            "telephone": "08033931766"
+                        }, 
+                        "identifier": {
+                            "legalName": "Simboleslic Ltd"
+                        }, 
+                        "name": "Simboleslic Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Samuel", 
+                            "telephone": "07082881212"
+                        }, 
+                        "identifier": {
+                            "legalName": "Honeyorsamoni Nig Ltd"
+                        }, 
+                        "name": "Honeyorsamoni Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Eng. Mustaphy", 
+                            "telephone": "08130000306"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hummingbird Projects & Ser. Inte. Ltd"
+                        }, 
+                        "name": "Hummingbird Projects & Ser. Inte. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abutu David", 
+                            "telephone": "08036733792"
+                        }, 
+                        "identifier": {
+                            "legalName": "F & A Premium Nig Ltd"
+                        }, 
+                        "name": "F & A Premium Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Enejoh Timothy", 
+                            "telephone": "08073708237"
+                        }, 
+                        "identifier": {
+                            "legalName": "D-John Mary Nig Ltd"
+                        }, 
+                        "name": "D-John Mary Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogochukwu", 
+                            "telephone": "08164033791 08061166271"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fagel Cost & Associates"
+                        }, 
+                        "name": "Fagel Cost & Associates"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-27b98hng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-18T16:15:03Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-27b98hng-ubec"
+}

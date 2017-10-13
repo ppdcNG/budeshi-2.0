@@ -1,0 +1,226 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-17T08:40:22Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-8uu4bhng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "11", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Blessing ", 
+                            "telephone": "07014889941"
+                        }, 
+                        "identifier": {
+                            "legalName": "Latokem Nig Ltd"
+                        }, 
+                        "name": "Latokem Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Daniel B", 
+                            "telephone": "08060503949"
+                        }, 
+                        "identifier": {
+                            "legalName": "Argon Ocean Nig Ltd"
+                        }, 
+                        "name": "Argon Ocean Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olawale", 
+                            "telephone": "08073535202"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aio Nig Limited"
+                        }, 
+                        "name": "Aio Nig Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Austin", 
+                            "telephone": "08065574891"
+                        }, 
+                        "identifier": {
+                            "legalName": "Spark Dev. Ltd"
+                        }, 
+                        "name": "Spark Dev. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Francesca", 
+                            "telephone": "08033315902"
+                        }, 
+                        "identifier": {
+                            "legalName": "Landsea Amigos Concept Ltd"
+                        }, 
+                        "name": "Landsea Amigos Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adeyinka", 
+                            "telephone": "07060693606"
+                        }, 
+                        "identifier": {
+                            "legalName": "Datees Global Concept Ltd"
+                        }, 
+                        "name": "Datees Global Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dr. Solomon Ayoola", 
+                            "telephone": "08090906544"
+                        }, 
+                        "identifier": {
+                            "legalName": "Solomon Awola Multiventures Ltd"
+                        }, 
+                        "name": "Solomon Awola Multiventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ozigi", 
+                            "telephone": "08033931788"
+                        }, 
+                        "identifier": {
+                            "legalName": "Winterweyl Nig Ltd"
+                        }, 
+                        "name": "Winterweyl Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kola Obana", 
+                            "telephone": "08033200350"
+                        }, 
+                        "identifier": {
+                            "legalName": "Edeko Ventures Ltd"
+                        }, 
+                        "name": "Edeko Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chiaeze", 
+                            "telephone": "07014889941"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sharon De Great Venture Ltd"
+                        }, 
+                        "name": "Sharon De Great Venture Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adogu H", 
+                            "telephone": "08094841349"
+                        }, 
+                        "identifier": {
+                            "legalName": "Datascan Int\u2019l Ltd"
+                        }, 
+                        "name": "Datascan Int\u2019l Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-8uu4bhng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-17T08:40:22Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-8uu4bhng-ubec"
+}

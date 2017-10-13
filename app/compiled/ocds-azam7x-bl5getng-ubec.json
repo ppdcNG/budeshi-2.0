@@ -1,0 +1,196 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-17T09:02:07Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-bl5getng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Chimezie Mathew", 
+                            "telephone": "08154300136"
+                        }, 
+                        "identifier": {
+                            "legalName": "Janitor Cleaning & Eng Ltd"
+                        }, 
+                        "name": "Janitor Cleaning & Eng Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mathew Modebalu", 
+                            "telephone": "08154300136"
+                        }, 
+                        "identifier": {
+                            "legalName": "Centre Field Eng Ltd"
+                        }, 
+                        "name": "Centre Field Eng Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Prince Emma", 
+                            "telephone": "08060503949"
+                        }, 
+                        "identifier": {
+                            "legalName": "Redemart Tech. Eng. Ltd"
+                        }, 
+                        "name": "Redemart Tech. Eng. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sadiq Abdulrazaq", 
+                            "telephone": "07037666108"
+                        }, 
+                        "identifier": {
+                            "legalName": "Diamond Services Ltd"
+                        }, 
+                        "name": "Diamond Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aworeso M", 
+                            "telephone": "07030174622"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abiole Eso Hrdiny Ltd"
+                        }, 
+                        "name": "Abiole Eso Hrdiny Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tijjani Z. Yusuf", 
+                            "telephone": "08034087828"
+                        }, 
+                        "identifier": {
+                            "legalName": "Network Associates Ltd"
+                        }, 
+                        "name": "Network Associates Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Francesca", 
+                            "telephone": "08033315902"
+                        }, 
+                        "identifier": {
+                            "legalName": "Land Sea-Amigos Concept Ltd"
+                        }, 
+                        "name": "Land Sea-Amigos Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olaoluwa", 
+                            "telephone": "08033684372"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jmt Plus Integrate"
+                        }, 
+                        "name": "Jmt Plus Integrate"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-bl5getng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-17T09:02:07Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-bl5getng-ubec"
+}

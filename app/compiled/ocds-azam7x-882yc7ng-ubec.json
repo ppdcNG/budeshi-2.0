@@ -1,0 +1,272 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-13T10:18:21Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-882yc7ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "17", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ]
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Yusuf Amin", 
+                            "telephone": "08037180641"
+                        }, 
+                        "identifier": {
+                            "legalName": "Lashtan Nig Ltd"
+                        }, 
+                        "name": "Lashtan Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yusuf Amin", 
+                            "telephone": "09099999580"
+                        }, 
+                        "identifier": {
+                            "legalName": "Haqqmeed Resources Ltd"
+                        }, 
+                        "name": "Haqqmeed Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "James A.", 
+                            "telephone": "08030760226"
+                        }, 
+                        "identifier": {
+                            "legalName": "Iyogidi Blue Concepts Ltd"
+                        }, 
+                        "name": "Iyogidi Blue Concepts Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Moses Ekoh", 
+                            "telephone": "07087533327"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bi-Iz Nillahi Global R. Ltd"
+                        }, 
+                        "name": "Bi-Iz Nillahi Global R. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bashir Abdullahi", 
+                            "telephone": "08069264293"
+                        }, 
+                        "identifier": {
+                            "legalName": "Skylight Engineering Services Ltd"
+                        }, 
+                        "name": "Skylight Engineering Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Nzube", 
+                            "telephone": "08037147184"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zubeco Assets Ventures Ltd"
+                        }, 
+                        "name": "Zubeco Assets Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Eng. Friday Aku", 
+                            "telephone": "08033710272"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jurjel Nig. Ltd"
+                        }, 
+                        "name": "Jurjel Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Seidu Odoma", 
+                            "telephone": "08035960172"
+                        }, 
+                        "identifier": {
+                            "legalName": "S&L Royal Ventures Nig. Ltd"
+                        }, 
+                        "name": "S&L Royal Ventures Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abubakar Negedu", 
+                            "telephone": "07035858200"
+                        }, 
+                        "identifier": {
+                            "legalName": "B. Solar Engergy Ltd "
+                        }, 
+                        "name": "B. Solar Engergy Ltd "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Amarachi C.", 
+                            "telephone": "08033367000"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sunshine Group Ltd"
+                        }, 
+                        "name": "Sunshine Group Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "David B.", 
+                            "telephone": "08111188148"
+                        }, 
+                        "identifier": {
+                            "legalName": "Opal Netwroks Ltd"
+                        }, 
+                        "name": "Opal Netwroks Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Victor", 
+                            "telephone": "08067076455"
+                        }, 
+                        "identifier": {
+                            "legalName": "Double Platinum Global Projects Ltd"
+                        }, 
+                        "name": "Double Platinum Global Projects Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nuhu", 
+                            "telephone": "08097178035"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aisril Global Investment Ltd"
+                        }, 
+                        "name": "Aisril Global Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Enejoh Timothy", 
+                            "telephone": "08073708237"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aob Venture Ltd"
+                        }, 
+                        "name": "Aob Venture Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Uche Joshua", 
+                            "telephone": "08034873357"
+                        }, 
+                        "identifier": {
+                            "legalName": "De-Salmagson Global Ltd"
+                        }, 
+                        "name": "De-Salmagson Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sule Ibrahim", 
+                            "telephone": "08033550344"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abs Turnkeys Ltd"
+                        }, 
+                        "name": "Abs Turnkeys Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Prince J.", 
+                            "telephone": "08035909167"
+                        }, 
+                        "identifier": {
+                            "legalName": "Peola Nig Ltd"
+                        }, 
+                        "name": "Peola Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-882yc7ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-13T10:18:21Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-882yc7ng-ubec"
+}

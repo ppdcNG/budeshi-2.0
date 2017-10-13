@@ -1,0 +1,199 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-05-17T10:01:38Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-b62ygwng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-05-16T21:00", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-05-16T21:25", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Alj. Bala Mohd", 
+                            "telephone": "08035990728"
+                        }, 
+                        "identifier": {
+                            "legalName": "Maib Limited"
+                        }, 
+                        "name": "Maib Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Okoro ", 
+                            "telephone": "08062950670"
+                        }, 
+                        "identifier": {
+                            "legalName": "T-Bag Associates Ltd"
+                        }, 
+                        "name": "T-Bag Associates Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Francisuwola", 
+                            "telephone": "08064346780"
+                        }, 
+                        "identifier": {
+                            "legalName": "Extension Publications Ltd"
+                        }, 
+                        "name": "Extension Publications Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kingsley O", 
+                            "telephone": "08038551842"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fortnewton Limited"
+                        }, 
+                        "name": "Fortnewton Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Damola Poolae", 
+                            "telephone": "08033495444"
+                        }, 
+                        "identifier": {
+                            "legalName": "Havilah Merchants"
+                        }, 
+                        "name": "Havilah Merchants"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "John", 
+                            "telephone": "08035624563"
+                        }, 
+                        "identifier": {
+                            "legalName": "Simlas Construction Co. Ltd"
+                        }, 
+                        "name": "Simlas Construction Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lawrence", 
+                            "telephone": "08035624563"
+                        }, 
+                        "identifier": {
+                            "legalName": "Longhorn Construction Ltd"
+                        }, 
+                        "name": "Longhorn Construction Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lawrence", 
+                            "telephone": "08035624563"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tropicacad Engr. & Con. Ltd"
+                        }, 
+                        "name": "Tropicacad Engr. & Con. Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-b62ygwng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-05-17T10:01:38Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-b62ygwng-ubec"
+}

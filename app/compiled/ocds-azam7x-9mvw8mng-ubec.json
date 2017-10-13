@@ -1,0 +1,230 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-06-29T14:12:53Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-9mvw8mng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-05-16T22:16", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "11", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-05-17T01:01", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Mr Gabriel Obiegbu", 
+                            "telephone": "08023230773 08051092557"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dondestine Global Links Limited"
+                        }, 
+                        "name": "Dondestine Global Links Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Agada F.O", 
+                            "telephone": "08064809052"
+                        }, 
+                        "identifier": {
+                            "legalName": "West-Channels Ltd"
+                        }, 
+                        "name": "West-Channels Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lucky George", 
+                            "telephone": "08168580484"
+                        }, 
+                        "identifier": {
+                            "legalName": "Focus Integrated Services Ltd"
+                        }, 
+                        "name": "Focus Integrated Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mbaegbu Emmanuel", 
+                            "telephone": "08064240594"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ambassador Multi Purpose Co. Ltd"
+                        }, 
+                        "name": "Ambassador Multi Purpose Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mahadi Sakanau", 
+                            "telephone": "08036324701"
+                        }, 
+                        "identifier": {
+                            "legalName": "Marxel Planet Ltd"
+                        }, 
+                        "name": "Marxel Planet Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Martin John", 
+                            "telephone": "08065682400"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zainumnij Ltd"
+                        }, 
+                        "name": "Zainumnij Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Rita Oteka", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bozim International Investment"
+                        }, 
+                        "name": "Bozim International Investment"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Shuaibu Gamba", 
+                            "telephone": "08034764131"
+                        }, 
+                        "identifier": {
+                            "legalName": "Structuted Investment Limited"
+                        }, 
+                        "name": "Structuted Investment Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Seyi O", 
+                            "telephone": "08022873819"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rt Bruoe Nig Plc"
+                        }, 
+                        "name": "Rt Bruoe Nig Plc"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chimline", 
+                            "telephone": "08154300136"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hajiks Ventures Ltd"
+                        }, 
+                        "name": "Hajiks Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ezeani Henry", 
+                            "telephone": "08063228896"
+                        }, 
+                        "identifier": {
+                            "legalName": "Skyro Global Resources Ltd"
+                        }, 
+                        "name": "Skyro Global Resources Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-9mvw8mng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-06-29T14:12:53Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-9mvw8mng-ubec"
+}

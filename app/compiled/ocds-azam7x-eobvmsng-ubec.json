@@ -1,0 +1,170 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-23T11:44:18Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-eobvmsng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "5", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "Chibuzo.ohenebu@yahoo.com ", 
+                            "telephone": "08137967233", 
+                            "name": "Chibuzo Ojernei"
+                        }, 
+                        "identifier": {
+                            "legalName": "Crown Investment & Properties Ltd"
+                        }, 
+                        "name": "Crown Investment & Properties Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "gymelaleph@gmail.com", 
+                            "telephone": "07061801149", 
+                            "name": "Imbur Moses"
+                        }, 
+                        "identifier": {
+                            "legalName": "Adephgimel Nig. Ltd"
+                        }, 
+                        "name": "Adephgimel Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "moonlink@yahoo.com ", 
+                            "telephone": "08034952909", 
+                            "name": "Madu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gatnamad Project Ltd"
+                        }, 
+                        "name": "Gatnamad Project Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "eddyameh@gmail.com ", 
+                            "telephone": "08163010893", 
+                            "name": "Eddy Ameh"
+                        }, 
+                        "identifier": {
+                            "legalName": "Obet-Obet Nig Ltd"
+                        }, 
+                        "name": "Obet-Obet Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adeyinka Gbenga", 
+                            "telephone": "08033015249"
+                        }, 
+                        "identifier": {
+                            "legalName": "Harehills Enterprises Ltd"
+                        }, 
+                        "name": "Harehills Enterprises Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-eobvmsng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-23T11:44:18Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-eobvmsng-ubec"
+}

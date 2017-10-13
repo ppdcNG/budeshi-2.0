@@ -1,0 +1,170 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-06-29T11:50:06Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-e4zsc9ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-05-18T07:15", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "5", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-05-26T21:25", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Mr Jesse", 
+                            "telephone": "08066691646"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fainwal Global Concept"
+                        }, 
+                        "name": "Fainwal Global Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Gerald", 
+                            "telephone": "08069362661"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gerald Frank Nig Ltd"
+                        }, 
+                        "name": "Gerald Frank Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr. Sunday ", 
+                            "telephone": "08062950670"
+                        }, 
+                        "identifier": {
+                            "legalName": "New Sumtech Ventures Ltd"
+                        }, 
+                        "name": "New Sumtech Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fagbemi Wale", 
+                            "telephone": "08035021945"
+                        }, 
+                        "identifier": {
+                            "legalName": "Maverecks Sl & Lab Equipment"
+                        }, 
+                        "name": "Maverecks Sl & Lab Equipment"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Segun Ajokebe", 
+                            "telephone": "08034957113"
+                        }, 
+                        "identifier": {
+                            "legalName": "Coastline Engineering Ltd"
+                        }, 
+                        "name": "Coastline Engineering Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-e4zsc9ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-06-29T11:50:06Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-e4zsc9ng-ubec"
+}

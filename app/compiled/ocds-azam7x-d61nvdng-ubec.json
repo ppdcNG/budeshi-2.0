@@ -1,0 +1,233 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-10T13:43:44Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-d61nvdng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "12", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "telephone": "08037099636"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mobtos Global Ltd"
+                        }, 
+                        "name": "Mobtos Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ocraylaeg", 
+                            "telephone": "08039215615"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fab Confidential Ltd"
+                        }, 
+                        "name": "Fab Confidential Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aliu Kareem Ltd", 
+                            "telephone": "08032405670"
+                        }, 
+                        "identifier": {
+                            "legalName": "Faiz Engineering & Multy Services Concept"
+                        }, 
+                        "name": "Faiz Engineering & Multy Services Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Enj Iroju ", 
+                            "telephone": "08135089253"
+                        }, 
+                        "identifier": {
+                            "legalName": "First Cedaf Int\u2019l Co Ltd"
+                        }, 
+                        "name": "First Cedaf Int\u2019l Co Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr D Oluwole", 
+                            "telephone": "08089701711"
+                        }, 
+                        "identifier": {
+                            "legalName": "Conspec Consolidated Ltd"
+                        }, 
+                        "name": "Conspec Consolidated Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Patrict Bako", 
+                            "telephone": "07085663161"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bescon Partnership"
+                        }, 
+                        "name": "Bescon Partnership"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibiteye Stephen ", 
+                            "telephone": "09098889898"
+                        }, 
+                        "identifier": {
+                            "legalName": "Liberty Overseas Brothers"
+                        }, 
+                        "name": "Liberty Overseas Brothers"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ola-Olu Dele Akannya", 
+                            "telephone": "08060329846"
+                        }, 
+                        "identifier": {
+                            "legalName": "Megastructure Tech Ltd"
+                        }, 
+                        "name": "Megastructure Tech Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dele A.", 
+                            "telephone": "08032938135"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tashad Owners Nig Ltd"
+                        }, 
+                        "name": "Tashad Owners Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lawrence ", 
+                            "telephone": "08051334186"
+                        }, 
+                        "identifier": {
+                            "legalName": "Longhorn Const. Ltd"
+                        }, 
+                        "name": "Longhorn Const. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lawrence", 
+                            "telephone": "08035624563"
+                        }, 
+                        "identifier": {
+                            "legalName": "Crust Resources Ltd"
+                        }, 
+                        "name": "Crust Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman", 
+                            "telephone": "08037290326"
+                        }, 
+                        "identifier": {
+                            "legalName": "Diamond Square Ltd"
+                        }, 
+                        "name": "Diamond Square Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-d61nvdng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-10T13:43:44Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-d61nvdng-ubec"
+}

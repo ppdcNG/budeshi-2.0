@@ -1,0 +1,51 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "language": "en", 
+            "ocid": "ocds-azam7x-x9yb62ng-smedan", 
+            "tag": [
+                "planning"
+            ], 
+            "initiationType": "tender", 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2015 Procurement Records Received from Small and Medium Enterprises Development Agency of Nigeria", 
+                        "language": "en", 
+                        "title": "Procurement Records", 
+                        "url": "https://docs.google.com/spreadsheets/d/1xkDaGTDfaOyFefz5c93eSrTSmfVDkX23OHlbcfrBk2w/edit#gid=350551903", 
+                        "format": "text/html", 
+                        "datePublished": "15/09/2016", 
+                        "documentType": "Physical progress Reports", 
+                        "dateModified": "", 
+                        "id": 350551903
+                    }
+                ], 
+                "budget": {
+                    "description": "N/A", 
+                    "projectID": "N/A", 
+                    "uri": "N/A", 
+                    "project": "N/A", 
+                    "source": "N/A", 
+                    "amount": {
+                        "currency": "NGN", 
+                        "amount": 9061969579.21
+                    }, 
+                    "id": "N/A"
+                }, 
+                "rationale": ""
+            }, 
+            "date": "2016-09-15T14:52:25Z", 
+            "id": "ocds-azam7x-x9yb62ng-smedan-planning-001"
+        }
+    ], 
+    "publishedDate": "2016-09-15T14:52:25Z", 
+    "uri": "http://app.budeshi.ng/raw/smedan/ocds-azam7x-x9yb62ng-smedan"
+}

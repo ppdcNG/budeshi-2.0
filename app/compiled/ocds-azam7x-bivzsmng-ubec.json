@@ -1,0 +1,176 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-07T14:34:36Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-bivzsmng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "6", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Salama Dauda", 
+                            "telephone": "08033177425"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hk-Global Concepts"
+                        }, 
+                        "name": "Hk-Global Concepts"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Murtala Abbas", 
+                            "telephone": "08033561311"
+                        }, 
+                        "identifier": {
+                            "legalName": "5-Project Concert"
+                        }, 
+                        "name": "5-Project Concert"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mohammed R. A.", 
+                            "telephone": "0809190363"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bea Engineering Services Ltd"
+                        }, 
+                        "name": "Bea Engineering Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr. Abiola", 
+                            "telephone": "08056013061"
+                        }, 
+                        "identifier": {
+                            "legalName": "Branco Technical Services Nig. Ltd"
+                        }, 
+                        "name": "Branco Technical Services Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tochukwu Obi", 
+                            "telephone": "08033225974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Luch Nig. Ltd"
+                        }, 
+                        "name": "Luch Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Yusuf Kasim", 
+                            "telephone": "08037867746"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mumtat Communication"
+                        }, 
+                        "name": "Mumtat Communication"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-bivzsmng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-07T14:34:36Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-bivzsmng-ubec"
+}

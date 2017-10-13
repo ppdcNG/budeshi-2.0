@@ -1,0 +1,298 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-03-27T13:08:07Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-faxw4kng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-03-07T14:18", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "open", 
+                "numberOfTenderers": "29", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-03-07T15:45", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "contactPoint": {
+                            "name": "Baason Hosea", 
+                            "telephone": "08034519640"
+                        }, 
+                        "identifier": {
+                            "legalName": "Blossom Innovators Limited"
+                        }, 
+                        "name": "Blossom Innovators Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mathew C", 
+                            "telephone": "08032586661"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sueye Nig Ltd"
+                        }, 
+                        "name": "Sueye Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Iheanyi Isiguzo", 
+                            "telephone": "08069791480"
+                        }, 
+                        "identifier": {
+                            "legalName": "Netview Enviro Com Ltd"
+                        }, 
+                        "name": "Netview Enviro Com Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "M Usman", 
+                            "telephone": "08067047734"
+                        }, 
+                        "identifier": {
+                            "legalName": "Masioadi Multi Trade Ltd"
+                        }, 
+                        "name": "Masioadi Multi Trade Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Prince Nwankwo", 
+                            "telephone": "08098052147"
+                        }, 
+                        "identifier": {
+                            "legalName": "Heavenlet Eldoradro Ltd"
+                        }, 
+                        "name": "Heavenlet Eldoradro Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Emeka Obi", 
+                            "telephone": "08066032216"
+                        }, 
+                        "identifier": {
+                            "legalName": "Blu Dulphine Ltd"
+                        }, 
+                        "name": "Blu Dulphine Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Igbanna Gabriel", 
+                            "telephone": "08037868062"
+                        }, 
+                        "identifier": {
+                            "legalName": "Diamond Global Engineering Investment Ltd"
+                        }, 
+                        "name": "Diamond Global Engineering Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Eng Suleman S.Sadah", 
+                            "telephone": "07033359152"
+                        }, 
+                        "identifier": {
+                            "legalName": "Starmax Expert Services Ltd"
+                        }, 
+                        "name": "Starmax Expert Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olaoluw", 
+                            "telephone": "07064771478"
+                        }, 
+                        "identifier": {
+                            "legalName": "Helima Gold Global Resource"
+                        }, 
+                        "name": "Helima Gold Global Resource"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mustapha Rabiu", 
+                            "telephone": "08026333331"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dutch Musty Investment Ltd"
+                        }, 
+                        "name": "Dutch Musty Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kabir M.R ", 
+                            "telephone": "07066605151"
+                        }, 
+                        "identifier": {
+                            "legalName": "Stallion Trading & Construction Services Ltd"
+                        }, 
+                        "name": "Stallion Trading & Construction Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dan N", 
+                            "telephone": "08037864524"
+                        }, 
+                        "identifier": {
+                            "legalName": "Trich Inte Ltd"
+                        }, 
+                        "name": "Trich Inte Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kingsley U", 
+                            "telephone": "08065810253"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zeiders Intergrated Concept Ltd"
+                        }, 
+                        "name": "Zeiders Intergrated Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Saidu Takana", 
+                            "telephone": "08035774068"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sabula Integrated Services Ltd"
+                        }, 
+                        "name": "Sabula Integrated Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Albert A", 
+                            "telephone": "08034021468         08033453527"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nawla Construction Ltd"
+                        }, 
+                        "name": "Nawla Construction Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aliu Ibrahim", 
+                            "telephone": "07035969544"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yazad Ind. & Dev. Co. Ltd"
+                        }, 
+                        "name": "Yazad Ind. & Dev. Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adebo ", 
+                            "telephone": "08067825988"
+                        }, 
+                        "identifier": {
+                            "legalName": "Security Services Ltd"
+                        }, 
+                        "name": "Security Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aliens S", 
+                            "telephone": "08036978142"
+                        }, 
+                        "identifier": {
+                            "legalName": "Corigires Nig Ltd"
+                        }, 
+                        "name": "Corigires Nig Ltd"
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-faxw4kng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-03-27T13:08:07Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-faxw4kng-ubec"
+}

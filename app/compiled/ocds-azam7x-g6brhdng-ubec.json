@@ -1,0 +1,213 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-09-26T21:11:29Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-g6brhdng-ubec", 
+            "tag": [
+                "planning", 
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "format": "", 
+                        "url": "", 
+                        "title": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-07-19T00:37", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": " 7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Hassan M. Bako", 
+                            "telephone": "07034845974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nation Wide Driller Ltd"
+                        }, 
+                        "name": "Nation Wide Driller Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Shaiubu", 
+                            "telephone": "0803500512"
+                        }, 
+                        "identifier": {
+                            "legalName": "Shaye Engineering Co Ltd"
+                        }, 
+                        "name": "Shaye Engineering Co Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Okoro S", 
+                            "telephone": "08062950670"
+                        }, 
+                        "identifier": {
+                            "legalName": "T-Bag Associates "
+                        }, 
+                        "name": "T-Bag Associates "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "07034845571"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nationwide Drillers Nig Ltd"
+                        }, 
+                        "name": "Nationwide Drillers Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ayomide Felix ", 
+                            "telephone": "08034521290"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tropironiks Global Services Ltd"
+                        }, 
+                        "name": "Tropironiks Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Eze H", 
+                            "telephone": "08069774877"
+                        }, 
+                        "identifier": {
+                            "legalName": "K-Class Global Furniture Ltd"
+                        }, 
+                        "name": "K-Class Global Furniture Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Deji Koiki", 
+                            "telephone": "08023435203"
+                        }, 
+                        "identifier": {
+                            "legalName": "Broadway Logistics Ltd"
+                        }, 
+                        "name": "Broadway Logistics Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Escape Patrick", 
+                            "telephone": "08038915712"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mandtriller Nigeria Ltd"
+                        }, 
+                        "name": "Mandtriller Nigeria Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-g6brhdng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-09-26T21:11:29Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-g6brhdng-ubec"
+}

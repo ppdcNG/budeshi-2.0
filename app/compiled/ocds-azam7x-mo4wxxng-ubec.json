@@ -1,0 +1,253 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-17T13:58:56Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-mo4wxxng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": " Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": " 7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records ", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "Offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "15", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ]
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Chibuzor Adhalibe", 
+                            "telephone": "08037069537"
+                        }, 
+                        "identifier": {
+                            "legalName": "HENZOVIC & ZEMDI LTD"
+                        }, 
+                        "name": "HENZOVIC & ZEMDI LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "whispartners.yahoo.com  ", 
+                            "telephone": "08037560433", 
+                            "name": "Uche Odumogu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alkatex Nig Ltd"
+                        }, 
+                        "name": "Alkatex Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Onyebrosstandard", 
+                            "telephone": "08053327577", 
+                            "name": "Chike O."
+                        }, 
+                        "identifier": {
+                            "legalName": "Onyebros Standard Vision Ltd"
+                        }, 
+                        "name": "Onyebros Standard Vision Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "bacultechltd@yahoo.com ", 
+                            "telephone": "08033002069", 
+                            "name": "Tochukwu Iheadinotu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cs&C Construction Engineering Nig. Ltd"
+                        }, 
+                        "name": "Cs&C Construction Engineering Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Peter", 
+                            "telephone": "08032866035"
+                        }, 
+                        "identifier": {
+                            "legalName": "Maybells Ltd"
+                        }, 
+                        "name": "Maybells Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Monday A.", 
+                            "telephone": "07067532017"
+                        }, 
+                        "identifier": {
+                            "legalName": "Chistergate Nig Ltd"
+                        }, 
+                        "name": "Chistergate Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mbah Chidi", 
+                            "telephone": "08039518098"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ijevet Nig Ltd"
+                        }, 
+                        "name": "Ijevet Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alex Okeyobasi", 
+                            "telephone": "08033830668"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fortizo Engineering Co. Ltd"
+                        }, 
+                        "name": "Fortizo Engineering Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chris Nwoke", 
+                            "telephone": "08166819882"
+                        }, 
+                        "identifier": {
+                            "legalName": "Idacon Nig. Ltd"
+                        }, 
+                        "name": "Idacon Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "ejikemenwaobiala@gmail.com", 
+                            "telephone": "08030846807 08055261642", 
+                            "name": "Ejikeme Nwaobiala"
+                        }, 
+                        "identifier": {
+                            "legalName": "Joevid Integrated Concept Nig. Ltd"
+                        }, 
+                        "name": "Joevid Integrated Concept Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "otutuolagoke@gmail.com ", 
+                            "telephone": "08063888175", 
+                            "name": "Olagoke"
+                        }, 
+                        "identifier": {
+                            "legalName": "Paraldino Nig. Ltd"
+                        }, 
+                        "name": "Paraldino Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "oc.george3@gmail.com ", 
+                            "telephone": "08037076727", 
+                            "name": "Adebayo Ajibola"
+                        }, 
+                        "identifier": {
+                            "legalName": "Chigeors Int\u2019l Ltd"
+                        }, 
+                        "name": "Chigeors Int\u2019l Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ozigi", 
+                            "telephone": "08033937286"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ghonna Global Ltd"
+                        }, 
+                        "name": "Ghonna Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "ucheechie@yahoo.com ", 
+                            "telephone": "08033497762", 
+                            "name": "Juliet Akoji"
+                        }, 
+                        "identifier": {
+                            "legalName": "Technoarch"
+                        }, 
+                        "name": "Technoarch"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "jugele@pseconsultants.com ", 
+                            "telephone": "08035148649", 
+                            "name": "Ugele Ikechukwu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Pse Consultants Ltd"
+                        }, 
+                        "name": "Pse Consultants Ltd"
+                    }
+                ], 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "hasEnquiries": "boolean"
+            }, 
+            "id": "ocds-azam7x-mo4wxxng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-17T13:58:56Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-mo4wxxng-ubec"
+}

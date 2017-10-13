@@ -1,0 +1,176 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-07T13:55:01Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-ty1hn1ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "6", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Kelvin Okon", 
+                            "telephone": "08037019927"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tehetem Nig. Ltd"
+                        }, 
+                        "name": "Tehetem Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "S. Belgore", 
+                            "telephone": "07062589239"
+                        }, 
+                        "identifier": {
+                            "legalName": "Salmat Global Services Ltd"
+                        }, 
+                        "name": "Salmat Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Todukwu Obi", 
+                            "telephone": "0803322594"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kcinas Links Nig. Ltd"
+                        }, 
+                        "name": "Kcinas Links Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lawrence", 
+                            "telephone": "08035624563"
+                        }, 
+                        "identifier": {
+                            "legalName": "All-Phase Const. Ltd"
+                        }, 
+                        "name": "All-Phase Const. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibukun Ogunkola", 
+                            "telephone": "08034512455"
+                        }, 
+                        "identifier": {
+                            "legalName": "Firstlink Resources Nig. Ltd"
+                        }, 
+                        "name": "Firstlink Resources Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Odeleyeye", 
+                            "telephone": "08036793190"
+                        }, 
+                        "identifier": {
+                            "legalName": "The Ice Firm Nig. Ltd"
+                        }, 
+                        "name": "The Ice Firm Nig. Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-ty1hn1ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-07T13:55:01Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-ty1hn1ng-ubec"
+}

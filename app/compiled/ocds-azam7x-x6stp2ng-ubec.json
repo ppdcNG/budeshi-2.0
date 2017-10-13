@@ -1,0 +1,223 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-05-16T13:42:35Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-x6stp2ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "16/05/17", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "9", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "16/0517", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Elder Sam Akpan", 
+                            "telephone": "080371428125 "
+                        }, 
+                        "identifier": {
+                            "legalName": "Fridanuk & Company"
+                        }, 
+                        "name": "Fridanuk & Company", 
+                        "address": {
+                            "countryName": "Nigeria"
+                        }
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "oc.george3@yahoo.com", 
+                            "telephone": "08037076727", 
+                            "name": "Adebayo Ajibola"
+                        }, 
+                        "identifier": {
+                            "legalName": "Chigiors Int'l Ltd"
+                        }, 
+                        "name": "Chigiors Int'l Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr Eyibra -Jnr", 
+                            "telephone": "08060659314"
+                        }, 
+                        "identifier": {
+                            "legalName": "Eyijay Constrution Company"
+                        }, 
+                        "name": "Eyijay Constrution Company", 
+                        "address": {
+                            "countryName": "Nigeria"
+                        }
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": " Lawrence Arhunmounde", 
+                            "telephone": "08036987251"
+                        }, 
+                        "identifier": {
+                            "legalName": " B.N.K Resources Ltd"
+                        }, 
+                        "name": " B.N.K Resources Ltd", 
+                        "address": {
+                            "countryName": "Nigeria"
+                        }
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": " johnnyaba78@yahoo.com ", 
+                            "telephone": "08034507560", 
+                            "name": " Yaba Aibe"
+                        }, 
+                        "identifier": {
+                            "legalName": "TMCTT Group Limited"
+                        }, 
+                        "name": "TMCTT Group Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "ugochi@fiplis.com ", 
+                            "telephone": "08066883445", 
+                            "name": "Ugochi Ananti"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fiphs Investment Ltd"
+                        }, 
+                        "name": "Fiphs Investment Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "mradie2005@yahoo.com ", 
+                            "telephone": "08131974444", 
+                            "name": "Atsu Adie"
+                        }, 
+                        "identifier": {
+                            "legalName": "F.A. liberty Nigeria Limited"
+                        }, 
+                        "name": "F.A. liberty Nigeria Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "itorookpokpo@gmail.com ", 
+                            "telephone": "08104852770", 
+                            "name": "Itoro Okpokpo"
+                        }, 
+                        "identifier": {
+                            "legalName": "Terra Urban Nigeria Limited"
+                        }, 
+                        "name": "Terra Urban Nigeria Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "ajabisong68@gmail.com", 
+                            "telephone": "07037526592", 
+                            "name": "Aja Bisong"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ryte Reasons Limited"
+                        }, 
+                        "name": "Ryte Reasons Limited"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-x6stp2ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-05-16T13:42:35Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-x6stp2ng-ubec"
+}

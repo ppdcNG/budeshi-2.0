@@ -1,0 +1,232 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-17T14:22:47Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-rk3118ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": " Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": " 7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records ", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "Offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "11", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records ", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records ", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "Offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": " Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": " 7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "endynwogu@yahoo.com ", 
+                            "telephone": "08136688822", 
+                            "name": "Endy Nwogu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Platenum Projects Ltd"
+                        }, 
+                        "name": "Platenum Projects Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Uche Igbonacho", 
+                            "telephone": "08037102875"
+                        }, 
+                        "identifier": {
+                            "legalName": "Optimum Synergy Int\u2019l Services Ltd"
+                        }, 
+                        "name": "Optimum Synergy Int\u2019l Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Azubike U. Azubike", 
+                            "telephone": "07038576993"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zueam Impex Concept Ltd"
+                        }, 
+                        "name": "Zueam Impex Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "sojundo@yahoo.com ", 
+                            "telephone": "08035963167", 
+                            "name": "Jumbo S. O."
+                        }, 
+                        "identifier": {
+                            "legalName": "Honourable Concept Investment Ltd"
+                        }, 
+                        "name": "Honourable Concept Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "sojundo@yahoo.com ", 
+                            "telephone": "08035963167", 
+                            "name": "Jumbo S. O."
+                        }, 
+                        "identifier": {
+                            "legalName": "Cops Ltd"
+                        }, 
+                        "name": "Cops Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "lagontobishop@yahoo.com ", 
+                            "telephone": "08097433333", 
+                            "name": "Umejiburu Onyiye"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kennyzot Nig. Ltd"
+                        }, 
+                        "name": "Kennyzot Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "ezenwachriszi@gmail.com ", 
+                            "telephone": "08063883831", 
+                            "name": "Engr. Chris Ezenwa"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bacon Global Resource Service Ltd"
+                        }, 
+                        "name": "Bacon Global Resource Service Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "unwaokona@yahoo.com ", 
+                            "telephone": "08059095276", 
+                            "name": "Ugonna Nwaokoma"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hetch- Bee Investment Ltd"
+                        }, 
+                        "name": "Hetch- Bee Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ozigi", 
+                            "telephone": "08033931781"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bube Dan Global"
+                        }, 
+                        "name": "Bube Dan Global"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chuks", 
+                            "telephone": "08063668157"
+                        }, 
+                        "identifier": {
+                            "legalName": "Suntotal Solar Tech Nig. Ltd"
+                        }, 
+                        "name": "Suntotal Solar Tech Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr Segun", 
+                            "telephone": "08034534513"
+                        }, 
+                        "identifier": {
+                            "legalName": "Amitech Interglobal Engineering Ltd"
+                        }, 
+                        "name": "Amitech Interglobal Engineering Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-rk3118ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-17T14:22:47Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-rk3118ng-ubec"
+}

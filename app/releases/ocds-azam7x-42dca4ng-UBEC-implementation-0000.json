@@ -1,0 +1,63 @@
+{
+    "id": "ocds-azam7x-42dca4ng-UBEC-implementation-0000",
+    "date": "2017-10-08T04:28:36.338Z",
+    "contract": {
+        "documents": [],
+        "transactions": [
+            {
+                "id": "1",
+                "date": "",
+                "source": "",
+                "value": {
+                    "amount": "12234567",
+                    "currency": "NGN"
+                },
+                "payer": {
+                    "identifier": {
+                        "scheme": "CAC-RC",
+                        "legalName": "McVIK Services Limited",
+                        "id": null,
+                        "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                    },
+                    "address": {
+                        "streetAddress": null,
+                        "locality": null,
+                        "region": null,
+                        "postalCode": null,
+                        "countryName": "Nigeia"
+                    },
+                    "contactPoint": {
+                        "name": "McVIK Services Limited",
+                        "telephone": null,
+                        "email": null,
+                        "url": null,
+                        "faxNumber": ""
+                    }
+                },
+                "payee": {
+                    "identifier": {
+                        "scheme": "CAC-RC",
+                        "legalName": "Pentech Nigeria Limited",
+                        "id": null,
+                        "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                    },
+                    "address": {
+                        "streetAddress": null,
+                        "locality": null,
+                        "region": null,
+                        "postalCode": null,
+                        "countryName": "Nigeia"
+                    },
+                    "contactPoint": {
+                        "name": "Pentech Nigeria Limited",
+                        "telephone": null,
+                        "email": null,
+                        "url": null,
+                        "faxNumber": ""
+                    }
+                },
+                "uri": ""
+            }
+        ]
+    }
+}

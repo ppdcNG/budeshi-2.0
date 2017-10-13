@@ -1,0 +1,198 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-18T10:45:11Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "active", 
+                    "documents": [
+                        {}
+                    ], 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "documents": [
+                                    {}
+                                ]
+                            }
+                        ], 
+                        "documents": [
+                            {}
+                        ], 
+                        "transactions": [
+                            {}
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "additionalClassifications": [
+                                {}
+                            ]
+                        }
+                    ], 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": "30,579,570"
+                    }, 
+                    "awardID": "NLS/62/S.97/I/44"
+                }
+            ], 
+            "ocid": "ocds-azam7x-1bb3vmng-nls", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "http://www.nigerianlawschool.edu.ng/", 
+                    "name": "Dr. Olanrewaju Adesola Onadeko"
+                }, 
+                "identifier": {
+                    "uri": "http://www.nigerianlawschool.edu.ng/", 
+                    "legalName": "Nigerian Law School"
+                }, 
+                "name": "Nigeria Law School", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "Bwari Abuja", 
+                    "region": "Abuja FCT", 
+                    "locality": "Bwari"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement records of contracts awarded in 2016 as received from the Nigerian Law School", 
+                        "language": "en", 
+                        "title": "2016 Procurement Records", 
+                        "url": "https://docs.google.com/spreadsheets/d/14nnpvUi3bYbXU0O_iY1piS3IuQwvrI9jXau4CHFOwvY/edit#gid=1819404899", 
+                        "format": "text/html", 
+                        "documentType": "Physical Progress Report", 
+                        "id": "gid=1819404899"
+                    }
+                ], 
+                "budget": {
+                    "amount": {
+                        "currency": "NGN", 
+                        "amount": "61,000,000"
+                    }
+                }
+            }, 
+            "awards": [
+                {
+                    "status": "active", 
+                    "documents": [
+                        {}
+                    ], 
+                    "items": [
+                        {
+                            "additionalClassifications": [
+                                {}
+                            ]
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {}
+                            ], 
+                            "identifier": {
+                                "legalName": "Dan  Maikarfi  Construction  Company Ltd          "
+                            }, 
+                            "name": "Dan  Maikarfi  Construction  Company Ltd          "
+                        }
+                    ], 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": "30,579,570"
+                    }, 
+                    "id": "NLS/62/S.97/I/44"
+                }
+            ], 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "23", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "value": {
+                    "currency": "NGN", 
+                    "amount": "57,000,934"
+                }, 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "legalName": "Nigerian Law School"
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "http://www.nigerianlawschool.edu.ng/", 
+                        "name": "DR, Olanrewaju Adesola Onadeko LL.D SAN"
+                    }, 
+                    "identifier": {
+                        "legalName": "Council of Legal Education"
+                    }, 
+                    "name": "Nigerian Law School", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "Nigerian Law School, Bwari, Abuja, FCT ", 
+                        "region": "FCT", 
+                        "locality": "Bwari"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "identifier": {
+                            "legalName": "Dan Maikarfi Construction Company Ltd"
+                        }, 
+                        "name": "Dan Maikarfi Construction Company Ltd", 
+                        "address": {
+                            "countryName": "Nigeria"
+                        }
+                    }
+                ], 
+                "hasEnquiries": "1", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-1bb3vmng-nls-contracts-001"
+        }
+    ], 
+    "publishedDate": "2017-08-18T10:45:11Z", 
+    "uri": "http://app.budeshi.ng/raw/nls/ocds-azam7x-1bb3vmng-nls"
+}

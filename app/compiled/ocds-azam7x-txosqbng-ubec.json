@@ -1,0 +1,244 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-13T11:09:35Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-txosqbng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "13", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "documentType": "Procurement records", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Abdullahi ", 
+                            "telephone": "08033931785"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sletter Gov Nig Ltd"
+                        }, 
+                        "name": "Sletter Gov Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Muh\u2019dl. Aku", 
+                            "telephone": "08055244988"
+                        }, 
+                        "identifier": {
+                            "legalName": "Paylez Engineering Ltd"
+                        }, 
+                        "name": "Paylez Engineering Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Paul Exe", 
+                            "telephone": "08179912454"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nelox Ltd"
+                        }, 
+                        "name": "Nelox Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Nzube", 
+                            "telephone": "08037147184"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zubeco Assets Ventures Ltd"
+                        }, 
+                        "name": "Zubeco Assets Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adebayo", 
+                            "telephone": "08057609936"
+                        }, 
+                        "identifier": {
+                            "legalName": "Oregon Hill Engr. & Gen Services Ltd"
+                        }, 
+                        "name": "Oregon Hill Engr. & Gen Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Timothy Olachene", 
+                            "telephone": "08033002069"
+                        }, 
+                        "identifier": {
+                            "legalName": "Vinna Technology Ltd"
+                        }, 
+                        "name": "Vinna Technology Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Eugene Ugwu", 
+                            "telephone": "07017173433"
+                        }, 
+                        "identifier": {
+                            "legalName": "Eugetex Nig Ltd"
+                        }, 
+                        "name": "Eugetex Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tijani Obadele", 
+                            "telephone": "08035956880"
+                        }, 
+                        "identifier": {
+                            "legalName": "Conban Nig Ltd"
+                        }, 
+                        "name": "Conban Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abubakar Negedu", 
+                            "telephone": "07035858200"
+                        }, 
+                        "identifier": {
+                            "legalName": "B Solar Energy Ltd"
+                        }, 
+                        "name": "B Solar Energy Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Amarachi Chinasa", 
+                            "telephone": "08065491414"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sidas Ltd"
+                        }, 
+                        "name": "Sidas Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Enejoh Timothy", 
+                            "telephone": "08073708237"
+                        }, 
+                        "identifier": {
+                            "legalName": "D-John Mary Nig Ltd"
+                        }, 
+                        "name": "D-John Mary Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdul Umoru", 
+                            "telephone": "08139170070"
+                        }, 
+                        "identifier": {
+                            "legalName": "Siborg Engineering Tech. Services"
+                        }, 
+                        "name": "Siborg Engineering Tech. Services"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Prince Joseph", 
+                            "telephone": "08035909167"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dutum Company Ltd"
+                        }, 
+                        "name": "Dutum Company Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-txosqbng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-13T11:09:35Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-txosqbng-ubec"
+}

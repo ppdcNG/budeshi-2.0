@@ -1,0 +1,263 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-09-26T21:12:17Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-0mzv2rng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "legalName": "", 
+                        "id": "", 
+                        "uri": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "", 
+                    "email": "", 
+                    "telephone": "", 
+                    "name": "", 
+                    "faxNumber": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "legalName": "", 
+                    "id": "", 
+                    "uri": ""
+                }, 
+                "name": "", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "", 
+                    "streetAddress": "", 
+                    "region": "", 
+                    "locality": ""
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "23", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Universal Basic Education Commission"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission"
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "FLAT 8, BLOCK 5 KUBWA HOUSING ESTATE FCT, ABUJA", 
+                            "telephone": "07069250011"
+                        }, 
+                        "identifier": {
+                            "legalName": "MARIP SOLUTIONS"
+                        }, 
+                        "name": "MARIP SOLUTIONS"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "ZOGWELA WUSE ZONE 4, FCT", 
+                            "telephone": "08092405670"
+                        }, 
+                        "identifier": {
+                            "legalName": "VINROCK GLOBAL STANDARD NIG LTD"
+                        }, 
+                        "name": "VINROCK GLOBAL STANDARD NIG LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "1332 EFAB AREA ABUJA", 
+                            "telephone": "080354250695"
+                        }, 
+                        "identifier": {
+                            "legalName": "TRNAC NIG LTD"
+                        }, 
+                        "name": "TRNAC NIG LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "BANEX PLAZA WUSE 2", 
+                            "telephone": "08037247285"
+                        }, 
+                        "identifier": {
+                            "legalName": "CLEAN & GREEN LTD"
+                        }, 
+                        "name": "CLEAN & GREEN LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "8 DAKALA STREET WUSE 2, ABUJA", 
+                            "telephone": "08053673182"
+                        }, 
+                        "identifier": {
+                            "legalName": "ERE STREAM LTD "
+                        }, 
+                        "name": "ERE STREAM LTD "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "WUSE 2 ABUJA", 
+                            "telephone": "08033173365"
+                        }, 
+                        "identifier": {
+                            "legalName": "LAWTOP NIG LTD "
+                        }, 
+                        "name": "LAWTOP NIG LTD "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "FMBH CENTRAL AREA ABUJA", 
+                            "telephone": "08032710272"
+                        }, 
+                        "identifier": {
+                            "legalName": "MACDYNE NIG LTD"
+                        }, 
+                        "name": "MACDYNE NIG LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "BLOT 5 JOSEPH WAY S CLOSE APO ", 
+                            "telephone": "08023558784"
+                        }, 
+                        "identifier": {
+                            "legalName": "TODAH LINK PROCUREMENT RESOURCE LTD"
+                        }, 
+                        "name": "TODAH LINK PROCUREMENT RESOURCE LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "MABUCHI", 
+                            "telephone": "08062184258"
+                        }, 
+                        "identifier": {
+                            "legalName": "AFRICAN PLUS LTD"
+                        }, 
+                        "name": "AFRICAN PLUS LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "ABUJA", 
+                            "telephone": "08035881117"
+                        }, 
+                        "identifier": {
+                            "legalName": "N/W GLOBAL SERVICES "
+                        }, 
+                        "name": "N/W GLOBAL SERVICES "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "ASOKORO", 
+                            "telephone": "08032866035"
+                        }, 
+                        "identifier": {
+                            "legalName": "JEP JPHA INT\u2019L VENTURES LTD"
+                        }, 
+                        "name": "JEP JPHA INT\u2019L VENTURES LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "NELSON ADSU", 
+                            "telephone": "09033047332"
+                        }, 
+                        "identifier": {
+                            "legalName": "PALMVIEW GLOBAL LTD"
+                        }, 
+                        "name": "PALMVIEW GLOBAL LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "MUEYALA ABBAS", 
+                            "telephone": "08033561311"
+                        }, 
+                        "identifier": {
+                            "legalName": "SEAPE DESIAN ASSOCIATES"
+                        }, 
+                        "name": "SEAPE DESIAN ASSOCIATES"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "ALIU DODO", 
+                            "telephone": "08092405670"
+                        }, 
+                        "identifier": {
+                            "legalName": "STANDARD NIG LTD"
+                        }, 
+                        "name": "STANDARD NIG LTD"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-0mzv2rng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-09-26T21:12:17Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-0mzv2rng-ubec"
+}

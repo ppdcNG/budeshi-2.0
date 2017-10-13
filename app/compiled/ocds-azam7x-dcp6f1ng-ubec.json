@@ -1,0 +1,276 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-13T14:28:30Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-dcp6f1ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "16", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Nduenenwa E", 
+                            "telephone": "08143589934"
+                        }, 
+                        "identifier": {
+                            "legalName": "Curlew Express Ltd"
+                        }, 
+                        "name": "Curlew Express Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdullahi ", 
+                            "telephone": "08033931788"
+                        }, 
+                        "identifier": {
+                            "legalName": "Haliyus Nig Ltd"
+                        }, 
+                        "name": "Haliyus Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Emmanuel", 
+                            "telephone": "08037186641"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kasteel Properties Ltd"
+                        }, 
+                        "name": "Kasteel Properties Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Babafemi I", 
+                            "telephone": "08065382828"
+                        }, 
+                        "identifier": {
+                            "legalName": "Design & Construction Nig Ltd"
+                        }, 
+                        "name": "Design & Construction Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Saidu Odoma", 
+                            "telephone": "08035960172"
+                        }, 
+                        "identifier": {
+                            "legalName": "Odoma Global Resources Services Ltd"
+                        }, 
+                        "name": "Odoma Global Resources Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abubakar Negedu", 
+                            "telephone": "07035858200"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bakus Multilinks Nig Ltd"
+                        }, 
+                        "name": "Bakus Multilinks Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Amarachi Chinasa", 
+                            "telephone": "08065491414"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sidas Ltd"
+                        }, 
+                        "name": "Sidas Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Onyemah Monday", 
+                            "telephone": "08060329846"
+                        }, 
+                        "identifier": {
+                            "legalName": "Megastructure Technologies Ltd"
+                        }, 
+                        "name": "Megastructure Technologies Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isaac ", 
+                            "telephone": "08033214199"
+                        }, 
+                        "identifier": {
+                            "legalName": "First Quality Construction Project"
+                        }, 
+                        "name": "First Quality Construction Project"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jabir C. Osijin", 
+                            "telephone": "08106853007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Everbrighten Proper Ties Ltd"
+                        }, 
+                        "name": "Everbrighten Proper Ties Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Enejoh Timoty", 
+                            "telephone": "08073708237"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aob Venture Ltd"
+                        }, 
+                        "name": "Aob Venture Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Uche Joshua", 
+                            "telephone": "08034873357"
+                        }, 
+                        "identifier": {
+                            "legalName": "De-Salmagson Global Ltd"
+                        }, 
+                        "name": "De-Salmagson Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ikouwem Akpan", 
+                            "telephone": "08028915579"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wrightlinks Logistics Ltd"
+                        }, 
+                        "name": "Wrightlinks Logistics Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Umoru A", 
+                            "telephone": "08139170070"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yamora Global Resources Ltd"
+                        }, 
+                        "name": "Yamora Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Prince Joseph", 
+                            "telephone": "08035909167"
+                        }, 
+                        "identifier": {
+                            "legalName": "Arkland Nig Ltd "
+                        }, 
+                        "name": "Arkland Nig Ltd "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abu M. Lawal", 
+                            "telephone": "07053874442"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yisab Nig Ltd"
+                        }, 
+                        "name": "Yisab Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-dcp6f1ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-13T14:28:30Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-dcp6f1ng-ubec"
+}

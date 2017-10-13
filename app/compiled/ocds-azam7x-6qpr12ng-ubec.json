@@ -1,0 +1,269 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-20T10:47:48Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-6qpr12ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-07-19T17:43", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "15", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports ", 
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "format": "offline/Print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": " 7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ibrahim Ola ", 
+                            "telephone": "08030422714"
+                        }, 
+                        "identifier": {
+                            "legalName": "Realand Standard Inves."
+                        }, 
+                        "name": "Realand Standard Inves."
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Blessing", 
+                            "telephone": "07014889941"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kim-Khals International Ltd"
+                        }, 
+                        "name": "Kim-Khals International Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Okoro", 
+                            "telephone": "08062950670"
+                        }, 
+                        "identifier": {
+                            "legalName": "T-Bags Associates"
+                        }, 
+                        "name": "T-Bags Associates"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mohammab Ibrahim", 
+                            "telephone": "08030927822"
+                        }, 
+                        "identifier": {
+                            "legalName": "Danwaziri Global Services Ltd"
+                        }, 
+                        "name": "Danwaziri Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Martin Obi", 
+                            "telephone": "07037778007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zainunnaj Ltd"
+                        }, 
+                        "name": "Zainunnaj Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olalekan Hanulton", 
+                            "telephone": "07061267392"
+                        }, 
+                        "identifier": {
+                            "legalName": "Emma Tumsco Multi-Trade Limited"
+                        }, 
+                        "name": "Emma Tumsco Multi-Trade Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "07034845974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yg.D & Sons Nig Ltd"
+                        }, 
+                        "name": "Yg.D & Sons Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Onifade A.J", 
+                            "telephone": "08036861006"
+                        }, 
+                        "identifier": {
+                            "legalName": "De-Bas Suites Ltd"
+                        }, 
+                        "name": "De-Bas Suites Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibezim Chidozie", 
+                            "telephone": "08032892528"
+                        }, 
+                        "identifier": {
+                            "legalName": "Joch Concepts Nig Ltd"
+                        }, 
+                        "name": "Joch Concepts Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bamidele James", 
+                            "telephone": "08181887828"
+                        }, 
+                        "identifier": {
+                            "legalName": "Trust Judako Ltd"
+                        }, 
+                        "name": "Trust Judako Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Patrick O. Patrick", 
+                            "telephone": "08189291420"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ciibex Solutions Nig Ltd"
+                        }, 
+                        "name": "Ciibex Solutions Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Deji Koiki ", 
+                            "telephone": "08023435203"
+                        }, 
+                        "identifier": {
+                            "legalName": "Boldmoves Res. Ltd Yuby Nig Ltd"
+                        }, 
+                        "name": "Boldmoves Res. Ltd Yuby Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ukeje Ujunwa", 
+                            "telephone": "07052883356"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yuby Nig Ltd"
+                        }, 
+                        "name": "Yuby Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mustapha Rabiu", 
+                            "telephone": "08026333331"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dutchmusty Intergrated Nsiwork Limited"
+                        }, 
+                        "name": "Dutchmusty Intergrated Nsiwork Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Okeke Obiageli", 
+                            "telephone": "08030998540"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rizo Nig Ltd"
+                        }, 
+                        "name": "Rizo Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-6qpr12ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-20T10:47:48Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-6qpr12ng-ubec"
+}

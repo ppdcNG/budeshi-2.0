@@ -1,0 +1,172 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-09-26T21:09:16Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-q3b7fcng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "format": "", 
+                        "url": "", 
+                        "title": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "4", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ehi Andreyong", 
+                            "telephone": "08060383585"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yonsus Global Vent Ltd"
+                        }, 
+                        "name": "Yonsus Global Vent Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Damola Popoole", 
+                            "telephone": "08038551842"
+                        }, 
+                        "identifier": {
+                            "legalName": "Havlah Merchants Nig Ltd"
+                        }, 
+                        "name": "Havlah Merchants Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Yinka", 
+                            "telephone": "08135383985"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bubanga Investment Ltd"
+                        }, 
+                        "name": "Bubanga Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chidi Kanu", 
+                            "telephone": "09080964070"
+                        }, 
+                        "identifier": {
+                            "legalName": "Multijob Nig Ltd"
+                        }, 
+                        "name": "Multijob Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                                "language": "en", 
+                                "title": "Procurement records", 
+                                "format": "offline/Print", 
+                                "datePublished": "2017-04-06T13:50", 
+                                "documentType": "Physical Progress Reports "
+                            }
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-q3b7fcng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-09-26T21:09:16Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-q3b7fcng-ubec"
+}

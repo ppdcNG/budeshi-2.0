@@ -1,0 +1,387 @@
+{
+    "license": null,
+    "publishDate": "2017-10-08T18:27:10+0200",
+    "publicationPolicy": null,
+    "relesases": [
+        {
+            "tags": [
+                "planning",
+                "tender",
+                "contract",
+                "award"
+            ],
+            "planning": {
+                "ocid": "ocds-azam7x-a405e2ng-UBEC",
+                "date": "2017-10-06T02:45:23.305Z",
+                "id": "ocds-azam7x-a405e2ng-UBEC-planning-0000",
+                "tag": [
+                    "planning"
+                ],
+                "planning": {
+                    "rationale": "gjldk;fgkljglmskdfmkg;dkgsmdf",
+                    "budget": {
+                        "description": "j;lkhhkljlkj;lkj",
+                        "amount": {
+                            "amount": "100000",
+                            "currency": "NGN"
+                        },
+                        "project": "Title",
+                        "projectID": "proj1234",
+                        "uri": "http:\/\/www.budgetoffice.gov.ng\/index.php\/2017-approved-budget"
+                    },
+                    "milestones": [
+                        {
+                            "title": "jfdkl;jadslmfalkmsdf",
+                            "id": "aflsmdf;laksmdfsadkmf",
+                            "type": "preProcurement",
+                            "description": "xkjkj;lzkvjcmzcxkvjclkzjkjfasmdf",
+                            "code": "document",
+                            "dueDate": "2017-10-02T00:00:00.000Z",
+                            "dateMet": "2017-10-10T00:00:00.000Z",
+                            "dateModified": "2017-10-06T02:44:00.116Z",
+                            "status": "met"
+                        }
+                    ]
+                },
+                "parties": [
+                    {
+                        "identifier": {
+                            "scheme": "CAC-RC",
+                            "legalName": "L C O Engineering Consult Ltd",
+                            "id": null,
+                            "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                        },
+                        "address": {
+                            "streetAddress": null,
+                            "locality": null,
+                            "region": null,
+                            "postalCode": null,
+                            "countryName": "Nigeia"
+                        },
+                        "contactPoint": {
+                            "name": "L C O Engineering Consult Ltd",
+                            "telephone": null,
+                            "email": null,
+                            "url": null,
+                            "faxNumber": ""
+                        },
+                        "roles": [
+                            "procuringEntity"
+                        ]
+                    }
+                ],
+                "buyer": {
+                    "identifier": {
+                        "scheme": "CAC-RC",
+                        "legalName": "Dune Engineering Ltd",
+                        "id": null,
+                        "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                    },
+                    "address": {
+                        "streetAddress": null,
+                        "locality": null,
+                        "region": null,
+                        "postalCode": null,
+                        "countryName": "Nigeia"
+                    },
+                    "contactPoint": {
+                        "name": "Dune Engineering Ltd",
+                        "telephone": null,
+                        "email": null,
+                        "url": null,
+                        "faxNumber": ""
+                    }
+                }
+            },
+            "tender": {
+                "oc_id": "ocds-azam7x-a405e2ng-UBEC",
+                "date": "2017-10-07T23:28:17.213Z",
+                "id": "ocds-azam7x-a405e2ng-UBEC-tender-0000",
+                "tag": [
+                    "tender"
+                ],
+                "initiationType": "tender",
+                "tender": {
+                    "id": "ocds-azam7x-a405e2ng-UBEC-tender-0000",
+                    "title": "fjsfdklsodasfmdasodmfasdo",
+                    "description": "mlakmsdk;lfmals;dkmf;lamsdfI",
+                    "status": "",
+                    "value": {
+                        "amount": "",
+                        "currency": "NGN"
+                    },
+                    "minValue": {
+                        "amount": "",
+                        "currency": "NGN"
+                    },
+                    "procurementMethod": "",
+                    "procurementMethodDetails": "",
+                    "procurementDetailsRationale": "",
+                    "mainProcurementCategory": "goods",
+                    "addtionalProcurementCategories": [
+                        []
+                    ],
+                    "awardCriteria": "",
+                    "awardCriteriaDetails": "",
+                    "submissionMethod": [
+                        "electronicAuction"
+                    ],
+                    "submissionMethodDetails": "",
+                    "tenderPeriod": {
+                        "startDate": "",
+                        "endDate": "",
+                        "maximumExtent": "",
+                        "durationInDays": ""
+                    },
+                    "enquiryPeriod": {
+                        "startDate": "",
+                        "endDate": "",
+                        "maximumExtent": "",
+                        "durationInDays": ""
+                    },
+                    "hasEnquiries": true,
+                    "eligibilityCriteria": "",
+                    "awardPeriod": {
+                        "startDate": "",
+                        "endDate": "",
+                        "maximumExtent": "",
+                        "durationInDays": ""
+                    },
+                    "numberOfTenderers": "4",
+                    "tenderers": [
+                        {
+                            "identifier": {
+                                "scheme": "CAC-RC",
+                                "legalName": "Dari  Investment Ltd",
+                                "id": null,
+                                "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                            },
+                            "address": {
+                                "streetAddress": null,
+                                "locality": null,
+                                "region": null,
+                                "postalCode": null,
+                                "countryName": "Nigeia"
+                            },
+                            "contactPoint": {
+                                "name": "Dari  Investment Ltd",
+                                "telephone": null,
+                                "email": null,
+                                "url": null,
+                                "faxNumber": ""
+                            }
+                        },
+                        {
+                            "identifier": {
+                                "scheme": "CAC-RC",
+                                "legalName": "Pentech Nigeria Limited",
+                                "id": null,
+                                "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                            },
+                            "address": {
+                                "streetAddress": null,
+                                "locality": null,
+                                "region": null,
+                                "postalCode": null,
+                                "countryName": "Nigeia"
+                            },
+                            "contactPoint": {
+                                "name": "Pentech Nigeria Limited",
+                                "telephone": null,
+                                "email": null,
+                                "url": null,
+                                "faxNumber": ""
+                            }
+                        },
+                        {
+                            "identifier": {
+                                "scheme": "CAC-RC",
+                                "legalName": "Sanmah Nig. Ltd",
+                                "id": null,
+                                "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                            },
+                            "address": {
+                                "streetAddress": null,
+                                "locality": null,
+                                "region": null,
+                                "postalCode": null,
+                                "countryName": "Nigeia"
+                            },
+                            "contactPoint": {
+                                "name": "Sanmah Nig. Ltd",
+                                "telephone": null,
+                                "email": null,
+                                "url": null,
+                                "faxNumber": ""
+                            }
+                        },
+                        {
+                            "identifier": {
+                                "scheme": "CAC-RC",
+                                "legalName": "McVIK Services Limited",
+                                "id": null,
+                                "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                            },
+                            "address": {
+                                "streetAddress": null,
+                                "locality": null,
+                                "region": null,
+                                "postalCode": null,
+                                "countryName": "Nigeia"
+                            },
+                            "contactPoint": {
+                                "name": "McVIK Services Limited",
+                                "telephone": null,
+                                "email": null,
+                                "url": null,
+                                "faxNumber": ""
+                            }
+                        }
+                    ],
+                    "milestones": [],
+                    "items": [
+                        {
+                            "id": "sjjlkf;adsjf",
+                            "description": "malksmdfmasldmf",
+                            "classification": {
+                                "scheme": "mkmdffasdm;",
+                                "id": "kdko",
+                                "uri": "kdflmaldsmf;lmasdlkfmasldkm",
+                                "description": ""
+                            },
+                            "additionalClassification": [
+                                {
+                                    "scheme": "",
+                                    "id": "",
+                                    "uri": "",
+                                    "description": "fjlkajdslfm"
+                                }
+                            ],
+                            "quantity": "",
+                            "unit": {
+                                "scheme": "",
+                                "id": "",
+                                "name": "",
+                                "uri": "",
+                                "value": {
+                                    "amount": "",
+                                    "currency": "NGN"
+                                }
+                            }
+                        }
+                    ],
+                    "documents": []
+                },
+                "parties": []
+            },
+            "contracts": [
+                {
+                    "ocid": "ocds-azam7x-a405e2ng-UBEC",
+                    "id": "ocds-azam7x-a405e2ng-UBEC-contract-0000",
+                    "tag": [
+                        "tender"
+                    ],
+                    "initiationType": "",
+                    "contract": {
+                        "id": "",
+                        "awardID": "ocds-azam7x-a405e2ng-UBEC-award-0006",
+                        "status": "",
+                        "title": "rqwheruweiojfjdue",
+                        "description": "eiureryiuoqweryoiuewoyrqyweoyu",
+                        "period": {
+                            "startDate": "",
+                            "endDate": "",
+                            "maximumExtent": "",
+                            "durationInDays": ""
+                        },
+                        "value": {
+                            "amount": "334556743",
+                            "currency": "NGN"
+                        },
+                        "dateSigned": "",
+                        "milestones": [],
+                        "items": [],
+                        "documents": [],
+                        "amendments": []
+                    },
+                    "milesone": {
+                        "dateModified": ""
+                    },
+                    "date": "2017-10-08T00:05:43.776Z",
+                    "parties": [],
+                    "buyer": null
+                }
+            ],
+            "awards": [
+                {
+                    "ocid": "ocds-azam7x-a405e2ng-UBEC",
+                    "date": "2017-10-07T23:53:15.048Z",
+                    "id": "ocds-azam7x-a405e2ng-UBEC-award-0007",
+                    "tag": [
+                        "award"
+                    ],
+                    "initiationType": "",
+                    "award": {
+                        "id": "",
+                        "title": "zcjxhcjueyncggfhgudjdh",
+                        "description": "jdfyuasjdfiicjdidjjduicmiekmc",
+                        "date": "",
+                        "status": "",
+                        "value": {
+                            "amount": "",
+                            "currency": "NGN"
+                        },
+                        "suppliers": [
+                            {
+                                "identifier": {
+                                    "scheme": "CAC-RC",
+                                    "legalName": "Sanmah Nig. Ltd",
+                                    "id": null,
+                                    "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                                },
+                                "address": {
+                                    "streetAddress": null,
+                                    "locality": null,
+                                    "region": null,
+                                    "postalCode": null,
+                                    "countryName": "Nigeia"
+                                },
+                                "contactPoint": {
+                                    "name": "Sanmah Nig. Ltd",
+                                    "telephone": null,
+                                    "email": null,
+                                    "url": null,
+                                    "faxNumber": ""
+                                }
+                            }
+                        ],
+                        "contractPeriod": {
+                            "startDate": "",
+                            "endDate": "",
+                            "maximumExtent": "",
+                            "durationInDays": ""
+                        },
+                        "milestones": [],
+                        "items": [],
+                        "documents": [],
+                        "amendments": []
+                    },
+                    "parties": [],
+                    "buyer": null,
+                    "milestone": {
+                        "title": "rqwerjkfl;sdkfj",
+                        "id": "mldkmlfcmmckck",
+                        "type": "preProcurement",
+                        "description": "kvmlkamdkmfkmkvkcm",
+                        "code": "kmcvkmlkcmvk",
+                        "dueDate": "",
+                        "dateMet": "",
+                        "dateModified": "",
+                        "status": "scheduled"
+                    }
+                }
+            ],
+            "ocid": "ocds-azam7x-a405e2ng-UBEC"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "ocid": "ocds-azam7x-a405e2ng-UBEC",
+    "id": "ocds-azam7x-a405e2ng-UBEC-contract-0000",
+    "tag": [
+        "tender"
+    ],
+    "initiationType": "",
+    "contract": {
+        "id": "",
+        "awardID": "ocds-azam7x-a405e2ng-UBEC-award-0006",
+        "status": "",
+        "title": "rqwheruweiojfjdue",
+        "description": "eiureryiuoqweryoiuewoyrqyweoyu",
+        "period": {
+            "startDate": "",
+            "endDate": "",
+            "maximumExtent": "",
+            "durationInDays": ""
+        },
+        "value": {
+            "amount": "334556743",
+            "currency": "NGN"
+        },
+        "dateSigned": "",
+        "milestones": [],
+        "items": [],
+        "documents": [],
+        "amendments": []
+    },
+    "milesone": {
+        "dateModified": ""
+    },
+    "date": "2017-10-08T00:05:43.776Z",
+    "parties": [],
+    "buyer": null
+}

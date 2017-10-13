@@ -1,0 +1,194 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-17T13:49:39Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-rqgd9yng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Muritador Abdul", 
+                            "telephone": "08092405670"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kasraj Nigeria Ltd"
+                        }, 
+                        "name": "Kasraj Nigeria Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kunle", 
+                            "telephone": "08035637501"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jide-Tabe Int. Ltd"
+                        }, 
+                        "name": "Jide-Tabe Int. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adedeji Olusola", 
+                            "telephone": "08033947274"
+                        }, 
+                        "identifier": {
+                            "legalName": "Denod Energy Resources Ltd"
+                        }, 
+                        "name": "Denod Energy Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Apaifi Godwin Akparanta", 
+                            "telephone": "08050317732"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ecom Limited & Gbato Energy Limited"
+                        }, 
+                        "name": "Ecom Limited & Gbato Energy Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isiteye Stephen", 
+                            "telephone": "08036622553"
+                        }, 
+                        "identifier": {
+                            "legalName": "Salaat Global Service Ltd"
+                        }, 
+                        "name": "Salaat Global Service Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogunsola Olufemi", 
+                            "telephone": "08037117020"
+                        }, 
+                        "identifier": {
+                            "legalName": "Famdam Investment Nice Ltd"
+                        }, 
+                        "name": "Famdam Investment Nice Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Audu O", 
+                            "telephone": "08033393246"
+                        }, 
+                        "identifier": {
+                            "legalName": "A.L. Olupitan & Partners"
+                        }, 
+                        "name": "A.L. Olupitan & Partners"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Favour Ekpenyong", 
+                            "telephone": "08138265499"
+                        }, 
+                        "identifier": {
+                            "legalName": "Crown Resources Dev. Company Ltd"
+                        }, 
+                        "name": "Crown Resources Dev. Company Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-rqgd9yng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-17T13:49:39Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-rqgd9yng-ubec"
+}

@@ -1,0 +1,242 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-13T13:16:52Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-343swbng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "12", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Peace ", 
+                            "telephone": "08036218777"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ceco Engr & Const. Co. Nig Ltd"
+                        }, 
+                        "name": "Ceco Engr & Const. Co. Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Solape", 
+                            "telephone": "08068683708"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bastis Zest Ltd"
+                        }, 
+                        "name": "Bastis Zest Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibrahim", 
+                            "telephone": "08033068206"
+                        }, 
+                        "identifier": {
+                            "legalName": "Haruna Globe Link Ltd"
+                        }, 
+                        "name": "Haruna Globe Link Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olayiwle", 
+                            "telephone": "08034215615"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fabconfdential Ltd"
+                        }, 
+                        "name": "Fabconfdential Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yemi", 
+                            "telephone": "08064433741"
+                        }, 
+                        "identifier": {
+                            "legalName": "Magabat Int\u2019l Ltd"
+                        }, 
+                        "name": "Magabat Int\u2019l Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dapo Busari", 
+                            "telephone": "08037263374"
+                        }, 
+                        "identifier": {
+                            "legalName": "Busar Investment Ltd"
+                        }, 
+                        "name": "Busar Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Henry N. C Ezenwa", 
+                            "telephone": "08033154766"
+                        }, 
+                        "identifier": {
+                            "legalName": "Midax Consort Ltd"
+                        }, 
+                        "name": "Midax Consort Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jonathan", 
+                            "telephone": "08061192221"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jep Jepha Int\u2019l Ventures Ltd"
+                        }, 
+                        "name": "Jep Jepha Int\u2019l Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jonathan", 
+                            "telephone": "08061192221"
+                        }, 
+                        "identifier": {
+                            "legalName": "Octopus Synergy Ltd"
+                        }, 
+                        "name": "Octopus Synergy Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "John", 
+                            "telephone": "08033173365"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tundaves & Co Ltd"
+                        }, 
+                        "name": "Tundaves & Co Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Yinka", 
+                            "telephone": "08138353985"
+                        }, 
+                        "identifier": {
+                            "legalName": "Deratech Global Services Ltd"
+                        }, 
+                        "name": "Deratech Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ama Obi", 
+                            "telephone": "08036756156"
+                        }, 
+                        "identifier": {
+                            "legalName": "Iyke Jordan Ltd"
+                        }, 
+                        "name": "Iyke Jordan Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {
+                                "title": "Procurement records", 
+                                "documentType": "Physical Progress Reports", 
+                                "description": "2016 Constituency Projects Appropriation", 
+                                "language": "en", 
+                                "format": "offline/print"
+                            }
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-343swbng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-13T13:16:52Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-343swbng-ubec"
+}

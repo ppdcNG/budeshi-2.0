@@ -1,0 +1,244 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-10T11:41:06Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-wlg0hyng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "13", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Tanimola Samuel", 
+                            "telephone": "08165658021"
+                        }, 
+                        "identifier": {
+                            "legalName": "Borno Engineering Supply Technical Company Limited"
+                        }, 
+                        "name": "Borno Engineering Supply Technical Company Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tijaniz Yousuf", 
+                            "telephone": "08034087828"
+                        }, 
+                        "identifier": {
+                            "legalName": "Network Associates Ltd"
+                        }, 
+                        "name": "Network Associates Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Okon Henry", 
+                            "telephone": "070515067430"
+                        }, 
+                        "identifier": {
+                            "legalName": "Urbancribs Nig Ltd"
+                        }, 
+                        "name": "Urbancribs Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isiteye Stephen", 
+                            "telephone": "08036622553"
+                        }, 
+                        "identifier": {
+                            "legalName": "Salmat Golbal Services Ltd"
+                        }, 
+                        "name": "Salmat Golbal Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036196007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fik Global Resources"
+                        }, 
+                        "name": "Fik Global Resources"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sandal Igweze", 
+                            "telephone": "08065350098"
+                        }, 
+                        "identifier": {
+                            "legalName": "Adetie 101 Itn\u2019l Ltd"
+                        }, 
+                        "name": "Adetie 101 Itn\u2019l Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Edwarde", 
+                            "telephone": "08035990239"
+                        }, 
+                        "identifier": {
+                            "legalName": "Coal Man Ltd"
+                        }, 
+                        "name": "Coal Man Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lawal Godwin", 
+                            "telephone": "08062624340"
+                        }, 
+                        "identifier": {
+                            "legalName": "Amijapp Nig Ltd"
+                        }, 
+                        "name": "Amijapp Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman", 
+                            "telephone": "08037290326"
+                        }, 
+                        "identifier": {
+                            "legalName": "Diamond Square Ltd"
+                        }, 
+                        "name": "Diamond Square Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olubeko", 
+                            "telephone": "08034606548"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fik Global Resources Ltd"
+                        }, 
+                        "name": "Fik Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Femi Daniel", 
+                            "telephone": "08055909167"
+                        }, 
+                        "identifier": {
+                            "legalName": "Integrated Builder Ltd"
+                        }, 
+                        "name": "Integrated Builder Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adesaio", 
+                            "telephone": "08120895120"
+                        }, 
+                        "identifier": {
+                            "legalName": "Warlaclet/Tel"
+                        }, 
+                        "name": "Warlaclet/Tel"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Edmund", 
+                            "telephone": "07037526592"
+                        }, 
+                        "identifier": {
+                            "legalName": "Deweb Nig Ltd"
+                        }, 
+                        "name": "Deweb Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-wlg0hyng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-10T11:41:06Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-wlg0hyng-ubec"
+}

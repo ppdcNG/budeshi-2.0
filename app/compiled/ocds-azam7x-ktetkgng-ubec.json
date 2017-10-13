@@ -1,0 +1,331 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-25T12:59:52Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-ktetkgng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "20", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "issacemy@gmaile.com ", 
+                            "telephone": "08035905760", 
+                            "name": "Issac Emmanuel"
+                        }, 
+                        "identifier": {
+                            "legalName": "Donabi Investment Ltd"
+                        }, 
+                        "name": "Donabi Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Balancer007@yahoo.com ", 
+                            "telephone": "08099659100", 
+                            "name": "Jimoh Tunde"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ccitons Inv. Nig. Ltd"
+                        }, 
+                        "name": "Ccitons Inv. Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "innomusiclife@yahoo.com ", 
+                            "telephone": "07034845974", 
+                            "name": "Hassan"
+                        }, 
+                        "identifier": {
+                            "legalName": "Heexeem General M. Nig. Ltd"
+                        }, 
+                        "name": "Heexeem General M. Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "S. Umeh", 
+                            "telephone": "08035961896"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cmg Projects Ltd"
+                        }, 
+                        "name": "Cmg Projects Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "panainvestment@gmail.com ", 
+                            "telephone": "0805601064", 
+                            "name": "Abiola Moses"
+                        }, 
+                        "identifier": {
+                            "legalName": "Branco Tech. Services Nig. Ltd."
+                        }, 
+                        "name": "Branco Tech. Services Nig. Ltd."
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Wiggy_64@yahoo.com ", 
+                            "telephone": "08038611698", 
+                            "name": "Ndedigwe Chuks"
+                        }, 
+                        "identifier": {
+                            "legalName": "Lead Edger Intl. Ltd"
+                        }, 
+                        "name": "Lead Edger Intl. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Raymondblack674@gmail.com ", 
+                            "telephone": "08088353412", 
+                            "name": "Chisom Joel"
+                        }, 
+                        "identifier": {
+                            "legalName": "Raymond Black Ltd"
+                        }, 
+                        "name": "Raymond Black Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr. Stephen A. Agbaka", 
+                            "telephone": "08035920068"
+                        }, 
+                        "identifier": {
+                            "legalName": "Executive Team Managers"
+                        }, 
+                        "name": "Executive Team Managers"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Fax.consult@yahoo.com ", 
+                            "telephone": "08034521290", 
+                            "name": "Ayomide Fetile"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fax Condult Ltd"
+                        }, 
+                        "name": "Fax Condult Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "piatabuchi@yahoo.com ", 
+                            "telephone": "08029990740", 
+                            "name": "Piata"
+                        }, 
+                        "identifier": {
+                            "legalName": "Royal Touch Tech Ltd"
+                        }, 
+                        "name": "Royal Touch Tech Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "frank.fuzikuu@gmail.com ", 
+                            "telephone": "08035308266", 
+                            "name": "Engr. Frank"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fuzik Nig. Ltd"
+                        }, 
+                        "name": "Fuzik Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "teegrat5@gmai.com ", 
+                            "telephone": "08024543777", 
+                            "name": "Barr. Ohibi"
+                        }, 
+                        "identifier": {
+                            "legalName": "Saoland Global Link"
+                        }, 
+                        "name": "Saoland Global Link"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "teegrat5@gmai.com ", 
+                            "telephone": "08033192344", 
+                            "name": "Charley Abua"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jayman Ventures"
+                        }, 
+                        "name": "Jayman Ventures"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "teegrat5@gmai.com ", 
+                            "telephone": "08085975942", 
+                            "name": "Odey Obe"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yegra Yiowo Nig. Ltd"
+                        }, 
+                        "name": "Yegra Yiowo Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tafida", 
+                            "telephone": "08095527514"
+                        }, 
+                        "identifier": {
+                            "legalName": "Power Cell Ltd"
+                        }, 
+                        "name": "Power Cell Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "eldov.services@yahoo.com ", 
+                            "telephone": "08032165040 080671009614", 
+                            "name": "Nicholas Agha"
+                        }, 
+                        "identifier": {
+                            "legalName": "Eldov Trans National Services Limited"
+                        }, 
+                        "name": "Eldov Trans National Services Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chuks", 
+                            "telephone": "08063668157"
+                        }, 
+                        "identifier": {
+                            "legalName": "Brightview Capital Alliance Ltd"
+                        }, 
+                        "name": "Brightview Capital Alliance Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chimendu Ukairo", 
+                            "telephone": "08036287989"
+                        }, 
+                        "identifier": {
+                            "legalName": "Basemark Construction Co. Ltd"
+                        }, 
+                        "name": "Basemark Construction Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "fortizoengineeringco@gmail.com ", 
+                            "telephone": "08033830668", 
+                            "name": "Alex Okeyobasi"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fortizo Engineering Co. Ltd"
+                        }, 
+                        "name": "Fortizo Engineering Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "prezorimega@gmail.com ", 
+                            "telephone": "08037049521 08188554842", 
+                            "name": "Prince Orianwo"
+                        }, 
+                        "identifier": {
+                            "legalName": "Preson-Mega Int. Co. Ltd"
+                        }, 
+                        "name": "Preson-Mega Int. Co. Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-ktetkgng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-25T12:59:52Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-ktetkgng-ubec"
+}

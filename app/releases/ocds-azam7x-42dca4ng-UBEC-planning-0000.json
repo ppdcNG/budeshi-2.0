@@ -1,0 +1,73 @@
+{
+    "ocid": "ocds-azam7x-42dca4ng-UBEC",
+    "date": "2017-10-06T03:27:46.097Z",
+    "id": "ocds-azam7x-42dca4ng-UBEC-planning-0000",
+    "tag": [
+        "planning"
+    ],
+    "initiationType": "",
+    "planning": {
+        "rationale": "jasdkj;lfadmklfa",
+        "budget": {
+            "id": "343546",
+            "description": "kjf;lkalsdmkfsd",
+            "amount": {
+                "amount": "",
+                "currency": "NGN"
+            },
+            "project": "jkjfdkjf;alkjsd;fkasd",
+            "projectID": "",
+            "uri": "http:\/\/www.budgetoffice.gov.ng\/index.php\/2017-approved-budget"
+        },
+        "milestones": []
+    },
+    "parties": [
+        {
+            "identifier": {
+                "scheme": "CAC-RC",
+                "legalName": "Dune Engineering Ltd",
+                "id": null,
+                "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+            },
+            "address": {
+                "streetAddress": null,
+                "locality": null,
+                "region": null,
+                "postalCode": null,
+                "countryName": "Nigeia"
+            },
+            "contactPoint": {
+                "name": "Dune Engineering Ltd",
+                "telephone": null,
+                "email": null,
+                "url": null,
+                "faxNumber": ""
+            },
+            "roles": [
+                "procuringEntity"
+            ]
+        }
+    ],
+    "buyer": {
+        "identifier": {
+            "scheme": "CAC-RC",
+            "legalName": "Dune Engineering Ltd",
+            "id": null,
+            "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+        },
+        "address": {
+            "streetAddress": null,
+            "locality": null,
+            "region": null,
+            "postalCode": null,
+            "countryName": "Nigeia"
+        },
+        "contactPoint": {
+            "name": "Dune Engineering Ltd",
+            "telephone": null,
+            "email": null,
+            "url": null,
+            "faxNumber": ""
+        }
+    }
+}

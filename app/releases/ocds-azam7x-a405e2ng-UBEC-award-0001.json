@@ -1,0 +1,45 @@
+{
+    "ocid": "ocds-azam7x-a405e2ng-UBEC",
+    "date": "2017-10-07T23:41:45.996Z",
+    "id": "ocds-azam7x-a405e2ng-UBEC-award-0001",
+    "tag": [
+        "award"
+    ],
+    "award": {
+        "id": "fdjkasdlosos9e9ppc9el",
+        "title": "pdfod99coeo9co",
+        "description": "9w9we99e9e9e44546575ffghy",
+        "value": {
+            "currency": "NGN"
+        },
+        "suppliers": [
+            {
+                "identifier": {
+                    "scheme": "CAC-RC",
+                    "legalName": "Sanmah Nig. Ltd",
+                    "id": null,
+                    "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                },
+                "address": {
+                    "streetAddress": null,
+                    "locality": null,
+                    "region": null,
+                    "postalCode": null,
+                    "countryName": "Nigeia"
+                },
+                "contactPoint": {
+                    "name": "Sanmah Nig. Ltd",
+                    "telephone": null,
+                    "email": null,
+                    "url": null,
+                    "faxNumber": ""
+                }
+            }
+        ]
+    },
+    "milestone": {
+        "type": "preProcurement",
+        "status": "scheduled"
+    },
+    "buyer": null
+}

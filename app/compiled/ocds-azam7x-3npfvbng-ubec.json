@@ -1,0 +1,185 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-14T13:37:33Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-3npfvbng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "7", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ibrahim Mohammed ", 
+                            "telephone": "08073534885"
+                        }, 
+                        "identifier": {
+                            "legalName": "Irh Investment Limited"
+                        }, 
+                        "name": "Irh Investment Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ahmad E", 
+                            "telephone": "08037054031"
+                        }, 
+                        "identifier": {
+                            "legalName": "Agroway Limited"
+                        }, 
+                        "name": "Agroway Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lateef A", 
+                            "telephone": "07060692606"
+                        }, 
+                        "identifier": {
+                            "legalName": "Datees Global Concept Limited"
+                        }, 
+                        "name": "Datees Global Concept Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mrs Maayekodine", 
+                            "telephone": "08060738713"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jotito Global Services Ltd"
+                        }, 
+                        "name": "Jotito Global Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dr Solomon Ayoola", 
+                            "telephone": "08090906544"
+                        }, 
+                        "identifier": {
+                            "legalName": "Solomon Ayoola Multi Ventures Ltd"
+                        }, 
+                        "name": "Solomon Ayoola Multi Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ozigi", 
+                            "telephone": "08033931288"
+                        }, 
+                        "identifier": {
+                            "legalName": "Perfect Tehn"
+                        }, 
+                        "name": "Perfect Tehn"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Obanla K", 
+                            "telephone": "08033200350"
+                        }, 
+                        "identifier": {
+                            "legalName": "Edeko Ventures Ltd"
+                        }, 
+                        "name": "Edeko Ventures Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-3npfvbng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-14T13:37:33Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-3npfvbng-ubec"
+}

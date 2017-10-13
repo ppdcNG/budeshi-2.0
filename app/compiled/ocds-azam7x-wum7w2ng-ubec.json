@@ -1,0 +1,312 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-21T10:54:55Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-wum7w2ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "18", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "joeashconsted@gmail.com", 
+                            "telephone": "09096072546", 
+                            "name": "Yakubu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Josh-Ana Ltd"
+                        }, 
+                        "name": "Josh-Ana Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "johnsonphilipbz@gmail.com", 
+                            "telephone": "08032376259", 
+                            "name": "Philip Johnson"
+                        }, 
+                        "identifier": {
+                            "legalName": "Peter And Partners Inter Global Ltd"
+                        }, 
+                        "name": "Peter And Partners Inter Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "info@optionsgroupinternational.com", 
+                            "telephone": "09099449660", 
+                            "name": "Mohammed Inuwa"
+                        }, 
+                        "identifier": {
+                            "legalName": "Options Invest & Property Development Co. Ltd"
+                        }, 
+                        "name": "Options Invest & Property Development Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "j.idoga@yahoo.com", 
+                            "telephone": "08039191013 08080335345", 
+                            "name": "John Jdoga"
+                        }, 
+                        "identifier": {
+                            "legalName": "Anjo Trans Global Ltd"
+                        }, 
+                        "name": "Anjo Trans Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "sulesag82@yahoo.com", 
+                            "telephone": "07061070080", 
+                            "name": "Victor Mayam"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sule Sagmakk Nig Ltd"
+                        }, 
+                        "name": "Sule Sagmakk Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "tochex@yahoo.com", 
+                            "telephone": "08098052747", 
+                            "name": "Prince"
+                        }, 
+                        "identifier": {
+                            "legalName": "Blue Dot Food And Drugs Ltd"
+                        }, 
+                        "name": "Blue Dot Food And Drugs Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "chibundu4mc@gmail.com", 
+                            "telephone": "08022880330", 
+                            "name": "Ugumary Malachy"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jrb Construction Co. Ltd"
+                        }, 
+                        "name": "Jrb Construction Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "lomiper@gmail.com   ", 
+                            "telephone": "08060503949", 
+                            "name": "Nguvan V"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tratacom Nig Ltd"
+                        }, 
+                        "name": "Tratacom Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "dev.comferzear@yahoo.com ", 
+                            "telephone": "08035899386", 
+                            "name": "Terser Danlane"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gyegu Nig Ltd"
+                        }, 
+                        "name": "Gyegu Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "teetaape5@gmai.com ", 
+                            "telephone": "07031296918", 
+                            "name": "Terfa Ape"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ava-Mor Nig Ltd"
+                        }, 
+                        "name": "Ava-Mor Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tafida", 
+                            "telephone": "08095527514"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jal Fidelity Logistics Ltd"
+                        }, 
+                        "name": "Jal Fidelity Logistics Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "rosemary@yahoo.com", 
+                            "telephone": "08033073637", 
+                            "name": "Rosemary"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rosetaria Nig Ltd"
+                        }, 
+                        "name": "Rosetaria Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Okehie Chris", 
+                            "telephone": "08036053692"
+                        }, 
+                        "identifier": {
+                            "legalName": "Luglod Consult Ltd"
+                        }, 
+                        "name": "Luglod Consult Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Kamnath21@yahoo.com ", 
+                            "telephone": "08120747346", 
+                            "name": "Mr Kamdala"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nancy Integrated Service"
+                        }, 
+                        "name": "Nancy Integrated Service"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "oddyameh@gmail.com ", 
+                            "telephone": "08163010693", 
+                            "name": "Oddgamech"
+                        }, 
+                        "identifier": {
+                            "legalName": "Two-4-Seven Modeving "
+                        }, 
+                        "name": "Two-4-Seven Modeving "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "jithafe@yahoo.com ", 
+                            "telephone": "08073389718", 
+                            "name": "Idoko Haruna"
+                        }, 
+                        "identifier": {
+                            "legalName": "Oomef Ltd"
+                        }, 
+                        "name": "Oomef Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "amaabaisan@gmail.com ", 
+                            "telephone": "08039715411", 
+                            "name": "Sam Amaee-Bea"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mates Media Ser Ltd"
+                        }, 
+                        "name": "Mates Media Ser Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "anayagecer@gmail.com ", 
+                            "telephone": "08033494088", 
+                            "name": "Arc.Anaqagher Elijah"
+                        }, 
+                        "identifier": {
+                            "legalName": "Workaholic Construction Ltd"
+                        }, 
+                        "name": "Workaholic Construction Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-wum7w2ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-21T10:54:55Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-wum7w2ng-ubec"
+}

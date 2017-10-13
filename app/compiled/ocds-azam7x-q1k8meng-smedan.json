@@ -1,0 +1,51 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "language": "en", 
+            "ocid": "ocds-azam7x-q1k8meng-smedan", 
+            "tag": [
+                "planning"
+            ], 
+            "initiationType": "tender", 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "format": "", 
+                        "url": "", 
+                        "title": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "date": "2016-11-22T13:10:43Z", 
+            "id": "ocds-azam7x-q1k8meng-smedan-planning-001"
+        }
+    ], 
+    "publishedDate": "2016-11-22T13:10:43Z", 
+    "uri": "http://app.budeshi.ng/raw/smedan/ocds-azam7x-q1k8meng-smedan"
+}

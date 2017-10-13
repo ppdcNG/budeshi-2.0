@@ -1,0 +1,166 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-09-26T21:09:56Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-zwfg6tng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "legalName": "", 
+                        "id": "", 
+                        "uri": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "", 
+                    "email": "", 
+                    "telephone": "", 
+                    "name": "", 
+                    "faxNumber": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "legalName": "", 
+                    "id": "", 
+                    "uri": ""
+                }, 
+                "name": "", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "", 
+                    "streetAddress": "", 
+                    "region": "", 
+                    "locality": ""
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "4", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "array", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Adewale Adelekan", 
+                            "telephone": "07058113200"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dewrange Nig Ltd"
+                        }, 
+                        "name": "Dewrange Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fik Global Resources Ltd"
+                        }, 
+                        "name": "Fik Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "08033968743"
+                        }, 
+                        "identifier": {
+                            "legalName": "Olad Builders Nig Ltd"
+                        }, 
+                        "name": "Olad Builders Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fausat Abdullahi", 
+                            "telephone": "08181428213"
+                        }, 
+                        "identifier": {
+                            "legalName": "Proporttion Construction & Dredge Works Nig Ltd"
+                        }, 
+                        "name": "Proporttion Construction & Dredge Works Nig Ltd"
+                    }
+                ], 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "hasEnquiries": "boolean"
+            }, 
+            "id": "ocds-azam7x-zwfg6tng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-09-26T21:09:56Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-zwfg6tng-ubec"
+}

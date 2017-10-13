@@ -1,0 +1,247 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-03-07T14:47:44Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-0idi8fng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-07-03T07:00", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "open", 
+                "numberOfTenderers": "13", 
+                "items": [
+                    {}
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-07-03T07:00", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Tochukwu Obi", 
+                            "telephone": "08033225974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Diamond Leeds Ltd"
+                        }, 
+                        "name": "Diamond Leeds Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Simon Saawua", 
+                            "telephone": "08036474871"
+                        }, 
+                        "identifier": {
+                            "legalName": "African Overseas Services Ltd"
+                        }, 
+                        "name": "African Overseas Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Everest Miri", 
+                            "telephone": "08034519640"
+                        }, 
+                        "identifier": {
+                            "legalName": "Blossom Innovation Ltd"
+                        }, 
+                        "name": "Blossom Innovation Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Stephen", 
+                            "telephone": "08170915405"
+                        }, 
+                        "identifier": {
+                            "legalName": "Aye Dogbin Ventures & Services Ltd"
+                        }, 
+                        "name": "Aye Dogbin Ventures & Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chief. Joe Onyewere", 
+                            "telephone": "08032474847"
+                        }, 
+                        "identifier": {
+                            "legalName": "Joete Standard Ltd"
+                        }, 
+                        "name": "Joete Standard Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sarah S. Afolayan", 
+                            "telephone": "08036077401"
+                        }, 
+                        "identifier": {
+                            "legalName": "Unijos Consultancy Limited"
+                        }, 
+                        "name": "Unijos Consultancy Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Okafor Chimdi", 
+                            "telephone": "08036897707"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kelwal Nig. Ltd"
+                        }, 
+                        "name": "Kelwal Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "07034845974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Venus Construction Nig. Ltd"
+                        }, 
+                        "name": "Venus Construction Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Majora", 
+                            "telephone": "08061664723"
+                        }, 
+                        "identifier": {
+                            "legalName": "Amber & Associates Nig. Ltd"
+                        }, 
+                        "name": "Amber & Associates Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Murtala Baba", 
+                            "telephone": "08037020016"
+                        }, 
+                        "identifier": {
+                            "legalName": "1st Step Construction Ltd"
+                        }, 
+                        "name": "1st Step Construction Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Peter Yakubu", 
+                            "telephone": "08069574620"
+                        }, 
+                        "identifier": {
+                            "legalName": "Glod Electroplate Ltd"
+                        }, 
+                        "name": "Glod Electroplate Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Albert", 
+                            "telephone": "08065989040"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wakdee Mines Lted"
+                        }, 
+                        "name": "Wakdee Mines Lted"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Umer-Ezeofe Celestine", 
+                            "telephone": "08033260275"
+                        }, 
+                        "identifier": {
+                            "legalName": "Francestine Int Ltd"
+                        }, 
+                        "name": "Francestine Int Ltd"
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-0idi8fng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-03-07T14:47:44Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-0idi8fng-ubec"
+}

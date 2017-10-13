@@ -1,0 +1,51 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "language": "en", 
+            "ocid": "ocds-azam7x-g4unzung-ubec", 
+            "tag": [
+                "planning"
+            ], 
+            "initiationType": "tender", 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "", 
+                        "language": "", 
+                        "format": "", 
+                        "url": "", 
+                        "title": "", 
+                        "datePublished": "", 
+                        "documentType": "", 
+                        "id": "", 
+                        "dateModified": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "date": "2017-09-26T21:04:52Z", 
+            "id": "ocds-azam7x-g4unzung-ubec-planning-001"
+        }
+    ], 
+    "publishedDate": "2017-09-26T21:04:52Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-g4unzung-ubec"
+}

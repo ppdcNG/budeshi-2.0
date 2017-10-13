@@ -1,0 +1,516 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-10T10:58:05Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-4vdqy4ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "40", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "legalName": "Universal Basic Education Commission"
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Ruyiwou", 
+                            "telephone": "08039215615"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fab Confidential.Ltd"
+                        }, 
+                        "name": "Fab Confidential.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank O.", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zihan Global Concept"
+                        }, 
+                        "name": "Zihan Global Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank O.", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Global Castle Nig Ltd"
+                        }, 
+                        "name": "Global Castle Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank O.", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Global Castle Nig Ltd"
+                        }, 
+                        "name": "Global Castle Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank O.", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tropronic Global Ser"
+                        }, 
+                        "name": "Tropronic Global Ser"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Frank O.", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Global Castle Nig Ltd"
+                        }, 
+                        "name": "Global Castle Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yemi", 
+                            "telephone": "08033146262"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ramussul Int Ltd"
+                        }, 
+                        "name": "Ramussul Int Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aiydabwan Lan", 
+                            "telephone": "0803537861"
+                        }, 
+                        "identifier": {
+                            "legalName": "Red Concrete Nig Ltd"
+                        }, 
+                        "name": "Red Concrete Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Victor Mayon", 
+                            "telephone": "07061070080"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sumfat Nig Ltd"
+                        }, 
+                        "name": "Sumfat Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Uche Uche", 
+                            "telephone": "08033115368"
+                        }, 
+                        "identifier": {
+                            "legalName": "Geometrix Consultance & Builders Ltd"
+                        }, 
+                        "name": "Geometrix Consultance & Builders Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adebowale Muyuwa", 
+                            "telephone": "07030480818"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tumuans Nig Ltd"
+                        }, 
+                        "name": "Tumuans Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Isiteye Stephen", 
+                            "telephone": "08036622553"
+                        }, 
+                        "identifier": {
+                            "legalName": "Femya Nig Ltd"
+                        }, 
+                        "name": "Femya Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Sulelman Sark", 
+                            "telephone": "08033155285"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hastro Global Concepts Ltd"
+                        }, 
+                        "name": "Hastro Global Concepts Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig Ltd"
+                        }, 
+                        "name": "Commade Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tangent Cont.Ltd"
+                        }, 
+                        "name": "Tangent Cont.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig Ltd"
+                        }, 
+                        "name": "Commade Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig Ltd"
+                        }, 
+                        "name": "Commade Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tangent Cont.Ltd"
+                        }, 
+                        "name": "Tangent Cont.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig Ltd"
+                        }, 
+                        "name": "Commade Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tangent Cont. Ltd"
+                        }, 
+                        "name": "Tangent Cont. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig Ltd"
+                        }, 
+                        "name": "Commade Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tangent Cont.Ltd"
+                        }, 
+                        "name": "Tangent Cont.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh Lukman", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig. Ltd"
+                        }, 
+                        "name": "Commade Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ade Andrew", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig.Ltd"
+                        }, 
+                        "name": "Commade Nig.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ade Andrew", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tangent Const.Ltd"
+                        }, 
+                        "name": "Tangent Const.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman Alh", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig.Ltd"
+                        }, 
+                        "name": "Commade Nig.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman Alh", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig.Ltd"
+                        }, 
+                        "name": "Commade Nig.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ade A.", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tangent Const.Ltd"
+                        }, 
+                        "name": "Tangent Const.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ade A.", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tangent Const.Ltd"
+                        }, 
+                        "name": "Tangent Const.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman Alh", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig.Ltd"
+                        }, 
+                        "name": "Commade Nig.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman Alh", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig.Ltd"
+                        }, 
+                        "name": "Commade Nig.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lukman Alh", 
+                            "telephone": "08036796007"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig.Ltd"
+                        }, 
+                        "name": "Commade Nig.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sozil", 
+                            "telephone": "08055041754"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig.Ltd"
+                        }, 
+                        "name": "Commade Nig.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Segun", 
+                            "telephone": "08095330550"
+                        }, 
+                        "identifier": {
+                            "legalName": "Commade Nig.Ltd"
+                        }, 
+                        "name": "Commade Nig.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Akorede A.A", 
+                            "telephone": "08065494610"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gbadesams Construction Nig Ltd"
+                        }, 
+                        "name": "Gbadesams Construction Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Onyemah Monday", 
+                            "telephone": "08060329146"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jmt Plus Integrated Ltd"
+                        }, 
+                        "name": "Jmt Plus Integrated Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ogunsola Olufemi", 
+                            "telephone": "08037117020"
+                        }, 
+                        "identifier": {
+                            "legalName": "Famdam Investment .Nig. Ltd"
+                        }, 
+                        "name": "Famdam Investment .Nig. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adekunle", 
+                            "telephone": "08035909167"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mollucass Int\u2019l Co.Ltd"
+                        }, 
+                        "name": "Mollucass Int\u2019l Co.Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adekunle", 
+                            "telephone": "08035909167"
+                        }, 
+                        "identifier": {
+                            "legalName": "Obedeom Network Ltd"
+                        }, 
+                        "name": "Obedeom Network Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Chukwudi", 
+                            "telephone": "08033120947"
+                        }, 
+                        "identifier": {
+                            "legalName": "The Lead Resources Limited"
+                        }, 
+                        "name": "The Lead Resources Limited"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-4vdqy4ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-10T10:58:05Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-4vdqy4ng-ubec"
+}

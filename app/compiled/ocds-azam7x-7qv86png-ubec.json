@@ -1,0 +1,334 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-04-03T09:47:31Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-7qv86png-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "23", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Alh Hussaini Liman", 
+                            "telephone": "08027271000"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nhmdal International"
+                        }, 
+                        "name": "Nhmdal International"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bashir", 
+                            "telephone": "09095552020"
+                        }, 
+                        "identifier": {
+                            "legalName": "A.D. Multi Business Links Co. Ltd"
+                        }, 
+                        "name": "A.D. Multi Business Links Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ola", 
+                            "telephone": "08033653951"
+                        }, 
+                        "identifier": {
+                            "legalName": "Water Base Engr"
+                        }, 
+                        "name": "Water Base Engr"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdul Rahman", 
+                            "telephone": "08105635319"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dap Meelo Nig Ltd"
+                        }, 
+                        "name": "Dap Meelo Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mahdi Sakunau", 
+                            "telephone": "08036324701"
+                        }, 
+                        "identifier": {
+                            "legalName": "Design Three Sixty Ltd"
+                        }, 
+                        "name": "Design Three Sixty Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibiteye Steven", 
+                            "telephone": "08036622553"
+                        }, 
+                        "identifier": {
+                            "legalName": "Isoye Construction Company Ltd"
+                        }, 
+                        "name": "Isoye Construction Company Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Usman", 
+                            "telephone": "08037007668"
+                        }, 
+                        "identifier": {
+                            "legalName": "X- Concrete Nig Ltd"
+                        }, 
+                        "name": "X- Concrete Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kabiru", 
+                            "telephone": "08035622763"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mz And Sons Nig Ltd"
+                        }, 
+                        "name": "Mz And Sons Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Edosomwan.D", 
+                            "telephone": "07034253372"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tilt Construction Co Ltd"
+                        }, 
+                        "name": "Tilt Construction Co Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bayo", 
+                            "telephone": "08057609936"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alasinrin Saka Farms & Transport"
+                        }, 
+                        "name": "Alasinrin Saka Farms & Transport"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Momoh Tohirn", 
+                            "telephone": "08028040041"
+                        }, 
+                        "identifier": {
+                            "legalName": "Shaawata Construction Company"
+                        }, 
+                        "name": "Shaawata Construction Company"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Kelvin", 
+                            "telephone": "08055532108"
+                        }, 
+                        "identifier": {
+                            "legalName": "Womzy (Nig) Ltd"
+                        }, 
+                        "name": "Womzy (Nig) Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nafi O Bello Sambo", 
+                            "telephone": "08062 243672"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sozeal International Nig Ltd"
+                        }, 
+                        "name": "Sozeal International Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Prince Nnankuyere", 
+                            "telephone": "08098052747"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mr Kris Petroleum Ltd"
+                        }, 
+                        "name": "Mr Kris Petroleum Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Agummadu Ugochukwu", 
+                            "telephone": "08181951064"
+                        }, 
+                        "identifier": {
+                            "legalName": "Eldolls Transportation Service Ltd"
+                        }, 
+                        "name": "Eldolls Transportation Service Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Umar Babagida", 
+                            "telephone": "08060120268"
+                        }, 
+                        "identifier": {
+                            "legalName": "Onward Asset & Resouces Ltd"
+                        }, 
+                        "name": "Onward Asset & Resouces Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dele O.B", 
+                            "telephone": "08057996907"
+                        }, 
+                        "identifier": {
+                            "legalName": "Spatucah Int Ltd"
+                        }, 
+                        "name": "Spatucah Int Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Simon Obi", 
+                            "telephone": "08028404659"
+                        }, 
+                        "identifier": {
+                            "legalName": "Atlantic Trade & Exchange Ltd"
+                        }, 
+                        "name": "Atlantic Trade & Exchange Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Femi", 
+                            "telephone": "08167414601"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yanura Invest Nig Ltd"
+                        }, 
+                        "name": "Yanura Invest Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdul", 
+                            "telephone": "08167414601"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zawram Ltd"
+                        }, 
+                        "name": "Zawram Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fromeis", 
+                            "telephone": "08033145249"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wunco Ltd"
+                        }, 
+                        "name": "Wunco Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nasir Umar Yusuf", 
+                            "telephone": "07030758176"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abbeysia Investment Ltd"
+                        }, 
+                        "name": "Abbeysia Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Luke Ageme", 
+                            "telephone": "09060560310"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sunice Global Concept Linited"
+                        }, 
+                        "name": "Sunice Global Concept Linited"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-7qv86png-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-04-03T09:47:31Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-7qv86png-ubec"
+}

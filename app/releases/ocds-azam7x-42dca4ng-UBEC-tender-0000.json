@@ -1,0 +1,197 @@
+{
+    "oc_id": "ocds-azam7x-42dca4ng-UBEC",
+    "date": "2017-10-07T07:56:39.195Z",
+    "id": "ocds-azam7x-42dca4ng-UBEC-tender-0000",
+    "tag": [
+        "tender"
+    ],
+    "initiationType": "tender",
+    "tender": {
+        "id": "ocds-azam7x-42dca4ng-UBEC-tender-0000",
+        "title": "afkdljfkladmcodmcm",
+        "description": "mfalkmd;lkmafkmd",
+        "status": "planning",
+        "value": {
+            "amount": "1223456789",
+            "currency": "NGN"
+        },
+        "minValue": {
+            "amount": "",
+            "currency": "NGN"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "",
+        "procurementDetailsRationale": "",
+        "mainProcurementCategory": "goods",
+        "addtionalProcurementCategories": [
+            []
+        ],
+        "awardCriteria": "priceOnly",
+        "awardCriteriaDetails": "",
+        "submissionMethod": [
+            "electronicSubmission"
+        ],
+        "submissionMethodDetails": "",
+        "tenderPeriod": {
+            "startDate": "",
+            "endDate": "",
+            "maximumExtent": "",
+            "durationInDays": ""
+        },
+        "enquiryPeriod": {
+            "startDate": "",
+            "endDate": "",
+            "maximumExtent": "",
+            "durationInDays": ""
+        },
+        "hasEnquiries": true,
+        "eligibilityCriteria": "jfkasj;dfoelcoellcmeo",
+        "awardPeriod": {
+            "startDate": "",
+            "endDate": "",
+            "maximumExtent": "",
+            "durationInDays": ""
+        },
+        "numberOfTenderers": "3",
+        "tenderers": [
+            {
+                "identifier": {
+                    "scheme": "CAC-RC",
+                    "legalName": "Pentech Nigeria Limited",
+                    "id": null,
+                    "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                },
+                "address": {
+                    "streetAddress": null,
+                    "locality": null,
+                    "region": null,
+                    "postalCode": null,
+                    "countryName": "Nigeia"
+                },
+                "contactPoint": {
+                    "name": "Pentech Nigeria Limited",
+                    "telephone": null,
+                    "email": null,
+                    "url": null,
+                    "faxNumber": ""
+                }
+            },
+            {
+                "identifier": {
+                    "scheme": "CAC-RC",
+                    "legalName": "Sanmah Nig. Ltd",
+                    "id": null,
+                    "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                },
+                "address": {
+                    "streetAddress": null,
+                    "locality": null,
+                    "region": null,
+                    "postalCode": null,
+                    "countryName": "Nigeia"
+                },
+                "contactPoint": {
+                    "name": "Sanmah Nig. Ltd",
+                    "telephone": null,
+                    "email": null,
+                    "url": null,
+                    "faxNumber": ""
+                }
+            },
+            {
+                "identifier": {
+                    "scheme": "CAC-RC",
+                    "legalName": "McVIK Services Limited",
+                    "id": null,
+                    "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                },
+                "address": {
+                    "streetAddress": null,
+                    "locality": null,
+                    "region": null,
+                    "postalCode": null,
+                    "countryName": "Nigeia"
+                },
+                "contactPoint": {
+                    "name": "McVIK Services Limited",
+                    "telephone": null,
+                    "email": null,
+                    "url": null,
+                    "faxNumber": ""
+                }
+            }
+        ],
+        "milestones": [],
+        "items": [
+            {
+                "id": "akjsfdk;lmcm",
+                "description": "kmllmvkm;ckvadkjflkjadfmfck",
+                "classification": {
+                    "scheme": "",
+                    "id": "dmklsamdlfk",
+                    "uri": "kmalsdmsafm",
+                    "description": "amdlkfm;lamdsmfklasd;fm;m"
+                },
+                "additionalClassification": [
+                    {
+                        "scheme": "",
+                        "id": "",
+                        "uri": "",
+                        "description": ""
+                    }
+                ],
+                "quantity": "223456",
+                "unit": {
+                    "scheme": "sdjfd",
+                    "id": "mlsdkmlcoelocldkkmc",
+                    "name": "mlfkldsamvakccielcoleocl",
+                    "uri": "lkfdmmsfikckeodlocldkcj",
+                    "value": {
+                        "amount": "12234",
+                        "currency": "NGN"
+                    }
+                }
+            }
+        ],
+        "documents": [
+            {
+                "documentType": "",
+                "title": "skkd;jfkasjdflm;kcleolcl",
+                "description": "kdmlcoeldincioe;joceihgodfaio;hd",
+                "uri": "fsajdf;lkasdvmkl",
+                "id": "m;vlkzvma;lmdsfkmas;d",
+                "datePublished": "2017-01-31T00:00:00.000Z",
+                "dateModified": "2017-10-07T00:00:00.000Z",
+                "format": "en",
+                "language": "en"
+            }
+        ]
+    },
+    "parties": [
+        {
+            "identifier": {
+                "scheme": "CAC-RC",
+                "legalName": "Pentech Nigeria Limited",
+                "id": null,
+                "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+            },
+            "address": {
+                "streetAddress": null,
+                "locality": null,
+                "region": null,
+                "postalCode": null,
+                "countryName": "Nigeia"
+            },
+            "contactPoint": {
+                "name": "Pentech Nigeria Limited",
+                "telephone": null,
+                "email": null,
+                "url": null,
+                "faxNumber": ""
+            },
+            "roles": [
+                "procuringEntity"
+            ]
+        }
+    ]
+}

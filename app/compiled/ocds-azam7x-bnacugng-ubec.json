@@ -1,0 +1,233 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-05-17T10:15:13Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-bnacugng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-05-16T15:38", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "11", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "offline/Print", 
+                        "title": "Procurement records", 
+                        "format": "en", 
+                        "datePublished": "2017-05-16T20:37", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Mohammed Inuwa", 
+                            "telephone": "09099449660"
+                        }, 
+                        "identifier": {
+                            "legalName": "Option Invest & Property Development Co. Ltd"
+                        }, 
+                        "name": "Option Invest & Property Development Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Uwote Francis ", 
+                            "telephone": "08064346780"
+                        }, 
+                        "identifier": {
+                            "legalName": "Extension Publications Ltd"
+                        }, 
+                        "name": "Extension Publications Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mathew C", 
+                            "telephone": "08037139419"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nolia Consults Ltd"
+                        }, 
+                        "name": "Nolia Consults Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Rita Oteka", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ziyan Global Concept"
+                        }, 
+                        "name": "Ziyan Global Concept"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fagbemi Wale", 
+                            "telephone": "08035021945"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rasmed Publications Ltd"
+                        }, 
+                        "name": "Rasmed Publications Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fumi Mrs.", 
+                            "telephone": "08033211180"
+                        }, 
+                        "identifier": {
+                            "legalName": "Omazore Nig Ltd"
+                        }, 
+                        "name": "Omazore Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lawal Taofeck", 
+                            "telephone": "07066534028"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hapicom Nig Limited"
+                        }, 
+                        "name": "Hapicom Nig Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "08033968743"
+                        }, 
+                        "identifier": {
+                            "legalName": "Olad Builders Nig Ltd"
+                        }, 
+                        "name": "Olad Builders Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jemirudeen Abdulateef", 
+                            "telephone": "08076910043"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kinkon Global Resources Ltd"
+                        }, 
+                        "name": "Kinkon Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jemirudeen Abdulateef", 
+                            "telephone": "08076910043"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kinkon Global Resources Ltd"
+                        }, 
+                        "name": "Kinkon Global Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdullahi Famsat", 
+                            "telephone": "08069097106"
+                        }, 
+                        "identifier": {
+                            "legalName": "Zeelan Multi Services Ltd"
+                        }, 
+                        "name": "Zeelan Multi Services Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-bnacugng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-05-17T10:15:13Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-bnacugng-ubec"
+}

@@ -1,0 +1,210 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-13T09:39:59Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-v59ldmng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "10", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Nelson Adzu", 
+                            "telephone": "09033347332"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bea Engr Ltd"
+                        }, 
+                        "name": "Bea Engr Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Murtala Assas", 
+                            "telephone": "08033561311"
+                        }, 
+                        "identifier": {
+                            "legalName": "Archivisual Solutions Ltd"
+                        }, 
+                        "name": "Archivisual Solutions Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Emma Esley", 
+                            "telephone": "08055082365"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alkigeo Nig Ltd"
+                        }, 
+                        "name": "Alkigeo Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abubakar Negedu", 
+                            "telephone": "07035858200"
+                        }, 
+                        "identifier": {
+                            "legalName": "Joshuel Global Ventures. Ltd"
+                        }, 
+                        "name": "Joshuel Global Ventures. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Amarachi Chinasa", 
+                            "telephone": "08033367000"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sunshine Group Ltd"
+                        }, 
+                        "name": "Sunshine Group Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lamidi Sanni", 
+                            "telephone": "08116244361"
+                        }, 
+                        "identifier": {
+                            "legalName": "Joshuel Gloval Ventures Ltd"
+                        }, 
+                        "name": "Joshuel Gloval Ventures Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jonathan", 
+                            "telephone": "08061192221"
+                        }, 
+                        "identifier": {
+                            "legalName": "Arome And Brother "
+                        }, 
+                        "name": "Arome And Brother "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sule Ibrahim", 
+                            "telephone": "08033550344"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sulliepat Nig Ltd"
+                        }, 
+                        "name": "Sulliepat Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibrahim", 
+                            "telephone": "08060698459"
+                        }, 
+                        "identifier": {
+                            "legalName": "Triple Z Real Estate"
+                        }, 
+                        "name": "Triple Z Real Estate"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nafiu Sule", 
+                            "telephone": "08034755318"
+                        }, 
+                        "identifier": {
+                            "legalName": "Regional Engineering"
+                        }, 
+                        "name": "Regional Engineering"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-v59ldmng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-13T09:39:59Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-v59ldmng-ubec"
+}

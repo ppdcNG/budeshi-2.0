@@ -1,0 +1,298 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-04-19T14:12:47Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-kviyi7ng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-04-03T13:57", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "18", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-04-03T15:33", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "Fct", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Endy Nwogu", 
+                            "telephone": "08136688822"
+                        }, 
+                        "identifier": {
+                            "legalName": "Platinium Projects Ltd"
+                        }, 
+                        "name": "Platinium Projects Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Usman A", 
+                            "telephone": "08036112278"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kel Concept Ltd"
+                        }, 
+                        "name": "Kel Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Austine", 
+                            "telephone": "08163871365"
+                        }, 
+                        "identifier": {
+                            "legalName": "Contrasalting Mega Services Ltd"
+                        }, 
+                        "name": "Contrasalting Mega Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ahmed Sambo", 
+                            "telephone": "08059241441"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bravura Technologies"
+                        }, 
+                        "name": "Bravura Technologies"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Emmanuel U", 
+                            "telephone": "08033138311"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mofu Polo Nig Ltd"
+                        }, 
+                        "name": "Mofu Polo Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Abiola ", 
+                            "telephone": "08056013064"
+                        }, 
+                        "identifier": {
+                            "legalName": "Uniscope Services Nig Ltd"
+                        }, 
+                        "name": "Uniscope Services Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ottiah John", 
+                            "telephone": "08037740282"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tasha Energy And Eng Services Ltd"
+                        }, 
+                        "name": "Tasha Energy And Eng Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Moh\u2019d Yanusa", 
+                            "telephone": "08036303215"
+                        }, 
+                        "identifier": {
+                            "legalName": "Elegance Construction Ltd"
+                        }, 
+                        "name": "Elegance Construction Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Victor", 
+                            "telephone": "07061070080"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sumfat Nig Ltd"
+                        }, 
+                        "name": "Sumfat Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Rita Otake", 
+                            "telephone": "08033602235"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bazim International Invet."
+                        }, 
+                        "name": "Bazim International Invet."
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Patrick Bako", 
+                            "telephone": "07085663161"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bescon Partnership"
+                        }, 
+                        "name": "Bescon Partnership"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Emma Eromose", 
+                            "telephone": "08026583651"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yansas Galau Velt Ltd"
+                        }, 
+                        "name": "Yansas Galau Velt Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mohammed Ahmed", 
+                            "telephone": "08036186027"
+                        }, 
+                        "identifier": {
+                            "legalName": "Al-Fijir Integrated Concept Ltd"
+                        }, 
+                        "name": "Al-Fijir Integrated Concept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "John "
+                        }, 
+                        "identifier": {
+                            "legalName": "Setikdesigns Nig Ltd"
+                        }, 
+                        "name": "Setikdesigns Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jatau Gideon ", 
+                            "telephone": "08065664499"
+                        }, 
+                        "identifier": {
+                            "legalName": "Princehood Consolidated Ltd"
+                        }, 
+                        "name": "Princehood Consolidated Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nasiru Zakari", 
+                            "telephone": "08066740091"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hikima Supplies Nig Ltd"
+                        }, 
+                        "name": "Hikima Supplies Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibrahim Ahmed", 
+                            "telephone": "08025800534"
+                        }, 
+                        "identifier": {
+                            "legalName": "Metrosoulce Ltd"
+                        }, 
+                        "name": "Metrosoulce Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Koati Ilora", 
+                            "telephone": "08036783965"
+                        }, 
+                        "identifier": {
+                            "legalName": "Wellworth Co Ltd"
+                        }
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-kviyi7ng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-04-19T14:12:47Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-kviyi7ng-ubec"
+}

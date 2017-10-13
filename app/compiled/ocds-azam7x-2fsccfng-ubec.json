@@ -1,0 +1,385 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-17T09:30:36Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-2fsccfng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "27", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "Offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "name": "Dr Hamid Bobboyi ", 
+                        "telephone": "www.ubeconline.com"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Obi Miozie", 
+                            "telephone": "08091233539"
+                        }, 
+                        "identifier": {
+                            "legalName": "Waliu Unique Global Condept Ltd"
+                        }, 
+                        "name": "Waliu Unique Global Condept Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fose Madu", 
+                            "telephone": "08036490188"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cox A. Integrated Ltd"
+                        }, 
+                        "name": "Cox A. Integrated Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Joe Madu N.", 
+                            "telephone": "08035439934"
+                        }, 
+                        "identifier": {
+                            "legalName": "Comzer Concept Int\u2019l Nig Ltd"
+                        }, 
+                        "name": "Comzer Concept Int\u2019l Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Invitation To Tender", 
+                            "telephone": "08037102875"
+                        }, 
+                        "identifier": {
+                            "legalName": "Uche Igbimchi"
+                        }, 
+                        "name": "Uche Igbimchi"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Int\u2019l Serv."
+                        }, 
+                        "identifier": {
+                            "legalName": "Optimum Ssivergy"
+                        }, 
+                        "name": "Optimum Ssivergy"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Umar Bala", 
+                            "telephone": "08026824456"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fax Consult Ltd"
+                        }, 
+                        "name": "Fax Consult Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yusuf Abubakar", 
+                            "telephone": "08034602319"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mukumbis Nig Ltd"
+                        }, 
+                        "name": "Mukumbis Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Micheal", 
+                            "telephone": "08037871658"
+                        }, 
+                        "identifier": {
+                            "legalName": "Maulane Ltd"
+                        }, 
+                        "name": "Maulane Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mohammed Babanna", 
+                            "telephone": "08033576871"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fomalink Nig Ltd"
+                        }, 
+                        "name": "Fomalink Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Nnajilee John ", 
+                            "telephone": "08053274393"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mekgreatoak Global Ltd"
+                        }, 
+                        "name": "Mekgreatoak Global Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Fahad Saidu", 
+                            "telephone": "08034274274"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alps Global Link Ltd"
+                        }, 
+                        "name": "Alps Global Link Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jacob Jna", 
+                            "telephone": "08069573733"
+                        }, 
+                        "identifier": {
+                            "legalName": "Vesselnet Integrated Services Ltd"
+                        }, 
+                        "name": "Vesselnet Integrated Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Engr Edwin", 
+                            "telephone": "08036500777"
+                        }, 
+                        "identifier": {
+                            "legalName": "Corpnet Servicess Ltd"
+                        }, 
+                        "name": "Corpnet Servicess Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tijjani Z Yusuf", 
+                            "telephone": "08034087828"
+                        }, 
+                        "identifier": {
+                            "legalName": "Network Associates Ltd"
+                        }, 
+                        "name": "Network Associates Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Samuel Obi", 
+                            "telephone": "08068997885"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jame Engr. Serv. Limited"
+                        }, 
+                        "name": "Jame Engr. Serv. Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ukeje Ujunwa", 
+                            "telephone": "07052883356"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jubac Ivo. Co. Ltd"
+                        }, 
+                        "name": "Jubac Ivo. Co. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Emeka I", 
+                            "telephone": "07034362816"
+                        }, 
+                        "identifier": {
+                            "legalName": "Marhunnas Nig Ltd"
+                        }, 
+                        "name": "Marhunnas Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olatunji O", 
+                            "telephone": "07069321914"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fueza Ventures"
+                        }, 
+                        "name": "Fueza Ventures"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dande Dan-Asabe", 
+                            "telephone": "08035912064"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sauki Group Of Companies Ltd"
+                        }, 
+                        "name": "Sauki Group Of Companies Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Murtala Baba", 
+                            "telephone": "08037020016"
+                        }, 
+                        "identifier": {
+                            "legalName": "1st Step Construction Ltd"
+                        }, 
+                        "name": "1st Step Construction Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ola Simon", 
+                            "telephone": "08028404659"
+                        }, 
+                        "identifier": {
+                            "legalName": "Atlantic Trade & Exchange Ltd"
+                        }, 
+                        "name": "Atlantic Trade & Exchange Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Sunday", 
+                            "telephone": "08065350098"
+                        }, 
+                        "identifier": {
+                            "legalName": "Adetik 101 Mutunatural Link Ltd"
+                        }, 
+                        "name": "Adetik 101 Mutunatural Link Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Aken E", 
+                            "telephone": "08026705197"
+                        }, 
+                        "identifier": {
+                            "legalName": "Grandview Consulting Ltd"
+                        }, 
+                        "name": "Grandview Consulting Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mustapha Jubrin", 
+                            "telephone": "08189218087"
+                        }, 
+                        "identifier": {
+                            "legalName": "Abidine Ltd"
+                        }, 
+                        "name": "Abidine Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Uche Joshua", 
+                            "telephone": "08034873357"
+                        }, 
+                        "identifier": {
+                            "legalName": "Pilab Int\u2019l Co.Nig Ltd"
+                        }, 
+                        "name": "Pilab Int\u2019l Co.Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hussein W", 
+                            "telephone": "08037876247"
+                        }, 
+                        "identifier": {
+                            "legalName": "Corona Construction "
+                        }, 
+                        "name": "Corona Construction "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdulmalik Bashir G/Kanawa", 
+                            "telephone": "08095100515 08054005504"
+                        }, 
+                        "identifier": {
+                            "legalName": "Maiki Investment Nig Ltd"
+                        }, 
+                        "name": "Maiki Investment Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-2fsccfng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-17T09:30:36Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-2fsccfng-ubec"
+}

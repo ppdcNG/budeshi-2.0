@@ -1,0 +1,183 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-08T14:12:37Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-m4xxving-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": " 7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "title": "Procurement records ", 
+                        "format": "Offline/print", 
+                        "datePublished": "7/08/17", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ]
+            }, 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "open", 
+                "numberOfTenderers": "7", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "legalName": "Universal Basic Education Commission"
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": " "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Dr Hamid Bobboyi", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": " 7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "INTER-LINK DEVELOP LTD"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "email": "lucidoinvestment@yahoo.com ", 
+                            "telephone": "08033119233", 
+                            "name": " LOUIS OGBONNA"
+                        }, 
+                        "name": "INTER-LINK DEVELOP LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "bnpresources@yahoo.com ", 
+                            "telephone": "08032526392", 
+                            "name": "EMMANUEL OJONIMI"
+                        }, 
+                        "identifier": {
+                            "legalName": "BNP RESOURCES LTD"
+                        }, 
+                        "name": "BNP RESOURCES LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "NZUBE UMEIZU", 
+                            "telephone": "08037147184"
+                        }, 
+                        "identifier": {
+                            "legalName": "24 HOURS CONTRACTORS LTD"
+                        }, 
+                        "name": "24 HOURS CONTRACTORS LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Jospeh4allreal@yahoo.com ", 
+                            "telephone": "08068360285", 
+                            "name": "NNECHA JOSEPH EKE"
+                        }, 
+                        "identifier": {
+                            "legalName": "ANDIKAN RESOURCES LTD"
+                        }, 
+                        "name": "ANDIKAN RESOURCES LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "petereboutu@gmail.com ", 
+                            "telephone": "08062475110", 
+                            "name": "PERTER EBOANI"
+                        }, 
+                        "identifier": {
+                            "legalName": "BADABIN BADABOOM INTL LTD"
+                        }, 
+                        "name": "BADABIN BADABOOM INTL LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Fax.consult@yahoo.com ", 
+                            "telephone": "08034521290", 
+                            "name": "AYOMIDE FELIX"
+                        }, 
+                        "identifier": {
+                            "legalName": "SHARPEDGE TECHNOLOGIES LTD"
+                        }, 
+                        "name": "SHARPEDGE TECHNOLOGIES LTD"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "MBAH CHIDI", 
+                            "telephone": "08037518098"
+                        }, 
+                        "identifier": {
+                            "legalName": "IJEVET NIG LTD"
+                        }, 
+                        "name": "IJEVET NIG LTD"
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-m4xxving-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-08T14:12:37Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-m4xxving-ubec"
+}

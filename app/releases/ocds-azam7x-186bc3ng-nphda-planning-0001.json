@@ -1,0 +1,47 @@
+{
+    "ocid": "ocds-azam7x-186bc3ng-nphda",
+    "date": "2017-10-08T16:54:22.936Z",
+    "id": "ocds-azam7x-186bc3ng-nphda-planning-0001",
+    "tag": [
+        "planning"
+    ],
+    "initiationType": "",
+    "planning": {
+        "rationale": "",
+        "budget": {
+            "id": "",
+            "description": "FSASJLKDJF;AKLSDJF",
+            "amount": {
+                "amount": "22345",
+                "currency": "NGN"
+            },
+            "project": "FDS;KLFKJADFK'ASDF",
+            "projectID": "",
+            "uri": "http:\/\/www.budgetoffice.gov.ng\/index.php\/2017-approved-budget"
+        },
+        "milestones": []
+    },
+    "parties": [],
+    "buyer": {
+        "identifier": {
+            "scheme": "CAC-RC",
+            "legalName": "Dari  Investment Ltd",
+            "id": null,
+            "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+        },
+        "address": {
+            "streetAddress": null,
+            "locality": null,
+            "region": null,
+            "postalCode": null,
+            "countryName": "Nigeia"
+        },
+        "contactPoint": {
+            "name": "Dari  Investment Ltd",
+            "telephone": null,
+            "email": null,
+            "url": null,
+            "faxNumber": ""
+        }
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-09-08T10:26:03Z", 
+            "language": "en", 
+            "contracts": [
+                {
+                    "status": "active", 
+                    "documents": [
+                        {}
+                    ], 
+                    "implementation": {
+                        "milestones": [
+                            {
+                                "documents": [
+                                    {}
+                                ]
+                            }
+                        ], 
+                        "documents": [
+                            {}
+                        ], 
+                        "transactions": [
+                            {}
+                        ]
+                    }, 
+                    "items": [
+                        {
+                            "additionalClassifications": [
+                                {}
+                            ]
+                        }
+                    ], 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": "39,780,000"
+                    }, 
+                    "awardID": "NPH/20161LOT1"
+                }
+            ], 
+            "ocid": "ocds-azam7x-cd0a2bng-nps", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "name": "Conservator General"
+                }, 
+                "identifier": {
+                    "legalName": "National Park Service"
+                }, 
+                "name": "National Park Service", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "Umaru Yar'adua Express way", 
+                    "region": "FCT", 
+                    "locality": "Garki Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "2016 Procurement Records", 
+                        "documentType": "Physical Progress Report", 
+                        "description": "Procurement records of contracts awarded in 2016 as received from the National Park Service", 
+                        "language": "en", 
+                        "format": "text/html"
+                    }
+                ]
+            }, 
+            "awards": [
+                {
+                    "status": "active", 
+                    "documents": [
+                        {}
+                    ], 
+                    "description": "Procurement of 3 No. 4WD ToyotaHilux, Abuja, FCT", 
+                    "title": "Procurement of 3 No. 4WD ToyotaHilux, Abuja, FCT", 
+                    "items": [
+                        {
+                            "additionalClassifications": [
+                                {}
+                            ]
+                        }
+                    ], 
+                    "suppliers": [
+                        {
+                            "additionalIdentifiers": [
+                                {}
+                            ], 
+                            "identifier": {
+                                "legalName": "Globe Motors Ltd"
+                            }, 
+                            "name": "Globe Motors Ltd"
+                        }
+                    ], 
+                    "value": {
+                        "currency": "NGN", 
+                        "amount": "39,780,000"
+                    }, 
+                    "id": "NPH/20161LOT1"
+                }
+            ], 
+            "tender": {
+                "status": "active", 
+                "procurementMethod": "selective", 
+                "documents": [
+                    {}
+                ], 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "legalName": "National Park Service"
+                        }
+                    ], 
+                    "contactPoint": {
+                        "name": "Conservator General"
+                    }, 
+                    "identifier": {
+                        "uri": "http://www.environment.gov.ng/index.html", 
+                        "legalName": "National Park Service"
+                    }, 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "Umaru Musa Yar'adua Express way, Garki, Abuja.", 
+                        "region": "FCT", 
+                        "locality": "Garki"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ]
+                    }
+                ], 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "hasEnquiries": "boolean", 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-cd0a2bng-nps-contracts-001"
+        }
+    ], 
+    "publishedDate": "2017-09-08T10:26:03Z", 
+    "uri": "http://app.budeshi.ng/raw/nps/ocds-azam7x-cd0a2bng-nps"
+}

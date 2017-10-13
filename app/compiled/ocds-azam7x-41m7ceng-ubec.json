@@ -1,0 +1,246 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-10T15:57:34Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-41m7ceng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "21", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Anthony Ogar", 
+                            "telephone": "08032896117"
+                        }, 
+                        "identifier": {
+                            "legalName": "Alancha Enterprise Nig Ltd"
+                        }, 
+                        "name": "Alancha Enterprise Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lucky George Ltd", 
+                            "telephone": "08168580484"
+                        }, 
+                        "identifier": {
+                            "legalName": "Focus Integrated Services Ltd"
+                        }, 
+                        "name": "Focus Integrated Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Afolabi", 
+                            "telephone": "08068683768"
+                        }, 
+                        "identifier": {
+                            "legalName": "Duxon Limited"
+                        }, 
+                        "name": "Duxon Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hadi O.", 
+                            "telephone": "08033931786"
+                        }, 
+                        "identifier": {
+                            "legalName": "Slater Cill Inte. Ltd"
+                        }, 
+                        "name": "Slater Cill Inte. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Mr Yinka", 
+                            "telephone": "08138353985"
+                        }, 
+                        "identifier": {
+                            "legalName": "Metric Duo Nig Ltd"
+                        }, 
+                        "name": "Metric Duo Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bola Bakare", 
+                            "telephone": "08030493777"
+                        }, 
+                        "identifier": {
+                            "legalName": "Shapefield Ltd"
+                        }, 
+                        "name": "Shapefield Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Olayikwdobor", 
+                            "telephone": "08039215615"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fab Confidential Ltd "
+                        }, 
+                        "name": "Fab Confidential Ltd "
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abiola Moses", 
+                            "telephone": "08056013064"
+                        }, 
+                        "identifier": {
+                            "legalName": "Rigomich Integrated Company Ltd"
+                        }, 
+                        "name": "Rigomich Integrated Company Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Dapo Basiru", 
+                            "telephone": "08037263374"
+                        }, 
+                        "identifier": {
+                            "legalName": "Busar Investement Ltd"
+                        }, 
+                        "name": "Busar Investement Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Tanimola Samuel", 
+                            "telephone": "08165658021"
+                        }, 
+                        "identifier": {
+                            "legalName": "Borno Engineering Supply Technical Company Ltd"
+                        }, 
+                        "name": "Borno Engineering Supply Technical Company Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Bahiri W", 
+                            "telephone": "08180885193"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sharpeman Limited"
+                        }, 
+                        "name": "Sharpeman Limited"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Akinmoye D.", 
+                            "telephone": "08035046784"
+                        }, 
+                        "identifier": {
+                            "legalName": "Takey Multi Services Concepts Ltd"
+                        }, 
+                        "name": "Takey Multi Services Concepts Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Jonathan", 
+                            "telephone": "08061192221"
+                        }, 
+                        "identifier": {
+                            "legalName": "Octopus Synergy Ltd"
+                        }, 
+                        "name": "Octopus Synergy Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-41m7ceng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-10T15:57:34Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-41m7ceng-ubec"
+}

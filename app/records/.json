@@ -1,0 +1,60 @@
+{
+    "license": null,
+    "publishDate": "2017-10-08T18:42:34+0200",
+    "publicationPolicy": null,
+    "relesases": [
+        {
+            "tags": [
+                "planning"
+            ],
+            "planning": {
+                "ocid": "ocds-azam7x-186bc3ng-nphda",
+                "date": "2017-10-08T16:42:33.948Z",
+                "id": "ocds-azam7x-186bc3ng-nphda-planning-0000",
+                "tag": [
+                    "planning"
+                ],
+                "initiationType": "",
+                "planning": {
+                    "rationale": "SDFJKLADJKLFMVMLKD",
+                    "budget": {
+                        "id": "DFJL;AKSDFM",
+                        "description": "MF;LADSMFALKSDF",
+                        "amount": {
+                            "amount": "2234456",
+                            "currency": "NGN"
+                        },
+                        "project": "ASD;KLFJAMDF",
+                        "projectID": "FDA;LJDSF;KD",
+                        "uri": "http:\/\/www.budgetoffice.gov.ng\/index.php\/2017-approved-budget"
+                    },
+                    "milestones": []
+                },
+                "parties": [],
+                "buyer": {
+                    "identifier": {
+                        "scheme": "CAC-RC",
+                        "legalName": "Dari  Investment Ltd",
+                        "id": null,
+                        "uri": "http:\/\/publicsearch.cac.gov.ng\/comsearch\/"
+                    },
+                    "address": {
+                        "streetAddress": null,
+                        "locality": null,
+                        "region": null,
+                        "postalCode": null,
+                        "countryName": "Nigeia"
+                    },
+                    "contactPoint": {
+                        "name": "Dari  Investment Ltd",
+                        "telephone": null,
+                        "email": null,
+                        "url": null,
+                        "faxNumber": ""
+                    }
+                }
+            },
+            "ocid": null
+        }
+    ]
+}

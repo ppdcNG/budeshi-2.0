@@ -21,74 +21,72 @@ class MonitorModel extends Model
             }
             else {
                 while ($row = mysqli_fetch_array($result)) {
-                    $outHTML .= $this->tableListTemplate($row["id"], $row["name"]);
+                    $outHTML .= $this->tableListTemplate($row["id"], $row["name"],$row["short_name"]);
                 }
             }
         }
         return $outHTML;
     }
-    private function tableListTemplate($id, $name)
+    private function tableListTemplate($id, $name, $short_name)
     {
         $tableRow = "<tr>
-                    <td><a href='#add-institution' title='Edit MDA' uk-tooltip='pos: bottom' uk-toggle><span class='uk-margin-small-right' uk-icon='icon: file-edit'></span></a></td>
-                    <td><a href= '" . $this->absPath . "Monitor/Projects/" . $id . "'>" . $name . "</a></td>
-                    <td><a href='#delete-institution' title='Delete MDA' uk-tooltip='pos: bottom' uk-toggle><span class='uk-margin-small-right' uk-icon='icon: trash'></span></a></td>
+                    <td><a href='#gin' onclick = 'editmodal(\"".$id."\")' title='Edit MDA' uk-tooltip='pos: bottom'><span class='uk-margin-small-right' uk-icon='icon: file-edit'></span></a></td>
+                    <td><a href= '" . $this->absPath . "Project/" . $id . "'>" . $name ." (".$short_name.")". "</a></td>
+                    <td><a href='#' title='Delete MDA' uk-tooltip='pos: bottom'><span class='uk-margin-small-right' uk-icon='icon: trash' onclick = 'delete_mda(\"".$id."\")'></span></a></td>
                 </tr>";
         return $tableRow;
     }
-    private function projectListTemplate($id, $title, $description, $location, $year)
-    {
-        $tableRow = '<tr>
-                        <td><a href="#edit-project" title="Edit Project" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: file-edit"></span></a></td>
-                        <td>'.$title.'</td>
-                        <td>'.$this->trimText($description).'</td>
-                        <td>'.$location.'</td>
-                        <td>'.$year.'</td>
-                        <td><a href="#view-releases" title="View Releases" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: folder"></span></a><a href="#add-release"
-                           title="Add Release" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: plus"></span></a></td>
-                        <td><a href="#delete-project" title="Delete Project" uk-tooltip="pos: bottom" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: trash"></span></a></td>
-                    </tr>';
-        return $tableRow;
-    }
+    
+    
     public function getMDAProjects($id)
     {
         $output = "";
-        $query = "SELECT * FROM projects";
+        $query = "SELECT * FROM projects WHERE mda_id = ".$id;
         $result = $this->query($query);
         if (!$result) {
             die($this->error);
         }
         else{
             while($row = mysqli_fetch_array($result)){
-                $output .= $this->projectListTemplate($row["id"],$row["title"],$row["description"]);
+                $output .= $this->projectListTemplate($row["id"],$row["title"],$row["description"],$row["state"],$row["year"]);
             }
         }
+        return $output;
 
     }
-    private function trimText($text, $max = 100, $pgrh = 1)
-    {
-
-        $textToReturn = '';
-        $len = strlen($text);
-        if (strlen($text) > $max) {
-            for ($i = 0; $i < $pgrh; $i++)
-                {
-                if ($pos = strpos($text, '\n'))
-                    {
-                    $textToReturn .= substr($text, 0, $pos);
-                    $text = substr($text, $pos + 1, $len);
-                }
-                else {
-                    $pos = strrpos($text, ' ');
-                    $textToReturn .= substr($text, 0, $max) . "...";
-                }
-            }
-        }
-        else {
-            $textToReturn = $text;
-        }
-        return $textToReturn;
+    
+    public function getMDA($mda_id){
+        $json_obj = null;
+        $query = "SELECT * FROM mdas WHERE id = ".$mda_id;
+        $result = $this->queryToJson($query, "e_");
+        return $result;
+        
     }
+    public function addMDA($obj){
+        $email = isset($obj->email)? $obj->email : "NULL";
+
+        $query = "INSERT INTO mdas (name, sector, address, email, phone, short_name) VALUES ('".$obj->commonName."', '".$obj->sector."','".$obj->address."', '".$email."','".
+        $obj->phone."', '".$obj->short_name."')";
+        $result = $this->query($query);
+        if(!$result){
+            die($this->error);
+        }
+    }
+    public function updateMDA($id, $obj){
+        $data = Array();
+        $data["name"] = $obj->commonName;
+        $data["address"] = $obj->address or "";
+        $data["short_name"] = $obj->shortname;
+        $data["email"] = $obj->email or "NULL";
+        $data["website"] = $obj->website or "";
+        $data["phone"] = $obj->phone or "NULL";
+        $this->update($id,$data,"mdas","id");
+
+
+    }
+
+    
+
 
 }
 ?>

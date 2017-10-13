@@ -1,0 +1,196 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-12T15:25:49Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-pnf9oxng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "name": "Dr Hamid Bobboyi ", 
+                    "telephone": "www.ubeconline.com"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": " Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "8", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi "
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": " Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Abiodun E Molehin", 
+                            "telephone": "08068030711"
+                        }, 
+                        "identifier": {
+                            "legalName": "Lujan Nig Ltd"
+                        }, 
+                        "name": "Lujan Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ibrahim", 
+                            "telephone": "08033061206"
+                        }, 
+                        "identifier": {
+                            "legalName": "Haruna Global Inte. Ltd"
+                        }, 
+                        "name": "Haruna Global Inte. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Richard Datong", 
+                            "telephone": "08033718148"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kenrods Oil Services Ltd"
+                        }, 
+                        "name": "Kenrods Oil Services Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Ade", 
+                            "telephone": "08034550866"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gadniks Nig Ltd"
+                        }, 
+                        "name": "Gadniks Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Cosmas", 
+                            "telephone": "08036690842"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kezma Link Ltd"
+                        }, 
+                        "name": "Kezma Link Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Yusuff Abdulahi", 
+                            "telephone": "080326953170"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ayon Nig Ltd"
+                        }, 
+                        "name": "Ayon Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Lekan A.", 
+                            "telephone": "08063121253"
+                        }, 
+                        "identifier": {
+                            "legalName": "Olaco Nig Ltd"
+                        }, 
+                        "name": "Olaco Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "D. Usman", 
+                            "telephone": "08035140490"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bundee Nig Ltd"
+                        }, 
+                        "name": "Bundee Nig Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-pnf9oxng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-12T15:25:49Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-pnf9oxng-ubec"
+}

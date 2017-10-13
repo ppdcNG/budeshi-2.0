@@ -1,0 +1,255 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-08-18T11:51:16Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-ntpdefng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi"
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4 Abuja"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ]
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "13", 
+                "description": "2016 Constituency Projects Appropriation", 
+                "title": "Procurement records", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "array", 
+                "documents": [
+                    {
+                        "title": "Procurement records", 
+                        "documentType": "Physical Progress Reports", 
+                        "description": "2016 Constituency Projects Appropriation", 
+                        "language": "en", 
+                        "format": "offline/print"
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "email": "mohanoko@yahoo.com ", 
+                            "telephone": "07031157589", 
+                            "name": "Ochugbaju Abu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Benbor Science And Tech. Ltd"
+                        }, 
+                        "name": "Benbor Science And Tech. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "poschcomcern@gmail.com ", 
+                            "telephone": "08035985358", 
+                            "name": "Opaluwa Solomon"
+                        }, 
+                        "identifier": {
+                            "legalName": "Posch Concept Construction Ltd"
+                        }, 
+                        "name": "Posch Concept Construction Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "Joeashconstech@gmail.com ", 
+                            "telephone": "07058025662", 
+                            "name": "Yakubu"
+                        }, 
+                        "identifier": {
+                            "legalName": "Midag Ltd"
+                        }, 
+                        "name": "Midag Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "tochex@yahoo.com ", 
+                            "telephone": "08098052747", 
+                            "name": "Prince"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mr. King Petroleum Ltd"
+                        }, 
+                        "name": "Mr. King Petroleum Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Alh. Sani Idris", 
+                            "telephone": "08033344070"
+                        }, 
+                        "identifier": {
+                            "legalName": "Qs Trenda Consult Ltd"
+                        }, 
+                        "name": "Qs Trenda Consult Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "frankdisdiz@yahoo.com ", 
+                            "telephone": "08157573228", 
+                            "name": "Rosemary"
+                        }, 
+                        "identifier": {
+                            "legalName": "Extra-Teach Global Resource Ltd"
+                        }, 
+                        "name": "Extra-Teach Global Resource Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "dantunetenear@yahoo.com ", 
+                            "telephone": "08035899386", 
+                            "name": "Tersey Dankano"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gyegu Nig Ltd"
+                        }, 
+                        "name": "Gyegu Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "dbunjee@yahoo.com ", 
+                            "telephone": "08035140490", 
+                            "name": "D. Usman"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bundee Nig Lts"
+                        }, 
+                        "name": "Bundee Nig Lts"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "addtikadktd@gmail.com ", 
+                            "telephone": "08036480997", 
+                            "name": "Stuan H."
+                        }, 
+                        "identifier": {
+                            "legalName": "Edd-Tolad Ltd"
+                        }, 
+                        "name": "Edd-Tolad Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Oziyi", 
+                            "telephone": "08033971788"
+                        }, 
+                        "identifier": {
+                            "legalName": "Sam\u2026 Ltd"
+                        }, 
+                        "name": "Sam\u2026 Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Chris Okehie", 
+                            "telephone": "08036053692"
+                        }, 
+                        "identifier": {
+                            "legalName": "Conzac Nig Ltd"
+                        }, 
+                        "name": "Conzac Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "email": "eddyameh@gmail.com ", 
+                            "telephone": "08163010893", 
+                            "name": "Obetta"
+                        }, 
+                        "identifier": {
+                            "legalName": "Obet-Obet Nig Ltd"
+                        }, 
+                        "name": "Obet-Obet Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Adeyinka Gbenga", 
+                            "telephone": "08033015249"
+                        }, 
+                        "identifier": {
+                            "legalName": "Bricks & Joinery Contractors Ltd"
+                        }, 
+                        "name": "Bricks & Joinery Contractors Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-ntpdefng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-08-18T11:51:16Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-ntpdefng-ubec"
+}

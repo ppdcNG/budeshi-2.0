@@ -1,0 +1,542 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-07-12T15:48:44Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-xvhb4yng-ubec", 
+            "tag": [
+                "planning", 
+                "tender", 
+                "buyer"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {
+                        "scheme": "", 
+                        "id": "", 
+                        "uri": "", 
+                        "legalName": ""
+                    }
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "faxNumber": "", 
+                    "email": "", 
+                    "name": "Dr Hamid Bobboyi ", 
+                    "telephone": ""
+                }, 
+                "identifier": {
+                    "scheme": "", 
+                    "id": "", 
+                    "uri": "", 
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "postalCode": "", 
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "url": "", 
+                        "format": "offline/print", 
+                        "datePublished": "30/01/2017", 
+                        "documentType": "Physical Progress Reports", 
+                        "dateModified": "", 
+                        "id": ""
+                    }
+                ], 
+                "budget": {
+                    "description": "2016 Constituency Projects Appropriation", 
+                    "projectID": "", 
+                    "uri": "", 
+                    "project": "Constituency Project", 
+                    "source": "", 
+                    "amount": {
+                        "currency": "", 
+                        "amount": ""
+                    }, 
+                    "id": ""
+                }, 
+                "rationale": ""
+            }, 
+            "tender": {
+                "status": "active", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "27", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {}
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {
+                            "legalName": "Universal Basic Education Commission"
+                        }
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hameed Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Solid Mark Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Dan Mozie", 
+                            "telephone": "8037864524"
+                        }, 
+                        "identifier": {
+                            "legalName": "Solid Mark Nig Ltd"
+                        }, 
+                        "name": "Solid Mark Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Hi-Star Services Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Olafunji Jimoh", 
+                            "telephone": "8035730888"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hi-Star Services Ltd"
+                        }, 
+                        "name": "Hi-Star Services Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Tehetem Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Dozie", 
+                            "telephone": "8037019927"
+                        }, 
+                        "identifier": {
+                            "legalName": "Tehetem Nig Ltd"
+                        }, 
+                        "name": "Tehetem Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Imanal Concepts Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Maishanu Auwal Ladan", 
+                            "telephone": "8036373771"
+                        }, 
+                        "identifier": {
+                            "legalName": "Imanal Concepts Ltd"
+                        }, 
+                        "name": "Imanal Concepts Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Agm & Sons Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Isa Hamisu", 
+                            "telephone": "8036597643"
+                        }, 
+                        "identifier": {
+                            "legalName": "Agm & Sons Nig. Ltd"
+                        }, 
+                        "name": "Agm & Sons Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Yanruwa Invest Nig. Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Mr Femi", 
+                            "telephone": "8167414601"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yanruwa Invest Nig. Ltd"
+                        }, 
+                        "name": "Yanruwa Invest Nig. Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Jubac Inv Co Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Ukeye Uyunwa", 
+                            "telephone": "7052883356"
+                        }, 
+                        "identifier": {
+                            "legalName": "Jubac Inv Co Ltd"
+                        }, 
+                        "name": "Jubac Inv Co Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Egwafin Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Sokoto", 
+                            "telephone": "8036432563"
+                        }, 
+                        "identifier": {
+                            "legalName": "Egwafin Nig Ltd"
+                        }, 
+                        "name": "Egwafin Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Infinity Source Solutions Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Isaac", 
+                            "telephone": "8033214199"
+                        }, 
+                        "identifier": {
+                            "legalName": "Infinity Source Solutions Ltd"
+                        }, 
+                        "name": "Infinity Source Solutions Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "African Plus Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Ogonna Okoli", 
+                            "telephone": "8033373857"
+                        }, 
+                        "identifier": {
+                            "legalName": "African Plus Ltd"
+                        }, 
+                        "name": "African Plus Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Primepart Integrated Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Auwal Wazi", 
+                            "telephone": "8157603300"
+                        }, 
+                        "identifier": {
+                            "legalName": "Primepart Integrated Nig Ltd"
+                        }, 
+                        "name": "Primepart Integrated Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Solid Soil Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Chimezie", 
+                            "telephone": "8154300136"
+                        }, 
+                        "identifier": {
+                            "legalName": "Solid Soil Ltd"
+                        }, 
+                        "name": "Solid Soil Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Himmad Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Umar Yau", 
+                            "telephone": "8068326137"
+                        }, 
+                        "identifier": {
+                            "legalName": "Himmad Nig Ltd"
+                        }, 
+                        "name": "Himmad Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Optimum Synergy Int Serv Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Uche Igbonacho", 
+                            "telephone": "8037102875"
+                        }, 
+                        "identifier": {
+                            "legalName": "Optimum Synergy Int Serv Ltd"
+                        }, 
+                        "name": "Optimum Synergy Int Serv Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Deetech Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Danbaba Ahmad", 
+                            "telephone": "8033333632"
+                        }, 
+                        "identifier": {
+                            "legalName": "Deetech Nig Ltd"
+                        }, 
+                        "name": "Deetech Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Mogjan Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Endy Nwogu", 
+                            "telephone": "8136688822"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mogjan Nig Ltd"
+                        }, 
+                        "name": "Mogjan Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Yazad Ind & Dev Co Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Ibrahim Aliyu", 
+                            "telephone": "7035969544"
+                        }, 
+                        "identifier": {
+                            "legalName": "Yazad Ind & Dev Co Ltd"
+                        }, 
+                        "name": "Yazad Ind & Dev Co Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Madobi Construction Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Yahaya Madobi", 
+                            "telephone": "8033331173"
+                        }, 
+                        "identifier": {
+                            "legalName": "Madobi Construction Ltd"
+                        }, 
+                        "name": "Madobi Construction Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Toluyan Integrated Services Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Folorunsho J", 
+                            "telephone": "8052106141"
+                        }, 
+                        "identifier": {
+                            "legalName": "Toluyan Integrated Services Ltd"
+                        }, 
+                        "name": "Toluyan Integrated Services Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Gayaco Group Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "A M Balarabe", 
+                            "telephone": "8036493936"
+                        }, 
+                        "identifier": {
+                            "legalName": "Gayaco Group Ltd"
+                        }, 
+                        "name": "Gayaco Group Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Munasal Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Baba Habu", 
+                            "telephone": "8069645809"
+                        }, 
+                        "identifier": {
+                            "legalName": "Munasal Nig Ltd"
+                        }, 
+                        "name": "Munasal Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Nabson Technical Service Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Baba Habu", 
+                            "telephone": "7052526969"
+                        }, 
+                        "identifier": {
+                            "legalName": "Nabson Technical Service Nig Ltd"
+                        }, 
+                        "name": "Nabson Technical Service Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Ms Alh Ibrahim Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Suleiman Muhd", 
+                            "telephone": "8039560820"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ms Alh Ibrahim Nig Ltd"
+                        }, 
+                        "name": "Ms Alh Ibrahim Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Fassociates Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Ibrahim", 
+                            "telephone": "8060698459"
+                        }, 
+                        "identifier": {
+                            "legalName": "Fassociates Nig Ltd"
+                        }, 
+                        "name": "Fassociates Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Farsman Holdings Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "David Kurayi", 
+                            "telephone": "8062389504"
+                        }, 
+                        "identifier": {
+                            "legalName": "Farsman Holdings Ltd"
+                        }, 
+                        "name": "Farsman Holdings Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Mutual Infrastructure Nig Ltd"
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Usman S", 
+                            "telephone": "8036591510"
+                        }, 
+                        "identifier": {
+                            "legalName": "Mutual Infrastructure Nig Ltd"
+                        }, 
+                        "name": "Mutual Infrastructure Nig Ltd"
+                    }, 
+                    {
+                        "additionalIdentifiers": [
+                            {
+                                "legalName": "Cavallino Construction "
+                            }
+                        ], 
+                        "contactPoint": {
+                            "name": "Engr Bidemi", 
+                            "telephone": "8032858881"
+                        }, 
+                        "identifier": {
+                            "legalName": "Cavallino Construction "
+                        }, 
+                        "name": "Cavallino Construction "
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-xvhb4yng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-07-12T15:48:44Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-xvhb4yng-ubec"
+}

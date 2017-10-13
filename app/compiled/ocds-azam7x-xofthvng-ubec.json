@@ -1,0 +1,190 @@
+{
+    "publisher": {
+        "scheme": "OCP", 
+        "name": "Public and Private Development Centre", 
+        "uri": "http://www.procurementmonitor.org/"
+    }, 
+    "license": null, 
+    "publicationPolicy": null, 
+    "releases": [
+        {
+            "date": "2017-05-16T10:16:32Z", 
+            "language": "en", 
+            "ocid": "ocds-azam7x-xofthvng-ubec", 
+            "tag": [
+                "planning", 
+                "tender"
+            ], 
+            "initiationType": "tender", 
+            "buyer": {
+                "additionalIdentifiers": [
+                    {}
+                ], 
+                "contactPoint": {
+                    "url": "www.ubeconline.com", 
+                    "name": "Dr Hamid Bobboyi "
+                }, 
+                "identifier": {
+                    "legalName": "Universal Basic Education Commission"
+                }, 
+                "name": "Universal Basic Education Commission", 
+                "address": {
+                    "countryName": "Nigeria", 
+                    "streetAddress": "7 Gwani Street", 
+                    "region": "FCT", 
+                    "locality": "Wuse Zone 4"
+                }
+            }, 
+            "planning": {
+                "documents": [
+                    {
+                        "description": "Procurement Records Received from Universal Basic Education Commission 2016 ", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/print", 
+                        "datePublished": "2017-05-11T17:04", 
+                        "documentType": "Physical Progress Reports"
+                    }
+                ], 
+                "budget": {
+                    "project": "Constituency Project", 
+                    "description": "2016 Constituency Projects Appropriation"
+                }
+            }, 
+            "tender": {
+                "procurementMethod": "open", 
+                "amendment": {
+                    "changes": [
+                        {}
+                    ]
+                }, 
+                "numberOfTenderers": "7", 
+                "items": [
+                    {
+                        "additionalClassifications": [
+                            {}
+                        ]
+                    }
+                ], 
+                "submissionMethod": "inPerson", 
+                "documents": [
+                    {
+                        "description": "2016 Procurement Records Received from Universal Basic Education Commission", 
+                        "language": "en", 
+                        "title": "Procurement records", 
+                        "format": "offline/Print", 
+                        "datePublished": "2017-05-11T10:53", 
+                        "documentType": "Physical Progress Reports "
+                    }
+                ], 
+                "procuringEntity": {
+                    "additionalIdentifiers": [
+                        {}
+                    ], 
+                    "contactPoint": {
+                        "url": "www.ubeconline.com", 
+                        "name": "Dr Hamid Bobboyi"
+                    }, 
+                    "identifier": {
+                        "legalName": "Universal Basic Education Commission"
+                    }, 
+                    "name": "Universal Basic Education Commission", 
+                    "address": {
+                        "countryName": "Nigeria", 
+                        "streetAddress": "7 Gwani Street Wuse Zone 4", 
+                        "region": "FCT", 
+                        "locality": "Wuse Zone 4 Abuja"
+                    }
+                }, 
+                "tenderers": [
+                    {
+                        "additionalIdentifiers": [
+                            {}
+                        ], 
+                        "contactPoint": {
+                            "name": "Hassan", 
+                            "telephone": "07034848974"
+                        }, 
+                        "identifier": {
+                            "legalName": "Hillylash Nig Ltd"
+                        }, 
+                        "name": "Hillylash Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Oloro", 
+                            "telephone": "08035611344"
+                        }, 
+                        "identifier": {
+                            "legalName": "Carbod Investment Ltd"
+                        }, 
+                        "name": "Carbod Investment Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Peter E", 
+                            "telephone": "08062475110"
+                        }, 
+                        "identifier": {
+                            "legalName": "Dadabin Badabom Int"
+                        }, 
+                        "name": "Dadabin Badabom Int"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Hon. Ike Awari", 
+                            "telephone": "08032332568"
+                        }, 
+                        "identifier": {
+                            "legalName": "Ama-Yaro Ass. Ltd"
+                        }, 
+                        "name": "Ama-Yaro Ass. Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Augustine", 
+                            "telephone": "08036243149"
+                        }, 
+                        "identifier": {
+                            "legalName": "Kdd Concept & Resources Ltd"
+                        }, 
+                        "name": "Kdd Concept & Resources Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Enejo", 
+                            "telephone": "08073708237"
+                        }, 
+                        "identifier": {
+                            "legalName": "D-John Mary Nig Ltd"
+                        }, 
+                        "name": "D-John Mary Nig Ltd"
+                    }, 
+                    {
+                        "contactPoint": {
+                            "name": "Abdullahi F", 
+                            "telephone": "08069097166"
+                        }, 
+                        "identifier": {
+                            "legalName": "Stable Technology Ltd"
+                        }, 
+                        "name": "Stable Technology Ltd"
+                    }
+                ], 
+                "hasEnquiries": "boolean", 
+                "milestones": [
+                    {
+                        "status": "met", 
+                        "documents": [
+                            {}
+                        ]
+                    }
+                ], 
+                "awardCriteria": "leastCost"
+            }, 
+            "id": "ocds-azam7x-xofthvng-ubec-buyer-001"
+        }
+    ], 
+    "publishedDate": "2017-05-16T10:16:32Z", 
+    "uri": "http://app.budeshi.ng/raw/ubec/ocds-azam7x-xofthvng-ubec"
+}
