@@ -21,15 +21,27 @@
 </head>
 
 <body>
+
+	<!-- Loading modal -->
+	<div id="modal-center" class="uk-flex-top" uk-modal='bg-close: false'>
+	    <div class="uk-modal-dialog uk-modal-body uk-position-center trans-back uk-light">
+
+					<div class="loading-pulse">
+
+		</div>
+
+	    </div>
+	</div>
+	<!-- End of loading modal -->
 	<nav class="uk-navbar-container uk-navbar-transparent top" uk-sticky uk-navbar>
 		<div class="uk-navbar-left uk-padding-small">
-			<a href="#" class="uk-link-reset">
-				<img src='../images/budeshi.png' width="15%"> Budeshi 2.0
+			<a href="#" class="uk-link-reset uk-light">
+				<img class='' src='../images/budeshi-logo.png' width="25%">
 			</a>
 		</div>
 		<div class='uk-navbar-right'>
 			<!-- This is a button toggling the modal -->
-			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
+			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap uk-light" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
 
 			<!-- This is the modal -->
 			<div id="find-project" uk-modal='bg-close: false'>
@@ -234,13 +246,22 @@
 			</div>
 		</div>
 	</nav>
-	
+	<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+		<div class="uk-navbar-left">
+		<ul class="uk-navbar-nav">
+				<li class="uk-active"><a href="" class="uk-margin-right"
+				 uk-icon="icon: reply; ratio: 2" title="Back to projects" uk-tooltip="pos: bottom" uk-toggle="target: #offcanvas-nav"></a></li>
+
+		</ul>
+</div>
+	</nav>
+
 	<div class='uk-container'>
 
 		<div class='project-overview' id='project-overview'>
 			<div>
 				<div class='uk-flex-center uk-flex uk-margin-top'>
-					<h3 class='uk-text-warning'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h3> <a href="" class="uk-icon-button uk-margin-left"
+					<h3 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h3> <a href="" class="uk-icon-button uk-margin-left"
 					 uk-icon="icon: social" title="Share" uk-tooltip="pos: bottom" uk-toggle="target: #offcanvas-nav"></a>
 				</div>
 				<div class=''>
@@ -739,25 +760,51 @@
 			</div>
 		</div>
 	</div>
-	<nav class="uk-navbar-container uk-navbar-transparent uk-margin" sytle='background-color: transparent' uk-navbar>
-		<ul class="uk-navbar-nav">
-			<li>
-				<a class="uk-navbar-item" href="#ppdc"><img src='../images/omidyar-logo.jpg'/></a>
-			</li>
-			<li>
-				<a class="uk-navbar-item" href="#ppdc"><img src='../images/smc.png' width='20%' /></a>
-			</li>
-			<li>
-				<a class="uk-navbar-item" href="#ppdc"><img src='../images/ppdc.jpg' width='150%'/></a>
-			</li>
-			<li>
-				<a class="uk-navbar-item" href="#ppdc"><img src='../images/ptcij.png' width='100%' /></a>
-			</li>
-			<li>
-				<a class="uk-navbar-item" href="#ppdc"><img src='../images/macarthur-logo.jpg' width='50%' /></a>
-			</li>
-		</ul>
-	</nav>
+<div class=''>
+		<div class='uk-container'>
+			<div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
+				<div>
+					<div class=''>
+						<a href='http://procurementmonitor.org/ppdc/'>
+					<img src='../images/ppdc-logo2.png' width="50%"/>
+				</a>
+					</div>
+				</div>
+				<div>
+					<div class=''>
+						<a href='http://smc.edu.ng/'>
+					<img src='../images/smc.png' width="50%" />
+				</a>
+					</div>
+				</div>
+				<div>
+					<div class=''>
+						<a href='http://ptcij.org/'>
+					<img src='../images/ptcij.png' width="50%" />
+				</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class='uk-container'>
+		<div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
+			<div>
+				<div class='uk-float-right'>
+					<a href='https://www.omidyar.com/'>
+					<img src='../images/omd.png' width="40%" />
+				</a>
+				</div>
+			</div>
+			<div>
+				<div class='uk-float-left'>
+					<a href='https://www.macfound.org/'>
+					<img src='../images/macarthur-logo.png' width="50%" />
+				</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 	</div>
 	<script src='../js/map.js'>
 

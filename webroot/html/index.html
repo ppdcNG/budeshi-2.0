@@ -15,18 +15,31 @@
 </head>
 
 <body>
+
+	<!-- Loading modal -->
+	<div id="modal-center" class="uk-flex-top" uk-modal='bg-close: false'>
+	    <div class="uk-modal-dialog uk-modal-body uk-position-center trans-back uk-light">
+
+					<div class="loading-pulse">
+
+		</div>
+
+	    </div>
+	</div>
+	<!-- End of loading modal -->
+
 	<nav class="uk-navbar-container uk-navbar-transparent top" uk-sticky uk-navbar>
 		<div class="uk-navbar-left uk-padding-small">
 			<a href="#" class="uk-link-reset">
-				<img src='../images/budeshi.png' width="15%"> Budeshi 2.0
+				<img class='' src='../images/budeshi-logo.png' width="25%">
 			</a>
 		</div>
 		<div class='uk-navbar-right'>
-			<ul class="uk-navbar-nav">
+			<!--<ul class="uk-navbar-nav">
 		<li><a href="https://medium.com/budeshi">Blog</a></li>
-</ul>
+</ul> -->
 			<!-- This is a button toggling the modal -->
-			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
+			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap uk-light" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
 
 			<!-- This is the modal -->
 			<div id="find-project" uk-modal='bg-close: false'>
@@ -231,8 +244,6 @@
 			</div>
 		</div>
 	</nav>
-	<hr>
-	<br>
 	<div class='uk-margin uk-padding container'>
 		<div>
 			<div uk-grid>
