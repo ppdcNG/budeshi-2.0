@@ -73,10 +73,11 @@
               </a>
             </div>
           </div>
+          <div class='dir-button uk-display-block uk-visible@l uk-flex-center' >
+            <a href="#what" uk-icon="icon: chevron-down; ratio: 2"></a>
+          </div>
         </div>
-        <div class='dir-button uk-display-block uk-visible@l'>
-          <a href="#what" uk-icon="icon: chevron-down; ratio: 2"></a>
-        </div>
+
       </div>
     </div>
   </div>
@@ -85,7 +86,7 @@
       <div class='trans-back uk-child-width-1-3@s uk-grid-small uk-padding' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;"
         uk-grid>
         <div class='uk-text-left' />
-        <h1 class="uk-heading-line uk-text-left uk-light">MAKING DATA MAKE SENSE</h1>
+        <h1 class="uk-heading-line uk-text-left uk-light" id=''>MAKING DATA MAKE SENSE</h1>
       </div>
       <div>
       </div>
@@ -93,7 +94,7 @@
       </div>
       <div>
         <br>
-        <div class='uk-text-large uk-light uk-text-left'><p> Budeshi (which is Hausa for "Open it") is a dedicated site that links budget and procurement data to various public
+        <div class='uk-text-large uk-light uk-text-left'  id='make' uk-parallax="target: #what; blur: 0,3;"><p> Budeshi (which is Hausa for "Open it") is a dedicated site that links budget and procurement data to various public
         services. It is accessible to the public to interact with and make their own comparisons.</p>
       </div>
     </div>
@@ -102,7 +103,7 @@
     <div>
     </div>
     <div class='uk-text-large uk-light uk-text-bold' />
-    <p class=''>
+    <p class='' uk-parallax="target: #ina; blur: 0,3;" id='ina' >
       In a bid to make information around public contracts and the procurement process more coherent, Budeshi is an attempt to
       demonstrate the Open Contracting Data Standards (OCDS) across the public procurement value chain.
     </p>
@@ -128,7 +129,7 @@
       </div>
       <div>
         <br>
-        <div class='uk-text-large uk-light uk-text-right' /> <p>Over the years, procurement monitors have been occupied with verifying the performance of contracts awarded for
+        <div class='uk-text-large uk-light uk-text-right' id='over'  uk-parallax="target: #over; blur: 0,3;"> <p>Over the years, procurement monitors have been occupied with verifying the performance of contracts awarded for
         various projects across the country. But the challenge has been to link available budget and procurement data to
         to the expected public service that contracts seeks to deliver.</p>
       </div>
@@ -148,7 +149,7 @@
     </div>
     <div>
       <br>
-      <div class='uk-text-large uk-light uk-text-left'><p> The number of public contracts executed in each year is such that no one agency or unit can verify them all. It is
+      <div class='uk-text-large uk-light uk-text-left' id='thenu'  uk-parallax="target: #thenu; blur: 0,3;"><p> The number of public contracts executed in each year is such that no one agency or unit can verify them all. It is
       therefore, imperative that data standards are integrated into the current practise of keeping records around public
       resource utilization and that, at each stage, the records can be linked to other stages and ultimately, to the resulting
       public infrastructure/service.</p>
@@ -160,7 +161,7 @@
   </div>
   <div>
     <br>
-    <div class='uk-text-large uk-light uk-text-left'><p> If such a system is deployed, then without having to physically visit every single location that a contract is being
+    <div class='uk-text-large uk-light uk-text-left' id='ifs'  uk-parallax="target: #ifs; blur: 0,3;"><p> If such a system is deployed, then without having to physically visit every single location that a contract is being
     executed in, the analyses can point to red flags which indicate projects whose performance needs to be verified because
     of a questionable record. However, this would require data standards that link each contracting process across various
     stages.</p>
@@ -172,7 +173,7 @@
   </div>
   <div>
     <br>
-    <div class='uk-text-large uk-light uk-text-left'> <p>The OCDS has mapped all stages in the contracting process from conception to project delivery and created uniform standards
+    <div class='uk-text-large uk-light uk-text-left' id='ocds'  uk-parallax="target: #ocds; blur: 0,3;"> <p>The OCDS has mapped all stages in the contracting process from conception to project delivery and created uniform standards
     that enable links to be drawn.</p>
   </div>
   </div>
@@ -180,13 +181,18 @@
 
   </div>
   <div class='what'>
-    <div class='uk-child-width-1-3@s uk-grid-small uk-padding uk-margin' uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
+  </div>
+
+  <div class='what'>
+  </div>
+  <div class='what'>
+    <div class='uk-child-width-1-3@s uk-grid-small uk-padding' uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
       uk-grid>
       <div>
       </div>
       <div>
       </div>
-      <div class='uk-text-right' />
+      <div class='uk-text-right'>
       <h1 class="uk-heading-line uk-text-right uk-light">REAPING BENEFITS</h1>
     </div>
     <div>
@@ -195,7 +201,7 @@
     </div>
     <div>
       <br>
-      <div class='uk-text-large uk-light uk-text-right'><p> The number of public contracts executed in each year is such that no one agency or unit can verify them all. It is
+      <div class='uk-text-large uk-light uk-text-right' id='nupu'  uk-parallax="target: #nupu; blur: 0,3;"><p> The number of public contracts executed in each year is such that no one agency or unit can verify them all. It is
       therefore, imperative that data standards are integrated into the current practise of keeping records around public
       resource utilization and that, at each stage, the records can be linked to other stages and ultimately, to the resulting
       public infrastructure/service.</p>
@@ -203,11 +209,8 @@
   </div>
   </div>
   </div>
-  <div class='what'>
-    <div class='uk-margin'>
-      <div class='uk-container'>
-        <div class='uk-padding' id='stop'>
-          <div style="z-index: 980;">
+  <div class='what uk-padding'>
+          <div>
             <h1 class="uk-heading-line uk-text-center uk-light">How Does it works</h1>
             <hr>
           </div>
@@ -229,9 +232,8 @@
             <img src='../images/howdemo2.png' />
           </div>
           <hr>
-        </div>
-      </div>
-    </div>
+  </div>
+  <div class='what'>
   </div>
   <div class='what'>
     <div class='uk-container'>
@@ -323,8 +325,7 @@
       </div>
     </div>
   </div>
-  <div class='who'>
-</div>
+
 </body>
 
 </html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html style='width: 100%'>
+
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<title>Budeshi 2.0</title>
+	<link rel="stylesheet" href="../css/uikit.min.css" />
+	<link rel="stylesheet" href="../css/styles.css" />
+	<script src="../js/jquery.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+	<script src="../js/uikit.min.js"></script>
+	<script src="../js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Loading modal -->
+	<div id="modal-center" class="uk-flex-top" uk-modal='bg-close: false'>
+	    <div class="uk-modal-dialog uk-modal-body uk-position-center trans-back uk-light">
+
+					<div class="loading-pulse">
+
+		</div>
+
+	    </div>
+	</div>
+	<!-- End of loading modal -->
+
+	<nav class="uk-navbar-container uk-navbar-transparent top" uk-sticky uk-navbar>
+		<div class="uk-navbar-left uk-padding-small">
+			<a href="./landing.html" class="uk-link-reset">
+				<img class='resize' src='../images/budeshi-logo.png' width="25%">
+			</a>
+		</div>
+		<div class='uk-navbar-right'>
+			<!--<ul class="uk-navbar-nav">
+		<li><a href="https://medium.com/budeshi">Blog</a></li>
+</ul> -->
+			<!-- This is a button toggling the modal -->
+			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap uk-light" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
+
+			<!-- This is the modal -->
+			<div id="find-project" uk-modal='bg-close: false'>
+				<div class="uk-modal-dialog uk-modal-body">
+					<h2 class="uk-modal-title">Find Projects</h2>
+					<form>
+					<div class="filter-param uk-panel uk-placeholder">
+						<div class='mda uk-margin'>
+							<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
+							<div uk-dropdown="pos: bottom-justify; boundary: .mda; boundary-align: true; mode: click">
+								<ul class="uk-nav uk-dropdown-nav">
+									<li class="uk-active"><a href="#">Choose MDA</a></li>
+									<li class="uk-nav-divider"></li>
+									<div class="uk-margin">
+											<select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+												<option value="dc">Universal Basic Education Commission</option>
+												<option value="le">National Primary Health Care Development Centre</option>
+												<option value="mj">Bureau of Public Procurement</option>
+												<option value="cos">Public and Private Development Centre</option>
+												<option value="ec">Bureau of Public Service Reforms</option>
+												<option value="jb">ustomer Protection Council</option>
+												</select>
+											<script type="text/javascript">
+													$('#select-mda').select2({
+															placeholder: "Search for MDA",
+															dropdownParent: $('#find-project')
+														});
+											</script>
+									</div>
+								</ul>
+
+							</div>
+						</div>
+
+						<div class='uk-child-width-1-2' uk-grid>
+							<div class='states'>
+								<button class="uk-button uk-button-default" type="button" style='width: 100%'>State</button>
+								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+									Choose State
+									<hr>
+									<div class="uk-margin">
+								<select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
+								<option value='abia'>Abia</option>
+								<option value='adamawa'>Adamawa</option>
+								<option value='anambra'>Anambra</option>
+								<option value='akwaibom'>Akwa Ibom</option>
+								<option value='bauchi'>Bauchi</option>
+								<option value='bayelsa'>Bayelsa</option>
+								<option value='benue'>Benue</option>
+								<option value='Borno'>Borno</option>
+								<option value='crossriver'>Cross River</option>
+								<option value='delta'>Delta</option>
+								<option value='ebonyi'>Ebonyi</option>
+								<option value='enugu'>Enugu</option>
+								<option value='edo'>Edo</option>
+								<option value='ekiti'>Ekiti</option>
+								<option value='gombe'>Gombe</option>
+								<option value='imo'>Imo</option>
+								<option value='jigawa'>Jigawa</option>
+								<option value='kaduna'>Kaduna</option>
+								<option value='kano'>Kano</option>
+								<option value='katsina'>Katsina</option>
+								<option value='kebbi'>Kebbi</option>
+								<option value='kogi'>Kogi</option>
+								<option value='kwara'>Kwara</option>
+								<option value='lagos'>Lagos</option>
+								<option value='nasarawa'>Nasarawa</option>
+								<option value='niger'>Niger</option>
+								<option value='ogun'>Ogun</option>
+								<option value='ondo'>Ondo</option>
+								<option value='osun'>Osun</option>
+								<option value='oyo'>Oyo</option>
+								<option value='plateau'>Plateau</option>
+								<option value='rivers'>Rivers</option>
+								<option value='sokoto'>Sokoto</option>
+								<option value='taraba'>Taraba</option>
+								<option value='yobe'>Yobe</option>
+								<option value='zamfara'>Zamfara</option>
+								<option value='fct'>Federal Capital Territory (FCT)</option>
+								</select>
+								<script type="text/javascript">
+								$('#state').select2({
+										placeholder: "Search for state",
+										dropdownParent: $('#find-project')
+									});
+								</script>
+							</div>
+								</div>
+							</div>
+
+							<div class='years'>
+								<button class="uk-button uk-button-default" type="button" style='width: 100%'>Year</button>
+								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+									<ul class="uk-nav uk-dropdown-nav">
+										<li class="uk-active"><a href="#">Choose Year</a></li>
+										<li class="uk-nav-divider"></li>
+										<select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+											<option value="2014">20154</option>
+											<option value="2015">2015</option>
+											<option value="2016">2016</option>
+											<option value="2017">2017</option>
+											<option value="2018">2018</option>
+											<option value="2019">2019</option>
+											<option value="2020">2020</option>
+											<option value="2021">2021</option>
+											</select>
+										<script type="text/javascript">
+												$('#select-year').select2({
+														placeholder: "Search for Year",
+														dropdownParent: $('#find-project')
+													});
+										</script>
+									</ul>
+								</div>
+							</div>
+
+							<div class='status'>
+								<button class="uk-button uk-button-default" type="button"  style='width: 100%'>Status</button>
+								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+									<ul class="uk-nav uk-dropdown-nav">
+										<li class="uk-active"><a href="#">Choose status of the project</a></li>
+										<li class="uk-nav-divider"></li>
+										<div class="uk-margin">
+												<select id='select-status' name='status' style='width: 100%' multiple='multiple'>
+<option value="le">Uncompleted & Active</option>
+<option value="mj">Completed & Inactive</option>
+<option value="ca">Completed & Active</option>
+<option value="cos">Uncompleted & Inactive</option>
+<option value="na">Not Available</option>
+</select>
+												<script type="text/javascript">
+														$('#select-status').select2({
+																placeholder: "Select status",
+																dropdownParent: $('#find-project')
+															});
+												</script>
+												<p class='uk-text-meta uk-text-break'>
+													please note that projects that have Status "Not Available" have not been <br>verified by us or have not reach the implementation stage
+													<p>
+										</div>
+									</ul>
+								</div>
+							</div>
+
+														<div class='Visited'>
+															<button class="uk-button uk-button-default" type="button"  style='width: 100%'><span class='uk-visible@l'>Visited by Us</span><span class='uk-hidden@l'>Visited</span></button>
+															<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+																<ul class="uk-nav uk-dropdown-nav">
+																	<li class="uk-active"><a href="#"></a></li>
+																	<li class="uk-nav-divider"></li>
+																	<div class="uk-margin">
+																		<div class="uk-margin">
+														            <select class="visit"  id='visit' name='visit' style='width: 100%'>
+														                <option value='no'>No</option>
+														                <option value='yes'>Yes</option>
+														            </select>
+														        </div>
+																	</div>
+																</ul>
+															</div>
+														</div>
+							<div class='contractors  uk-width-1-1'>
+								<button class="uk-button uk-button-default" type="button"  style='width: 100%'>Contractor</span></button>
+								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+									<ul class="uk-nav uk-dropdown-nav">
+										<li class="uk-active"><a href="#">Choose Contractor</a></li>
+										<li class="uk-nav-divider"></li>
+										<div class="uk-margin">
+												<select id='select-contr' name='organization' style='width: 100%' multiple='multiple'>
+<option value="dc">Dangote Cement</option>
+<option value="le">Levi</option>
+<option value="mj">Marc Jacobs</option>
+<option value="cos">Coscharis Motors</option>
+<option value="ec">Emeka Custructions</option>
+<option value="jb">Julius Berger</option>
+</select>
+												<script type="text/javascript">
+														$('#select-contr').select2({
+																placeholder: "Search for contractor",
+																dropdownParent: $('#find-project')
+															});
+												</script>
+										</div>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="uk-margin uk-child-width-1-1">
+							<div class="uk-search uk-search-default">
+								<a href="" class="uk-search-icon-flip" uk-search-icon></a>
+								<input class="uk-search-input" type="search" placeholder="Search...">
+							</div>
+						</div>
+					</div>
+					<p class="uk-text-right">
+						<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+						<button class="uk-button uk-button-primary uk-modal-close" type="button">Find</button>
+					</p>
+				</form>
+				</div>
+			</div>
+		</div>
+	</nav>
+<div class='uk-container'>
+  <ul class="uk-breadcrumb">
+      <li><a href="./index.html">Home</a></li>
+      <li><span href="#">View Organization</span></li>
+  </ul>
+  <h1 class="uk-heading-divider uk-text-center uk-margin">Dangote Cement</h1>
+  <div class='uk-flex uk-flex-center uk-text-center'>
+    <p>RC Number: 450245-CAC
+    </p>
+  </div>
+<div class='address uk-margin'>
+
+  <!-- Office icon by Icons8 -->
+<img class="icon icons8-Office" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABK0lEQVRoQ+2ZwQ6DQAhE9f8/uo2HTTbbrn10UOpUjw0LPBhU7LqYXKsJxxIBeYjQkVjhUBHnlwTZSzoCv1U209e0U7OkMoNn+voaJFp9qu0Gl+b/U0fSAg2EZSC9PBpcxm9phaIdyUh6a8pYhNNBqPapXZm0aILUrgzERlo2IFQy1K5MWjRBalcGYiMtGxAqmTI7+mQvS5AGpiCKtN7lElnS0GvM34HQDkerv1ft0EJGO2IDosxI5sNv6ot2xAYkQ1qHbpa0IzYgNtKyAbGRlg2IjbRsQGykdXkQBaB9Iv2Jd63Lg6gA/fmxI4fcONAaKVLZgih1Ce8jSrDxbOmwHwlyz0j3V/fLbFcMu9Lte0aU6rWzka+KNF6ptGiSxK4EhCQm25wx7HKSxMET1Z60M2xF780AAAAASUVORK5CYII=">
+<div>
+    <div class="uk-card uk-card-body uk-text-center">
+      <!-- Streets icon by Icons8 -->
+        <p>1600 Amphitheatre Pkwy.</p>
+    </div>
+</div>
+<div class=' uk-child-width-1-2' uk-grid>
+<div>
+    <div class="uk-card uk-card-body">
+
+        <p>Abuja</p>
+    </div>
+</div>
+<div>
+    <div class="uk-card uk-card-body">
+
+        <p>FCT</p>
+    </div>
+</div>
+</div>
+</div>
+<div class='contact-person uk-margin'>
+  <span uk-icon="icon: user; ratio: 2"></span>
+  <div class='uk-child-width-1-3@l uk-child-width-1-1@s' uk-grid>
+  <div>
+      <div class="uk-card uk-card-body">
+
+          <p>Rotimi Ikechuckwu</p>
+      </div>
+  </div>
+  <div>
+      <div class="uk-card uk-card-body">
+
+          <p><a href="mailto:name@rapidtables.com" class='uk-link-text'>joshstones@wef.org</a></p>
+      </div>
+  </div>
+  <div>
+      <div class="uk-card uk-card-body">
+
+          <p>234 703 924 5256</p>
+      </div>
+  </div>
+  <div Class='uk-width-1-1'>
+      <div class="uk-card uk-card-body uk-text-center uk-text-large uk-text-primary">
+
+          <p><a href='#!' class='uk-link-text'>www.dangotecement.com</a></p>
+      </div>
+  </div>
+  </div>
+</div>
+<hr>
+  <div class='uk-margin'>
+  		<div class='uk-container'>
+  			<div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
+  				<div>
+  					<div class=''>
+  						<a href='http://procurementmonitor.org/ppdc/'>
+  					<img src='../images/ppdc-logo2.png' width="50%"/>
+  				</a>
+  					</div>
+  				</div>
+  				<div>
+  					<div class=''>
+  						<a href='http://smc.edu.ng/'>
+  					<img src='../images/smc.png' width="50%" />
+  				</a>
+  					</div>
+  				</div>
+  				<div>
+  					<div class=''>
+  						<a href='http://ptcij.org/'>
+  					<img src='../images/ptcij.png' width="50%" />
+  				</a>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	<div class='uk-container'>
+  		<div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
+  			<div>
+  				<div class='uk-float-right'>
+  					<a href='https://www.omidyar.com/'>
+  					<img src='../images/omd.png' width="40%" />
+  				</a>
+  				</div>
+  			</div>
+  			<div>
+  				<div class='uk-float-left'>
+  					<a href='https://www.macfound.org/'>
+  					<img src='../images/macarthur-logo.png' width="50%" />
+  				</a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+</div>
+
+	<script src="../js/index.js"></script>
+
+
+</body>
+
+</html>

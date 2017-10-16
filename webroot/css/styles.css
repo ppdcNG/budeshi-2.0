@@ -252,6 +252,9 @@ animation-timing-function: ease-in-out;
         background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         height: auto;
       }
+      .who {
+        background-attachment: scroll;
+      }
       .resize{
         width: 75%;
         height: 75%;
