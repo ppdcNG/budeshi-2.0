@@ -51,9 +51,13 @@ html, body, .container {
   /*background-color: #C0C2D1;*/
 
           /*background-color: #FFD899;*/
-          background: #141E30;  /* fallback for old browsers */
-          background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-          background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          /*background: #141E30;  /* fallback for old browsers */
+          /*background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+          /*background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+          background: #485563;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to top, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to top, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   width: 100%;
   height: 100%;
@@ -80,6 +84,7 @@ background-size: cover;
 
 }
 
+
 .who {
 
         /*background-color: #FFD899;*/
@@ -97,23 +102,54 @@ background-size: cover;
       background-repeat: no-repeat;
       background-size: cover;
 }
-.whos {
+.where {
+/*background: #E44D26;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-          /*background-color: #FFD899;*/
-          background: #141E30;  /* fallback for old browsers */
-          background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-          background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-        /* Full height */
-        height: 25%;
-
-        /* Create the parallax scrolling effect*/
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+  min-height: 100%;
+  width: 100%;
 }
+.border-line {
+  border: 2px solid #141E30;
+  height: 100%;
+  width: 100%;
+}
+.mogra {
+  font-family: 'Mogra', cursive;
+  color: #141E30;
+}
+.comforta {
+  font-family: 'Comfortaa', cursive;
+  color: #141E30;
+}
+.min-h {
+  min-height: 350px;
+}
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Mogra', cursive;
+*/
+.parent-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  width: 80%;
+  height: 80%;
+}
+.parent {
+width: 80%;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid white;
+}
+
 .trans-back {
   background-color: transparent;
 }

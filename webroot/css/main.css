@@ -93,7 +93,7 @@ body {
 	padding-left: 20px;
 }
 #awesome{
-	margin-top: 200px !important;	
+	margin-top: 200px !important;
 }
 #wrapper {
 	float: left;
@@ -118,7 +118,7 @@ body {
 	text-align: center;
 	margin-bottom: 80px;
 }
-.wrapper-inner-tab-backgrounds { 
+.wrapper-inner-tab-backgrounds {
 	float: left;
 	height: 300px;
 	width: 950px;
@@ -169,7 +169,7 @@ body {
 	background-color: rgba(255,255,255,0.2);
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
-	border-radius: 25px;	
+	border-radius: 25px;
 }
 .button2 {
 	color: rgba(255,255,255,1);
@@ -213,7 +213,7 @@ body {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;	
+	transition: all 0.3s;
 }
 .button2:hover::after{
 	opacity: 1;
@@ -262,7 +262,7 @@ body {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;	
+	transition: all 0.3s;
 }
 .button3:hover::after{
 	opacity: 1;
@@ -311,8 +311,8 @@ body {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;	
-	
+	transition: all 0.3s;
+
 }
 .button4:hover::after{
 	opacity: 1;
@@ -424,7 +424,7 @@ body {
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	background-color: rgba(255,255,255,0.2);
-	
+
 }
 .button6{
 	color: rgba(255,255,255,1);
@@ -433,7 +433,7 @@ body {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;	
+	position: relative;
 }
 .button6 a{
 	color: rgba(51,51,51,1);
@@ -441,11 +441,11 @@ body {
 	display: block;
 }
 .button6 span{
-	z-index: 2;	
+	z-index: 2;
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 .button6::before{
 	content: '';
@@ -476,7 +476,7 @@ body {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;	
+	position: relative;
 }
 .button7 a{
 	color: rgba(51,51,51,1);
@@ -484,11 +484,11 @@ body {
 	display: block;
 }
 .button7 span{
-	z-index: 2;	
+	z-index: 2;
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 .button7::before{
 	content: '';
@@ -519,7 +519,7 @@ body {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;	
+	position: relative;
 }
 .button8 a{
 	color: rgba(51,51,51,1);
@@ -527,11 +527,11 @@ body {
 	display: block;
 }
 .button8 span{
-	z-index: 2;	
+	z-index: 2;
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 .button8::before{
 	content: '';
@@ -560,7 +560,7 @@ body {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;	
+	position: relative;
 	overflow: hidden;
 }
 .button9 a{
@@ -569,11 +569,11 @@ body {
 	display: block;
 }
 .button9 span{
-	z-index: 2;	
+	z-index: 2;
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 .button9::before{
 	content: '';
@@ -601,7 +601,7 @@ body {
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
-	position: relative;	
+	position: relative;
 }
 .button10 a{
 	color: rgba(51,51,51,1);
@@ -609,11 +609,11 @@ body {
 	display: block;
 }
 .button10 span{
-	z-index: 2;	
+	z-index: 2;
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 .button10::before{
 	content: '';
@@ -668,9 +668,9 @@ body {
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
-	
+
 	position: relative;
-	perspective: 2000px;	
+	perspective: 2000px;
 
 }
 .button11 a{
@@ -679,11 +679,11 @@ body {
 	display: block;
 }
 .button11 span{
-	z-index: 2;	
+	z-index: 2;
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 .button11::before{
 	content: '';
@@ -717,11 +717,11 @@ body {
 }
 .button11:hover::before{
 	-webkit-transform: rotateX(60deg) translate(0px,40px);
-	transform: rotateX(60deg) translate(0px,40px) ;	
+	transform: rotateX(60deg) translate(0px,40px) ;
 }
 .button11:hover::after{
 	-webkit-transform: rotateX(-60deg) translate(0px,-40px)  ;
-	transform: rotateX(-60deg) translate(0px,-40px) ;	
+	transform: rotateX(-60deg) translate(0px,-40px) ;
 }
 
 .button12{
@@ -740,11 +740,11 @@ body {
 	display: block;
 }
 .button12 span{
-	z-index: 2;	
+	z-index: 2;
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 .button12::before{
 	content: '';
@@ -785,12 +785,12 @@ body {
 .button12:hover::before{
 	opacity: 1;
 	-webkit-transform: translate(0px,-190px);
-	transform: translate(0px,-190px);	
+	transform: translate(0px,-190px);
 }
 .button12:hover::after{
 	opacity: 1;
 	-webkit-transform: translate(0px,-150px);
-	transform: translate(0px,-150px);	
+	transform: translate(0px,-150px);
 }
 .button13 {
 	color: rgba(255,255,255,1);
@@ -981,7 +981,7 @@ body {
 }
 .button16:hover::before, .button16:hover::after{
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button17 {
 	color: rgba(255,255,255,1);
@@ -1022,7 +1022,7 @@ body {
 }
 .button17:hover::before, .button17:hover::after{
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button18 {
 	color: rgba(255,255,255,1);
@@ -1063,7 +1063,7 @@ body {
 }
 .button18:hover::before, .button18:hover::after{
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button19 {
 	color: rgba(255,255,255,1);
@@ -1082,7 +1082,7 @@ body {
 }
 .button19::before{
 	content: '';
-	position: absolute; 
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1122,7 +1122,7 @@ body {
 }
 .button19:hover::before, .button19:hover::after{
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button20 {
 	color: rgba(255,255,255,1);
@@ -1141,7 +1141,7 @@ body {
 }
 .button20::before{
 	content: '';
-	position: absolute; 
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1181,7 +1181,7 @@ body {
 }
 .button20:hover::before, .button20:hover::after{
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button21 {
 	color: rgba(255,255,255,1);
@@ -1221,7 +1221,7 @@ body {
 .button21:hover::before{
 	opacity: 0;
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button22 {
 	color: rgba(255,255,255,1);
@@ -1261,7 +1261,7 @@ body {
 .button22:hover::before{
 	opacity: 0;
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button23 {
 	color: rgba(255,255,255,1);
@@ -1301,7 +1301,7 @@ body {
 .button23:hover::before{
 	opacity: 0;
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button24 {
 	color: rgba(255,255,255,1);
@@ -1345,7 +1345,7 @@ body {
 .button24:hover::before, .button24:hover::after{
 	opacity: 0;
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button25 {
 	color: rgba(255,255,255,1);
@@ -1389,7 +1389,7 @@ body {
 .button25:hover::before, .button25:hover::after{
 	opacity: 0;
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button26 {
 	color: rgba(255,255,255,1);
@@ -1433,7 +1433,7 @@ body {
 .button26:hover::before, .button26:hover::after{
 	opacity: 0;
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button27 {
 	color: rgba(255,255,255,1);
@@ -1442,11 +1442,11 @@ body {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	position: relative;
-	border: 1px solid rgba(255,255,255,0.5);
+	border: 1px solid rgb(66, 73, 73);
 	overflow: hidden;
 }
 .button27:hover{
-	border: 1px solid rgba(255,255,255,0);
+	border: 1px solid rgb(88, 214, 141);
 }
 .button27 a{
 	color: rgba(51,51,51,1);
@@ -1474,7 +1474,7 @@ body {
 }
 .button27:hover::before{
 	-webkit-transform: translate(0,0);
-	transform: translate(0,0);	
+	transform: translate(0,0);
 }
 .button28 {
 	color: rgba(255,255,255,1);
@@ -1516,16 +1516,16 @@ body {
 	border-bottom-color: rgba(255,255,255,0.5);
 	-webkit-transform: scale(0.1, 1);
 	transform: scale(0.1, 1);
-	
+
 }
 .button28:hover span{
 	letter-spacing: 2px;
 	}
 .button28:hover::before{
-	opacity: 1;	
+	opacity: 1;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
-	
+
 }
 .button28::after{
 	content: '';
@@ -1540,10 +1540,10 @@ body {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	background-color: rgba(255,255,255,0.25);
-	
+
 }
 .button28:hover::after{
-	opacity: 0;	
+	opacity: 0;
 	-webkit-transform: scale(0.1, 1);
 	transform: scale(0.1, 1);
 }
@@ -1594,7 +1594,7 @@ body {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	background-color: rgba(255,255,255,0.5);
-	
+
 }
 .button29:hover::before{
 	-webkit-transform: translate(0,-25px) rotate(-45deg);
