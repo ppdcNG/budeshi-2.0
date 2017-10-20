@@ -48,11 +48,7 @@
 					<form>
 					<div class="filter-param uk-panel uk-placeholder">
 						<div class='mda uk-margin'>
-							<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
-							<div uk-dropdown="pos: bottom-justify; boundary: .mda; boundary-align: true; mode: click">
-								<ul class="uk-nav uk-dropdown-nav">
-									<li class="uk-active"><a href="#">Choose MDA</a></li>
-									<li class="uk-nav-divider"></li>
+
 									<div class="uk-margin">
 											<select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
 												<option value="dc">Universal Basic Education Commission</option>
@@ -69,17 +65,12 @@
 														});
 											</script>
 									</div>
-								</ul>
 
-							</div>
 						</div>
 
-						<div class='uk-child-width-1-2' uk-grid>
+						<div class='uk-child-width-1-2@s uk-child-width-1-1@s uk-grid-small' uk-grid>
+							<div>
 							<div class='states'>
-								<button class="uk-button uk-button-default" type="button" style='width: 100%'>State</button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									Choose State
-									<hr>
 									<div class="uk-margin">
 								<select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
 								<option value='abia'>Abia</option>
@@ -127,15 +118,11 @@
 									});
 								</script>
 							</div>
-								</div>
 							</div>
-
+</div>
+<div>
 							<div class='years'>
-								<button class="uk-button uk-button-default" type="button" style='width: 100%'>Year</button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose Year</a></li>
-										<li class="uk-nav-divider"></li>
+								<div class="uk-margin">
 										<select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
 											<option value="2014">20154</option>
 											<option value="2015">2015</option>
@@ -152,17 +139,12 @@
 														dropdownParent: $('#find-project')
 													});
 										</script>
-									</ul>
-								</div>
+									</div>
 							</div>
-
+						</div>
+						<div>
 							<div class='status'>
-								<button class="uk-button uk-button-default" type="button"  style='width: 100%'>Status</button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose status of the project</a></li>
-										<li class="uk-nav-divider"></li>
-										<div class="uk-margin">
+										<div class="uk-margin" title="please note that projects that have Status Not Available have not been <br>verified by us or have not reach the implementation stage" uk-tooltip>
 												<select id='select-status' name='status' style='width: 100%' multiple='multiple'>
 <option value="le">Uncompleted & Active</option>
 <option value="mj">Completed & Inactive</option>
@@ -176,37 +158,26 @@
 																dropdownParent: $('#find-project')
 															});
 												</script>
-												<p class='uk-text-meta uk-text-break'>
-													please note that projects that have Status "Not Available" have not been <br>verified by us or have not reach the implementation stage
-													<p>
 										</div>
-									</ul>
-								</div>
 							</div>
-
+</div>
+<div>
 														<div class='Visited'>
-															<button class="uk-button uk-button-default" type="button"  style='width: 100%'><span class='uk-visible@l'>Visited by Us</span><span class='uk-hidden@l'>Visited</span></button>
-															<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-																<ul class="uk-nav uk-dropdown-nav">
-																	<li class="uk-active"><a href="#"></a></li>
-																	<li class="uk-nav-divider"></li>
-																	<div class="uk-margin">
 																		<div class="uk-margin">
 														            <select class="visit"  id='visit' name='visit' style='width: 100%'>
 														                <option value='no'>No</option>
 														                <option value='yes'>Yes</option>
 														            </select>
+																				<script type="text/javascript">
+																						$('#visit').select2({
+																								placeholder: "Select status",
+																								dropdownParent: $('#find-project')
+																							});
+																				</script>
 														        </div>
-																	</div>
-																</ul>
-															</div>
 														</div>
+													</div>
 							<div class='contractors  uk-width-1-1'>
-								<button class="uk-button uk-button-default" type="button"  style='width: 100%'>Contractor</span></button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose Contractor</a></li>
-										<li class="uk-nav-divider"></li>
 										<div class="uk-margin">
 												<select id='select-contr' name='organization' style='width: 100%' multiple='multiple'>
 <option value="dc">Dangote Cement</option>
@@ -223,8 +194,6 @@
 															});
 												</script>
 										</div>
-									</ul>
-								</div>
 							</div>
 						</div>
 
