@@ -29,7 +29,7 @@ td {
 .border-right {
   border-right: 1px solid #ccc;
 }
-nav.top {
+nav.top, .top {
             /*background-color: #FFD899;*/
             background: #141E30;  /* fallback for old browsers */
             background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
@@ -269,7 +269,7 @@ animation-timing-function: ease-in-out;
     -webkit-animation: pulse 750ms infinite;
             animation: pulse 750ms infinite;
   }
-  
+
   .loading-pulse:before {
     left: -12px;
   }
@@ -303,4 +303,10 @@ animation-timing-function: ease-in-out;
       .uk-text-bold {
         font-weight: normal;
       }
+  }
+  div.uk-card-badge.uk-label {
+     /*background-color: #FFD899;*/
+     background: #141E30;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
