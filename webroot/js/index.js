@@ -85,3 +85,7 @@ function removeTransaction() {
     transaction.style.display = 'none';
   }
 }
+function scroll() {
+  var elmnt = document.getElementById("who");
+elmnt.scrollIntoView();
+}
