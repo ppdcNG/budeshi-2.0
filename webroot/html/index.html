@@ -7,30 +7,26 @@
 	<title>Budeshi 2.0</title>
 	<link rel="stylesheet" href="../css/uikit.min.css" />
 	<link rel="stylesheet" href="../css/styles.css" />
+
 	<script src="../js/jquery.js"></script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 	<script src="../js/uikit.min.js"></script>
 	<script src="../js/uikit-icons.min.js"></script>
-	<style>
-	background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	</style>
+	<link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
 </head>
 
 <body style="">
 
 	<!-- Loading modal -->
 	<div id="modal-center" class="uk-flex-top" uk-modal='bg-close: false'>
-	    <div class="uk-modal-dialog uk-modal-body uk-position-center trans-back uk-light">
+		<div class="uk-modal-dialog uk-modal-body uk-position-center trans-back uk-light">
 
-					<div class="loading-pulse">
+			<div class="loading-pulse">
+
+			</div>
 
 		</div>
-
-	    </div>
 	</div>
 	<!-- End of loading modal -->
 
@@ -42,26 +38,27 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 		</div>
 		<div class='uk-navbar-right'>
 			<ul class="uk-navbar-nav  uk-visible@s">
-		<li class='uk-light uk-text-bold'><a href="https://medium.com/budeshi">Blog</a></li>
-</ul>
+				<li class='uk-light uk-text-bold'><a href="https://medium.com/budeshi">Blog</a></li>
+			</ul>
 			<!-- This is a button toggling the modal -->
-			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap uk-light" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
+			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap uk-light" type="button" style='margin: 0 auto'
+			 uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
 
 			<!-- This is the modal -->
 			<div id="find-project" uk-modal='bg-close: false'>
 				<div class="uk-modal-header top">
-			 <h2 class="uk-modal-title">Find Projects</h2>
-		 </div>
-				<div class="uk-modal-dialog uk-modal-body">
-					 <div class="uk-modal-header top">
 					<h2 class="uk-modal-title">Find Projects</h2>
 				</div>
+				<div class="uk-modal-dialog uk-modal-body">
+					<div class="uk-modal-header top">
+						<h2 class="uk-modal-title">Find Projects</h2>
+					</div>
 					<form>
-					<div class="filter-param uk-panel uk-placeholder">
-						<div class='mda uk-margin'>
+						<div class="filter-param uk-panel uk-placeholder">
+							<div class='mda uk-margin'>
 
-									<div class="uk-margin">
-											<select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+								<div class="uk-margin">
+									<select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
 												<option value="dc">Universal Basic Education Commission</option>
 												<option value="le">National Primary Health Care Development Centre</option>
 												<option value="mj">Bureau of Public Procurement</option>
@@ -69,21 +66,21 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 												<option value="ec">Bureau of Public Service Reforms</option>
 												<option value="jb">ustomer Protection Council</option>
 												</select>
-											<script type="text/javascript">
-													$('#select-mda').select2({
-															placeholder: "Mdas",
-															dropdownParent: $('#find-project')
-														});
-											</script>
-									</div>
+									<script type="text/javascript">
+										$('#select-mda').select2({
+											placeholder: "Mdas",
+											dropdownParent: $('#find-project')
+										});
+									</script>
+								</div>
 
-						</div>
+							</div>
 
-						<div class='uk-child-width-1-2@s uk-child-width-1-1@s uk-grid-small' uk-grid>
-							<div>
-							<div class='states'>
-									<div class="uk-margin">
-								<select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
+							<div class='uk-child-width-1-2@s uk-child-width-1-1@s uk-grid-small' uk-grid>
+								<div>
+									<div class='states'>
+										<div class="uk-margin">
+											<select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
 								<option value='abia'>Abia</option>
 								<option value='adamawa'>Adamawa</option>
 								<option value='anambra'>Anambra</option>
@@ -122,19 +119,19 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 								<option value='zamfara'>Zamfara</option>
 								<option value='fct'>Federal Capital Territory (FCT)</option>
 								</select>
-								<script type="text/javascript">
-								$('#state').select2({
-										placeholder: "Locations",
-										dropdownParent: $('#find-project')
-									});
-								</script>
-							</div>
-							</div>
-</div>
-<div>
-							<div class='years'>
-								<div class="uk-margin">
-										<select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+											<script type="text/javascript">
+												$('#state').select2({
+													placeholder: "Locations",
+													dropdownParent: $('#find-project')
+												});
+											</script>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class='years'>
+										<div class="uk-margin">
+											<select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
 											<option value="2014">20154</option>
 											<option value="2015">2015</option>
 											<option value="2016">2016</option>
@@ -144,54 +141,56 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 											<option value="2020">2020</option>
 											<option value="2021">2021</option>
 											</select>
-										<script type="text/javascript">
+											<script type="text/javascript">
 												$('#select-year').select2({
-														placeholder: "Project years",
-														dropdownParent: $('#find-project')
-													});
-										</script>
+													placeholder: "Project years",
+													dropdownParent: $('#find-project')
+												});
+											</script>
+										</div>
 									</div>
-							</div>
-						</div>
-						<div>
-							<div class='status'>
-										<div class="uk-margin" title="Please note that projects that have Status Not Available have not been <br>verified by us or have not reach the implementation stage" uk-tooltip>
-												<select id='select-status' name='status' style='width: 100%' multiple='multiple'>
+								</div>
+								<div>
+									<div class='status'>
+										<div class="uk-margin" title="Please note that projects that have Status Not Available have not been <br>verified by us or have not reach the implementation stage"
+										 uk-tooltip>
+											<select id='select-status' name='status' style='width: 100%' multiple='multiple'>
 <option value="le">Uncompleted & Active</option>
 <option value="mj">Completed & Inactive</option>
 <option value="ca">Completed & Active</option>
 <option value="cos">Uncompleted & Inactive</option>
 <option value="na">Not Available</option>
 </select>
-												<script type="text/javascript">
-														$('#select-status').select2({
-																placeholder: "Project status",
-																dropdownParent: $('#find-project')
-															});
-												</script>
+											<script type="text/javascript">
+												$('#select-status').select2({
+													placeholder: "Project status",
+													dropdownParent: $('#find-project')
+												});
+											</script>
 										</div>
-							</div>
-</div>
-<div>
-														<div class='Visited'>
-																		<div class="uk-margin"title="Projects that have been verified by our procurement monitors with a detailed report under the Implementation tab when you view project" uk-tooltip>
-														            <select class="visit"  id='visit' name='visit' style='width: 100%'>
+									</div>
+								</div>
+								<div>
+									<div class='Visited'>
+										<div class="uk-margin" title="Projects that have been verified by our procurement monitors with a detailed report under the Implementation tab when you view project"
+										 uk-tooltip>
+											<select class="visit" id='visit' name='visit' style='width: 100%'>
 														                <option value='' selected disabled>Visited?</option>
 																						<option value='no'>No</option>
 														                <option value='yes'>Yes</option>
 														            </select>
-																				<script type="text/javascript">
-																						$('#visit').select2({
-																								placeholder: "Visited?",
-																								dropdownParent: $('#find-project')
-																							});
-																				</script>
-														        </div>
-														</div>
-													</div>
-							<div class='contractors  uk-width-1-1'>
-										<div class="uk-margin">
-												<select id='select-contr' name='organization' style='width: 100%' multiple='multiple'>
+											<script type="text/javascript">
+												$('#visit').select2({
+													placeholder: "Visited?",
+													dropdownParent: $('#find-project')
+												});
+											</script>
+										</div>
+									</div>
+								</div>
+								<div class='contractors  uk-width-1-1'>
+									<div class="uk-margin">
+										<select id='select-contr' name='organization' style='width: 100%' multiple='multiple'>
 <option value="dc">Dangote Cement</option>
 <option value="le">Levi</option>
 <option value="mj">Marc Jacobs</option>
@@ -199,33 +198,33 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 <option value="ec">Emeka Custructions</option>
 <option value="jb">Julius Berger</option>
 </select>
-												<script type="text/javascript">
-														$('#select-contr').select2({
-																placeholder: "Contractors",
-																dropdownParent: $('#find-project')
-															});
-												</script>
-										</div>
+										<script type="text/javascript">
+												$('#select-contr').select2({
+													placeholder: "Contractors",
+													dropdownParent: $('#find-project')
+												});
+										</script>
+									</div>
+								</div>
 							</div>
-						</div>
 
-						<div class="uk-margin uk-child-width-1-1">
-							<div class="uk-search uk-search-default">
-								<a href="" class="uk-search-icon-flip" uk-search-icon></a>
-								<input class="uk-search-input" type="search" placeholder="Search...">
+							<div class="uk-margin uk-child-width-1-1">
+								<div class="uk-search uk-search-default">
+									<a href="" class="uk-search-icon-flip" uk-search-icon></a>
+									<input class="uk-search-input" type="search" placeholder="Search...">
+								</div>
 							</div>
 						</div>
-					</div>
-					<p class="uk-text-right">
-						<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
-						<button class="uk-button uk-button-primary uk-modal-close" type="button">Find</button>
-					</p>
-				</form>
+						<p class="uk-text-right">
+							<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+							<button class="uk-button uk-button-primary uk-modal-close" type="button">Find</button>
+						</p>
+					</form>
 				</div>
 			</div>
 		</div>
 	</nav>
-	<div class='uk-margin uk-padding container'>
+	<div class='uk-margin uk-padding'>
 		<div>
 			<div uk-grid>
 				<div class="uk-width-auto@m">
@@ -234,6 +233,7 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 						<li><a href="#">Tables</a></li>
 						<li><a href="#">Charts</a></li>
 						<li><a href="#">Maps</a></li>
+						<li><a href="#">Validated Projects/Visited</a></li>
 					</ul>
 
 				</div>
@@ -241,6 +241,30 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 					<ul id="component-tab-left" class="uk-switcher back uk-padding">
 						<li>
 							<div id='projects-cards'>
+								<div class="fixed-action-btn">
+									<a class="btn-floating btn-large top" href="#modal-sections" uk-toggle>
+		<span uk-icon="icon: info"></span>
+	</a>
+
+								</div>
+								<div id="modal-sections" uk-modal>
+									<div class="uk-modal-dialog">
+										<button class="uk-modal-close-default" type="button" uk-close></button>
+										<div class="uk-modal-header">
+											<h2 class="uk-modal-title">Modal Title</h2>
+										</div>
+										<div class="uk-modal-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+												magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+												Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+										<div class="uk-modal-footer uk-text-right">
+											<button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+											<button class="uk-button uk-button-primary" type="button">Save</button>
+										</div>
+									</div>
+								</div>
 								<div class='general-info'>
 									<ul uk-accordion="multiple: true" class='uk-padding'>
 										<li>
@@ -286,7 +310,7 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 								<hr>
 								<div class='uk-grid-small uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2@s uk-padding-small' uk-grid uk-height-match="target: > div > .uk-card">
 									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card" uk-toggle="target: #view-project">
+										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card" uk-toggle="target: #view-summary">
 											<div class="uk-card-badge uk-label">2017</div>
 
 											<h3 class="uk-card-title">Benue</h3>
@@ -296,7 +320,7 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 										</div>
 									</div>
 									<div>
-										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card">
+										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card" uk-toggle="target: #view-summaryb">
 											<div class="uk-card-badge uk-label">2017</div>
 
 											<h3 class="uk-card-title">Anambra</h3>
@@ -304,15 +328,6 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 											<p>UBEC</p>
 											<p>Construction of 2 block of classrooms</p>
 										</div>
-									</div>
-									<div>										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card">
-																				<div class="uk-card-badge uk-label">2017</div>
-
-																				<h3 class="uk-card-title">Anambra</h3>
-
-																				<p>UBEC</p>
-																				<p>Construction of 2 block of classrooms</p>
-																			</div>
 									</div>
 									<div>
 										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card">
@@ -338,7 +353,7 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card">
 											<div class="uk-card-badge uk-label">2017</div>
 
-										 <h3 class="uk-card-title">Benue</h3>
+											<h3 class="uk-card-title">Anambra</h3>
 
 											<p>UBEC</p>
 											<p>Construction of 2 block of classrooms</p>
@@ -348,7 +363,7 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card">
 											<div class="uk-card-badge uk-label">2017</div>
 
-										 <h3 class="uk-card-title">Lagos</h3>
+											<h3 class="uk-card-title">Benue</h3>
 
 											<p>UBEC</p>
 											<p>Construction of 2 block of classrooms</p>
@@ -358,566 +373,342 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card">
 											<div class="uk-card-badge uk-label">2017</div>
 
-										 <h3 class="uk-card-title">Benue</h3>
+											<h3 class="uk-card-title">Lagos</h3>
+
+											<p>UBEC</p>
+											<p>Construction of 2 block of classrooms</p>
+										</div>
+									</div>
+									<div>
+										<div class="uk-card uk-card-default uk-card-hover uk-card-body baka-card">
+											<div class="uk-card-badge uk-label">2017</div>
+
+											<h3 class="uk-card-title">Benue</h3>
 
 											<p>UBEC</p>
 											<p>Construction of 2 block of classrooms</p>
 										</div>
 									</div>
 								</div>
-								<div id="view-project" class="uk-modal-full" uk-modal>
+
+								<div id="view-summary" uk-modal>
+									<div class="uk-modal-dialog">
+										<button class="uk-modal-close-default" type="button" uk-close></button>
+										<div class="uk-modal-header top">
+											<h5 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h5>
+											<br>
+											<p class='uk-text-center'><a>View Project break down</a></p>
+										</div>
+										<div class="uk-modal-body">
+											<div>
+											<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+												<div>
+													<div class=''>
+														<h5 class='uk-text-bold'>Planning</h5>
+														<hr>
+													</div>
+												</div>
+												<div>
+													<div class='uk-grid-small uk-child-width-1-2@s stint' uk-grid>
+														<div>
+															<div>
+																<h6>Budget Amount</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>NGN 3,000,000.00</li>
+																</ul>
+															</div>
+														</div>
+														<div>
+															<div>
+																<h6>Budget source</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>List item 1</li>
+
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class='uk-grid-small uk-child-width-1-1 stint' uk-grid>
+												<div>
+													<div class=''>
+														<h5 class='uk-text-bold'>Tender</h5>
+														<hr>
+													</div>
+												</div>
+												<div>
+													<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+														<div>
+															<div>
+																<h6>Procurement Method</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>List item 1</li>
+
+																</ul>
+															</div>
+														</div>
+														<div>
+															<div>
+																<h6>Items</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>List item 1</li>
+
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class='uk-grid-small uk-child-width-1-1 stint' uk-grid>
+												<div>
+													<div class=''>
+														<h5 class='uk-text-bold'>Award</h5>
+														<hr>
+													</div>
+												</div>
+												<div>
+													<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+														<div>
+															<div>
+																<h6>Procurement Method</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>List item 1</li>
+
+																</ul>
+															</div>
+														</div>
+														<div>
+															<div>
+																<h6>Items</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>List item 1</li>
+
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+												<div>
+													<div class=''>
+														<h5 class='uk-text-bold'>Contract</h5>
+														<hr>
+													</div>
+												</div>
+												<div>
+													<div class='uk-grid-small uk-child-width-1-2@s stint' uk-grid>
+														<div>
+															<div>
+																<h6>Procurement Method</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>List item 1</li>
+
+																</ul>
+															</div>
+														</div>
+														<div>
+															<div>
+																<h6>Items</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>List item 1</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+												<div>
+													<div class=''>
+														<h5 class='uk-text-bold'>Implementation</h5>
+														<hr>
+													</div>
+												</div>
+												<div>
+													<div class='uk-grid-small uk-child-width-1-2@s stint' uk-grid>
+														<div>
+															<div>
+																<h6>Procurement Method</h6>
+																<ul class="uk-list uk-list-large  uk-list-striped">
+																	<li>List item 1</li>
+
+																</ul>
+															</div>
+														</div>
+														<div>
+															<div>
+																<h6>Items</h6>
+																<ul class="uk-list uk-list-large uk-list-striped">
+																	<li>List item 1</li>
+
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										</div>
+										<div class="uk-modal-footer uk-text-right">
+										</div>
+									</div>
+								</div>
+								<div id="view-summaryb" style=".ex {color: red}" uk-modal>
     <div class="uk-modal-dialog">
-        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-
-					<div class='uk-container'>
-
-						<div class='project-overview' id='project-overview'>
-							<div>
-								<div class='uk-flex-center uk-flex uk-margin-top'>
-									<h3 class='uk-text-warning uk-display-inline uk-text-center'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h3> <a href="" class="uk-icon-button uk-margin-left"
-									 uk-icon="icon: social" title="Share" uk-tooltip="pos: bottom" uk-toggle="target: #offcanvas-nav"></a>
-								</div>
-								<div class=''>
-									<div id="offcanvas-nav" uk-offcanvas="overlay: true">
-										<div class="uk-offcanvas-bar uk-flex uk-flex-column">
-											<ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-												<li class="uk-nav-header">Tell people what you've seen here</li>
-												<li class="uk-nav-divider"></li>
-												<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: instagram"></span>Instagram</a></li>
-												<li><a href="https://twitter.com/share"  data-hashtags="budeshi" data-related="ppmonitorNG" data-show-count="false"><span class="uk-margin-small-right" uk-icon="icon: twitter"></span>Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-												<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span>Facebook</a></li>
-												<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: linkedin"></span>Linkedin</a></li>
-												<li class="uk-nav-divider"></li>
-											</ul>
-										</div>
-									</div>
-								</div>
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-modal-header top">
+					<h5 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h5>
+					<br>
+					<p class='uk-text-center'><a href='file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/html/project.html'  target="_blank" >View Project break down</a></p>
+				</div>
+        <div class="uk-modal-body">
+					<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+						<div>
+							<div class='red'>
+								<h5 class='uk-text-bold'>Planning</h5>
 								<hr>
 							</div>
-							<div id='ubecproject'>
-								<ul class="uk-flex uk-flex-center" uk-tab>
-									<li><a href="#">Planning</a></li>
-									<li><a href="#">Initiation (Tender)</a></li>
-									<li><a href="#">Award</a></li>
-									<li><a href="#">Contract</a></li>
-									<li><a href="#">Implementation</a></li>
-								</ul>
-
-								<ul class="uk-switcher uk-margin">
-									<li>
-										<!-- Planning -->
-										<div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center"
-										 uk-grid>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The name of the project that through which this contracting process is funded (if applicable)" uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: tag; ratio: 1"></span>Project Title</em></h4>
-													<div class='border-right uk-padding-small'>
-														<p class='uk-text-right'>Building of six classroom blocks</p>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="Amount estimated for the total cost of an item on the budget line" uk-tooltip="pos: left">&#8358; Budget Amount</em></h4>
-													<div class=''>
-														<p class='uk-text-right'><span class='uk-text-uppercase uk-text-success'>NGN </span>5,000,000</p>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="May be used to provide the title of the budget line, or the programme used to fund this project." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: link; ratio: 1"></span>Budget Source</em></h4>
-													<div class='border-right uk-padding-small'>
-														<p class='uk-text-right'>The Federal Government of Nigeria</p>
-													</div>
-												</div>
-											</div>
-
-										</div>
-										<!-- End of planning -->
-										<a href="#" class='uk-margin' title="To the top" uk-tooltip="pos: right" uk-totop uk-scroll></a>
-									</li>
-									<li>
-										<!-- Tender -->
-										<div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center"
-										 uk-height-match uk-grid>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The entity managing the procurement. This may be different from the buyer who pays for, or uses, the items being procured."
-														 uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: home; ratio: 1"></span>Procuring Entity</em></h4>
-													<div class='border-right uk-padding-small'>
-														<p class='uk-text-right'>Universal basic education comission</p>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="	The current status of the tender." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: folder; ratio: 1"></span>Tender Status</em></h4>
-													<div class=''>
-														<p class='uk-text-right'>Active</p>
-													</div>
-												</div>
-											</div>
-
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="A tender amendment is a formal change to the tender, and generally involves the publication of a new tender notice/release."
-														 uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: file-edit; ratio: 1"></span>Amendments</em></h4>
-													<div class='border-right uk-padding-small'>
-														<table class="uk-table uk-transition-toggle">
-															<thead class='uk-transition-slide-top-small'>
-																<tr>
-																	<th>
-																		Description
-																	</th>
-																	<th>
-																		Rationale
-																	</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td>Title of project was changed from A to B</td>
-																	<td>The community requested for rebuilding of fence instead</td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The procurement method is the procedure used to purchase the relevant works, goods or services." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: settings; ratio: 1"></span>Procurment Method</em></h4>
-													<div class=''>
-														<p class='uk-text-right'>Selective</p>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="All parties who submited a bid on a tender." </span>Tenderers</em></h4>
-													<div class='border-right uk-padding-small'>
-														<ul class="uk-list uk-column-1-2 uk-column-divider">
-															<li>Lipton Construction</li>
-															<li>Dogara Helicopters</li>
-															<li>Julius Berger</li>
-															<li>Dangote Ltd</li>
-															<li>Hp computers</li>
-															<li>Pied Piper</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="All documents and attachments related to the tender, including any notices." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: copy; ratio: 1"></span>Tender Documents</em></h4>
-													<div class="uk-grid-small uk-child-width-1-2@s uk-text-center" uk-grid uk-height-match="target: > div > .uk-card; row: false"
-													 uk-grid>
-														<div>
-															<div class="uk-card uk-card-default uk-card-body" style='background-color: #43c7f2'>
-																<div class="uk-inline-clip uk-transition-toggle">
-																	Request letter for the building of 2 classes
-																	<div class="uk-position-center uk-overlay uk-overlay-default uk-transition-fade">
-																		<span uk-icon="icon: download; ratio: 2"></span>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div>
-															<div class="uk-card uk-card-default uk-card-body" style='background-color: #43c7f2'>
-																<div class="uk-inline-clip uk-transition-toggle">
-																	Approval letter
-																	<div class="uk-position-center uk-overlay uk-overlay-default uk-transition-fade uk-padding">
-																		<span uk-icon="icon: download; ratio: 2"></span>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The goods and services to be purchased, broken into line items wherever possible." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: list; ratio: 1"></span>Items</em></h4>
-													<div class='border-right uk-padding-small'>
-														<table class="uk-table uk-transition-toggle">
-															<thead class="uk-transition-slide-top-small">
-																<tr>
-																	<th>Name</th>
-																	<th>Amount</th>
-																	<th>Unit</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td>Cement Bags</td>
-																	<td>300</td>
-																	<td>Kilograms</td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- End of Tender -->
-										<a href="#" class='uk-margin' title="To the top" uk-tooltip="pos: right" uk-totop uk-scroll></a>
-									</li>
-									<li>
-										<!--Award -->
-										<div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-tile; delay: 500; repeat: true"
-										 uk-height-match uk-grid>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="Award title." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: tag; ratio: 1"></span>Award Title</em></h4>
-													<div class='border-right uk-padding-small'>
-														<p class='uk-text-right'>Universal basic education comission</p>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The date of the contract award. This is usually the date on which a decision to award was made." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: calendar; ratio: 1"></span>Award Date</em></h4>
-													<div class=''>
-														<p class='uk-text-right'>Selective</p>
-													</div>
-												</div>
-											</div>
-
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="An award amendment is a formal change to the details of the award, and generally involves the publication of a new award notice/release."
-														 uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: file-edit; ratio: 1"></span>Amendments</em></h4>
-													<div class='border-right uk-padding-small'>
-														<table class="uk-table uk-transition-toggle">
-															<thead class='uk-transition-slide-top-small'>
-																<tr>
-																	<th>
-																		Description
-																	</th>
-																	<th>
-																		Rationale
-																	</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td>Title of project was changed from A to B</td>
-																	<td>The community requested for rebuilding of fence instead</td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The goods and services awarded in this award, broken into line items wherever possible." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: list; ratio: 1"></span>Items</em></h4>
-													<div class=''>
-														<table class="uk-table uk-transition-toggle">
-															<thead class="uk-transition-slide-top-small">
-																<tr>
-																	<th>Name</th>
-																	<th>Amount</th>
-																	<th>Unit</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td>Cement Bags</td>
-																	<td>300</td>
-																	<td>Kilograms</td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The suppliers awarded this award." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: users; ratio: 1"></span>Suppliers</em></h4>
-													<div class='border-right uk-padding-small'>
-														<ul class="uk-list uk-column-1-2 uk-column-divider">
-															<li>Lipton Construction</li>
-															<li>Dogara Helicopters</li>
-															<li>Julius Berger</li>
-															<li>Dangote Ltd</li>
-															<li>Hp computers</li>
-															<li>Pied Piper</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="All documents and attachments related to the award, including any notices." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: copy; ratio: 1"></span>Award Documents</em></h4>
-													<div class="uk-grid-small uk-child-width-1-2@s uk-text-center" uk-grid uk-height-match="target: > div > .uk-card; row: false"
-													 uk-grid>
-														<div>
-															<div class="uk-card uk-card-default uk-card-body" style='background-color: #43c7f2'>
-																<div class="uk-inline-clip uk-transition-toggle">
-																	Request letter for the building of 2 classes
-																	<div class="uk-position-center uk-overlay uk-overlay-default uk-transition-fade">
-																		<span uk-icon="icon: download; ratio: 2"></span>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div>
-															<div class="uk-card uk-card-default uk-card-body" style='background-color: #43c7f2'>
-																<div class="uk-inline-clip uk-transition-toggle">
-																	Approval letter
-																	<div class="uk-position-center uk-overlay uk-overlay-default uk-transition-fade uk-padding">
-																		<span uk-icon="icon: download; ratio: 2"></span>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<a href="#" class='uk-margin' title="To the top" uk-tooltip="pos: right" uk-totop uk-scroll></a>
-									</li>
-									<li>
-										<!-- Contract -->
-										<div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-tile; delay: 500; repeat: true"
-										 uk-height-match uk-grid>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="Contract title." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: tag; ratio: 1"></span>Contract Title</em></h4>
-													<div class='uk-text-right border-right uk-padding-small'>
-														Contruction of five blocks of classrooms
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="Contract description." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: table; ratio: 1"></span>Description</em></h4>
-													<div>
-
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The current status of the contract." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: folder; ratio: 1"></span>Contract Status</em></h4>
-													<div class='border-right uk-padding-small'>
-														<p class='uk-text-right'>Active</p>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The start and end date for the contract." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: clock; ratio: 1"></span>Contract Period</em></h4>
-													<div class=''>
-														<p class='uk-text-right'>8/04/2016 - 25/10/2017</p>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The total value of this contract. A negative value indicates that the contract will involve payments from the supplier to the buyer (commonly used in concession contracts)."
-														 uk-tooltip="pos: left">&#8358; Contract Amount</em></h4>
-													<div class='border-right uk-padding-small'>
-														<p class='uk-text-right'><span class='uk-text-uppercase uk-text-success'>NGN </span>5,000,000</p>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="All documents and attachments related to the contract, including any notices." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: copy; ratio: 1"></span>Tender Documents</em></h4>
-													<div class="uk-grid-small uk-child-width-1-2@s uk-text-center" uk-grid uk-height-match="target: > div > .uk-card; row: false"
-													 uk-grid>
-														<div>
-															<div class="uk-card uk-card-default uk-card-body" style='background-color: #43c7f2'>
-																<div class="uk-inline-clip uk-transition-toggle">
-																	Request letter for the building of 2 classes
-																	<div class="uk-position-center uk-overlay uk-overlay-default uk-transition-fade">
-																		<span uk-icon="icon: download; ratio: 2"></span>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div>
-															<div class="uk-card uk-card-default uk-card-body" style='background-color: #43c7f2'>
-																<div class="uk-inline-clip uk-transition-toggle">
-																	Approval letter
-																	<div class="uk-position-center uk-overlay uk-overlay-default uk-transition-fade uk-padding">
-																		<span uk-icon="icon: download; ratio: 2"></span>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="The goods, services, and any intangible outcomes in this contract." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: list; ratio: 1"></span>Items</em></h4>
-													<div class='border-right uk-padding-small'>
-														<table class="uk-table uk-transition-toggle">
-															<thead class="uk-transition-slide-top-small">
-																<tr>
-																	<th>Name</th>
-																	<th>Amount</th>
-																	<th>Unit</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td>Cement Bags</td>
-																	<td>300</td>
-																	<td>Kilograms</td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- End of contract -->
-										<a href="#" class='uk-margin' title="To the top" uk-tooltip="pos: right" uk-totop uk-scroll></a>
-									</li>
-									<li>
-										<!-- Implementation -->
-										<div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center"
-										 uk-height-match uk-grid>
-											<div class='uk-width-1-1@s'>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="A list of the spending transactions made against this contract." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: users; ratio: 1"></span><span class='uk-margin-small-right'uk-icon="icon: credit-card; ratio: 1"></span>Transactions</em></h4>
-													<table class="uk-table uk-transition-toggle">
-														<thead class="uk-transition-slide-top-small">
-															<tr>
-																<th>Payer</th>
-																<th>Amount</th>
-																<th>Payee</th>
-																<th>Date</th>
-															</tr>
-														</thead>
-														<tbody class="">
-															<tr>
-																<td>GIFMIS</td>
-																<td><span class='uk-text-success'>NGN</span> 300,000</td>
-																<td>Kunle Constructions</td>
-																<td>23/04/2017</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="Documentation of stages that have been completed within this procurement process." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: history; ratio: 1"></span>Milestones</em></h4>
-													<div class='border-right uk-padding-large'>
-														<progress id="progressbar" class="uk-progress" value="25" max="100" title="<ul>
-													 <li>Milestone Type - Approval</li>
-													 <li>Due Date: 3/12/2017</li>
-													 <li>Status: Scheduled</li>
-												 </ul>" uk-tooltip></progress>
-														<progress id="progressbar" class="uk-progress" value="50" max="100" title="<ul>
-													 <li>Milestone Type - Approval</li>
-													 <li>Due Date: 3/12/2017</li>
-													 <li>Status: Not Met</li>
-												 </ul>" uk-tooltip></progress>
-														<progress id="progressbar" class="uk-progress" value="75" max="100" title="<ul>
-													 <li>Milestone Type - Approval</li>
-													 <li>Due Date: 3/12/2017</li>
-													 <li>Status: Partially Met</li>
-												 </ul>" uk-tooltip></progress>
-														<progress id="progressbar" class="uk-progress" value="100" max="100" title="<ul>
-													 <li>Milestone Type - Approval</li>
-													 <li>Due Date: 3/12/2017</li>
-													 <li>Status: Met</li>
-												 </ul>" uk-tooltip></progress>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="uk-tile uk-tile-default uk-tile-small">
-													<h4 class="uk-heading-line uk-text-right"><em title="Comments by procurement monitors who supervised the implementatio of a project" uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: commenting; ratio: 1"></span>Monitors Report</em></h4>
-													<div clas='uk-panel uk-panel-scrollable'>
-														Lorem ipsum dolor sit amet, et his dictas iuvaret gubergren. Et dicam viderer instructior mea, sit homero suscipit in. Paulo
-														aliquip partiendo te vel, ne zril dolore duo. Solet epicuri liberavisse vix cu, duo mazim populo ei, solum ponderum
-														ut qui. Sed porro essent virtute et. Fierent constituam disputando sea ex. Te purto idque est, feugait vituperatoribus
-														ad vis. Dicant commune eum cu. Sit an sale oporteat adversarium, dicit invidunt perpetua cu usu. Ne falli similique
-														signiferumque sea, et mazim populo convenire mea. At diam meis aeque ius. Te vim oratio aliquam debitis, utroque
-														praesent voluptaria vim ex. Labores detraxit contentiones ad vis, at quis summo saepe mel. Veri suscipit atomorum
-														an nam, an fabulas delenit ius. Ex choro nostrud deleniti mea, et minim doming persecuti sea. Cu justo omnesque
-														cum, ut quo feugiat mandamus, quot praesent ad sea. In sed fabulas omittam concludaturque. Enim graecis dignissim
-														no his, ne agam nominati qualisque sit. Mel animal invenire an, utinam scribentur voluptatibus sea ei. Has te iisque
-														noluisse, mei forensibus reprimique ne. Qui exerci legere ut, his erant cetero no. Ad cum delicata indoctum erroribus,
-														qui vide aperiri at, ne sumo nihil sea. Vitae principes evertitur nam in, mei homero concludaturque ne. Enim utamur
-														interpretaris at mel, duis hendrerit expetendis an per. Ad pro case reque dicunt, sed ex purto dictas placerat.
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center uk-grid-match" uk-grid>
-											<div>
-												<div class="uk-card uk-card-default uk-card-body">
-													<img src="../images/slide1.jpg">
-												</div>
-											</div>
-											<div>
-												<div class="uk-card uk-card-default uk-card-body"><img src="../images/slide2.jpg"></div>
-											</div>
-											<div>
-												<div class="uk-card uk-card-default uk-card-body"><img src="../images/slide3.jpg"></div>
-											</div>
-										</div>
-										<!-- End of Implementation -->
-										<a href="#" class='uk-margin' title="To the top" uk-tooltip="pos: right" uk-totop uk-scroll></a>
-									</li>
-								</ul>
+						</div>
+						<div>
+							<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+								<div>
+									<div class="uk-margin">
+							        <label class="uk-form-label" for="form-stacked-text">Budget Amount</label>
+							        <div class="uk-form-controls stint">
+							            <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+							        </div>
+							    </div>
+								</div>
+								<div>
+									<div class="uk-margin">
+							        <label class="uk-form-label" for="form-stacked-text">Budget Source</label>
+							        <div class="uk-form-controls stint">
+							            <input class="uk-input" id="form-stacked-text" type="text" value="Some text..." disabled>
+							        </div>
+							    </div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class=''>
-							<div class='uk-container'>
-								<div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
-									<div>
-										<div class=''>
-											<a href='http://procurementmonitor.org/ppdc/'>
-										<img src='../images/ppdc-logo2.png' width="50%"/>
-									</a>
-										</div>
-									</div>
-									<div>
-										<div class=''>
-											<a href='http://smc.edu.ng/'>
-										<img src='../images/smc.png' width="50%" />
-									</a>
-										</div>
-									</div>
-									<div>
-										<div class=''>
-											<a href='http://ptcij.org/'>
-										<img src='../images/ptcij.png' width="50%" />
-									</a>
-										</div>
-									</div>
-								</div>
+					<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+						<div>
+							<div class=''>
+								<h5 class='uk-text-bold'>Tender</h5>
+								<hr>
 							</div>
-						<div class='uk-container'>
-							<div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
+						</div>
+						<div>
+							<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
 								<div>
-									<div class='uk-float-right'>
-										<a href='https://www.omidyar.com/'>
-										<img src='../images/omd.png' width="40%" />
-									</a>
+									<div class="uk-margin">
+											<label class="uk-form-label" for="form-stacked-text">Budget Amount</label>
+											<div class="uk-form-controls stint">
+													<input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+											</div>
 									</div>
 								</div>
 								<div>
-									<div class='uk-float-left'>
-										<a href='https://www.macfound.org/'>
-										<img src='../images/macarthur-logo.png' width="50%" />
-									</a>
+									<div class="uk-margin">
+											<label class="uk-form-label" for="form-stacked-text">Budget Source</label>
+											<div class="uk-form-controls stint">
+													<input class="uk-input" id="form-stacked-text" type="text" value="Some text..." disabled>
+											</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+						<div>
+							<div class=''>
+								<h5 class='uk-text-bold'>Award</h5>
+								<hr>
+							</div>
+						</div>
+						<div>
+							<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+								<div>
+									<div class="uk-margin">
+											<label class="uk-form-label" for="form-stacked-text">Budget Amount</label>
+											<div class="uk-form-controls stint">
+													<input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+											</div>
+									</div>
+								</div>
+								<div>
+									<div class="uk-margin">
+											<label class="uk-form-label" for="form-stacked-text">Budget Source</label>
+											<div class="uk-form-controls stint">
+													<input class="uk-input" id="form-stacked-text" type="text" value="Some text..." disabled>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+						<div>
+							<div class=''>
+								<h5 class='uk-text-bold'>Contract</h5>
+								<hr>
+							</div>
+						</div>
+						<div>
+							<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+								<div>
+									<div class="uk-margin stint">
+											<label class="uk-form-label" for="form-stacked-text">Budget Amount</label>
+											<div class="uk-form-controls">
+													<input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+											</div>
+									</div>
+								</div>
+								<div>
+									<div class="uk-margin">
+											<label class="uk-form-label" for="form-stacked-text">Budget Source</label>
+											<div class="uk-form-controls stint">
+													<input class="uk-input" id="form-stacked-text" type="text" value="Some text..." disabled>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+						<div>
+							<div class=''>
+								<h5 class='uk-text-bold'>Implementation</h5>
+								<hr>
+							</div>
+						</div>
+						<div>
+							<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+								<div>
+									<div class="uk-margin">
+											<label class="uk-form-label" for="form-stacked-text">Status</label>
+											<div class="uk-form-controls stint">
+													<input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+											</div>
+									</div>
+								</div>
+								<div>
+									<div class="uk-margin">
+											<label class="uk-form-label" for="form-stacked-text">Budget Source</label>
+											<div class="uk-form-controls stint">
+													<input class="uk-input" id="form-stacked-text" type="text" value="Some text..." disabled>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+        </div>
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+            <button class="uk-button uk-button-primary" type="button">Save</button>
+        </div>
     </div>
 </div>
 								<ul class="uk-pagination uk-flex-center uk-margin" uk-margin>
@@ -1004,6 +795,105 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 								</div>
 							</div>
 						</li>
+						<li>
+							<div id='ov-table'>
+								<div class="uk-overflow-auto">
+									<table class="uk-table uk-table-small uk-table-divider uk-table-hover">
+										<thead>
+											<tr>
+												<th>Title</th>
+												<th>Description</th>
+												<th>Location</th>
+												<th>Contractor</th>
+												<th>Contract Amount</th>
+												<th>Year</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><a href='#view-report' uk-toggle> Renovation/Rehabilitation of LEA Primary School</a></td>
+												<td>Renovation/Rehabilitation of LEA Primary School, Chika, Amac</td>
+												<td>Abuja</td>
+												<td>Balsa A.B.S Nig Ltd</td>
+												<td>₦6,043,000.00</td>
+												<td>2016</td>
+											</tr>
+											<tr>
+												<td>Renovation/Rehabilitation of LEA Primary School</td>
+												<td>Renovation/Rehabilitation of LEA Primary School, Rafin Sanyi, Abaji Area Council</td>
+												<td>Abuja</td>
+												<td>SEM-LUK VENTURES LTD</td>
+												<td>₦24,500,320.25</td>
+												<td>2016</td>
+											</tr>
+											<tr>
+												<td>Classrooms at Islamiyya Tashar Mudi Primary School</td>
+												<td>Construction of 1 blocks of 2 Classrooms at Islamiyya Tashar Mudi Primary School Kamba Dandi LGA</td>
+												<td>Abuja</td>
+												<td>I.A.C ALLIED TECH & CONST. CO LTD</td>
+												<td>₦24,250,200.50</td>
+												<td>2017</td>
+											</tr>
+										</tbody>
+									</table>
+									<div id="view-report" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-modal-header top">
+					<h4 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h4>
+					<br>
+					<p class='uk-text-center'><a  href='file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/html/project.html'  target="_blank" >View Project break down</a></p>
+					<p>
+				</div>
+        <div class="uk-modal-body">
+					<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+						<div>
+							<h4 class="uk-heading-line uk-text-right"><em title="Comments by procurement monitors who supervised the implementatio of a project" uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: commenting; ratio: 1"></span>Monitors Report</em></h4>
+							<div clas='uk-panel uk-panel-scrollable'>
+								Lorem ipsum dolor sit amet, et his dictas iuvaret gubergren. Et dicam viderer instructior mea, sit homero suscipit in. Paulo
+								aliquip partiendo te vel, ne zril dolore duo. Solet epicuri liberavisse vix cu, duo mazim populo ei, solum ponderum
+								ut qui. Sed porro essent virtute et. Fierent constituam disputando sea ex. Te purto idque est, feugait vituperatoribus
+								ad vis. Dicant commune eum cu. Sit an sale oporteat adversarium, dicit invidunt perpetua cu usu. Ne falli similique
+								signiferumque sea, et mazim populo convenire mea. At diam meis aeque ius. Te vim oratio aliquam debitis, utroque
+								praesent voluptaria vim ex. Labores detraxit contentiones ad vis, at quis summo saepe mel. Veri suscipit atomorum
+								an nam, an fabulas delenit ius. Ex choro nostrud deleniti mea, et minim doming persecuti sea. Cu justo omnesque
+								cum, ut quo feugiat mandamus, quot praesent ad sea. In sed fabulas omittam concludaturque. Enim graecis dignissim
+								no his, ne agam nominati qualisque sit. Mel animal invenire an, utinam scribentur voluptatibus sea ei. Has te iisque
+								noluisse, mei forensibus reprimique ne. Qui exerci legere ut, his erant cetero no. Ad cum delicata indoctum erroribus,
+								qui vide aperiri at, ne sumo nihil sea. Vitae principes evertitur nam in, mei homero concludaturque ne. Enim utamur
+								interpretaris at mel, duis hendrerit expetendis an per. Ad pro case reque dicunt, sed ex purto dictas placerat.
+							</div>
+        </div>
+				<div>
+					<h4 class="uk-heading-line uk-text-right"><em title="Pictures taking by the monitorss during thier monitoring exercise" uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: image; ratio: 1"></span>Images</em></h4>
+					<div class="uk-grid-small uk-child-width-1-3@s uk-margin" uk-grid uk-lightbox="animation: scale">
+						<div>
+		<a class="uk-inline" href="../images/slide1.jpg" caption="Caption 1">
+				<img src="../images/slide1.jpg" alt="">
+		</a>
+</div>
+<div>
+		<a class="uk-inline" href="../images/slide2.jpg" caption="Caption 2">
+				<img src="../images/slide2.jpg" alt="">
+		</a>
+</div>
+<div>
+		<a class="uk-inline" href="../images/slide3.jpg" caption="Caption 3">
+				<img src="../images/slide3.jpg" alt="">
+		</a>
+</div>
+					</div>
+				</div>
+			</div>
+			</div>
+        <div class="uk-modal-footer uk-text-right">
+					<button class="uk-modal-close" type="button"><span uk-icon="icon: close"></span></button>
+        </div>
+    </div>
+</div>
+								</div>
+							</div>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -1012,6 +902,7 @@ background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, F
 	<script src="../js/index.js"></script>
 	<script src='../js/map.js'></script>
 	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+
 	</script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhIkwKhcGrtLh3Ld2MC7PZmNwIma3R5pE&callback=initMap">
 
