@@ -245,7 +245,6 @@
 									<a class="btn-floating btn-large top" href="#test" uk-toggle>
 										<span uk-icon="icon: info"></span>
 									</a>
-
 								</div>
 								<div id="test" class="uk-modal-full" uk-modal>
 									<div class="uk-modal-dialog">
@@ -255,28 +254,15 @@
 											<div class="uk-padding-large">
 												<h1 class='mogra uk-text-center'>Did you know?</h1>
 												<hr>
-												<p class=' comforta'>You can select more than one parameter for each input field in the Finder. Also your search results reflects in all the tabs except the "Monitored" tab.</p>
-												<a uk-icon="icon: chevron-right" href="#test2" uk-toggle></a>
+												<p class=' comforta'>You can select more than one parameter for each input field in the Finder. Also your search results reflects
+													in all the tabs except the "Verified by PPDC?" tab. "Verified by PPDC?" Tab is a display of all the projects our procurement monitors
+													have verified the status and written a report, some supported with pictures</p>
+
 											</div>
 										</div>
 									</div>
 								</div>
-								<div id="test2" class="uk-modal-full" uk-modal>
-									<div class="uk-modal-dialog">
-										<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-										<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-											<div class="uk-background-cover" style="background-image: url('../images/sofar.jpg');" uk-height-viewport></div>
-											<div class="uk-padding-large">
-												<h1>Headline</h1>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-													magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-													Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-												<a href="" uk-icon="icon: chevron-right"></a>
-											</div>
-										</div>
-									</div>
-								</div>
+
 								<div class='general-info'>
 									<ul uk-accordion="multiple: true" class='uk-padding'>
 										<li>
@@ -407,7 +393,8 @@
 									<div class="uk-modal-dialog">
 										<button class="uk-modal-close-default" type="button" uk-close></button>
 										<div class="uk-modal-header top">
-											<p class='uk-light'>Project summary: </p><h5 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h5>
+											<p class='uk-light'>Project summary: </p>
+											<h5 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h5>
 										</div>
 										<div class="uk-modal-body uk-form-horizontal">
 											<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
@@ -589,6 +576,114 @@
 							</div>
 						</li>
 						<li>
+							<div class="fixed-action-btn uk-visible@m">
+								<a class="btn-floating btn-large top" href="#table-tip1" uk-toggle>
+									<span uk-icon="icon: info"></span>
+								</a>
+							</div>
+
+
+							<div id="table-tip1" class="uk-modal-full" uk-modal>
+								<div class="uk-modal-dialog">
+									<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+									<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+										<div>
+											<div class='uk-child-width-1-1' uk-grid>
+												<div class="">
+													<div class='uk-padding'>
+														<img src="../images/csv.png" alt="" />
+													</div>
+												</div>
+												<div class="">
+													<div class='uk-padding'>
+														<img src="../images/export.png" alt="" />
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="uk-padding-large">
+											<h1 class='mogra uk-text-center'>Did you know?</h1>
+											<hr>
+											<p class=' comforta'>
+												<ul class="uk-list uk-list-bullet">
+													<li>You can export table by copying to your clipboard or downloaing as either CSV or PDF</li>
+													<li>You can also export charts in any of these formats (PNG, JPEG, PDF, SVG)</li>
+												</ul>
+											</p>
+											<a uk-icon="icon: chevron-left; ratio: 2" class='uk-float-left' href="#table-tip4" uk-toggle></a><a uk-icon="icon: chevron-right; ratio: 2"
+											 class='uk-float-right' href="#table-tip2" uk-toggle></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="table-tip2" class="uk-modal-full" uk-modal>
+								<div class="uk-modal-dialog">
+									<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+									<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+										<div class="">
+											<div class='uk-child-width-1-1' uk-grid>
+												<div class="">
+													<div class='uk-padding'>
+														<img src="../images/header.png" alt="" width='70%' />
+													</div>
+												</div>
+												<div class="">
+													<div class='uk-padding'>
+														<img src="../images/selected.png" alt="" />
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="uk-padding-large">
+											<h1 class='mogra uk-text-center'>Did you know?</h1>
+											<hr>
+											<p class=' comforta'>
+												<ul class="uk-list uk-list-bullet">
+														<li>By clicking on the arrows next to the column headers you can sort the table view in descending or ascending order.</li>
+														<li>You can see the number of projects selected underneath the table</li>
+												</ul>
+												</p>
+											<a uk-icon="icon: chevron-left; ratio: 2" class='uk-float-left' href="#table-tip1" uk-toggle><a uk-icon="icon: chevron-right; ratio: 2" class='uk-float-right' href="#table-tip3" uk-toggle></a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+														<div id="table-tip3" class="uk-modal-full" uk-modal>
+															<div class="uk-modal-dialog">
+																<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+																<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+																	<div>
+																		<div class='uk-child-width-1-1' uk-grid>
+																			<div class="">
+																				<div class='uk-padding'>
+																					<img src="../images/row.png" alt="" width='70%' />
+																				</div>
+																			</div>
+																			<div class="">
+																				<div class='uk-padding'>
+																					<img src="../images/states.png" alt="" />
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="uk-padding-large">
+																		<h1 class='mogra uk-text-center'>Did you know?</h1>
+																		<hr>
+																		<p class=' comforta'>
+																			<ul class="uk-list uk-list-bullet">
+																					<li>You can search for projects in the table and select them by clicking on the checkbox on the first column of the roll. To compare simply click the compare button below the chart. Note that when you select a row it changes background-color. </li>
+																			</ul>
+																		</p>
+																		<a uk-icon="icon: chevron-left; ratio: 2" class='uk-float-left' href="#table-tip2" uk-toggle></a><a uk-icon="icon: chevron-right; ratio: 2"
+																		 class='uk-float-right' href="#table-tip1" uk-toggle></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+
 							<div id='ov-table'>
 								<div class="uk-overflow-auto">
 									<table class="uk-table uk-table-small uk-table-divider uk-table-hover">
@@ -634,6 +729,125 @@
 
 						</li>
 						<li>
+
+
+							<div class="fixed-action-btn uk-visible@m">
+								<a class="btn-floating btn-large top" href="#com-tip1" uk-toggle>
+										<span uk-icon="icon: info"></span>
+									</a>
+							</div>
+
+														<div id="com-tip1" class="uk-modal-full" uk-modal>
+															<div class="uk-modal-dialog">
+																<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+																<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+																	<div>
+																		<div class='uk-child-width-1-1' uk-grid>
+																			<div class="">
+																				<div class='uk-padding'>
+																					<img src="../images/type.png" alt="" />
+																				</div>
+																			</div>
+																			<div class="">
+																				<div class='uk-padding'>
+																					<img src="../images/parameter.png" alt="" />
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="uk-padding-large">
+																		<h1 class='mogra uk-text-center'>Did you know?</h1>
+																		<hr>
+																		<p class=' comforta'>
+																			<ul class="uk-list uk-list-bullet">
+																				<li>You can change the chart type by clicking the <b>Select Chart</b> type button. You can then pick another chart
+																					type from the dropdown</li>
+																				<li>You can also change the chart parameters to by Ministries, Agencies, Departments (MDA), or States or Year.</li>
+																			</ul>
+																		</p>
+																		<a uk-icon="icon: chevron-left; ratio: 2" class='uk-float-left' href="#com-tip3" uk-toggle></a><a uk-icon="icon: chevron-right; ratio: 2"
+																		 class='uk-float-right' href="#com-tip2" uk-toggle></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div id="com-tip2" class="uk-modal-full" uk-modal>
+															<div class="uk-modal-dialog">
+																<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+																<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+																	<div>
+																		<div class='uk-child-width-1-1' uk-grid>
+																			<div class="">
+																				<div class='uk-child-width-1-2 uk-grid-collapse' uk-grid>
+																					<div class="">
+																						<div class='uk-padding'>
+																							<img src="../images/pointer.png" alt="" />
+																						</div>
+																					</div>
+																					<div class="">
+																						<div class='uk-padding'>
+																							<img src="../images/nobud.png" alt="" />
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="">
+																				<div class='uk-padding'>
+																					<img src="../images/figure.png" alt="" />
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="uk-padding-large">
+																		<h1 class='mogra uk-text-center'>Did you know?</h1>
+																		<hr>
+																		<p class=' comforta'>
+																			<ul class="uk-list uk-list-bullet">
+																				<li>When you click on the label below the chart you can remove the disply of that parameter from the chart</li>
+																				<li>If you hover over points/bars on the chart is displays amounts in figures.</li>
+																			</ul>
+																		</p>
+																		<a uk-icon="icon: chevron-left; ratio: 2" class='uk-float-left' href="#com-tip1" uk-toggle></a><a uk-icon="icon: chevron-right; ratio: 2"
+																		 class='uk-float-right' href="#com-tip3" uk-toggle></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="com-tip3" class="uk-modal-full" uk-modal>
+															<div class="uk-modal-dialog">
+																<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+																<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+																	<div>
+																		<div class='uk-child-width-1-1' uk-grid>
+																			<div class="">
+																				<div class='uk-padding'>
+																					<img src="../images/com.png" alt="" width='70%' />
+																				</div>
+																			</div>
+																			<div class="">
+																				<div class='uk-padding'>
+																					<img src="../images/states.png" alt="" />
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="uk-padding-large">
+																		<h1 class='mogra uk-text-center'>Did you know?</h1>
+																		<hr>
+																		<p class=' comforta'>
+																			<ul class="uk-list uk-list-bullet">
+																				<li>You can use the finder to do a comparison. E.g Comparison between 2 or more MDAs. States, Years, and even in
+																					a particular year or yeaars. </li>
+
+																			</ul>
+																		</p>
+																		<a uk-icon="icon: chevron-left; ratio: 2" class='uk-float-left' href="#com-tip2" uk-toggle></a><a uk-icon="icon: chevron-right; ratio: 2"
+																		 class='uk-float-right' href="#com-tip1" uk-toggle></a>
+																	</div>
+																</div>
+															</div>
+														</div>
 							<div class='charts'>
 								<div class="uk-margin">
 									<div class="uk-form-controls">
