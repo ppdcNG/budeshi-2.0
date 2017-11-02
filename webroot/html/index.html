@@ -395,6 +395,13 @@
 										<div class="uk-modal-header top">
 											<p class='uk-light'>Project summary: </p>
 											<h5 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h5>
+											<div class='uk-display-block uk-flex uk-flex-center uk-text-center'>
+												<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+													<div class='uk-float-left'>
+														<a href="" class="" uk-icon="icon: comment" title="Click to give feedback on the project" uk-tooltip="pos: bottom" uk-toggle="target: #feedback-form"></a>
+													</div>
+											</div>
+										</div>
 										</div>
 										<div class="uk-modal-body uk-form-horizontal">
 											<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
@@ -555,8 +562,88 @@
 											<p class='uk-text-center'><a href='file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/html/project.html' target="_blank">View Project break down for all stages</a></p>
 										</div>
 									</div>
-
 								</div>
+
+								<div id="feedback-form" class="uk-modal-container" uk-modal>
+									<div class="uk-modal-dialog">
+										<button class="uk-modal-close-default" type="button" uk-close></button>
+										<button class="uk-modal-close-default" type="button" uk-close></button>
+										<div class="uk-modal-header top">
+											<p class='uk-light'>Give feedback for: </p>
+											<h5 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h5>
+										</div>
+										<div class="uk-modal-body">
+
+											<form class="uk-form-stacked uk-container">
+
+												<fieldset class="uk-fieldset">
+													<legend class="uk-legend">Personal Details</legend>
+													<div class='uk-grid-small uk-child-width-1-2@s uk-padding' uk-grid>
+														<div>
+															<div class="uk-margin">
+																<label class="uk-form-label" for="form-stacked-text">First Name</label>
+																<div class="uk-form-controls">
+																	<input class="uk-input" id="form-stacked-text" type="text" placeholder="John">
+																</div>
+															</div>
+														</div>
+														<div>
+															<div class="uk-margin">
+																<label class="uk-form-label" for="form-stacked-text">Last Name</label>
+																<div class="uk-form-controls">
+																	<input class="uk-input" id="form-stacked-text" type="text" placeholder="Doe">
+																</div>
+															</div>
+														</div>
+														<div>
+															<div class="uk-margin">
+																<label class="uk-form-label" for="form-stacked-text">Email</label>
+																<div class="uk-form-controls">
+																	<input class="uk-input" id="form-stacked-text" type="email" placeholder="john.doe@email.com">
+																</div>
+															</div>
+														</div>
+														<div>
+															<div class="uk-margin">
+																<label class="uk-form-label" for="form-stacked-text">Phone</label>
+																<div class="uk-form-controls">
+																	<input class="uk-input" id="form-stacked-text" type="tel" placeholder="+234-80-234-234-59">
+																</div>
+															</div>
+														</div>
+													</div>
+												</fieldset>
+												<fieldset class="uk-fieldset">
+													<legend class="uk-legend">Feedback</legend>
+													<div>
+														<div class="uk-padding">
+															<label class="uk-form-label" for="form-stacked-text">Feedback/report</label>
+															<div class="uk-form-controls">
+																<textarea class="uk-textarea" rows="5" placeholder="Write your feedback concerning this project"></textarea>
+															</div>
+														</div>
+													</div>
+												</fieldset>
+												<div class="uk-margin">
+													<div class="uk-form-label">Do you want your feedback to be published as anonymous</div>
+													<div class="uk-form-controls">
+														<label><input class="uk-radio" type="radio" name="radio1"> YES</label><br>
+														<label><input class="uk-radio" type="radio" name="radio1"> NO </label>
+													</div>
+												</div>
+
+											</form>
+
+
+										</div>
+										<div class="uk-modal-footer uk-text-right">
+											<button class="uk-button uk-button-default uk-float-left uk-modal-close" type="button">Cancel</button>
+											<button class="uk-button uk-button-primary uk-modal-close" type="button">Submit</button>
+										</div>
+									</div>
+								</div>
+
+
 
 								<ul class="uk-pagination uk-flex-center uk-margin" uk-margin>
 									<li><a href="#"><span uk-pagination-previous></span></a></li>

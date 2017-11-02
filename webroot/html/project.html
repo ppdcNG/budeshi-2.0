@@ -6,10 +6,11 @@
 	<meta charset="utf-8">
 	<title>Project Title</title>
 	<!--<meta property="og:url"           content="http://www.your-domain.com/your-page.html" /> -->
-<meta property="og:type"          content="website" />
-<meta property="og:title"         content="Budeshi 2.0" />
-<meta property="og:description"   content="Using Open Contracting Data Standards(OCDS) to disclosure  public institution's procurement information in Nigeria" />
-<meta property="og:image"         content="file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/images/budeshi.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Budeshi 2.0" />
+	<meta property="og:description" content="Using Open Contracting Data Standards(OCDS) to disclosure  public institution's procurement information in Nigeria"
+	/>
+	<meta property="og:image" content="file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/images/budeshi.png" />
 	<link rel="stylesheet" href="../css/uikit.min.css" />
 	<link rel="stylesheet" href="../css/styles.css" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
@@ -24,13 +25,13 @@
 
 	<!-- Loading modal -->
 	<div id="modal-center" class="uk-flex-top" uk-modal='bg-close: false'>
-	    <div class="uk-modal-dialog uk-modal-body uk-position-center trans-back uk-light">
+		<div class="uk-modal-dialog uk-modal-body uk-position-center trans-back uk-light">
 
-					<div class="loading-pulse">
+			<div class="loading-pulse">
+
+			</div>
 
 		</div>
-
-	    </div>
 	</div>
 	<!-- End of loading modal -->
 	<nav class="uk-navbar-container uk-navbar-transparent top" uk-sticky uk-navbar>
@@ -41,21 +42,22 @@
 		</div>
 		<div class='uk-navbar-right  uk-padding-small'>
 			<!-- This is a button toggling the modal -->
-			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap uk-light" type="button" style='margin: 0 auto' uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
+			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap uk-light" type="button" style='margin: 0 auto'
+			 uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
 
 			<!-- This is the modal -->
 			<div id="find-project" uk-modal='bg-close: false'>
 				<div class="uk-modal-dialog uk-modal-body">
 					<h2 class="uk-modal-title">Find Projects</h2>
 					<form>
-					<div class="filter-param uk-panel uk-placeholder">
-						<div class='mda uk-margin'>
-							<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
-							<div uk-dropdown="pos: bottom-justify; boundary: .mda; boundary-align: true; mode: click">
-								<ul class="uk-nav uk-dropdown-nav">
-									<li class="uk-active"><a href="#">Choose MDA</a></li>
-									<li class="uk-nav-divider"></li>
-									<div class="uk-margin">
+						<div class="filter-param uk-panel uk-placeholder">
+							<div class='mda uk-margin'>
+								<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
+								<div uk-dropdown="pos: bottom-justify; boundary: .mda; boundary-align: true; mode: click">
+									<ul class="uk-nav uk-dropdown-nav">
+										<li class="uk-active"><a href="#">Choose MDA</a></li>
+										<li class="uk-nav-divider"></li>
+										<div class="uk-margin">
 											<select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
 												<option value="dc">Universal Basic Education Commission</option>
 												<option value="le">National Primary Health Care Development Centre</option>
@@ -65,25 +67,25 @@
 												<option value="jb">ustomer Protection Council</option>
 												</select>
 											<script type="text/javascript">
-													$('#select-mda').select2({
-															placeholder: "Search for MDA",
-															dropdownParent: $('#find-project')
-														});
+												$('#select-mda').select2({
+													placeholder: "Search for MDA",
+													dropdownParent: $('#find-project')
+												});
 											</script>
-									</div>
-								</ul>
+										</div>
+									</ul>
 
+								</div>
 							</div>
-						</div>
 
-						<div class='uk-child-width-1-2@s uk-child-width-1-1@s' uk-grid>
-							<div class='states'>
-								<button class="uk-button uk-button-default" type="button" style='width: 100%'>State</button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									Choose State
-									<hr>
-									<div class="uk-margin">
-								<select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
+							<div class='uk-child-width-1-2@s uk-child-width-1-1@s' uk-grid>
+								<div class='states'>
+									<button class="uk-button uk-button-default" type="button" style='width: 100%'>State</button>
+									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+										Choose State
+										<hr>
+										<div class="uk-margin">
+											<select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
 								<option value='abia'>Abia</option>
 								<option value='adamawa'>Adamawa</option>
 								<option value='anambra'>Anambra</option>
@@ -122,23 +124,23 @@
 								<option value='zamfara'>Zamfara</option>
 								<option value='fct'>Federal Capital Territory (FCT)</option>
 								</select>
-								<script type="text/javascript">
-								$('#state').select2({
-										placeholder: "Search for state",
-										dropdownParent: $('#find-project')
-									});
-								</script>
-							</div>
+											<script type="text/javascript">
+												$('#state').select2({
+													placeholder: "Search for state",
+													dropdownParent: $('#find-project')
+												});
+											</script>
+										</div>
+									</div>
 								</div>
-							</div>
 
-							<div class='years'>
-								<button class="uk-button uk-button-default" type="button" style='width: 100%'>Year</button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose Year</a></li>
-										<li class="uk-nav-divider"></li>
-										<select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+								<div class='years'>
+									<button class="uk-button uk-button-default" type="button" style='width: 100%'>Year</button>
+									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+										<ul class="uk-nav uk-dropdown-nav">
+											<li class="uk-active"><a href="#">Choose Year</a></li>
+											<li class="uk-nav-divider"></li>
+											<select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
 											<option value="2014">20154</option>
 											<option value="2015">2015</option>
 											<option value="2016">2016</option>
@@ -148,23 +150,23 @@
 											<option value="2020">2020</option>
 											<option value="2021">2021</option>
 											</select>
-										<script type="text/javascript">
+											<script type="text/javascript">
 												$('#select-year').select2({
-														placeholder: "Search for Year",
-														dropdownParent: $('#find-project')
-													});
-										</script>
-									</ul>
+													placeholder: "Search for Year",
+													dropdownParent: $('#find-project')
+												});
+											</script>
+										</ul>
+									</div>
 								</div>
-							</div>
 
-							<div class='status'>
-								<button class="uk-button uk-button-default" type="button"  style='width: 100%'>Status</button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose status of the project</a></li>
-										<li class="uk-nav-divider"></li>
-										<div class="uk-margin">
+								<div class='status'>
+									<button class="uk-button uk-button-default" type="button" style='width: 100%'>Status</button>
+									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+										<ul class="uk-nav uk-dropdown-nav">
+											<li class="uk-active"><a href="#">Choose status of the project</a></li>
+											<li class="uk-nav-divider"></li>
+											<div class="uk-margin">
 												<select id='select-status' name='status' style='width: 100%' multiple='multiple'>
 <option value="le">Uncompleted & Active</option>
 <option value="mj">Completed & Inactive</option>
@@ -173,43 +175,44 @@
 <option value="na">Not Available</option>
 </select>
 												<script type="text/javascript">
-														$('#select-status').select2({
-																placeholder: "Select status",
-																dropdownParent: $('#find-project')
-															});
+													$('#select-status').select2({
+														placeholder: "Select status",
+														dropdownParent: $('#find-project')
+													});
 												</script>
 												<p class='uk-text-meta uk-text-break'>
-													please note that projects that have Status "Not Available" have not been <br>verified by us or have not reach the implementation stage
+													please note that projects that have Status "Not Available" have not been <br>verified by us or have not reach
+													the implementation stage
 													<p>
-										</div>
-									</ul>
+											</div>
+										</ul>
+									</div>
 								</div>
-							</div>
 
-														<div class='Visited'>
-															<button class="uk-button uk-button-default" type="button"  style='width: 100%'><span class='uk-visible@l'>Visited by Us</span><span class='uk-hidden@l'>Visited</span></button>
-															<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-																<ul class="uk-nav uk-dropdown-nav">
-																	<li class="uk-active"><a href="#"></a></li>
-																	<li class="uk-nav-divider"></li>
-																	<div class="uk-margin">
-																		<div class="uk-margin">
-														            <select class="visit"  id='visit' name='visit' style='width: 100%'>
+								<div class='Visited'>
+									<button class="uk-button uk-button-default" type="button" style='width: 100%'><span class='uk-visible@l'>Visited by Us</span><span class='uk-hidden@l'>Visited</span></button>
+									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+										<ul class="uk-nav uk-dropdown-nav">
+											<li class="uk-active"><a href="#"></a></li>
+											<li class="uk-nav-divider"></li>
+											<div class="uk-margin">
+												<div class="uk-margin">
+													<select class="visit" id='visit' name='visit' style='width: 100%'>
 														                <option value='no'>No</option>
 														                <option value='yes'>Yes</option>
 														            </select>
-														        </div>
-																	</div>
-																</ul>
-															</div>
-														</div>
-							<div class='contractors  uk-width-1-1'>
-								<button class="uk-button uk-button-default" type="button"  style='width: 100%'>Contractor</span></button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose Contractor</a></li>
-										<li class="uk-nav-divider"></li>
-										<div class="uk-margin">
+												</div>
+											</div>
+										</ul>
+									</div>
+								</div>
+								<div class='contractors  uk-width-1-1'>
+									<button class="uk-button uk-button-default" type="button" style='width: 100%'>Contractor</span></button>
+									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
+										<ul class="uk-nav uk-dropdown-nav">
+											<li class="uk-active"><a href="#">Choose Contractor</a></li>
+											<li class="uk-nav-divider"></li>
+											<div class="uk-margin">
 												<select id='select-contr' name='organization' style='width: 100%' multiple='multiple'>
 <option value="dc">Dangote Cement</option>
 <option value="le">Levi</option>
@@ -219,36 +222,36 @@
 <option value="jb">Julius Berger</option>
 </select>
 												<script type="text/javascript">
-														$('#select-contr').select2({
-																placeholder: "Search for contractor",
-																dropdownParent: $('#find-project')
-															});
+													$('#select-contr').select2({
+														placeholder: "Search for contractor",
+														dropdownParent: $('#find-project')
+													});
 												</script>
-										</div>
-									</ul>
+											</div>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="uk-margin uk-child-width-1-1">
+								<div class="uk-search uk-search-default">
+									<a href="" class="uk-search-icon-flip" uk-search-icon></a>
+									<input class="uk-search-input" type="search" placeholder="Search...">
 								</div>
 							</div>
 						</div>
-
-						<div class="uk-margin uk-child-width-1-1">
-							<div class="uk-search uk-search-default">
-								<a href="" class="uk-search-icon-flip" uk-search-icon></a>
-								<input class="uk-search-input" type="search" placeholder="Search...">
-							</div>
-						</div>
-					</div>
-					<p class="uk-text-right">
-						<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
-						<button class="uk-button uk-button-primary uk-modal-close" type="button">Find</button>
-					</p>
-				</form>
+						<p class="uk-text-right">
+							<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+							<button class="uk-button uk-button-primary uk-modal-close" type="button">Find</button>
+						</p>
+					</form>
 				</div>
 			</div>
 		</div>
 	</nav>
 	<ul class="uk-breadcrumb">
-	    <li><a href="./index.html">Home</a></li>
-	    <li><span href="#">View Project</span></li>
+		<li><a href="./index.html">Home</a></li>
+		<li><span href="#">View Project</span></li>
 	</ul>
 
 	<div class='uk-container'>
@@ -256,8 +259,17 @@
 		<div class='project-overview' id='project-overview'>
 			<div>
 				<div class='uk-flex-center uk-flex uk-margin-top'>
-					<h3 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h3> <a href="" class="uk-icon-button uk-margin-left"
-					 uk-icon="icon: social" title="Share" uk-tooltip="pos: bottom" uk-toggle="target: #offcanvas-nav"></a>
+					<h3 class='uk-text-warning uk-text-center'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h3>
+					</div>
+					<div class='uk-display-block uk-flex uk-flex-center uk-text-center'>
+						<div class='uk-grid-small uk-child-width-1-2' uk-grid>
+							<div class='uk-float-right'>
+								<a href="" class="uk-margin-left" uk-icon="icon: social" title="Share" uk-tooltip="pos: bottom" uk-toggle="target: #offcanvas-nav"></a>
+							</div>
+							<div class='uk-float-left'>
+								<a href="" class="" uk-icon="icon: comment" title="Click to give feedback on the project" uk-tooltip="pos: bottom" uk-toggle="target: #feedback-form"></a>
+							</div>
+					</div>
 				</div>
 				<div class=''>
 					<div id="offcanvas-nav" uk-offcanvas="overlay: true">
@@ -266,7 +278,9 @@
 								<li class="uk-nav-header">Tell people what you've seen here</li>
 								<li class="uk-nav-divider"></li>
 								<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: instagram"></span>Instagram</a></li>
-								<li><a href="https://twitter.com/share"  data-hashtags="budeshi" data-related="ppmonitorNG" data-show-count="false"><span class="uk-margin-small-right" uk-icon="icon: twitter"></span>Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+								<li><a href="https://twitter.com/share" data-hashtags="budeshi" data-related="ppmonitorNG" data-show-count="false"><span class="uk-margin-small-right" uk-icon="icon: twitter"></span>Twitter</a>
+									<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+								</li>
 								<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span>Facebook</a></li>
 								<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: linkedin"></span>Linkedin</a></li>
 								<li class="uk-nav-divider"></li>
@@ -755,8 +769,59 @@
 				</ul>
 			</div>
 		</div>
+
+		<div class='Feedback uk-margin uk-padding'>
+			<h1 class="uk-heading mogra"><span>Ctzn Feedback</span></h1>
+			<br>
+			<ul class="uk-comment-list uk-list-divider uk-margin">
+				<li>
+					<article class="uk-comment uk-visible-toggle">
+						<header class="uk-comment-header uk-position-relative">
+							<div class="uk-grid-medium uk-flex-middle" uk-grid>
+								<div class="uk-width-auto">
+									<img class="uk-comment-avatar" src="../images/boss.png" width="80" height="60" alt="">
+								</div>
+								<div class="uk-width-expand">
+									<h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+									<p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12 days ago</a></p>
+								</div>
+							</div>
+
+						</header>
+						<div class="uk-comment-body">
+							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+								magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+								gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+						</div>
+					</article>
+				</li>
+
+				<li>
+					<article class="uk-comment uk-visible-toggle">
+						<header class="uk-comment-header uk-position-relative">
+							<div class="uk-grid-medium uk-flex-middle" uk-grid>
+								<div class="uk-width-auto">
+									<img class="uk-comment-avatar" src="../images/boss.png" width="80" height="60" alt="">
+								</div>
+								<div class="uk-width-expand">
+									<h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+									<p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12 days ago</a></p>
+								</div>
+							</div>
+
+						</header>
+						<div class="uk-comment-body">
+							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+								magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+								gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+						</div>
+					</article>
+				</li>
+
+			</ul>
+		</div>
 	</div>
-<div class=''>
+	<div class=''>
 		<div class='uk-container'>
 			<div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
 				<div>
@@ -782,26 +847,106 @@
 				</div>
 			</div>
 		</div>
-	<div class='uk-container'>
-		<div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
-			<div>
-				<div class='uk-float-right'>
-					<a href='https://www.omidyar.com/'>
+		<div class='uk-container'>
+			<div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
+				<div>
+					<div class='uk-float-right'>
+						<a href='https://www.omidyar.com/'>
 					<img src='../images/omd.png' width="40%" />
 				</a>
+					</div>
 				</div>
-			</div>
-			<div>
-				<div class='uk-float-left'>
-					<a href='https://www.macfound.org/'>
+				<div>
+					<div class='uk-float-left'>
+						<a href='https://www.macfound.org/'>
 					<img src='../images/macarthur-logo.png' width="50%" />
 				</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 	</div>
+
+	<div id="feedback-form" class="uk-modal-container" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-default" type="button" uk-close></button>
+			<button class="uk-modal-close-default" type="button" uk-close></button>
+			<div class="uk-modal-header top">
+				<p class='uk-light'>Give feedback for: </p>
+				<h5 class='uk-text-warning uk-display-inline'>Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</h5>
+			</div>
+			<div class="uk-modal-body">
+
+				<form class="uk-form-stacked uk-container">
+
+					<fieldset class="uk-fieldset">
+						<legend class="uk-legend">Personal Details</legend>
+						<div class='uk-grid-small uk-child-width-1-2@s uk-padding' uk-grid>
+							<div>
+								<div class="uk-margin">
+									<label class="uk-form-label" for="form-stacked-text">First Name</label>
+									<div class="uk-form-controls">
+										<input class="uk-input" id="form-stacked-text" type="text" placeholder="John">
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="uk-margin">
+									<label class="uk-form-label" for="form-stacked-text">Last Name</label>
+									<div class="uk-form-controls">
+										<input class="uk-input" id="form-stacked-text" type="text" placeholder="Doe">
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="uk-margin">
+									<label class="uk-form-label" for="form-stacked-text">Email</label>
+									<div class="uk-form-controls">
+										<input class="uk-input" id="form-stacked-text" type="email" placeholder="john.doe@email.com">
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="uk-margin">
+									<label class="uk-form-label" for="form-stacked-text">Phone</label>
+									<div class="uk-form-controls">
+										<input class="uk-input" id="form-stacked-text" type="tel" placeholder="+234-80-234-234-59">
+									</div>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset class="uk-fieldset">
+						<legend class="uk-legend">Feedback</legend>
+						<div>
+							<div class="uk-padding">
+								<label class="uk-form-label" for="form-stacked-text">Feedback/report</label>
+								<div class="uk-form-controls">
+									<textarea class="uk-textarea" rows="5" placeholder="Write your feedback concerning this project"></textarea>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<div class="uk-margin">
+						<div class="uk-form-label">Do you want your feedback to be published as anonymous</div>
+						<div class="uk-form-controls">
+							<label><input class="uk-radio" type="radio" name="radio1"> YES</label><br>
+							<label><input class="uk-radio" type="radio" name="radio1"> NO </label>
+						</div>
+					</div>
+
+				</form>
+
+
+			</div>
+			<div class="uk-modal-footer uk-text-right">
+				<button class="uk-button uk-button-default uk-float-left uk-modal-close" type="button">Cancel</button>
+				<button class="uk-button uk-button-primary uk-modal-close" type="button">Submit</button>
+			</div>
+		</div>
+	</div>
+
 	<script src='../js/map.js'>
 
 	</script>
