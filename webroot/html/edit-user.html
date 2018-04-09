@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html style='width: 100%'>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Edit User</title>
+    <link rel="stylesheet" href="../css/uikit.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/jquery.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+
+<body class='home-page'>
+    <!-- nav bar -->
+    <nav class="uk-navbar-container uk-margin back-top" uk-navbar>
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="#">
+            <img src='../images/budeshi.png'/ width='50'>
+          </a>
+
+        </div>
+        <div class="uk-navbar-center">
+            <div class="uk-navbar-item">Edit User Details</div>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav">
+                <li>
+                  <a href="#" title="Go to Organizations DB" uk-tooltip="pos: bottom"><span class="uk-margin-small-right" uk-icon="icon: database"></span></a>
+                </li>
+            </ul>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#"><span class="uk-margin-small-right" uk-icon="icon: user"></span></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="#">Edit User</a></li>
+                            <li class="uk-active"><a href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- change user  -->
+        <!-- xxx -->
+<form class='uk-container'>
+<div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+  <div>
+    <fieldset class="uk-fieldset">
+
+    <legend class="uk-legend">User Name</legend>
+<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+  <div>
+    <div class="uk-margin">
+        <input class="uk-input" type="text" placeholder="New Username">
+    </div>
+  </div>
+  <div>
+    <div class="uk-margin">
+        <input class="uk-input" type="text" placeholder="Confirm Username">
+    </div>
+  </div>
+  </div>
+</fieldset>
+  </div>
+  <div>
+    <fieldset class="uk-fieldset">
+    <legend class="uk-legend">Password</legend>
+<div class='uk-grid-small uk-child-width-1-1' uk-grid>
+  <div>
+    <div class="uk-margin">
+        <input class="uk-input" type="text" placeholder="New Password">
+    </div>
+  </div>
+  <div>
+    <div class="uk-margin">
+        <input class="uk-input" type="text" placeholder="Confirm Password">
+    </div>
+  </div>
+  </div>
+</fieldset>
+  </div>
+</div>
+</form>
+<div class='uk-container uk-margin'>
+     <button class="uk-button uk-button-primary uk-button-large uk-float-right">Submit</button>
+</div>
+</body>
+
+</html>

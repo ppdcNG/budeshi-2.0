@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html style='width: 100%'>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Constituency Projects</title>
+    <link rel="stylesheet" href="../css/uikit.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <script src="../js/jquery.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Mogra|Pangolin|Quicksand|Secular+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Fascinate+Inline|Patua+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="uk-offcanvas-content">
+        <nav class="uk-navbar-container uk-navbar-transparent top" uk-sticky uk-navbar>
+
+            <div class="uk-navbar-center uk-light">
+
+                <div class="uk-navbar-center-left">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active">
+                                <a href="#" class="uk-button-text">Public projects</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="uk-navbar-item uk-logo" href="#">
+						<img class='smaller-logo' src='../images/budeshi-logo.png' width="25%">
+				</a>
+                <div class="uk-navbar-center-right">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li>
+                                <a href="#" class="uk-button-text">PPP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <!-- 
+		<div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+			<div class="uk-offcanvas-bar uk-background-default">
+
+				<button class="uk-offcanvas-close" type="button" uk-close></button>
+
+
+
+
+			</div>
+		</div> -->
+
+        <!-- 
+        <div class="uk-width-1-1 border-bottom slick" uk-sticky="offset: 78">
+        </div> -->
+
+        <div class="uk-child-width-1-1" uk-grid>
+            <div>
+                <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="center: true; autoplay: true; ">
+
+                    <ul class="uk-slider-items uk-grid">
+                        <li class="uk-width-1-1 uk-transition-toggle">
+                            <div class="uk-panel">
+                                <img src="../images/analysis/1.png" alt="" width="100%">
+                                <!-- <div class="uk-overlay uk-overlay-primary uk-position-center uk-text-center uk-transition-slide-bottom">
+                                                    <h3 class="uk-margin-remove">Bottom</h3>
+                                                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                </div> -->
+                            </div>
+                        </li>
+                        <li class="uk-width-1-1 uk-transition-toggle">
+                            <div class="uk-panel">
+                                <img src="../images/analysis/2.png" alt="" width="100%">
+                                <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center uk-transition-slide-bottom">
+                                    <h3 class="uk-margin-remove">Check out Analysis from Budeshi Data</h3>
+                                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-1 uk-transition-toggle">
+                            <div class="uk-panel">
+                                <img src="../images/analysis/3.png" alt="" width="100%">
+                                <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center uk-transition-slide-bottom">
+                                    <h3 class="uk-margin-remove">Read Our Latest Stories</h3>
+                                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-1-3@s uk-padding" style='max-width: 400px' uk-height-viewport="expand: true">
+                            <h3 class="comforta">Find Projects</h3>
+                            <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+
+                                <div class="uk-padding-small">
+                                    <div class="uk-grid-small" uk-grid>
+                                        <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/home.png" />
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-margin">
+                                                <select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+															 <option value="dc">Universal Basic Education Commission</option>
+															 <option value="le">National Primary Health Care Development Centre</option>
+															 <option value="mj">Bureau of Public Procurement</option>
+															 <option value="cos">Public and Private Development Centre</option>
+															 <option value="ec">Bureau of Public Service Reforms</option>
+															 <option value="jb">Customer Protection Council</option>
+															 </select>
+                                                <script type="text/javascript">
+                                                    $('#select-mda').select2({
+                                                        placeholder: "Ministries, Departments Agencies"
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                        <!-- <hr class="uk-flex uk-flex-center" style="border-width: 3px"> -->
+                                    </div>
+                                </div>
+
+
+                                <div class="uk-padding-small">
+                                    <div class="uk-grid-small " uk-grid>
+                                        <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/nigeria.png" />
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-margin">
+                                                <select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
+								 <option value='abia'>Abia</option>
+								 <option value='adamawa'>Adamawa</option>
+								 <option value='anambra'>Anambra</option>
+								 <option value='akwaibom'>Akwa Ibom</option>
+								 <option value='bauchi'>Bauchi</option>
+								 <option value='bayelsa'>Bayelsa</option>
+								 <option value='benue'>Benue</option>
+								 <option value='Borno'>Borno</option>
+								 <option value='crossriver'>Cross River</option>
+								 <option value='delta'>Delta</option>
+								 <option value='ebonyi'>Ebonyi</option>
+								 <option value='enugu'>Enugu</option>
+								 <option value='edo'>Edo</option>
+								 <option value='ekiti'>Ekiti</option>
+								 <option value='gombe'>Gombe</option>
+								 <option value='imo'>Imo</option>
+								 <option value='jigawa'>Jigawa</option>
+								 <option value='kaduna'>Kaduna</option>
+								 <option value='kano'>Kano</option>
+								 <option value='katsina'>Katsina</option>
+								 <option value='kebbi'>Kebbi</option>
+								 <option value='kogi'>Kogi</option>
+								 <option value='kwara'>Kwara</option>
+								 <option value='lagos'>Lagos</option>
+								 <option value='nasarawa'>Nasarawa</option>
+								 <option value='niger'>Niger</option>
+								 <option value='ogun'>Ogun</option>
+								 <option value='ondo'>Ondo</option>
+								 <option value='osun'>Osun</option>
+								 <option value='oyo'>Oyo</option>
+								 <option value='plateau'>Plateau</option>
+								 <option value='rivers'>Rivers</option>
+								 <option value='sokoto'>Sokoto</option>
+								 <option value='taraba'>Taraba</option>
+								 <option value='yobe'>Yobe</option>
+								 <option value='zamfara'>Zamfara</option>
+								 <option value='fct'>Federal Capital Territory (FCT)</option>
+								 </select>
+                                                <script type="text/javascript">
+                                                    $('#state').select2({
+                                                        placeholder: "Locations"
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-padding-small">
+                                    <div class="uk-grid-small " uk-grid>
+                                        <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/year.png" />
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-margin">
+                                                <select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+											 <option value="2014">20154</option>
+											 <option value="2015">2015</option>
+											 <option value="2016">2016</option>
+											 <option value="2017">2017</option>
+											 <option value="2018">2018</option>
+											 <option value="2019">2019</option>
+											 <option value="2020">2020</option>
+											 <option value="2021">2021</option>
+											 </select>
+                                                <script type="text/javascript">
+                                                    $('#select-year').select2({
+                                                        placeholder: "Project years"
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-padding-small">
+                                    <div class="uk-grid-small " uk-grid>
+                                        <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/architect.png" />
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-margin">
+                                                <select id='select-contr' name='organization' style='width: 100%' multiple='multiple'>
+													<option value="dc">Dangote Cement</option>
+													<option value="le">Levi</option>
+													<option value="mj">Marc Jacobs</option>
+													<option value="cos">Coscharis Motors</option>
+													<option value="ec">Emeka Custructions</option>
+													<option value="jb">Julius Berger</option>
+													</select>
+                                                <script type="text/javascript">
+                                                    $('#select-contr').select2({
+                                                        placeholder: "Contractors"
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-padding-small">
+                                    <div class="uk-grid-small " uk-grid>
+                                        <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/inspect.png" />
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-margin" title="Projects that have been verified by our procurement monitors with a detailed report under the Implementation tab when you view project"
+                                                uk-tooltip>
+                                                <select class="visit" id='visit' name='visit' style='width: 100%'>
+																					<option value='' selected disabled>Visited?</option>
+																					<option value='no'>No</option>
+																					<option value='yes'>Yes</option>
+																			</select>
+                                                <script type="text/javascript">
+                                                    $('#visit').select2({
+                                                        placeholder: "Visited?"
+                                                        // dropdownParent: $('#find-project')
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-padding-small">
+                                    <div class="uk-grid-small" uk-grid>
+                                        <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/status.png" />
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-margin" title="Please note that projects that have Status Not Available have not been <br>verified by us or have not reach the implementation stage"
+                                                uk-tooltip>
+                                                <select id='select-status' name='status' style='width: 100%' multiple='multiple'>
+			<option value="le">Uncompleted & Active</option>
+			<option value="mj">Completed & Inactive</option>
+			<option value="ca">Completed & Active</option>
+			<option value="cos">Uncompleted & Inactive</option>
+			<option value="na">Not Available</option>
+			</select>
+                                                <script type="text/javascript">
+                                                    $('#select-status').select2({
+                                                        placeholder: "Project status"
+                                                        // dropdownParent: $('#find-project')
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="uk-width-expand@s  uk-padding ">
+                            <ul class="uk-tab-bottom uk-swticher uk-flex uk-flex-center" uk-tab>
+                                <li class="uk-active"><a href="#">Summary</a></li>
+                                <li><a href="#">Tables</a></li>
+                                <li><a href="#">Charts</a></li>
+                                <li><a href="#">MDAs</a></li>
+                                <li><a href="#">verified By PPDC?</a></li>
+                            </ul>
+                            <ul class="uk-switcher uk-margin">
+                                <li>
+                                    <!-- <h3 class="uk-text-center">Summary</h3> -->
+
+                                    <div class="uk-grid-large uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-grid-match" uk-grid>
+
+                                        <div class="">
+                                            <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img class="uk-margin-auto" src="../images/abacus.png" alt="Border circle">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <div class="uk-child-width-1-1" uk-grid>
+                                                        <div class="uk-margin-remove card-font">
+                                                            Total Number of Projects
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                </div>
+                                                <div class="uk-width-1-1 card-font figure">
+                                                    500
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img class="uk-margin-auto" src="../images/cashbox.png" alt="Border circle">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <div class="uk-child-width-1-1" uk-grid>
+                                                        <div class="uk-margin-remove card-font">
+                                                            The Highest Contract Amount
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                </div>
+                                                <div class="uk-width-1-1 card-font figure">
+                                                    &#8358; 500, 000, 000.07
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body " uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img class="uk-margin-auto" src="../images/bill.png" alt="Border circle">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <div class="uk-child-width-1-1" uk-grid>
+                                                        <div class="uk-margin-remove card-font">
+                                                            Total Lowest Contract Amount
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                </div>
+                                                <div class="uk-width-1-1 card-font figure">
+                                                    &#8358; 26, 000. 00
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-1-1">
+                                            <a class="uk-link-reset uk-flex uk-flex-center" uk-toggle="target: #toggle-animation-multiple; animation:  uk-animation-slide-left, uk-animation-slide-bottom"><span uk-icon="icon: more"></span></a>
+                                        </div>
+                                        <div id="toggle-animation-multiple" class="uk-margin-small uk-width-1-1">
+                                            <div class="uk-grid-large uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-grid-match" uk-grid>
+                                                <div class="">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-margin-auto" src="../images/couple.png" alt="Border circle">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <div class="uk-child-width-1-1" uk-grid>
+                                                                <div class="uk-margin-remove card-font">
+                                                                    Total Number of Tenders
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                        </div>
+                                                        <div class="uk-width-1-1 card-font figure">
+                                                            150
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class=" uk-margin-auto" src="../images/reoccuring.png" alt="Border circle">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <div class="uk-child-width-1-1" uk-grid>
+                                                                <div class="uk-margin-remove card-font">
+                                                                    Tenderers with Highest Awarded Contracts
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                        </div>
+                                                        <div class="uk-width-1-1 card-font figure">
+                                                            20
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-margin-auto" src="../images/hand_handshake.png" alt="Border circle">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <div class="uk-child-width-1-1" uk-grid>
+                                                                <div class="uk-margin-remove card-font big">
+                                                                    Services
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                        </div>
+                                                        <div class="uk-width-1-1 card-font figure">
+                                                            100
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-margin-auto" src="../images/goods.png" alt="Border circle">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <div class="uk-child-width-1-1" uk-grid>
+                                                                <div class="uk-margin-remove card-font big">
+                                                                    Goods
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                        </div>
+                                                        <div class="uk-width-1-1 card-font figure">
+                                                            150
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class=" uk-margin-auto" src="../images/hammer.png" alt="Border circle">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <div class="uk-child-width-1-1" uk-grid>
+                                                                <div class="uk-margin-remove card-font big">
+                                                                    Works
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                        </div>
+                                                        <div class="uk-width-1-1 card-font figure">
+                                                            20
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </li>
+                                <li>
+                                    Tables go here
+
+                                </li>
+                                <li>
+                                    Charts! go here
+
+                                </li>
+                                <li>
+                                    MDAS! go here
+                                </li>
+                                <li>
+                                    VERIFIED! goes here
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-background-contain uk-background-cover" style="background-color: #fffaf2;">
+                <div class='uk-container'>
+                    <div class='uk-padding uk-margin-large-top uk-text-medium uk-text-center uk-flex uk-flex-center comforta' id="who">
+                        <p>
+                            Budeshi is an initiative of the Public and Private Development Centre in partnership with the School of Media and Communication,
+                            Pan-Atlantic University and Premium Times Centre for Investigative Journalism.
+                        </p>
+                    </div>
+                    <div class='uk-container'>
+                        <div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
+                            <div>
+                                <div class='uk-margin'>
+                                    <a href='http://procurementmonitor.org/ppdc/'>
+						<img src='../images/ppdc-logo2.png' width="35%"/>
+					  </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class='uk-margin'>
+                                    <a href='http://smc.edu.ng/'>
+						<img src='../images/smc.png' width="35%" />
+					  </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class='uk-margin'>
+                                    <a href='http://ptcij.org/'>
+						<img src='../images/ptcij.png' width="35%" />
+					  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class='uk-container'>
+                    <div class='uk-grid-small uk-child-width-1-2' uk-grid>
+                        <div>
+                            <div class='uk-text-medium uk-text-center uk-flex uk-flex-center comforta uk-float-right'>
+                                <p>
+                                    Proudly Supported by
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class='uk-grid-collapse uk-child-width-1-2' uk-grid>
+                                <div class="uk-padding-remove">
+                                    <div class='uk-margin uk-flex uk-flex-center uk-float-right'>
+                                        <a href='https://www.omidyar.com/' class="uk-padding-remove uk-float-right'">
+						<img src='../images/omd.png' width="40%" />
+					  </a>
+                                    </div>
+                                </div>
+                                <div class="uk-padding-remove">
+                                    <div class='uk-flex uk-flex-center'>
+                                        <a href='https://www.macfound.org/' class="uk-padding-remove">
+						<img src='../images/macarthur-logo.png' width="80%" />
+					  </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='uk-text-small uk-text-center uk-flex uk-flex-center comforta uk-float-right uk-width-1-1'>
+                    <p>
+                        © 2018, PPDC
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

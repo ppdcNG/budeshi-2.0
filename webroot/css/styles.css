@@ -30,10 +30,7 @@ td {
   border-right: 1px solid #ccc;
 }
 nav.top, .top {
-            /*background-color: #FFD899;*/
-            background: #141E30;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-color: #750524;
             /*background-color: #AB8159;*/
 }
 #map {
@@ -46,6 +43,7 @@ html, body, .full {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .pg1 {
   /*background-color: #C0C2D1;*/
@@ -168,7 +166,7 @@ border: 1px solid white;
   background-color: transparent;
 }
 .border {
-  border: 1px solid red
+  border: 1px solid black;
 }
 .spec {
   height: 300px;
@@ -594,3 +592,35 @@ animation-timing-function: ease-in-out;
     height: 54px;
     line-height: 54px;
   }
+  nav.back-top, .back-top  {
+      background-color: #D7AF75;
+    }
+    .card-font {
+      font-family: 'Patua One', cursive;
+      font-size: 1rem;      
+    }
+    .card-font.big{
+      font-family: 'Patua One', cursive;
+      font-size: 1.5rem;      
+    }
+    .card-font.figure {
+      font-family: 'Fascinate Inline', cursive;
+      font-size: 1.5rem;      
+    }
+    .border-bottom {
+      width: 100%;
+      border-bottom: 3px solid #1c244a;
+    }
+    .border-bottom.slick {
+      width: 100%;
+      border-bottom: 5px solid #1B234A;
+    }
+    .border-top {
+      border-top: 1px solid #f46a6c;
+      border-bottom: 1px solid #f46a6c;
+    }
+    @media only screen and (max-device-width: 600px) {
+      .smaller-logo {
+        width: 20%;
+      }
+    }
