@@ -4,7 +4,8 @@
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Constituency Projects</title>
+    <title>Home</title>
+    <link rel="shortcut icon" href="./favicon.ico.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/uikit.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
 
@@ -30,7 +31,7 @@
                     <div>
                         <ul class="uk-navbar-nav">
                             <li class="uk-active">
-                                <a href="#" class="uk-button-text">Public projects</a>
+                                <a href="#" class="uk-button-text">Home</a>
 
                             </li>
                         </ul>
@@ -43,7 +44,15 @@
                     <div>
                         <ul class="uk-navbar-nav">
                             <li>
-                                <a href="#" class="uk-button-text">PPP</a>
+                                <a href="#" class="uk-button-text">Export Data</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="#">Json</a></li>
+
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Download CSV</a></li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -51,6 +60,11 @@
 
             </div>
         </nav>
+        <!--         
+		<div class="uk-margin-remove uk-width-1-1 border-bottom slick" uk-sticky="offset: 78">
+            </div>
+            <div class="uk-margin-remove uk-width-1-1 border-bottom slick red" uk-sticky="offset: 81">
+                </div> -->
         <!-- 
 		<div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
 			<div class="uk-offcanvas-bar uk-background-default">
@@ -69,19 +83,23 @@
 
         <div class="uk-child-width-1-1" uk-grid>
             <div>
-                <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="center: true; autoplay: true; ">
+                <div class="uk-position-relative uk-light" uk-slider="center: true; autoplay: true; ">
 
                     <ul class="uk-slider-items uk-grid">
                         <li class="uk-width-1-1 uk-transition-toggle">
                             <div class="uk-panel">
-                                <img src="../images/analysis/1.png" alt="" width="100%">
+                                <img src="../images/flag.png" alt="" width="100%">
+                                <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center">
+                                    <!-- <h3 class="uk-margin-remove">Open Contracting for Uganda</h3> -->
+
+                                </div>
                                 <!-- <div class="uk-overlay uk-overlay-primary uk-position-center uk-text-center uk-transition-slide-bottom">
                                                     <h3 class="uk-margin-remove">Bottom</h3>
                                                     <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                 </div> -->
                             </div>
                         </li>
-                        <li class="uk-width-1-1 uk-transition-toggle">
+                        <!-- <li class="uk-width-1-1 uk-transition-toggle">
                             <div class="uk-panel">
                                 <img src="../images/analysis/2.png" alt="" width="100%">
                                 <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center uk-transition-slide-bottom">
@@ -98,7 +116,7 @@
                                     <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </div>
                             </div>
-                        </li>
+                        </li> -->
 
                     </ul>
 
@@ -131,7 +149,7 @@
 															 </select>
                                                 <script type="text/javascript">
                                                     $('#select-mda').select2({
-                                                        placeholder: "Ministries, Departments Agencies"
+                                                        placeholder: "Procuring Entity"
                                                     });
                                                 </script>
                                             </div>
@@ -144,7 +162,7 @@
                                 <div class="uk-padding-small">
                                     <div class="uk-grid-small " uk-grid>
                                         <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
-                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/nigeria.png" />
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/uganda_icon.png" />
                                         </div>
                                         <div class="uk-width-expand">
                                             <div class="uk-margin">
@@ -479,7 +497,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -512,12 +530,22 @@
                 <div class='uk-container'>
                     <div class='uk-padding uk-margin-large-top uk-text-medium uk-text-center uk-flex uk-flex-center comforta' id="who">
                         <p>
-                            Budeshi is an initiative of the Public and Private Development Centre in partnership with the School of Media and Communication,
-                            Pan-Atlantic University and Premium Times Centre for Investigative Journalism.
+                            Budeshi Uganda is an initiative of the <a href="https://africafoicentre.org">Africa Freedom of Information Centre</a>                            in partnership with the <a href="http://procurementmonitor.org/ppdc/"> Public and Private Develoment Centre.</a>
                         </p>
                     </div>
+                    <div class='uk-text-center uk-flex uk-flex-center comforta' id="who">
+                            <p>Implementation support is provided by<a href="http://www.pau.edu.ng"> Pan-Atlantic University</a> and <a href='http://ptcij.org/'>Premium Times Centre for Investigative
+                                Journalism</a></p>
+                        </div>
                     <div class='uk-container'>
-                        <div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
+                        <div class='uk-grid-small uk-child-width-1-4 uk-margin' uk-grid>
+                            <div>
+                                <div class='uk-margin'>
+                                    <a href='https://africafoicentre.org'>
+                                      <img src='../images/logo.png'/>
+                                    </a>
+                                </div>
+                            </div>
                             <div>
                                 <div class='uk-margin'>
                                     <a href='http://procurementmonitor.org/ppdc/'>
@@ -574,8 +602,31 @@
                 </div>
                 <div class='uk-text-small uk-text-center uk-flex uk-flex-center comforta uk-float-right uk-width-1-1'>
                     <p>
-                        © 2018, PPDC
+                        © 2018, PPDC. <a class="uk-link-muted" href="#terms" uk-toggle>Terms</a>
                     </p>
+                    <!-- This is the modal -->
+                    <div id="terms" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body">
+                            <h4 class="uk-modal-title comforta">CREATIVE COMMON ATTRIBUTION SHARE -ALIKE LICENSE</h4>
+                            <p>Budeshi.ng and all logos, products, services or other content on www.budeshi.ng or other mobile
+                                download platforms are the intellectual property of the Public and Private Development Centre
+                                (PPDC). This work can be re-used and re-distributed, in whole or in part, for a profit or
+                                nonprofit purposes as long as the creator is appropriately credited, and any derivative shall
+                                be made available under the same, similar or a compatible license.
+                            </p>
+                            <p class="uk-text-warning uk-text-large">
+                                DISCLAIMER
+                            </p>
+                            <p>PPDC will not be responsible for any misrepresentation upon reproduction of data available on
+                                Budeshi except such reproduction has been, prior to publication, reviewed and certified by
+                                PPDC.
+                            </p>
+                            <p class="uk-text-right">
+                                <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                                <button class="uk-button uk-button-primary uk-modal-close pallette10" type="button">Ok, got it!</button>
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
             </div>

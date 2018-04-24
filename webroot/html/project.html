@@ -19,6 +19,11 @@
 	<script src="../js/uikit-icons.min.js"></script>
 	<script src="../js/index.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+	
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Mogra|Pangolin|Quicksand|Secular+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Fascinate+Inline|Patua+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
 
 <body class=''>
@@ -35,220 +40,42 @@
 	</div>
 	<!-- End of loading modal -->
 	<nav class="uk-navbar-container uk-navbar-transparent top" uk-sticky uk-navbar>
-		<div class="uk-navbar-left uk-padding-small">
-			<a href="./index.html" class="uk-link-reset uk-light">
-				<img class='resize' src='../images/budeshi-logo.png' width="25%">
-			</a>
-		</div>
-		<div class='uk-navbar-right  uk-padding-small'>
-			<!-- This is a button toggling the modal -->
-			<button class="uk-button uk-button-default uk-margin-small-right uk-text-nowrap uk-light" type="button" style='margin: 0 auto'
-			 uk-toggle="target: #find-project"><span class=''>Find Projects</span> <span uk-search-icon><span> </button>
-
-			<!-- This is the modal -->
-			<div id="find-project" uk-modal='bg-close: false'>
-				<div class="uk-modal-dialog uk-modal-body">
-					<h2 class="uk-modal-title">Find Projects</h2>
-					<form>
-						<div class="filter-param uk-panel uk-placeholder">
-							<div class='mda uk-margin'>
-								<button class="uk-button uk-button-default uk-width-1-1" type="button">Ministries, Departments, Agencies</button>
-								<div uk-dropdown="pos: bottom-justify; boundary: .mda; boundary-align: true; mode: click">
-									<ul class="uk-nav uk-dropdown-nav">
-										<li class="uk-active"><a href="#">Choose MDA</a></li>
-										<li class="uk-nav-divider"></li>
-										<div class="uk-margin">
-											<select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
-												<option value="dc">Universal Basic Education Commission</option>
-												<option value="le">National Primary Health Care Development Centre</option>
-												<option value="mj">Bureau of Public Procurement</option>
-												<option value="cos">Public and Private Development Centre</option>
-												<option value="ec">Bureau of Public Service Reforms</option>
-												<option value="jb">ustomer Protection Council</option>
-												</select>
-											<script type="text/javascript">
-												$('#select-mda').select2({
-													placeholder: "Search for MDA",
-													dropdownParent: $('#find-project')
-												});
-											</script>
-										</div>
+			
+						<div class="uk-navbar-center uk-light">
+			
+							<div class="uk-navbar-center-left">
+								<div>
+									<ul class="uk-navbar-nav">
+										<li class="uk-active">
+											<a href="#" class="uk-button-text">Home</a>
+			
+										</li>
 									</ul>
-
 								</div>
 							</div>
-
-							<div class='uk-child-width-1-2@s uk-child-width-1-1@s' uk-grid>
-								<div class='states'>
-									<button class="uk-button uk-button-default" type="button" style='width: 100%'>State</button>
-									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-										Choose State
-										<hr>
-										<div class="uk-margin">
-											<select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
-								<option value='abia'>Abia</option>
-								<option value='adamawa'>Adamawa</option>
-								<option value='anambra'>Anambra</option>
-								<option value='akwaibom'>Akwa Ibom</option>
-								<option value='bauchi'>Bauchi</option>
-								<option value='bayelsa'>Bayelsa</option>
-								<option value='benue'>Benue</option>
-								<option value='Borno'>Borno</option>
-								<option value='crossriver'>Cross River</option>
-								<option value='delta'>Delta</option>
-								<option value='ebonyi'>Ebonyi</option>
-								<option value='enugu'>Enugu</option>
-								<option value='edo'>Edo</option>
-								<option value='ekiti'>Ekiti</option>
-								<option value='gombe'>Gombe</option>
-								<option value='imo'>Imo</option>
-								<option value='jigawa'>Jigawa</option>
-								<option value='kaduna'>Kaduna</option>
-								<option value='kano'>Kano</option>
-								<option value='katsina'>Katsina</option>
-								<option value='kebbi'>Kebbi</option>
-								<option value='kogi'>Kogi</option>
-								<option value='kwara'>Kwara</option>
-								<option value='lagos'>Lagos</option>
-								<option value='nasarawa'>Nasarawa</option>
-								<option value='niger'>Niger</option>
-								<option value='ogun'>Ogun</option>
-								<option value='ondo'>Ondo</option>
-								<option value='osun'>Osun</option>
-								<option value='oyo'>Oyo</option>
-								<option value='plateau'>Plateau</option>
-								<option value='rivers'>Rivers</option>
-								<option value='sokoto'>Sokoto</option>
-								<option value='taraba'>Taraba</option>
-								<option value='yobe'>Yobe</option>
-								<option value='zamfara'>Zamfara</option>
-								<option value='fct'>Federal Capital Territory (FCT)</option>
-								</select>
-											<script type="text/javascript">
-												$('#state').select2({
-													placeholder: "Search for state",
-													dropdownParent: $('#find-project')
-												});
-											</script>
-										</div>
-									</div>
-								</div>
-
-								<div class='years'>
-									<button class="uk-button uk-button-default" type="button" style='width: 100%'>Year</button>
-									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-										<ul class="uk-nav uk-dropdown-nav">
-											<li class="uk-active"><a href="#">Choose Year</a></li>
-											<li class="uk-nav-divider"></li>
-											<select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
-											<option value="2014">20154</option>
-											<option value="2015">2015</option>
-											<option value="2016">2016</option>
-											<option value="2017">2017</option>
-											<option value="2018">2018</option>
-											<option value="2019">2019</option>
-											<option value="2020">2020</option>
-											<option value="2021">2021</option>
-											</select>
-											<script type="text/javascript">
-												$('#select-year').select2({
-													placeholder: "Search for Year",
-													dropdownParent: $('#find-project')
-												});
-											</script>
-										</ul>
-									</div>
-								</div>
-
-								<div class='status'>
-									<button class="uk-button uk-button-default" type="button" style='width: 100%'>Status</button>
-									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-										<ul class="uk-nav uk-dropdown-nav">
-											<li class="uk-active"><a href="#">Choose status of the project</a></li>
-											<li class="uk-nav-divider"></li>
-											<div class="uk-margin">
-												<select id='select-status' name='status' style='width: 100%' multiple='multiple'>
-<option value="le">Uncompleted & Active</option>
-<option value="mj">Completed & Inactive</option>
-<option value="ca">Completed & Active</option>
-<option value="cos">Uncompleted & Inactive</option>
-<option value="na">Not Available</option>
-</select>
-												<script type="text/javascript">
-													$('#select-status').select2({
-														placeholder: "Select status",
-														dropdownParent: $('#find-project')
-													});
-												</script>
-												<p class='uk-text-meta uk-text-break'>
-													please note that projects that have Status "Not Available" have not been <br>verified by us or have not reach
-													the implementation stage
-													<p>
-											</div>
-										</ul>
-									</div>
-								</div>
-
-								<div class='Visited'>
-									<button class="uk-button uk-button-default" type="button" style='width: 100%'><span class='uk-visible@l'>Visited by Us</span><span class='uk-hidden@l'>Visited</span></button>
-									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-										<ul class="uk-nav uk-dropdown-nav">
-											<li class="uk-active"><a href="#"></a></li>
-											<li class="uk-nav-divider"></li>
-											<div class="uk-margin">
-												<div class="uk-margin">
-													<select class="visit" id='visit' name='visit' style='width: 100%'>
-														                <option value='no'>No</option>
-														                <option value='yes'>Yes</option>
-														            </select>
+							<a class="uk-navbar-item uk-logo" href="#">
+									<img class='smaller-logo' src='../images/budeshi-logo.png' width="25%">
+							</a>
+							<div class="uk-navbar-center-right">
+								<div>
+									<ul class="uk-navbar-nav">
+										<li>
+											<a href="#" class="uk-button-text">Export Data</a>
+											<div class="uk-navbar-dropdown">
+													<ul class="uk-nav uk-navbar-dropdown-nav">
+														<li><a href="#">Json</a></li>
+														
+														<li class="uk-nav-divider"></li>
+														<li><a href="#">Download CSV</a></li>
+													</ul>
 												</div>
-											</div>
-										</ul>
-									</div>
-								</div>
-								<div class='contractors  uk-width-1-1'>
-									<button class="uk-button uk-button-default" type="button" style='width: 100%'>Contractor</span></button>
-									<div uk-dropdown="pos: bottom-justify; boundary: .filter-param; boundary-align: true; mode: click">
-										<ul class="uk-nav uk-dropdown-nav">
-											<li class="uk-active"><a href="#">Choose Contractor</a></li>
-											<li class="uk-nav-divider"></li>
-											<div class="uk-margin">
-												<select id='select-contr' name='organization' style='width: 100%' multiple='multiple'>
-<option value="dc">Dangote Cement</option>
-<option value="le">Levi</option>
-<option value="mj">Marc Jacobs</option>
-<option value="cos">Coscharis Motors</option>
-<option value="ec">Emeka Custructions</option>
-<option value="jb">Julius Berger</option>
-</select>
-												<script type="text/javascript">
-													$('#select-contr').select2({
-														placeholder: "Search for contractor",
-														dropdownParent: $('#find-project')
-													});
-												</script>
-											</div>
-										</ul>
-									</div>
+										</li>
+									</ul>
 								</div>
 							</div>
-
-							<div class="uk-margin uk-child-width-1-1">
-								<div class="uk-search uk-search-default">
-									<a href="" class="uk-search-icon-flip" uk-search-icon></a>
-									<input class="uk-search-input" type="search" placeholder="Search...">
-								</div>
-							</div>
+			
 						</div>
-						<p class="uk-text-right">
-							<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
-							<button class="uk-button uk-button-primary uk-modal-close" type="button">Find</button>
-						</p>
-					</form>
-				</div>
-			</div>
-		</div>
-	</nav>
+					</nav>
 	<ul class="uk-breadcrumb">
 		<li><a href="./index.html">Home</a></li>
 		<li><span href="#">View Project</span></li>
@@ -1170,26 +997,7 @@
 								<div class="uk-tile uk-tile-default uk-tile-small">
 									<h4 class="uk-heading-line uk-text-right"><em title="Documentation of stages that have been completed within this procurement process." uk-tooltip="pos: left"><span class='uk-margin-small-right'uk-icon="icon: history; ratio: 1"></span>Milestones</em></h4>
 									<div class='border-right uk-padding-large'>
-										<progress id="progressbar" class="uk-progress" value="25" max="100" title="<ul>
-									 <li>Milestone Type - Approval</li>
-									 <li>Due Date: 3/12/2017</li>
-									 <li>Status: Scheduled</li>
-								 </ul>" uk-tooltip></progress>
-										<progress id="progressbar" class="uk-progress" value="50" max="100" title="<ul>
-									 <li>Milestone Type - Approval</li>
-									 <li>Due Date: 3/12/2017</li>
-									 <li>Status: Not Met</li>
-								 </ul>" uk-tooltip></progress>
-										<progress id="progressbar" class="uk-progress" value="75" max="100" title="<ul>
-									 <li>Milestone Type - Approval</li>
-									 <li>Due Date: 3/12/2017</li>
-									 <li>Status: Partially Met</li>
-								 </ul>" uk-tooltip></progress>
-										<progress id="progressbar" class="uk-progress" value="100" max="100" title="<ul>
-									 <li>Milestone Type - Approval</li>
-									 <li>Due Date: 3/12/2017</li>
-									 <li>Status: Met</li>
-								 </ul>" uk-tooltip></progress>
+									
 									</div>
 								</div>
 							</div>
@@ -1272,51 +1080,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class=''>
-		<div class='uk-container'>
-			<div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
-				<div>
-					<div class=''>
-						<a href='http://procurementmonitor.org/ppdc/'>
-					<img src='../images/ppdc-logo2.png' width="50%"/>
-				</a>
-					</div>
-				</div>
-				<div>
-					<div class=''>
-						<a href='http://smc.edu.ng/'>
-					<img src='../images/smc.png' width="50%" />
-				</a>
-					</div>
-				</div>
-				<div>
-					<div class=''>
-						<a href='http://ptcij.org/'>
-					<img src='../images/ptcij.png' width="50%" />
-				</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class='uk-container'>
-			<div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
-				<div>
-					<div class='uk-float-right'>
-						<a href='https://www.omidyar.com/'>
-					<img src='../images/omd.png' width="40%" />
-				</a>
-					</div>
-				</div>
-				<div>
-					<div class='uk-float-left'>
-						<a href='https://www.macfound.org/'>
-					<img src='../images/macarthur-logo.png' width="50%" />
-				</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+
 	</div>
 
 	<div id="feedback-form" class="uk-modal-container" uk-modal>
@@ -1397,7 +1161,110 @@
 			</div>
 		</div>
 	</div>
+	<div class="uk-background-contain uk-background-cover" style="background-color: #fffaf2;">
+			<div class='uk-container'>
+				<div class='uk-padding uk-margin-large-top uk-text-medium uk-text-center uk-flex uk-flex-center comforta' id="who">
+					<p>
+						Budeshi Uganda is an initiative of the <a href="https://africafoicentre.org">Africa Freedom of Information Centre</a>                            in partnership with the <a href="http://procurementmonitor.org/ppdc/"> Public and Private Develoment Centre.</a>
+					</p>
+				</div>
+				<div class='uk-text-center uk-flex uk-flex-center comforta' id="who">
+					<p>Implementation support is provided by<a href="http://www.pau.edu.ng"> Pan-Atlantic University</a> and <a href='http://ptcij.org/'>Premium Times Centre for Investigative
+						Journalism</a></p>
+				</div>
+				<div class='uk-container'>
+					<div class='uk-grid-small uk-child-width-1-4 uk-margin' uk-grid>
+						<div>
+							<div class='uk-margin'>
+								<a href='https://africafoicentre.org'>
+								  <img src='../images/logo.png'/>
+								</a>
+							</div>
+						</div>
+						<div>
+							<div class='uk-margin'>
+								<a href='http://procurementmonitor.org/ppdc/'>
+					<img src='../images/ppdc-logo2.png' width="35%"/>
+				  </a>
+							</div>
+						</div>
+						<div>
+							<div class='uk-margin'>
+								<a href='http://smc.edu.ng/'>
+					<img src='../images/smc.png' width="35%" />
+				  </a>
+							</div>
+						</div>
+						<div>
+							<div class='uk-margin'>
+								<a href='http://ptcij.org/'>
+					<img src='../images/ptcij.png' width="35%" />
+				  </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class='uk-container'>
+				<div class='uk-grid-small uk-child-width-1-2' uk-grid>
+					<div>
+						<div class='uk-text-medium uk-text-center uk-flex uk-flex-center comforta uk-float-right'>
+							<p>
+								Proudly Supported by
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class='uk-grid-collapse uk-child-width-1-2' uk-grid>
+							<div class="uk-padding-remove">
+								<div class='uk-margin uk-flex uk-flex-center uk-float-right'>
+									<a href='https://www.omidyar.com/' class="uk-padding-remove uk-float-right'">
+					<img src='../images/omd.png' width="40%" />
+				  </a>
+								</div>
+							</div>
+							<div class="uk-padding-remove">
+								<div class='uk-flex uk-flex-center'>
+									<a href='https://www.macfound.org/' class="uk-padding-remove">
+					<img src='../images/macarthur-logo.png' width="80%" />
+				  </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='uk-text-small uk-text-center uk-flex uk-flex-center comforta uk-float-right uk-width-1-1' style="background-color: #fffaf2;">
+				<p>
+					© 2018, PPDC. <a class="uk-link-muted" href="#terms" uk-toggle>Terms</a>
+				</p>
+				<!-- This is the modal -->
+				<div id="terms" uk-modal>
+					<div class="uk-modal-dialog uk-modal-body">
+						<h4 class="uk-modal-title comforta">CREATIVE COMMON ATTRIBUTION SHARE -ALIKE LICENSE</h4>
+						<p>Budeshi.ng and all logos, products, services or other content on www.budeshi.ng or other mobile
+							download platforms are the intellectual property of the Public and Private Development Centre
+							(PPDC). This work can be re-used and re-distributed, in whole or in part, for a profit or
+							nonprofit purposes as long as the creator is appropriately credited, and any derivative shall
+							be made available under the same, similar or a compatible license.
+						</p>
+						<p class="uk-text-warning uk-text-large">
+							DISCLAIMER
+						</p>
+						<p>PPDC will not be responsible for any misrepresentation upon reproduction of data available on
+							Budeshi except such reproduction has been, prior to publication, reviewed and certified by
+							PPDC.
+						</p>
+						<p class="uk-text-right">
+							<button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+							<button class="uk-button uk-button-primary uk-modal-close pallette10" type="button">Ok, got it!</button>
+						</p>
+					</div>
+				</div>
+			</div>
 
+		</div>
 	<script src='../js/map.js'>
 
 	</script>
