@@ -4,7 +4,8 @@
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Constituency Projects</title>
+    <title>Home</title>
+    <link rel="shortcut icon" href="./favicon.ico.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/uikit.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
 
@@ -26,12 +27,15 @@
 
             <div class="uk-navbar-center uk-light">
 
-                <div class="uk-navbar-center-left">
+                <div class="uk-navbar-center-left uk-visible@m">
                     <div>
                         <ul class="uk-navbar-nav">
                             <li class="uk-active">
-                                <a href="#" class="uk-button-text">Public projects</a>
+                                <a href="#" class="uk-button-text">Home</a>
 
+                            </li>
+                            <li>
+                                <a href="#" class="uk-button-text">Analysis</a>
                             </li>
                         </ul>
                     </div>
@@ -39,16 +43,37 @@
                 <a class="uk-navbar-item uk-logo" href="#">
 						<img class='smaller-logo' src='../images/budeshi-logo.png' width="25%">
 				</a>
-                <div class="uk-navbar-center-right">
+                <div class="uk-navbar-center-right uk-visible@m">
                     <div>
                         <ul class="uk-navbar-nav">
                             <li>
                                 <a href="#" class="uk-button-text">PPP</a>
                             </li>
+                            <li>
+                                <a href="#" class="uk-button-text">Stories</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
+            </div>
+        </nav>
+        <nav class="uk-navbar-container uk-navbar-transparent top uk-hidden@m" uk-navbar>
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <a href="#" class="uk-button-text">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uk-button-text">Analysis</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uk-button-text">PPP</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uk-button-text">Stories</a>
+                    </li>
+                </ul>
             </div>
         </nav>
         <!-- 
@@ -85,7 +110,7 @@
                             <div class="uk-panel">
                                 <img src="../images/analysis/2.png" alt="" width="100%">
                                 <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center uk-transition-slide-bottom">
-                                    <h3 class="uk-margin-remove">Check out compliled analysis from Budeshi Data</h3>
+                                    <h3 class="uk-margin-remove comforta">Check out compliled analysis from Budeshi Data</h3>
                                     <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </div>
                             </div>
@@ -94,7 +119,7 @@
                             <div class="uk-panel">
                                 <img src="../images/analysis/3.png" alt="" width="100%">
                                 <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center uk-transition-slide-bottom">
-                                    <h3 class="uk-margin-remove">Read Our Latest Stories and procurement monitors reports</h3>
+                                    <h3 class="uk-margin-remove comforta">Read Our Latest Stories and procurement monitors reports</h3>
                                     <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </div>
                             </div>
@@ -251,7 +276,7 @@
                                 <div class="uk-padding-small">
                                     <div class="uk-grid-small " uk-grid>
                                         <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
-                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/inspect.png" />
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/monitoring.png" />
                                         </div>
                                         <div class="uk-width-expand">
                                             <div class="uk-margin" title="Projects that have been verified by our procurement monitors with a detailed report under the Implementation tab when you view project"
@@ -297,7 +322,18 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                <div class="uk-padding-small">
+                                    <div class="uk-grid-small " uk-grid>
+                                        <div class="uk-inline-clip uk-transition-toggle uk-width-auto" tabindex="0">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/inspect.png" width="120%" />
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-margin" style="max-width: 252px">
+                                                <input class="uk-input uk-border-rounded" type="text" placeholder="Search Title" style="border: 1px solid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="uk-width-expand@s  uk-padding ">
@@ -314,8 +350,8 @@
 
                                     <div class="uk-grid-large uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-grid-match" uk-grid>
 
-                                        <div class="">
-                                            <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                        <div class="uk-animation-toggle">
+                                            <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body uk-transform-origin-bottom-right uk-animation-scale-up" uk-grid>
                                                 <div class="uk-width-auto">
                                                     <img class="uk-margin-auto" src="../images/abacus.png" alt="Border circle">
                                                 </div>
@@ -334,53 +370,58 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="">
-                                            <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
-                                                <div class="uk-width-auto">
-                                                    <img class="uk-margin-auto" src="../images/cashbox.png" alt="Border circle">
-                                                </div>
-                                                <div class="uk-width-expand">
-                                                    <div class="uk-child-width-1-1" uk-grid>
-                                                        <div class="uk-margin-remove card-font">
-                                                            The Highest Contract Amount
-                                                        </div>
+                                        <div class="uk-animation-toggle">
+                                            <a class="uk-link-reset" href="#view-summaryb" uk-toggle>
+                                                <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body uk-transform-origin-bottom-right uk-animation-scale-up" uk-grid>
 
+                                                    <div class="uk-width-auto">
+                                                        <img class="uk-margin-auto" src="../images/cashbox.png" alt="Border circle">
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <div class="uk-child-width-1-1" uk-grid>
+                                                            <div class="uk-margin-remove card-font">
+                                                                The Highest Contract Amount
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                    </div>
+                                                    <div class="uk-width-1-1 card-font figure">
+                                                        &#8358; 500, 000, 000.07
                                                     </div>
                                                 </div>
-                                                <div class="uk-width-1-1 border-bottom uk-margin-small">
-                                                </div>
-                                                <div class="uk-width-1-1 card-font figure">
-                                                    &#8358; 500, 000, 000.07
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="">
-                                            <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body " uk-grid>
-                                                <div class="uk-width-auto">
-                                                    <img class="uk-margin-auto" src="../images/bill.png" alt="Border circle">
-                                                </div>
-                                                <div class="uk-width-expand">
-                                                    <div class="uk-child-width-1-1" uk-grid>
-                                                        <div class="uk-margin-remove card-font">
-                                                            Total Lowest Contract Amount
-                                                        </div>
+                                        <div class="uk-animation-toggle">
+                                            <a class="uk-link-reset" href="#view-summaryb" uk-toggle>
+                                                <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body  uk-transform-origin-bottom-right uk-animation-scale-up" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <img class="uk-margin-auto" src="../images/bill.png" alt="Border circle">
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <div class="uk-child-width-1-1" uk-grid>
+                                                            <div class="uk-margin-remove card-font">
+                                                                Total Lowest Contract Amount
+                                                            </div>
 
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                    </div>
+                                                    <div class="uk-width-1-1 card-font figure">
+                                                        &#8358; 26, 000. 00
                                                     </div>
                                                 </div>
-                                                <div class="uk-width-1-1 border-bottom uk-margin-small">
-                                                </div>
-                                                <div class="uk-width-1-1 card-font figure">
-                                                    &#8358; 26, 000. 00
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
                                         <div class="uk-width-1-1">
                                             <a class="uk-link-reset uk-flex uk-flex-center" uk-toggle="target: #toggle-animation-multiple; animation:  uk-animation-slide-left, uk-animation-slide-bottom"><span uk-icon="icon: more"></span></a>
                                         </div>
                                         <div id="toggle-animation-multiple" class="uk-margin-small uk-width-1-1">
                                             <div class="uk-grid-large uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-grid-match" uk-grid>
-                                                <div class="">
-                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                <div class="uk-animation-toggle">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body uk-transform-origin-bottom-right uk-animation-scale-up" uk-grid>
                                                         <div class="uk-width-auto">
                                                             <img class="uk-margin-auto" src="../images/couple.png" alt="Border circle">
                                                         </div>
@@ -399,28 +440,30 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="">
-                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
-                                                        <div class="uk-width-auto">
-                                                            <img class=" uk-margin-auto" src="../images/reoccuring.png" alt="Border circle">
-                                                        </div>
-                                                        <div class="uk-width-expand">
-                                                            <div class="uk-child-width-1-1" uk-grid>
-                                                                <div class="uk-margin-remove card-font">
-                                                                    Tenderers with Highest Awarded Contracts
-                                                                </div>
+                                                <div class="uk-animation-toggle">
+                                                    <a class="uk-link-reset" href="#view-tend-chart" uk-toggle>
+                                                        <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body uk-transform-origin-bottom-right uk-animation-scale-up" uk-grid>
+                                                            <div class="uk-width-auto">
+                                                                <img class=" uk-margin-auto" src="../images/reoccuring.png" alt="Border circle">
+                                                            </div>
+                                                            <div class="uk-width-expand">
+                                                                <div class="uk-child-width-1-1" uk-grid>
+                                                                    <div class="uk-margin-remove card-font">
+                                                                        Tenderers with Highest Awarded Contracts
+                                                                    </div>
 
+                                                                </div>
+                                                            </div>
+                                                            <div class="uk-width-1-1 border-bottom uk-margin-small">
+                                                            </div>
+                                                            <div class="uk-width-1-1 card-font figure">
+                                                                20
                                                             </div>
                                                         </div>
-                                                        <div class="uk-width-1-1 border-bottom uk-margin-small">
-                                                        </div>
-                                                        <div class="uk-width-1-1 card-font figure">
-                                                            20
-                                                        </div>
-                                                    </div>
+                                                    </a>
                                                 </div>
-                                                <div class="">
-                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                <div class="uk-animation-toggle">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body uk-transform-origin-bottom-right uk-animation-scale-up" uk-grid>
                                                         <div class="uk-width-auto">
                                                             <img class="uk-margin-auto" src="../images/hand_handshake.png" alt="Border circle">
                                                         </div>
@@ -439,8 +482,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="">
-                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                <div class="uk-animation-toggle">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body uk-transform-origin-bottom-right uk-animation-scale-up" uk-grid>
                                                         <div class="uk-width-auto">
                                                             <img class="uk-margin-auto" src="../images/goods.png" alt="Border circle">
                                                         </div>
@@ -459,8 +502,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="">
-                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body" uk-grid>
+                                                <div class="uk-animation-toggle">
+                                                    <div class="uk-grid-collapse uk-text-center uk-padding-small uk-card uk-card-default uk-card-body uk-transform-origin-bottom-right uk-animation-scale-up" uk-grid>
                                                         <div class="uk-width-auto">
                                                             <img class=" uk-margin-auto" src="../images/hammer.png" alt="Border circle">
                                                         </div>
@@ -479,12 +522,88 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
 
 
+                                    <div id="view-org" class="uk-modal-container" uk-modal>
+                                        <div class="uk-modal-dialog">
+                                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                                            <div class="uk-modal-header top">
+
+                                                <h2 class='uk-text-warning uk-text-center'>Dangote Cement</h2>
+
+                                                <div class='uk-flex uk-flex-center uk-text-center'>
+                                                    <p>RC Number: 450245-CAC
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="uk-modal-body">
+                                                <div class=''>
+                                                    <div class='address uk-margin-small'>
+                                                        <div>
+                                                            <div class="uk-text-center">
+                                                                <!-- Streets icon by Icons8 -->
+                                                                <span uk-icon="icon: home"></span>
+                                                                <p class="uk-display-inline-block">1600 Amphitheatre Pkwy, Abuja, FCT</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class='contact-person uk-margin-small'>
+
+                                                        <div class='uk-child-width-1-3@l uk-grid-collapse uk-child-width-1-1@s' uk-grid>
+                                                            <div>
+                                                                <div class="uk-text-center">
+
+                                                                    <span uk-icon="icon: user"></span>
+                                                                    <p class="uk-display-inline-block">Rotimi Ikechuckwu</p>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="uk-text-center">
+
+                                                                    <span uk-icon="icon: mail"></span>
+                                                                    <p class="uk-display-inline-block"><a href="mailto:name@rapidtables.com" class='uk-link-text'>joshstones@wef.org</a></p>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="uk-text-center">
+
+                                                                    <span uk-icon="icon: receiver"></span>
+                                                                    <p class="uk-display-inline-block">234 703 924 5256</p>
+                                                                </div>
+                                                            </div>
+                                                            <div Class='uk-width-1-1'>
+                                                                <div class="uk-card uk-card-body uk-text-center uk-text-large uk-text-primary">
+
+                                                                    <p><a href='#!' class='uk-link-text'>www.dangotecement.com</a></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div id="view-tend-chart" class="uk-modal-container" uk-modal>
+                                        <div class="uk-modal-dialog">
+                                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                                            <div class="uk-modal-header top">
+
+                                                <p class='uk-text-center uk-text-large comforta' style="color:#FFFFFF">Chart showing top 10 awardees</p>
+
+
+                                            </div>
+                                            <div class="uk-modal-body">
+                                                <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
 
@@ -508,6 +627,295 @@
                     </div>
                 </div>
             </div>
+
+
+
+            <div id="view-summaryb" class="uk-modal-container" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header top">
+                        <!-- <p class='uk-light'>Project summary: </p> -->
+                        <p class='uk-text-center uk-text-large comforta' style="color:#FFFFFF">Construction of 2 classroom blocks in Umunna Bende LGA, Abia State</p>
+                        <div class='uk-display-block uk-flex uk-flex-center uk-text-center'>
+                            <div class='uk-grid-small uk-child-width-1-1' uk-grid>
+                                <div class='uk-float-left'>
+                                    <a href="" class="" uk-icon="icon: comment" title="Click to give feedback on the project" uk-tooltip="pos: bottom" uk-toggle="target: #feedback-form"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-modal-body">
+                        <div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+                            <div>
+                                <div class='uk-grid-collapse uk-child-width-1-1' uk-grid>
+                                    <div>
+                                        <div class='red'>
+                                            <h5 class='uk-text-bold'>Planning</h5>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class='uk-grid-collapse uk-child-width-1-1@s' uk-grid>
+                                            <div>
+                                                <div class="uk-form-horizontal">
+                                                    <label class="uk-form-label" for="form-stacked-text">Budget Amount:</label>
+                                                    <div class="uk-form-controls comfortaa">
+                                                        <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-form-horizontal">
+                                                    <label class="uk-form-label" for="form-stacked-text">Budget Source:</label>
+                                                    <div class="uk-form-controls ">
+                                                        <input class="uk-input" id="form-stacked-text" type="text" value="Some text..." disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class='uk-grid-collapse uk-child-width-1-1' uk-grid>
+                                    <div>
+                                        <div class='red'>
+                                            <h5 class='uk-text-bold'>Tender</h5>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class='uk-grid-collapse uk-child-width-1-1@s uk-form-horizontal' uk-grid>
+                                            <div>
+                                                <div class="">
+                                                    <label class="uk-form-label" for="form-stacked-text">Budget Amount:</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="">
+                                                    <label class="uk-form-label" for="form-stacked-text">Budget Source:</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="uk-input" id="form-stacked-text" type="text" value="Some text..." disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='awards'>
+                                <div>
+                                    <div class=' uk-child-width-1-1'>
+                                        <div class='red'>
+                                            <h5 class='uk-text-bold'>Award(s)</h5>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <ul uk-accordion>
+                                        <li>
+                                            <a class="uk-accordion-title" href="#">View Award List</a>
+                                            <div class="uk-accordion-content">
+                                                <div>
+                                                    <div class="uk-list uk-grid-small uk-child-width-1-2@s" uk-grid>
+                                                        <div>
+                                                            <fieldset>
+                                                                <legend>1</legend>
+                                                                <div>
+                                                                    <div class="uk-form-stacked">
+                                                                        <label class="uk-form-label" for="form-stacked-text">Supplier:</label>
+                                                                        <div class="uk-form-controls">
+                                                                            <input class="uk-input" id="form-stacked-text" type="text" value="sandtech corp" disabled>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="uk-form-stacked">
+                                                                        <label class="uk-form-label" for="form-stacked-text">Amount:</label>
+                                                                        <div class="uk-form-controls">
+                                                                            <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+                                                        </div>
+                                                        <div>
+                                                            <fieldset>
+                                                                <legend>2</legend>
+                                                                <div>
+                                                                    <div class="uk-form-stacked">
+                                                                        <label class="uk-form-label" for="form-stacked-text">Supplier:</label>
+                                                                        <div class="uk-form-controls stint">
+                                                                            <input class="uk-input" id="form-stacked-text" type="text" value="Kachi & sons" disabled>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="uk-form-stacked">
+                                                                        <label class="uk-form-label" for="form-stacked-text">Amount:</label>
+                                                                        <div class="uk-form-controls">
+                                                                            <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+                                                        </div>
+                                                        <div>
+                                                            <fieldset>
+                                                                <legend>3</legend>
+                                                                <div>
+                                                                    <div class="uk-form-stacked">
+                                                                        <label class="uk-form-label" for="form-stacked-text">Supplier:</label>
+                                                                        <div class="uk-form-controls">
+                                                                            <input class="uk-input" id="form-stacked-text" type="text" value="Nnenna Money Laundry mat" disabled>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="uk-form-stacked">
+                                                                        <label class="uk-form-label" for="form-stacked-text">Amount:</label>
+                                                                        <div class="uk-form-controls">
+                                                                            <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class='uk-grid-collapse uk-child-width-1-1' uk-grid>
+                                    <div>
+                                        <div class='red'>
+                                            <h5 class='uk-text-bold'>Contract(s)</h5>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class='uk-grid-collapse uk-child-width-1-1@s' uk-grid>
+                                            <ul class="uk-list">
+                                                <li>
+                                                    <div>
+                                                        <div class=" uk-form-horizontal">
+                                                            <label class="uk-form-label" for="form-stacked-text">Contract Amount:</label>
+                                                            <div class="uk-form-controls">
+                                                                <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <div class=" uk-form-horizontal">
+                                                            <label class="uk-form-label" for="form-stacked-text">Contract Amount:</label>
+                                                            <div class="uk-form-controls">
+                                                                <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class='uk-grid-collapse uk-child-width-1-1 uk-form-horizontal' uk-grid>
+                                    <div>
+                                        <div class='red'>
+                                            <h5 class='uk-text-bold'>Implementation</h5>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class='uk-grid-collapse uk-child-width-1-1@s' uk-grid>
+                                            <div>
+                                                <div class="">
+                                                    <label class="uk-form-label" for="form-stacked-text">Budget Amount:</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="uk-input" id="form-stacked-text" type="text" value="NGN 3,000,000.00" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="">
+                                                    <label class="uk-form-label" for="form-stacked-text">Budget Source:</label>
+                                                    <div class="uk-form-controls">
+                                                        <input class="uk-input" id="form-stacked-text" type="text" value="Some text..." disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="uk-modal-footer uk-text-right">
+                        <p class='uk-text-center'><a href='file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/html/project.html' target="_blank">View Project break down for all stages</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="fixed-action-btn uk-visible@m uk-float-right ">
+                <a class="btn-floating btn-large uk-box-shadow-xlarge" href="#contact-us" uk-toggle>
+                    <span uk-icon="icon: mail"></span>
+                </a>
+            </div>
+
+            <div id="contact-us" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header top">
+                        <h2 class="uk-modal-title uk-light comforta uk-text-center" style="color:#FFFFFF">Talk to us</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <form>
+                            <fieldset class="uk-fieldset">
+
+
+
+                                <div class="uk-margin">
+                                    <input class="uk-input" type="text" placeholder="Name">
+                                </div>
+
+                                <div class="uk-margin">
+                                    <input class="uk-input" type="email" placeholder="Email">
+                                </div>
+
+                                <div class="uk-margin">
+                                    <textarea class="uk-textarea" rows="5" placeholder="Type in your message here"></textarea>
+                                </div>
+                                <div class="uk-margin">
+                                    <button class="uk-button uk-button-primary uk-modal-close pallette10 uk-width-1-1" type="button">Send</button>
+                                </div>
+                            </fieldset>
+                        </form>
+
+
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <p class="uk-text-meta">Please note that yours concerns raised regarding projects shall be taken up with the appropriate
+                            governing body. Therefore, we are not resposible for taking action.
+                            <br> Kind Regards, PPDC
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
             <div class="uk-background-contain uk-background-cover" style="background-color: #fffaf2;">
                 <div class='uk-container'>
                     <div class='uk-padding uk-margin-large-top uk-text-medium uk-text-center uk-flex uk-flex-center comforta' id="who">
@@ -574,8 +982,31 @@
                 </div>
                 <div class='uk-text-small uk-text-center uk-flex uk-flex-center comforta uk-float-right uk-width-1-1'>
                     <p>
-                        © 2018, PPDC
+                        © 2018, PPDC. <a class="" href="#terms" uk-toggle>Terms</a>
                     </p>
+                    <!-- This is the modal -->
+                    <div id="terms" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body">
+                            <h4 class="uk-modal-title comforta">CREATIVE COMMON ATTRIBUTION SHARE -ALIKE LICENSE</h4>
+                            <p>Budeshi.ng and all logos, products, services or other content on www.budeshi.ng or other mobile
+                                download platforms are the intellectual property of the Public and Private Development Centre
+                                (PPDC). This work can be re-used and re-distributed, in whole or in part, for a profit or
+                                nonprofit purposes as long as the creator is appropriately credited, and any derivative shall
+                                be made available under the same, similar or a compatible license.
+                            </p>
+                            <p class="uk-text-warning uk-text-large">
+                                DISCLAIMER
+                            </p>
+                            <p>PPDC will not be responsible for any misrepresentation upon reproduction of data available on
+                                Budeshi except such reproduction has been, prior to publication, reviewed and certified by
+                                PPDC.
+                            </p>
+                            <p class="uk-text-right">
+
+                                <a class="uk-button uk-button-primary uk-modal-close pallette10 uk-width-1-1@s" type="button">Ok, got it!</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
