@@ -1,5 +1,5 @@
 .border{
-  border: 1px solid #141E30;
+  border: 1px solid #e5e5e5;
 }
 .back {
 /*  background-image: url(../images/budeshi.png);
@@ -46,7 +46,8 @@ html, body, .full {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* color:  #1c244a; */
 }
 .pg1 {
   /*background-color: #C0C2D1;*/
@@ -152,7 +153,7 @@ font-family: 'Mogra', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 80%;
   height: 80%;
 }
@@ -169,7 +170,7 @@ border: 1px solid white;
   background-color: transparent;
 }
 .border {
-  border: 1px solid black;
+  border: 1px solid #e5e5e5;
 }
 .spec {
   height: 300px;
