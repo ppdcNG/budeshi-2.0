@@ -619,6 +619,10 @@ animation-timing-function: ease-in-out;
       width: 100%;
       border-bottom: 5px solid #1B234A;
     }
+    .border-bottom.sick {
+      width: 100%;
+      border-bottom: 3px solid  #750524;
+    }
     .border-top {
       border-top: 1px solid #f46a6c;
       border-bottom: 1px solid #f46a6c;
