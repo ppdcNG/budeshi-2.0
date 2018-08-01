@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html style='width: 100%'>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Manage a Story</title>
+    <link rel="stylesheet" href="../css/uikit.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/jquery.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+
+<body class='home-page'>
+    <!-- nav bar -->
+    <nav class="uk-navbar-container uk-navbar-transparent back-top" uk-sticky uk-navbar>
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="#">
+                <img src='../images/budeshi.png' / width='50'>
+            </a>
+
+        </div>
+        <div class="uk-navbar-center">
+            <div class="uk-navbar-item">Manage stories on Budeshi</div>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#add-institution" title="Add New Story" uk-tooltip="pos: bottom" uk-toggle>
+                        <span class="uk-margin-small-right" uk-icon="icon: plus"></span>
+                    </a>
+                </li>
+                <!-- <li>
+                  <a href="#" title="Go to Organizations DB" uk-tooltip="pos: bottom"><span class="uk-margin-small-right" uk-icon="icon: database"></span></a>
+                </li> -->
+            </ul>
+            <div>
+                <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+                <div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <form class="uk-search uk-search-navbar uk-width-1-1">
+                                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                            </form>
+                        </div>
+                        <div class="uk-width-auto">
+                            <a class="uk-navbar-dropdown-close" href="#" uk-close></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#">
+                        <span class="uk-margin-small-right" uk-icon="icon: user"></span>
+                    </a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active">
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- List of stories -->
+
+    <!--- Delete MDA Modal -->
+    <div id="delete-institution" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <p>Are you sure you want to delete??</p>
+            <div class="uk-modal-footer uk-text-right">
+                <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                <button class="uk-button uk-button-primary uk-modal-close" type="button" id='delete-institution-not' data-message="<span uk-icon='icon: check'></span> MDA Successfully Deleted"
+                    data-status="success">Yes</button>
+                <!-- Notification for deleting Institution -->
+                <script>
+                    jQuery('#delete-institution-not').on('click', function () {
+                        UIkit.notification($(this).data());
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    <!-- xxx -->
+</body>
+
+</html>

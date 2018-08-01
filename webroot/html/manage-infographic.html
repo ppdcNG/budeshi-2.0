@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html style='width: 100%'>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Manage Infographic</title>
+    <link rel="stylesheet" href="../css/uikit.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/jquery.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+
+<body class='home-page'>
+    <!-- nav bar -->
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="#">
+                <img src='../images/budeshi.png' / width='50'>
+            </a>
+
+        </div>
+        <div class="uk-navbar-center">
+            <div class="uk-navbar-item">Federal Ministry of Health</div>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#add-project" title="Add New Infographic" uk-tooltip="pos: bottom" uk-toggle>
+                        <span class="uk-margin-small-right" uk-icon="icon: plus"></span>
+                    </a>
+                    <!-- Add Project Modal -->
+                    <div id="add-project" uk-modal>
+                        <div class="uk-modal-dialog">
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <div class="uk-modal-header">
+                                <h2 class="uk-modal-title">Add New Infographic </h2>
+                            </div>
+                            <div class="uk-modal-body">
+                                <form>
+                                    <div class="uk-child-width-1-1" uk-grid>
+                                        <div class="">
+                                            <div uk-form-custom="target: true" class="uk-width-1-1">
+                                                <input type="file">
+                                                <input class="uk-input uk-form-width-1-1" type="text" placeholder="Select file" disabled>
+
+                                            </div>
+                                            
+                                            <div class="uk-margin  uk-form-width-1-1">
+                                                <input class="uk-input" type="text" placeholder="Enter Caption">
+                                            </div>
+                                            <div>
+                                                    <div class="uk-margin">
+                                                        <label class="uk-form-label" for="title">Publish Infographics?</label>
+                                                        <select class="uk-select" name='year' title="Publish Inforgraphic On the Front End" uk-tooltip="pos: bottom">
+                                                            <option value='2014'>Yes</option>
+                                                            <option value='2015'>No</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            <button class="uk-button uk-button-default uk-width-1-1">Submit</button>
+                                        </div>
+                                        
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="uk-modal-footer uk-text-right">
+                                <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                                <button class="uk-button uk-button-primary uk-modal-close" id='new-project-saved' data-message="<span uk-icon='icon: check'></span>Project Successfully Added"
+                                    data-status="success" type="button">Save</button>
+                                <!-- Notification for saving new project -->
+                                <script>
+                                    jQuery('#new-project-saved').on('click', function () {
+                                        UIkit.notification($(this).data());
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- xxx -->
+                </li>
+
+            </ul>
+            <div>
+                <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+                <div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <form class="uk-search uk-search-navbar uk-width-1-1">
+                                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                            </form>
+                        </div>
+                        <div class="uk-width-auto">
+                            <a class="uk-navbar-dropdown-close" href="#" uk-close></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#">
+                        <span class="uk-margin-small-right" uk-icon="icon: user"></span>
+                    </a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active">
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class='full-page'>
+        <!-- Select year -->
+        <div class='uk-padding-large'>
+            <div class="">
+                <select class="uk-select uk-text-warning">
+                    <option selected disabled>Select Year</option>
+                    <option value='2015'>2015</option>
+                    <option value='2016'>2016</option>
+                    <option value='2017'>2017</option>
+                    <option value='2018'>2018</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- End of select year -->
+
+
+        <!-- List of Institutions table -->
+        <div class='uk-padding-large'>
+            <div class="uk-child-width-1-4@m" uk-grid>
+                <div>
+                    <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+                        <img src="../images/Infographics/NCCE/NCCE Infographic-Breakdown1.jpg" alt="">
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+                            <div class="uk-clearfix">
+                                <div class="uk-float-right">
+                                    <a href="#delete-image" uk-icon="trash" class="uk-float-left" uk-toggle></a>
+                                </div>
+                                <div class="uk-float-left">
+                                    <a href="#edit-image" uk-icon="pencil" class="uk-float-left" uk-toggle></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--- Delete Project -->
+            <div id="delete-image" class="uk-flex-top" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <p>Are you sure you want to delete image?</p>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                        <button class="uk-button uk-button-primary uk-modal-close" type="button" id='delete-image-not' data-message="<span uk-icon='icon: check'></span> Image Successfully Deleted"
+                            data-status="success">Yes</button>
+                        <!-- Notification for deleting Institution -->
+                        <script>
+                            jQuery('#delete-image-not').on('click', function () {
+                                UIkit.notification($(this).data());
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <!-- xxx -->
+            <!-- Edit Project Modal -->
+            <div id="edit-image" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Edit Image </h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <form>
+                            <fieldset class="uk-fieldset">
+
+                                <div class='uk-grid-small uk-child-width-1-1' uk-grid>
+                                    <div>
+                                        <div class="uk-margin">
+                                            <label class="uk-form-label" for="title">Publish Infographic?</label>
+                                            <select class="uk-select" name='year' title="The year this project was initiated" uk-tooltip="pos: bottom">
+                                                <option value='2014'>Yes</option>
+                                                <option value='2015'>No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                        <button class="uk-button uk-button-primary uk-modal-close" id='edit-project-saved' data-message="<span uk-icon='icon: check'></span>Edit Successfully Saved"
+                            type="button">Save</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Notification for saving edit to project -->
+            <script>
+                jQuery('#edit-project-saved').on('click', function () {
+                    UIkit.notification($(this).data());
+                });
+            </script>
+            <!-- xxx -->
+
+
+        </div>
+    </div>
+    </div>
+    <!-- Pagination -->
+    <div class='pagination'>
+        <ul class="uk-pagination uk-flex-center uk-margin-medium-top" uk-margin>
+            <li>
+                <a href="#">
+                    <span uk-pagination-previous></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">1</a>
+            </li>
+            <li class="uk-disabled">
+                <span>...</span>
+            </li>
+            <li>
+                <a href="#">5</a>
+            </li>
+            <li>
+                <a href="#">6</a>
+            </li>
+            <li class="uk-active">
+                <span>7</span>
+            </li>
+            <li>
+                <a href="#">8</a>
+            </li>
+            <li>
+                <a href="#">
+                    <span uk-pagination-next></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--end of pagination -->
+
+</body>
+
+</html>
