@@ -71,6 +71,51 @@
     </nav>
     <!-- List of stories -->
 
+
+
+
+    <div class="uk-padding-large">
+
+        <form>
+            <fieldsetfields class="uk-fieldset">
+
+                <legend class="uk-legend">Add a Story </legend>
+
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Title">
+                </div>
+
+
+                <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="5" placeholder="Short Paragraph"></textarea>
+                </div>
+
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Link">
+                </div>
+                <div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
+                    <div>
+                        <div class="uk-margin">
+                            <select class="uk-select">
+                                <option selected disabled>Publish</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div uk-form-custom="target: true">
+                            <input type="file">
+                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Story Banner" disabled>
+                        </div>
+                        <button class="uk-button uk-button-default">Submit</button>
+                    </div>
+                </div>
+                <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-large">Save</button>
+                </fieldset>
+        </form>
+    </div>
+
     <!--- Delete MDA Modal -->
     <div id="delete-institution" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">

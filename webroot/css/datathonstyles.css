@@ -1,0 +1,92 @@
+.intro {
+    background-image: url('../images/intro.png');
+  
+  /* Full height */
+  height: 100%;
+  
+  /* Create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+  
+  .chart {
+    background-image: url('../images/10.png');
+  
+  /* Full height */
+  height: 100%;
+  
+  /* Create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  .write {
+    background-image: url('../images/11.png');
+  
+  /* Full height */
+  height: 100%;
+  
+  /* Create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  .terms {
+    background-image: url('../images/12.png');
+  
+  /* Full height */
+  height: 100%;
+  
+  /* Create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  .big-text {
+      font-size: 3rem;
+      
+  font-family: 'Comfortaa', cursive;
+  color: #ffffff;
+  }
+  .mid-text {
+    font-size: 2.5rem;
+    
+font-family: 'Comfortaa', cursive;
+color: #ffffff;
+}
+.jun-text {
+    font-size: 1.5rem;
+    
+font-family: 'Comfortaa', cursive;
+color: #ffffff;
+}
+  .white {
+      color:#ffffff;
+  }
+
+  @media only screen and (max-device-width: 600px) {
+    .terms, .chart, .write, .intro {
+        background-attachment: scroll;
+        background-image: none;
+        background-color: #091f43;
+        height: auto;
+    }
+}
+@media only screen and (max-device-height: 600px) {
+    .terms, .chart, .write, .intro {
+        background-attachment: scroll;
+        background-image: none;
+        background-color: #091f43;
+        height: auto;
+    }
+}

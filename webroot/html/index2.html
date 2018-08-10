@@ -72,11 +72,35 @@
                         <a href="#" class="uk-button-text">PPP</a>
                     </li>
                     <li>
-                        <a href="#" class="uk-button-text">Stories</a>
+                        <a href="#data-banner" class="uk-button-text" uk-toggle>Stories</a>
                     </li>
                 </ul>
             </div>
         </nav>
+
+
+
+
+									<!-- Daathon modal -->
+									<div id="data-banner" class="" uk-modal=''>
+										<div class="">
+
+                                            <div>
+                                                <div class="uk-width-1-1">
+                                                    <img src="../images/data-ban.png" class="uk-width-1-1"/>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1 uk-margin">
+                                                    <a href="#" class="hvr-sweep-to-right uk-button uk-button-default uk-width-1-1" style="background-color: #FFFFFF">Enter the Datathon</a>
+
+                                            </div>
+
+										</div>
+									</div>
+									<!-- End of dathaton modal -->
+
+
+
 
         <div class="uk-child-width-1-1" uk-grid>
             <div>
@@ -330,7 +354,7 @@
                         <div class="uk-width-expand@s  uk-padding-remove uk-margin-remove ">
                             <ul class="uk-tab-bottom uk-swticher uk-flex uk-flex-center" uk-tab="swiping: false">
                                 <li class="uk-active">
-                                    <a href="#">Summary</a>
+                                    <a href="#"  uk-toggle="target: #data-banner">Summary</a>
                                 </li>
                                 <li>
                                     <a href="#">Tables</a>
