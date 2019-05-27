@@ -41,7 +41,8 @@
 
 <body>
     <div>
-        <div class="uk-background-fixed uk-background-cover" style="background-image: url(../../images/wash/284.JPG);" uk-height-viewport>
+        <div class="uk-background-fixed uk-background-cover" style="background-image: url(../../images/wash/284.JPG);"
+            uk-height-viewport>
             <div>
                 <nav class="uk-navbar uk-navbar-container uk-margin">
                     <div class="uk-navbar-left">
@@ -75,7 +76,7 @@
                             <li class="uk-nav-header">Projects</li>
                             <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> View
                                     Projects</a></li>
-                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: plus"></span> Add
+                            <li><a href="#add-project"uk-toggle><span class="uk-margin-small-right" uk-icon="icon: plus"></span> Add
                                     Project</a></li>
                             <li class="uk-nav-divider"></li>
                             <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Delete
@@ -95,7 +96,7 @@
                                 <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span>
                                         View
                                         Projects</a></li>
-                                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: plus"></span> Add
+                                <li><a href="#add-project" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: plus"></span> Add
                                         Project</a></li>
                                 <li class="uk-nav-divider"></li>
                                 <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span>
@@ -126,7 +127,7 @@
                                             <button class="uk-button uk-button-default" type="button">Actions</button>
                                             <div uk-dropdown="mode: click; animation: uk-animation-slide-top-small;">
                                                 <ul class="uk-nav uk-dropdown-nav">
-                                                    <li><a href="#">Edit Project</a></li>
+                                                    <li><a href="#edit-project" uk-toggle>Edit Project</a></li>
                                                     <li><a href="#">Add Report</a></li>
                                                     <li><a href="#">Upload Documents</a></li>
                                                     <li class="uk-nav-divider"></li>
@@ -146,6 +147,73 @@
                             </table>
                         </div>
                     </div>
+
+                    <div id="edit-project" uk-modal>
+                        <div class="uk-modal-dialog">
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <div class="uk-modal-header">
+                                <h2 class="uk-modal-title">Edit Project</h2>
+                            </div>
+                            <div class="uk-modal-body">
+
+                                <form>
+                                    <fieldset class="uk-fieldset">
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="text" placeholder="Input">
+                                        </div>
+
+                                        <div class="uk-margin">
+                                            <select class="uk-select">
+                                                <option>Option 01</option>
+                                                <option>Option 02</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="uk-margin">
+                                            <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div class="uk-modal-footer uk-text-right">
+                                <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                                <button class="uk-button uk-button-primary uk-modal-close" type="button">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="add-project" uk-modal>
+                            <div class="uk-modal-dialog">
+                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                                <div class="uk-modal-header">
+                                    <h2 class="uk-modal-title">Add Project</h2>
+                                </div>
+                                <div class="uk-modal-body">
+    
+                                    <form>
+                                        <fieldset class="uk-fieldset">
+                                            <div class="uk-margin">
+                                                <input class="uk-input" type="text" placeholder="Input">
+                                            </div>
+    
+                                            <div class="uk-margin">
+                                                <select class="uk-select">
+                                                    <option>Option 01</option>
+                                                    <option>Option 02</option>
+                                                </select>
+                                            </div>
+    
+                                            <div class="uk-margin">
+                                                <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                                <div class="uk-modal-footer uk-text-right">
+                                    <button class="uk-button uk-button-default uk-modal-close uk-float-left" type="button">Cancel</button>
+                                    <button class="uk-button uk-button-primary uk-modal-close" type="button">Save</button>
+                                </div>
+                            </div>
+                        </div>
 
                 </div>
             </div>
