@@ -100,8 +100,22 @@ html, body, .full {
 /*background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
 /*background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 /*background-color: #F2E8DD;*/
-  height: auto%;
+  height: auto;
   width: 100%;
+}
+
+.land { 
+  /* The image used */
+  background-image: url("../images/IMG_9561.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .baka {
   background-color: #F2E8DD;

@@ -4,173 +4,578 @@
 <head>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta charset="utf-8">
-  <title>Budeshi 2.0</title>
+  <title>Budeshi Uganda</title>
   <meta property="og:url" content="http://www.budeshi.ng" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Budeshi 2.0" />
-  <meta property="og:description" content="Using Open Contracting Data Standards(OCDS) to disclose public institution's procurement information in Nigeria"
+  <meta property="og:description" content="Using Open Contracting Data Standards(OCDS) to disclosure  public institution's procurement information in Nigeria"
   />
   <meta property="og:image" content="file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/images/budeshi.png" />
+
   <link rel="stylesheet" href="../css/uikit.min.css" />
   <link rel="stylesheet" href="../css/styles.css" />
   <link href="../css/Icomoon/style.css" rel="stylesheet" type="text/css" />
   <link href="../css/main.css" rel="stylesheet" type="text/css" />
+  <link href="../css/main1.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Mogra|Pangolin|Quicksand|Secular+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:700,700i" rel="stylesheet">
   <script src="../js/jquery.js"></script>
   <script src="../js/uikit.min.js"></script>
   <script src="../js/uikit-icons.min.js"></script>
   <script src="../js/index.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
   </script>
-  <style>
-    p {
-      color: #8E44AD;
-    }
-  </style>
 </head>
 
-<body>
-  <div class='pg1'>
-    <nav class="uk-navbar-container uk-navbar-transparent" uk-sticky uk-navbar>
-      <div class="uk-navbar-left uk-padding-small">
-        <a href="#" class="uk-link-reset">
-				<span class='uk-light'>Budeshi 2.0</span>
-			</a>
-      </div>
-      <div class='uk-navbar-right'>
-        <!-- This is a button toggling the modal -->
-        <a class="uk-button uk-button-default uk-margin-small-right" href="./index.html"><span class='uk-text-danger uk-text-nowrap'>Explore data</span> </a>
-      </div>
+<body class='uk-text-bold'>
+  <header id="main-header" class="side-menu">
+    <nav>
+      <ul>
+        <li class="active">
+          <a href="#home">
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-1">
+            <span>Section 1</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-2">
+            <span>Section 2</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-3">
+            <span>Section 3</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-4">
+            <span>Section 4</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-5">
+            <span>Section 4</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-6">
+            <span>Section 4</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-7">
+            <span>Section 4</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-8">
+            <span>Section 4</span>
+          </a>
+        </li>
+      </ul>
     </nav>
-    <br>
-    <div class='uk-container'>
-      <div class='uk-flex uk-flex-center uk-margin-top-large  uk-scrollspy="cls: uk-animation-slide-left; repeat: true"'>
-        <img class='' src='../images/budeshi-logo.png'>
-      </div>
-      <hr>
-      <div class='uk-flex uk-flex-center uk-margin-top-large uk-light' uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-        <h4>OPEN CONTRACTING FOR NIGERIA
-        </h4>
-      </div>
-    </div>
-    <div class='uk-container uk-margin-large-top'>
-      <div class='uk-flex uk-flex-center'>
-        <div class='uk-child-width-1-2 uk-grid-large ' uk-grid>
-          <div>
-            <div class='uk-margin'>
-              <a href="https://twitter.com/ppmonitorNG" target='_blank' uk-icon="icon: twitter; ratio: 2"></a>
-              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-          </div>
-          <div>
-            <div class='uk-margin'>
-              <a href="" uk-icon="icon: facebook; ratio: 2"></a>
-            </div>
-          </div>
-        </div>
-        <div class='dir-button uk-display-block  uk-hidden'>
-          <a href="#pg2" uk-icon="icon: chevron-down; ratio: 2"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='' id='pg2'>
-    <div class="uk-child-width-1-3@l uk-child-width-1-1@s uk-child-width-1-2@m uk-grid-small uk-grid-small" uk-grid>
-<div class=''>
-    <div class="uk-text-center uk-margin">
-        <div class="uk-inline-clip uk-transition-toggle uk-padding">
-            <img src="../images/what.jpeg" alt="" class='spec'>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">What is Budeshi?</p>
-            </div>
-        </div>
+  </header>
 
-    </div>
-  </div>
-  <div>
-    <div class="uk-text-center uk-margin">
-        <div class="uk-inline-clip uk-transition-toggle uk-padding">
-            <img src="../images/work-so-far.jpg" alt=""  class=''>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Work so far...</p>
-            </div>
-        </div>
-
-    </div>
-  </div>
-  <div>
-    <div class="uk-text-center uk-margin">
-        <div class="uk-inline-clip uk-transition-toggle uk-padding">
-            <img src="../images/why.png" alt=""  class='spec'>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">why is this important?</p>
-            </div>
-        </div>
-
-    </div>
-  </div>
-
+  <main>
+    <section id="home">
+<div class="inner">
 
 </div>
-  </div>
 
-  <div class='' id='who'>
-    <div class='uk-container'>
-      <div class='uk-padding uk-margin-large-top uk-text-large uk-text-center uk-flex uk-flex-center'>
-        Budeshi is an initiative of the Public and Private Development Centre in partnership with the School of Media and Communication,
-        Pan-Atlantic University and Premium Times Centre for Investigative Journalism.
+    </section>
+
+    <section id="section-1">
+      <div class="inner">
+        <div class='uk-container'>
+          <div class='uk-flex uk-flex-center uk-margin-top-large  uk-scrollspy="cls: uk-animation-slide-left; repeat: true"'>
+            <img class='smaller-logo' src='../images/budeshi-logo.png'>
+          </div>
+          <hr>
+          <div class='uk-flex uk-flex-center uk-light uk-text-center' uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <h4>OPEN CONTRACTING FOR UGANDA
+            </h4>
+          </div>
+
+        </div>
+        <div class='uk-container uk-margin-large-top'>
+          <div class='uk-flex uk-flex-center'>
+
+            <div>
+              <a href='./index2.html' class="uk-button uk-button-default uk-width-large@m" type="button">
+                <span class='uk-text-danger uk-text-nowrap uk-heading uk-text-bold uk-text-large'>Explore data</span>
+              </a>
+            </div>
+            <!-- <div class='dir-button uk-display-block uk-visible@l  uk-flex uk-flex-center'>
+                  <a href="#what" uk-icon="icon: chevron-down; ratio: 2"></a>
+                </div> -->
+          </div>
+        </div>
       </div>
-      <div class='uk-container'>
-        <div class='uk-grid-small uk-child-width-1-3 uk-margin' uk-grid>
-          <div>
-            <div class='uk-margin'>
-              <a href='http://procurementmonitor.org/ppdc/'>
-            <img src='../images/ppdc-logo2.png' width="50%"/>
-          </a>
-            </div>
-          </div>
-          <div>
-            <div class='uk-margin'>
-              <a href='http://smc.edu.ng/'>
-            <img src='../images/smc.png' width="50%" />
-          </a>
-            </div>
-          </div>
-          <div>
-            <div class='uk-margin'>
-              <a href='http://ptcij.org/'>
-            <img src='../images/ptcij.png' width="50%" />
-          </a>
+    </section>
+
+    <section id="section-2">
+
+      <div class='where'>
+
+        <div class='uk-padding'>
+          <div class='border-line'>
+            <div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+              <div>
+                <div class='' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;">
+                  <img src="../images/lincoln.png" alt="Linking Data" width="50%" />
+                </div>
+              </div>
+              <div>
+
+                <div class='uk-margin uk-margin-auto-bottom uk-float-right'>
+
+                  <div class='' id="what">
+                    <div class='uk-padding'>
+                      <div class='uk-text-center'>
+                        <h1 class="uk-heading-line uk-text-center mogra" id='what'>MAKING DATA MAKE SENSE</h1>
+                      </div>
+                      <div>
+                      </div>
+                      <div>
+                      </div>
+                      <div>
+                        <br>
+                        <div class='uk-text-large uk-text-center comforta' id='make'>
+                          <p> Budeshi (which is Hausa for "Open it") is a dedicated site that links budget and procurement data
+                            to various public services. It is accessible to the public to interact with and make their own
+                            comparisons.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class='uk-text-large uk-text-bold uk-text-center comforta' />
+                      <p>
+                        In a bid to make information around public contracts and the procurement process more coherent, Budeshi is an attempt to
+                        demonstrate the
+                        <a href='http://standard.open-contracting.org/latest/en/'>Open Contracting Data Standards (OCDS)</a> across the public procurement value chain.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class='uk-container'>
-      <div class='uk-grid-small uk-child-width-1-2 uk-margin' uk-grid>
-        <div>
-          <div class='uk-margin uk-float-right'>
-            <a href='https://www.omidyar.com/'>
-            <img src='../images/omd.png' width="40%" />
-          </a>
-          </div>
-        </div>
-        <div>
-          <div class='uk-margin uk-float-left'>
-            <a href='https://www.macfound.org/'>
-            <img src='../images/macarthur-logo.png' width="50%" />
-          </a>
+    </section>
+
+    <section id="section-3">
+      <div class='where'>
+        <div class='uk-padding'>
+          <div class='border-line'>
+            <div class='uk-grid-small uk-child-width-1-2@s uk-margin' uk-grid>
+              <div>
+                <div class='' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;">
+                  <img src="../images/transparenttask.png" alt="Linking Data" width="65%" />
+                </div>
+              </div>
+              <div>
+
+                <div class='uk-margin-auto-top uk-margin-auto-bottom uk-float-right'>
+
+                  <div class=''>
+                    <div class='uk-padding' uk-grid>
+                      <div class='uk-text-center' />
+                      <h1 class="uk-heading-line uk-text-center mogra" id=''>WORK SO FAR...</h1>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                      <br>
+                      <div class='uk-text-large uk-text-center comforta' id='make'>
+                        <p>Since 2011, there have been efforts by the contract monitoring group in Uganda to promote disclosure
+                          and citizens participation across all stages of public contracting with the ultimate objective
+                          of increasing value for money in public contracts. These efforts have focused on advocacy on increased
+                          disclosure; particularly because of the difficulty in accessing information at each stage in the
+                          public contracting process.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <hr>
-    </div>
+    </section>
+    <section id="section-4">
+      <div class='where'>
+        <div class='uk-padding'>
+          <div class='border-line'>
+            <div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+              <div>
+                <div class='' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;">
+                  <img src="../images/uganda_map.png" alt="why is this important?" width="65%" />
+                </div>
+              </div>
+              <div>
 
-    <div class='uk-flex uk-flex-center uk-flex-middle uk-margin-bottom'>
-      <div class="sim-button button28 uk-button uk-button-default"><span class='uk-text-danger uk-text-nowrap'>Explore Data</span></div>
-    </div>
+                <div class='uk-margin uk-margin-auto-bottom uk-float-right'>
 
-  </div>
-  <div class=''>
-  </div>
+                  <div class=''>
+                    <div class='uk-padding'>
+                      <div class='uk-text-center' />
+                      <h1 class="uk-heading-line uk-text-center mogra" id='why'>WHY IS THIS IMPORTANT FOR UGANDA?</h1>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                      <br>
+                      <div class='uk-text-large uk-text-center comforta' id='make'>
+                        <p>The number of public contracts executed in
+                          <span class="uk-text-underline"> Uganda</span> each year is such that no one agency or unit can verify them all. It is therefore,
+                          imperative that
+                          <b>data standards are integrated into the current practise of keeping records</b> around public resource
+                          utilization and that, at each stage, the records can be linked to other stages and ultimately,
+                          to the resulting public infrastructure/service.</p>
+                      </div>
+                    </div>
+
+                    <div class='uk-text-large uk-text-bold uk-text-center comforta' />
+                    <p>
+                      If such a system is deployed, then without having to physically visit every single location that a contract is being executed
+                      in, the analyses can point to red flags which indicate
+                      <b>projects whose performance needs to be verified</b> because of a questionable record. However, this
+                      would require data standards that link each contracting process across various stages.
+                    </p>
+                  </div>
+                  <div class='uk-text-large uk-text-bold uk-text-center comforta' />
+                  <p>
+                    The OCDS has mapped
+                    <b>all stages in the contracting process</b> from conception to project delivery and created uniform standards
+                    that enable links to be drawn.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-5">
+      <div class='where'>
+        <div class='uk-padding'>
+          <div class='border-line'>
+            <div class='uk-grid-small uk-child-width-1-2@s uk-margin' uk-grid>
+              <div>
+                <div class='' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;">
+                  <img src="../images/reaping.png" alt="Reaping the benefits" width="65%" />
+                </div>
+              </div>
+              <div>
+
+                <div class='uk-margin-auto-top uk-margin-auto-bottom uk-float-right'>
+
+                  <div class=''>
+                    <div class='uk-padding' uk-grid>
+                      <div class='uk-text-center' />
+                      <h1 class="uk-heading-line uk-text-center mogra" id=''>REAPING BENEFITS</h1>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                      <br>
+                      <div class='uk-text-large uk-text-center comforta' id=''>
+                        <p>
+                          As a result of its comprehensive mapping, OCDS can enable budget, procurement and contracting data to be linked to public
+                          services and, in that way, support the government in its attempt to discover red flags in the system.
+                        </p>
+                      </div>
+                      <br>
+                      <div class='uk-text-large uk-text-center comforta' id=''>
+                        <p>
+                          This will lead to a greater engagement of citizens in how their government is run and in turn contribute towards higher living
+                          standards for all Ugandans.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-6">
+      <div class='where'>
+        <div class='uk-padding'>
+          <div class='border-line'>
+            <div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+              <div>
+                <div class='' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;">
+                  <img src="../images/work1.png" alt="HOW DOES THE OCDS WORK?" width="65%" />
+                </div>
+              </div>
+              <div>
+
+                <div class='uk-margin uk-margin-auto-bottom uk-float-right'>
+
+                  <div class='uk-grid-small uk-child-width-1-1' uk-grid>
+                    <div class=''>
+                      <div class='uk-text-center uk-padding' />
+                      <h1 class="uk-heading-line uk-text-center mogra" id='how'>HOW DOES THE OCDS WORK?</h1>
+                    </div>
+                  </div>
+                  <div>
+                    <div class='how-items uk-padding'>
+                      <div class='item min-h'>
+                        <div class='uk-grid-small uk-child-width-1-1' uk-grid>
+                          <div>
+                            <div class='uk-text-large uk-text-center comforta' id=''>
+                              <p>
+                                1. Each contract from conception, to budget, to contract award and execution is given a unique identifier.
+                              </p>
+                            </div>
+                          </div>
+                          <div class='uk-flex uk-flex-center'>
+                            <img src='../images/howdemo1.png' class='' width='80%' alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class='item min-h' hidden>
+                        <div class='uk-grid-small uk-child-width-1-1' uk-grid>
+                          <div>
+                            <div class='uk-text-large uk-text-center comforta' id=''>
+                              <p>
+                                2. Based on the unique identifier and visualization tools, comparison can be made between budgets and eventual contract sums,
+                                contracts without prior budget allocations can be easily identified, the completion rates
+                                of various contractors can be seen etc.
+                              </p>
+                            </div>
+                          </div>
+                          <div class='uk-flex uk-flex-center'>
+                            <img src='../images/howdemo2.png' class='' alt="" />
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div>
+                    <span uk-toggle="target: .item" uk-icon="icon: chevron-left; ratio: 2"></span>
+                    <span uk-toggle="target: .item" class='uk-float-right' uk-icon="icon: chevron-right; ratio: 2"></span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-7">
+      <div class='where'>
+        <div class='uk-padding'>
+          <div class='border-line'>
+            <div class='uk-grid-small uk-child-width-1-2@s' uk-grid>
+              <div>
+                <div class='uk-grid-small uk-child-width-1-1 uk-flex uk-flex-middle uk-flex-center' uk-grid>
+                  <div>
+                    <div class='' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;">
+                      <img src="../images/ocdslink.png" alt="Linking Data" width="65%" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class='uk-visible@s' uk-scrollspy="cls: uk-animation-slide-left; repeat: true;">
+                      <img src="../images/advocacy.png" alt="Advocacy" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+
+                <div class='uk-margin uk-margin-auto-bottom uk-float-right'>
+
+                  <div class=''>
+                    <div class='uk-padding'>
+                      <div class='uk-text-center' />
+                      <h1 class="uk-heading-line uk-text-center mogra" id=''>THE BUDESHI FACTOR</h1>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                      <br>
+                      <div class='uk-text-large uk-text-center comforta' id='make'>
+                        <p>
+                          The OCDS is premised on the fact that we can prevent some of the expensive corruption investigations and prosecutions as
+                          well as inefficiencies across the procurement value chain by deploying data standards that enable
+                          us link various data from the budget, to procurement and ultimately to public services in a timely
+                          way
+                        </p>
+                      </div>
+                    </div>
+
+
+                    <div class='uk-text-large uk-text-bold uk-text-center comforta'>
+                      <p>
+                        Additionally, the Budeshi platform is being used to carry out advocacy to public institutions seeking to have open contracting
+                        adopted across the public service in Uganda and beyond.
+                      </p>
+                    </div>
+                    <div class='uk-text-large uk-text-bold uk-text-center comforta' />
+                    <p>
+                      Therefore we welcome your support in making this noble initiative a reality in our country.
+                    </p>
+                  </div>
+                  <div class='uk-hidden@s' uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 500">
+                    <img src="../images/advocacy.png" alt="Advocacy" width="75%" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-8">
+      <div class='where'>
+        <div class='uk-container'>
+          <div class='uk-padding uk-margin-large-top uk-text-large uk-text-center uk-flex uk-flex-center comforta' id="who">
+            <p>
+              Budeshi Uganda is an initiative of the
+              <a href="https://africafoicentre.org">Africa Freedom of Information Centre</a> in partnership with the
+              <a href="http://procurementmonitor.org/ppdc/">
+                Public and Private Develoment Centre.</a>
+            </p>
+          </div>
+          <div class='uk-text-center uk-flex uk-flex-center comforta' id="who">
+            <p>Implementation support is provided by
+              <a href="http://www.pau.edu.ng"> Pan-Atlantic University</a> and
+              <a href='http://ptcij.org/'>Premium Times Centre for Investigative Journalism
+              </a>
+            </p>
+          </div>
+          <div class='uk-container'>
+            <div class='uk-grid-small uk-child-width-1-4 uk-margin' uk-grid>
+              <div>
+                <div class='uk-margin'>
+                  <a href='https://africafoicentre.org'>
+                    <img src='../images/logo.png' />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div class='uk-margin'>
+                  <a href='http://procurementmonitor.org/ppdc/'>
+                    <img src='../images/ppdc-logo2.png' width="50%" />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div class='uk-margin'>
+                  <a href='http://smc.edu.ng/'>
+                    <img src='../images/smc.png' width="50%" />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div class='uk-margin'>
+                  <a href='http://ptcij.org/'>
+                    <img src='../images/ptcij.png' width="50%" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class='uk-container'>
+          <div class='uk-grid-small uk-child-width-1-2' uk-grid>
+            <div>
+              <div class='uk-text-large uk-text-center uk-flex uk-flex-center comforta uk-float-right'>
+                <p>
+                  Proudly Supported by
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class='uk-grid-collapse uk-child-width-1-2' uk-grid>
+                <div class="uk-padding-remove">
+                  <div class='uk-margin uk-flex uk-flex-center uk-float-right'>
+                    <a href='https://www.omidyar.com/' class="uk-padding-remove uk-float-right'">
+                      <img src='../images/omd.png' width="60%" />
+                    </a>
+                  </div>
+                </div>
+                <div class="uk-padding-remove">
+                  <div class='uk-flex uk-flex-center'>
+                    <a href='https://www.macfound.org/' class="uk-padding-remove">
+                      <img src='../images/macarthur-logo.png' width="100%" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class='uk-flex uk-flex-center uk-flex-middle uk-margin-bottom'>
+            <div class="sim-button button28 uk-button uk-button-default">
+              <span class='uk-text-danger uk-text-nowrap'>Explore Data</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="../js/menuspy.min.js"></script>
+  <script>
+    var elm = document.querySelector('#main-header');
+    var ms = new MenuSpy(elm);
+  </script>
+
 </body>
 
 </html>

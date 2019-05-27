@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html style='width: 100%'>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Wash Home</title>
+    <link rel="shortcut icon" href="./favicon.ico.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../../css/uikit.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+
+    <script src="../../js/jquery.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script src="../../js/uikit.min.js"></script>
+    <script src="../../js/uikit-icons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <style> 
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        font-family: 'Lato', sans-serif;
+        color: black;
+    }
+    .tm-sidebar-left {
+    /* position: fixed; */
+    height: 100%;
+    top: 80px;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 240px !important;
+    padding: 40px 40px 60px 40px;
+    border-right: 1px #e5e5e5 solid;
+    overflow: auto;
+    
+}
+    </style>
+</head>
+
+<body>
+        <div>
+                <!-- <div class="uk-background-cover" style="background-image: url(../../images/wash/284.JPG);" uk-height-viewport> -->
+                    <div>
+                    <nav class="uk-navbar uk-navbar-container uk-margin">
+                            <div class="uk-navbar-left">
+                                <a  href="#mobile-menu" class="uk-navbar-toggle  uk-hidden@m"  uk-toggle uk-navbar-toggle-icon href="#"></a>
+                            </div>
+                            <div class="uk-navbar-right">
+
+                                    <ul class="uk-navbar-nav">
+                                        <li class="uk-active"><a href="#">Notifications</a></li>
+                                        <li>
+                                            <a href="#">Settings</a>
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    <li class="uk-active"><a href="#">Active</a></li>
+                                                    <li><a href="#">Item</a></li>
+                                                    <li><a href="#">Item</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Profile</a></li>
+                                    </ul>
+                            
+                                </div>
+                        </nav>
+                        
+                        <div id="mobile-menu" uk-offcanvas="overlay: true">
+                            <div class="uk-offcanvas-bar">
+                        
+                                <ul class="uk-nav uk-nav-default">
+                                    <li class="uk-nav-header">Projects</li>
+                                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: plus"></span> Add Project</a></li>
+                                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Delete Projects</a></li>
+                                </ul>
+                        
+                            </div>
+                        </div>
+
+                    <div class="uk-grid-collapse" uk-grid>
+                            <div class="uk-width-medium tm-sidebar-left uk-visible@m">
+                                <div class="uk-panel">
+                                        
+
+                                                <ul class="uk-nav uk-nav-default">
+                                                    <li class="uk-nav-header">Projects</li>
+                                                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: plus"></span> Add Project</a></li>
+                                                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                                                    <li class="uk-nav-divider"></li>
+                                                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Delete Projects</a></li>
+                                                </ul>
+                                        
+                                            
+                                </div>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="uk-panel uk-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                            </div>
+                           
+                </div>
+            </div>
+    
+
+    <script src="../../js/index.js"></script>
+</body>
+
+</html>

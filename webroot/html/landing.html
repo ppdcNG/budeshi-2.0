@@ -21,9 +21,32 @@
   <script src="../js/uikit.min.js"></script>
   <script src="../js/uikit-icons.min.js"></script>
   <script src="../js/index.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
 
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
   </script>
-
 </head>
 
 <body class='uk-text-bold'>
@@ -32,10 +55,18 @@
       <div class="uk-navbar-left uk-padding-small">
 
         <ul class="uk-navbar-nav">
-          <li onclick="scroll()"><a>What</a></li>
-          <li><a href="#why">Why</a></li>
-          <li><a href="#how">How</a></li>
-          <li><a href="#who">Who</a></li>
+          <li>
+            <a href="#what">What</a>
+          </li>
+          <li>
+            <a href="#why">Why</a>
+          </li>
+          <li>
+            <a href="#how">How</a>
+          </li>
+          <li>
+            <a href="#who">Who</a>
+          </li>
         </ul>
       </div>
 
@@ -47,10 +78,14 @@
             <a href="https://twitter.com/ppmonitorNG" target='_blank' uk-icon="icon: twitter;"></a>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
           </li>
-          <li><a href="" uk-icon="icon: facebook;"></a></li>
-          <li> <a href="https://medium.com/budeshi" target="_blank">
-                <img src="../images/medium.png"/ width="70%" alt="Medium">
-              </a></li>
+          <li>
+            <a href="" uk-icon="icon: facebook;"></a>
+          </li>
+          <li>
+            <a href="https://medium.com/budeshi" target="_blank">
+              <img src="../images/medium.png" / width="70%" alt="Medium">
+            </a>
+          </li>
         </ul>
         <!-- This is a button toggling the modal -->
         <!-- <a href='./index.html'  class="uk-button uk-button-default uk-margin-small-right" style="border: 2px solid white;" type="button"><span class='uk-text-danger uk-text-nowrap uk-heading uk-text-bold uk-text-large'>Explore data</span> </a> -->
@@ -63,7 +98,7 @@
       </div>
       <hr>
       <div class='uk-flex uk-flex-center uk-light uk-text-center' uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-        <h4>OPEN CONTRACTING FOR UGANDA
+        <h4>OPEN CONTRACTING FOR NIGERIA
         </h4>
       </div>
 
@@ -72,7 +107,9 @@
       <div class='uk-flex uk-flex-center'>
 
         <div>
-          <a href='./index2.html' class="uk-button uk-button-default uk-width-large@m" type="button"><span class='uk-text-danger uk-text-nowrap uk-heading uk-text-bold uk-text-large'>Explore data</span> </a>
+          <a href='./index2.html' class="uk-button uk-button-default uk-width-large@m" type="button">
+            <span class='uk-text-danger uk-text-nowrap uk-heading uk-text-bold uk-text-large'>Explore data</span>
+          </a>
         </div>
         <!-- <div class='dir-button uk-display-block uk-visible@l  uk-flex uk-flex-center'>
           <a href="#what" uk-icon="icon: chevron-down; ratio: 2"></a>
@@ -95,36 +132,37 @@
 
             <div class='uk-margin uk-margin-auto-bottom uk-float-right'>
 
-              <div class=''>
+              <div class='' id="what">
                 <div class='uk-padding'>
-                  <div class='uk-text-center' />
-                  <h1 class="uk-heading-line uk-text-center mogra" id='what'>MAKING DATA MAKE SENSE</h1>
-                </div>
-                <div>
-                </div>
-                <div>
-                </div>
-                <div>
-                  <br>
-                  <div class='uk-text-large uk-text-center comforta' id='make'>
-                    <p> Budeshi (which is Hausa for "Open it") is a dedicated site that links budget and procurement data to
-                      various public services. It is accessible to the public to interact with and make their own comparisons.</p>
+                  <div class='uk-text-center'>
+                    <h1 class="uk-heading-line uk-text-center mogra" id='what'>MAKING DATA MAKE SENSE</h1>
                   </div>
-                </div>
+                  <div>
+                  </div>
+                  <div>
+                  </div>
+                  <div>
+                    <br>
+                    <div class='uk-text-large uk-text-center comforta' id='make'>
+                      <p> Budeshi (which is Hausa for "Open it") is a dedicated site that links budget and procurement data to
+                        various public services. It is accessible to the public to interact with and make their own comparisons.</p>
+                    </div>
+                  </div>
 
-                <div class='uk-text-large uk-text-bold uk-text-center comforta' />
-                <p>
-                  In a bid to make information around public contracts and the procurement process more coherent, Budeshi is an attempt to
-                  demonstrate the <a href='http://standard.open-contracting.org/latest/en/'>Open Contracting Data Standards (OCDS)</a>                  across the public procurement value chain.
-                </p>
+                  <div class='uk-text-large uk-text-bold uk-text-center comforta' />
+                  <p>
+                    In a bid to make information around public contracts and the procurement process more coherent, Budeshi is an attempt to
+                    demonstrate the
+                    <a href='http://standard.open-contracting.org/latest/en/'>Open Contracting Data Standards (OCDS)</a> across the public procurement value chain.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
   </div>
   <div class='where'>
@@ -196,24 +234,28 @@
                 <div>
                   <br>
                   <div class='uk-text-large uk-text-center comforta' id='make'>
-                    <p>The number of public contracts executed in <span class="uk-text-underline"> Uganda</span> each year is
-                      such that no one agency or unit can verify them all. It is therefore, imperative that <b>data standards are integrated into the current practise
-                      of keeping records</b> around public resource utilization and that, at each stage, the records can
-                      be linked to other stages and ultimately, to the resulting public infrastructure/service.</p>
+                    <p>The number of public contracts executed in
+                      <span class="uk-text-underline"> Uganda</span> each year is such that no one agency or unit can verify them all. It is therefore, imperative
+                      that
+                      <b>data standards are integrated into the current practise of keeping records</b> around public resource
+                      utilization and that, at each stage, the records can be linked to other stages and ultimately, to the
+                      resulting public infrastructure/service.</p>
                   </div>
                 </div>
 
                 <div class='uk-text-large uk-text-bold uk-text-center comforta' />
                 <p>
                   If such a system is deployed, then without having to physically visit every single location that a contract is being executed
-                  in, the analyses can point to red flags which indicate <b>projects whose performance needs to be verified</b>                  because of a questionable record. However, this would require data standards that link each contracting
-                  process across various stages.
+                  in, the analyses can point to red flags which indicate
+                  <b>projects whose performance needs to be verified</b> because of a questionable record. However, this would
+                  require data standards that link each contracting process across various stages.
                 </p>
               </div>
               <div class='uk-text-large uk-text-bold uk-text-center comforta' />
               <p>
-                The OCDS has mapped <b>all stages in the contracting process</b> from conception to project delivery and
-                created uniform standards that enable links to be drawn.
+                The OCDS has mapped
+                <b>all stages in the contracting process</b> from conception to project delivery and created uniform standards
+                that enable links to be drawn.
               </p>
             </div>
           </div>
@@ -329,8 +371,8 @@
                 </div>
               </div>
               <div>
-                <span uk-toggle="target: .item" uk-icon="icon: chevron-left; ratio: 2"></span><span uk-toggle="target: .item"
-                  class='uk-float-right' uk-icon="icon: chevron-right; ratio: 2"></span>
+                <span uk-toggle="target: .item" uk-icon="icon: chevron-left; ratio: 2"></span>
+                <span uk-toggle="target: .item" class='uk-float-right' uk-icon="icon: chevron-right; ratio: 2"></span>
               </div>
             </div>
 
@@ -410,41 +452,47 @@
     <div class='uk-container'>
       <div class='uk-padding uk-margin-large-top uk-text-large uk-text-center uk-flex uk-flex-center comforta' id="who">
         <p>
-          Budeshi Uganda is an initiative of the <a href="https://africafoicentre.org">Africa Freedom of Information Centre</a>          in partnership with the <a href="http://procurementmonitor.org/ppdc/"> Public and Private Develoment Centre.</a>
+          Budeshi Uganda is an initiative of the
+          <a href="https://africafoicentre.org">Africa Freedom of Information Centre</a> in partnership with the
+          <a href="http://procurementmonitor.org/ppdc/">
+          Public and Private Develoment Centre.</a>
         </p>
       </div>
       <div class='uk-text-center uk-flex uk-flex-center comforta' id="who">
-					<p>Implementation support is provided by<a href="http://www.pau.edu.ng"> Pan-Atlantic University</a> and <a href='http://ptcij.org/'>Premium Times Centre for Investigative
-						Journalism</a></p>
-				</div>
+        <p>Implementation support is provided by
+          <a href="http://www.pau.edu.ng"> Pan-Atlantic University</a> and
+          <a href='http://ptcij.org/'>Premium Times Centre for Investigative Journalism
+          </a>
+        </p>
+      </div>
       <div class='uk-container'>
         <div class='uk-grid-small uk-child-width-1-4 uk-margin' uk-grid>
-            <div>
-                <div class='uk-margin'>
-                  <a href='https://africafoicentre.org'>
-              <img src='../images/logo.png'/>
-            </a>
-                </div>
-              </div>
+          <div>
+            <div class='uk-margin'>
+              <a href='https://africafoicentre.org'>
+                <img src='../images/logo.png' />
+              </a>
+            </div>
+          </div>
           <div>
             <div class='uk-margin'>
               <a href='http://procurementmonitor.org/ppdc/'>
-          <img src='../images/ppdc-logo2.png' width="50%"/>
-        </a>
+                <img src='../images/ppdc-logo2.png' width="50%" />
+              </a>
             </div>
           </div>
           <div>
             <div class='uk-margin'>
               <a href='http://smc.edu.ng/'>
-          <img src='../images/smc.png' width="50%" />
-        </a>
+                <img src='../images/smc.png' width="50%" />
+              </a>
             </div>
           </div>
           <div>
             <div class='uk-margin'>
               <a href='http://ptcij.org/'>
-          <img src='../images/ptcij.png' width="50%" />
-        </a>
+                <img src='../images/ptcij.png' width="50%" />
+              </a>
             </div>
           </div>
         </div>
@@ -465,15 +513,15 @@
             <div class="uk-padding-remove">
               <div class='uk-margin uk-flex uk-flex-center uk-float-right'>
                 <a href='https://www.omidyar.com/' class="uk-padding-remove uk-float-right'">
-          <img src='../images/omd.png' width="60%" />
-        </a>
+                  <img src='../images/omd.png' width="60%" />
+                </a>
               </div>
             </div>
             <div class="uk-padding-remove">
               <div class='uk-flex uk-flex-center'>
                 <a href='https://www.macfound.org/' class="uk-padding-remove">
-          <img src='../images/macarthur-logo.png' width="100%" />
-        </a>
+                  <img src='../images/macarthur-logo.png' width="100%" />
+                </a>
               </div>
             </div>
           </div>
@@ -481,7 +529,9 @@
       </div>
       <hr>
       <div class='uk-flex uk-flex-center uk-flex-middle uk-margin-bottom'>
-        <div class="sim-button button28 uk-button uk-button-default"><span class='uk-text-danger uk-text-nowrap'>Explore Data</span></div>
+        <div class="sim-button button28 uk-button uk-button-default">
+          <span class='uk-text-danger uk-text-nowrap'>Explore Data</span>
+        </div>
       </div>
 
     </div>

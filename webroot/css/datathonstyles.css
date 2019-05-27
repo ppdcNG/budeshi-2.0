@@ -38,6 +38,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   
+  
   }
   .terms {
     background-image: url('../images/12.png');
@@ -72,6 +73,7 @@ color: #ffffff;
 }
   .white {
       color:#ffffff;
+      font-size: 1.5rem;
   }
 
   @media only screen and (max-device-width: 600px) {
