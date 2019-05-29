@@ -14,7 +14,7 @@ ul, li {
   height: 60px;
   background: #FFF;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .fixed-header li {
@@ -110,8 +110,8 @@ ul, li {
 
 section {
   min-height: 1080px;
-  color: #2f51b5;
-  text-align: center;
+  /* color: #2f51b5;
+  text-align: center; */
 }
 
 section:after {
@@ -149,7 +149,16 @@ h1, h2 {
   font-family: 'Nunito', sans-serif;
   background-attachment: fixed;
 }
-
+#home-state {
+  background: transparent;
+  /* background-image: url("../images/IMG_9561.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  font-family: 'Nunito', sans-serif;
+  background-attachment: fixed;
+}
 #section-1 {
   /* background: #2f51b5; */
 }
@@ -216,3 +225,36 @@ h1, h2 {
   background: #FFF;
   color: #444;
 }
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  /* color: #eb7878; */
+}
+
+.page2 {
+  /* The image used */
+  background-color: #003459;
+
+  /* Full height */
+  height: 50%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbo {
+  font-size: 4rem;
+  /* color: #ffffff; */
+}
+.jumbo-small {
+  font-size: 2rem;
+}
+ .uk-card .uk-card-default {
+   cursor: pointer;
+ }

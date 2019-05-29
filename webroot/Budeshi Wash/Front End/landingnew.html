@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html style='width: 100%'>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Budeshi WASH Home</title>
+  <meta property="og:url" content="http://www.budeshi.ng" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Budeshi 2.0" />
+  <meta property="og:description" content="Using Open Contracting Data Standards(OCDS) to disclosure  public institution's procurement information in Nigeria" />
+  <meta property="og:image" content="file:///C:/Users/ver%20Tingir/Projects/budeshi-2.0/webroot/images/budeshi.png" />
+
+  <link rel="stylesheet" href="../../css/uikit.min.css" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <link href="../../css/Icomoon/style.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="../../css/main.css" rel="stylesheet" type="text/css" /> -->
+  <link href="../../css/main1.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Mogra|Pangolin|Quicksand|Secular+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:700,700i" rel="stylesheet">
+  
+  <script src="../../js/jquery.js"></script>
+  <script src="../../js/uikit.min.js"></script>
+  <script src="../../js/uikit-icons.min.js"></script>
+  <script src="../../js/index.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+</head>
+
+<body class='uk-text-bold'>
+
+  <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+    <div class="uk-navbar-left">
+      <ul class="uk-navbar-nav">
+        <li class="uk-active"><a href="#">Home</a></li>
+        <li><a href="#">Tables</a></li>
+        <li><a href="#">Visualization</a></li>
+        <!-- <li>
+          <a href="#">Parent</a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li class="uk-active"><a href="#">Active</a></li>
+              <li><a href="#">Item</a></li>
+              <li class="uk-nav-header">Header</li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="#">Item</a></li>
+            </ul>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <header id="main-header" class="side-menu">
+
+    <nav>
+      <ul>
+        <li class="active">
+          <a href="#home">
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-1">
+            <span>All Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section-2">
+            <span>Visualizations</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="uk-padding">
+        <div class="uk-child-width-1-3@s uk-position-bottom" uk-grid uk-height-match="target: > div > button">
+          <div>
+
+            <button class="uk-button uk-button-secondary uk-border-rounded">Click here to learn more about WASH
+              community</button>
+
+          </div>
+          <div>
+
+            <button class="uk-button uk-button-secondary uk-border-rounded">Monitor and Report on WASH Project in your
+              community</button>
+          </div>
+          <div>
+            <button class="uk-button uk-button-secondary uk-border-rounded">View monitoring Reports on WASH projects in
+              your community</button>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section id="section-1 ">
+      
+      <div class="uk-grid-small uk-padding" uk-grid>
+        <div class="uk-width-1-4">
+
+        </div>
+        <div class="uk-width-expand">
+          <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+
+              <div class="uk-navbar-item">
+                <form class="uk-search uk-search-navbar">
+                  <span uk-search-icon></span>
+                  <input class="uk-search-input" type="search" placeholder="Search...">
+                </form>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+        <div class="uk-width-1-4">
+
+        </div>
+      </div>
+      <div class="uk-grid-small uk-child-width-1-3@s uk-padding" uk-grid>
+          <div>
+              <select class="uk-select" id='state' multiple='multiple' style='width: 100%'>
+                  <option value='abia'>Abia</option>
+                  <option value='adamawa'>Adamawa</option>
+                  <option value='anambra'>Anambra</option>
+                  <option value='akwaibom'>Akwa Ibom</option>
+                  <option value='bauchi'>Bauchi</option>
+                  <option value='bayelsa'>Bayelsa</option>
+                  <option value='benue'>Benue</option>
+                  <option value='Borno'>Borno</option>
+                  <option value='crossriver'>Cross River</option>
+                  <option value='delta'>Delta</option>
+                  <option value='ebonyi'>Ebonyi</option>
+                  <option value='enugu'>Enugu</option>
+                  <option value='edo'>Edo</option>
+                  <option value='ekiti'>Ekiti</option>
+                  <option value='gombe'>Gombe</option>
+                  <option value='imo'>Imo</option>
+                  <option value='jigawa'>Jigawa</option>
+                  <option value='kaduna'>Kaduna</option>
+                  <option value='kano'>Kano</option>
+                  <option value='katsina'>Katsina</option>
+                  <option value='kebbi'>Kebbi</option>
+                  <option value='kogi'>Kogi</option>
+                  <option value='kwara'>Kwara</option>
+                  <option value='lagos'>Lagos</option>
+                  <option value='nasarawa'>Nasarawa</option>
+                  <option value='niger'>Niger</option>
+                  <option value='ogun'>Ogun</option>
+                  <option value='ondo'>Ondo</option>
+                  <option value='osun'>Osun</option>
+                  <option value='oyo'>Oyo</option>
+                  <option value='plateau'>Plateau</option>
+                  <option value='rivers'>Rivers</option>
+                  <option value='sokoto'>Sokoto</option>
+                  <option value='taraba'>Taraba</option>
+                  <option value='yobe'>Yobe</option>
+                  <option value='zamfara'>Zamfara</option>
+                  <option value='fct'>Federal Capital Territory (FCT)</option>
+              </select>
+              <script type="text/javascript">
+                  $('#state').select2({
+                      placeholder: "Search States"
+                  });
+              </script>
+          </div>
+          <div>
+              <div class="uk-margin">
+                  <select id='select-year' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+                      <option value="2014">20154</option>
+                      <option value="2015">2015</option>
+                      <option value="2016">2016</option>
+                      <option value="2017">2017</option>
+                      <option value="2018">2018</option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>
+                      <option value="2021">2021</option>
+                  </select>
+                  <script type="text/javascript">
+                      $('#select-year').select2({
+                          placeholder: "Project years"
+                      });
+                  </script>
+              </div>
+          </div>
+          <div>
+              <div class="uk-margin">
+                  <select id='select-mda' class="uk-select" name='organization' style='width: 100%' multiple='multiple'>
+                      <option value="dc">Universal Basic Education Commission</option>
+                      <option value="le">National Primary Health Care Development Centre</option>
+                      <option value="mj">Bureau of Public Procurement</option>
+                      <option value="cos">Public and Private Development Centre</option>
+                      <option value="ec">Bureau of Public Service Reforms</option>
+                      <option value="jb">Customer Protection Council</option>
+                  </select>
+                  <script type="text/javascript">
+                      $('#select-mda').select2({
+                          placeholder: "CSO"
+                      });
+                  </script>
+              </div>
+          </div>
+        </div>
+
+      <div class="uk-grid-collapse uk-padding" uk-grid>
+        <div class="uk-width-1-4@s">
+
+          <div>
+            <h4>States</h4>
+
+            <div class="uk-grid-small uk-child-width-1-2" uk-grid>
+              <div>
+                <ul class="uk-list uk-list-large">
+                  <li><a href="#">Abia</a></li>
+                  <li><a href="#">Adamawa</a></li>
+                  <li><a href="#">Akwa-Ibom</a></li>
+                  <li><a href="#">Anambra</a></li>
+                  <li><a href="#">Bauchi</a></li>
+                  <li><a href="#">Bayelsa</a></li>
+                  <li><a href="#">Benue</a></li>
+                  <li><a href="#">Borno</a></li>
+                  <li><a href="#">Cross River</a></li>
+                  <li><a href="#">Delta</a></li>
+                  <li><a href="#">Ebonyi</a></li>
+                  <li><a href="#">Enugu</a></li>
+                  <li><a href="#">Edo</a></li>
+                  <li><a href="#">Ekiti</a></li>
+                  <li><a href="#">Gombe</a></li>
+                  <li><a href="#">Imo</a></li>
+                  <li><a href="#">Jigawa</a></li>
+                  <li><a href="#">Kaduna</a></li>
+
+
+                </ul>
+              </div>
+              <div>
+                <ul class="uk-list uk-list-large">
+                  <li><a href="#">Kano</a></li>
+                  <li><a href="#">Katsina</a></li>
+                  <li><a href="#">Kebbi</a></li>
+                  <li><a href="#">Kogi</a></li>
+                  <li><a href="#">Kwara</a></li>
+                  <li><a href="#">Lagos</a></li>
+                  <li><a href="#">Nassaraw</a></li>
+                  <li><a href="#">Niger</a></li>
+                  <li><a href="#">Ogun</a></li>
+                  <li><a href="#">Ondo</a></li>
+                  <li><a href="#">Osun</a></li>
+                  <li><a href="#">Oyo</a></li>
+                  <li><a href="#">Plateau</a></li>
+                  <li><a href="#">Rivers</a></li>
+                  <li><a href="#">Sokoto</a></li>
+                  <li><a href="#">Taraba</a></li>
+                  <li><a href="#">Zamfara</a></li>
+                  <li><a href="#">FCT</a></li>
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="uk-width-expand">
+          <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-padding-small">
+                <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                  <div class=" border-bottom">
+                    <div class="uk-grid-small" uk-grid>
+                      <div class="uk-width-3-4">
+                        <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            Installation of Borehole in Deichi Local Government
+                          </div>
+                          <div class="uk-text-meta uk-text-small">
+                            Updated 21 September 2018
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="uk-width-1-4">
+                        <p class="uk-text-small uk-text-success">Completed </p>
+                      </div>
+                      <div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div style="background-color: #DEEFFA">
+                    <div class="uk-grid-collapse uk-child-width-1-3" uk-grid>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            &#8358; 9,000,000.00
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Contract Amount
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            J & J Sons Ltd
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            COntracted to
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            PPDC
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Updated By
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-padding-small">
+                <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                  <div class=" border-bottom">
+                    <div class="uk-grid-small" uk-grid>
+                      <div class="uk-width-3-4">
+                        <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            Installation of Borehole in Deichi Local Government
+                          </div>
+                          <div class="uk-text-meta uk-text-small">
+                            Updated 21 September 2018
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="uk-width-1-4">
+                        <p class="uk-text-small uk-text-success">Completed </p>
+                      </div>
+                      <div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div style="background-color: #DEEFFA">
+                    <div class="uk-grid-collapse uk-child-width-1-3" uk-grid>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            &#8358; 9,000,000.00
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Contract Amount
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            J & J Sons Ltd
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            COntracted to
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            PPDC
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Updated By
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-padding-small">
+                <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                  <div class=" border-bottom">
+                    <div class="uk-grid-small" uk-grid>
+                      <div class="uk-width-3-4">
+                        <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            Installation of Borehole in Deichi Local Government
+                          </div>
+                          <div class="uk-text-meta uk-text-small">
+                            Updated 21 September 2018
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="uk-width-1-4">
+                        <p class="uk-text-small uk-text-danger">Incomplete </p>
+                      </div>
+                      <div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div style="background-color: #DEEFFA">
+                    <div class="uk-grid-collapse uk-child-width-1-3" uk-grid>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            &#8358; 9,000,000.00
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Contract Amount
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            J & J Sons Ltd
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            COntracted to
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            PPDC
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Updated By
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-padding-small">
+                <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                  <div class=" border-bottom">
+                    <div class="uk-grid-small" uk-grid>
+                      <div class="uk-width-3-4">
+                        <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            Installation of Borehole in Deichi Local Government
+                          </div>
+                          <div class="uk-text-meta uk-text-small">
+                            Updated 21 September 2018
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="uk-width-1-4">
+                        <p class="uk-text-small uk-text-danger">Incomplete </p>
+                      </div>
+                      <div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div style="background-color: #DEEFFA">
+                    <div class="uk-grid-collapse uk-child-width-1-3" uk-grid>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            &#8358; 9,000,000.00
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Contract Amount
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            J & J Sons Ltd
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            COntracted to
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            PPDC
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Updated By
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-padding-small">
+                <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                  <div class=" border-bottom">
+                    <div class="uk-grid-small" uk-grid>
+                      <div class="uk-width-3-4">
+                        <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            Installation of Borehole in Deichi Local Government
+                          </div>
+                          <div class="uk-text-meta uk-text-small">
+                            Updated 21 September 2018
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="uk-width-1-4">
+                        <p class="uk-text-small uk-text-success">Completed </p>
+                      </div>
+                      <div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div style="background-color: #DEEFFA">
+                    <div class="uk-grid-collapse uk-child-width-1-3" uk-grid>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            &#8358; 9,000,000.00
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Contract Amount
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            J & J Sons Ltd
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            COntracted to
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            PPDC
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Updated By
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-padding-small">
+                <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                  <div class=" border-bottom">
+                    <div class="uk-grid-small" uk-grid>
+                      <div class="uk-width-3-4">
+                        <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            Installation of Borehole in Deichi Local Government
+                          </div>
+                          <div class="uk-text-meta uk-text-small">
+                            Updated 21 September 2018
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="uk-width-1-4">
+                        <p class="uk-text-small uk-text-success">Completed </p>
+                      </div>
+                      <div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div style="background-color: #DEEFFA">
+                    <div class="uk-grid-collapse uk-child-width-1-3" uk-grid>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            &#8358; 9,000,000.00
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Contract Amount
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            J & J Sons Ltd
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            COntracted to
+                          </div>
+
+                        </div>
+                      </div>
+                      <div>
+                        <div class="uk-grid-collapse uk-child-width-1-1" uk-grid>
+                          <div class="uk-text-bold">
+                            PPDC
+                          </div>
+                          <div class="uk-text-small uk-text-meta">
+                            Updated By
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-2">
+
+      <div class="uk-grid-small uk-child-width-1-2@s" uk-grid>
+        <div>
+          <img src="../../images/wash/meta-chart.png" width="100%" />
+        </div>
+        <div>
+          <img src="../../images/wash/bar.png" width="100%" />
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+
+  <script src="../../js/menuspy.min.js"></script>
+  <script>
+    var elm = document.querySelector('#main-header');
+    var ms = new MenuSpy(elm);
+  </script>
+
+</body>
+
+</html>
